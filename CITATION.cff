@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this software or its evaluation suites, please cite the paper below."
-title: "ARRANGE: agent skills for adding a voice to a composer's own recording"
+message: "If you use this software or its evaluation suites, please cite it as below."
+title: "ARRANGE: Agentic Skills for Layering Vocals"
 type: software
 authors:
   - family-names: Tan
@@ -16,13 +16,3 @@ keywords:
   - singing voice synthesis
   - music notation
   - large language models
-preferred-citation:
-  type: conference-paper
-  title: "ARRANGE: Agentic Skills for Layering Vocals"
-  authors:
-    - family-names: Tan
-      given-names: Henry
-      affiliation: Harvard University
-  collection-title: "HUMANE-LLM Workshop at ACM IUI 2027"
-  year: 2027
-  status: submitted

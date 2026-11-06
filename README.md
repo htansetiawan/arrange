@@ -2,9 +2,9 @@
 
 Agent skills that add a singing voice to a composer's own piano recording, one readable step at a time.
 
-This repository accompanies the paper *ARRANGE: Agentic Skills for Layering Vocals* (Henry Tan, submitted to the
-HUMANE-LLM workshop at ACM IUI 2027). It contains the skills and, for each experiment in the paper's evaluation, the
-code, the stored model outputs and a command that recomputes its numbers.
+This repository accompanies the paper *ARRANGE: Agentic Skills for Layering Vocals* (Henry Tan). It contains the
+skills and, for each experiment in the paper's evaluation, the code, the stored model outputs and a command that
+recomputes its numbers.
 
 [Project page](https://htansetiawan.github.io/arrange/) · [Listen to the worked example](audio/)
 
@@ -117,12 +117,11 @@ and the third-party works they contain are not covered by either licence.
 ## Citation
 
 ```bibtex
-@inproceedings{tan2027arrange,
-  title     = {{ARRANGE}: Agentic Skills for Layering Vocals},
-  author    = {Tan, Henry},
-  booktitle = {HUMANE-LLM Workshop at ACM IUI 2027},
-  year      = {2027},
-  note      = {Submitted}
+@misc{tan2026arrange,
+  title        = {{ARRANGE}: Agentic Skills for Layering Vocals},
+  author       = {Tan, Henry},
+  year         = {2026},
+  howpublished = {\url{https://github.com/htansetiawan/arrange}}
 }
 ```
 

@@ -15,3 +15,4 @@ experiments/*/cache/
 *.flac
 *.mp3
 !audio/*.mp3
+!docs/audio/*.mp3

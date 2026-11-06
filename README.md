@@ -2,11 +2,11 @@
 
 Agent skills that add a singing voice to a composer's own piano recording, one readable step at a time.
 
-This repository accompanies the paper *ARRANGE: Agent Skills as Compilation Steps for Adding a Voice to a Composer's
-Own Recording* (Henry Tan, submitted to the HUMANE-LLM workshop at ACM IUI 2027). It contains the skills and, for every
-number in the paper's evaluation, the code, the stored model outputs and a command that recomputes it.
+This repository accompanies the paper *ARRANGE: Agentic Skills for Layering Vocals* (Henry Tan, submitted to the
+HUMANE-LLM workshop at ACM IUI 2027). It contains the skills and, for each experiment in the paper's evaluation, the
+code, the stored model outputs and a command that recomputes its numbers.
 
-[Listen to the worked example](audio/)
+[Project page](https://htansetiawan.github.io/arrange/) · [Listen to the worked example](audio/)
 
 ## The idea
 
@@ -75,7 +75,9 @@ the model backends in [`docs/setup.md`](docs/setup.md).
 
 ## Reproduce the paper
 
-Every table and number in Section 5 can be recomputed from the stored results without calling a model:
+The tables and numbers in Section 5 are recomputed from the stored results without calling a model. Data from two of
+the five songs is not distributed, so the corrections, voice and key folders recompute on the remaining songs; each of
+those READMEs lists the numbers that differ from the paper.
 
 ```
 pip install -r requirements-test.txt
@@ -116,7 +118,7 @@ and the third-party works they contain are not covered by either licence.
 
 ```bibtex
 @inproceedings{tan2027arrange,
-  title     = {{ARRANGE}: Agent Skills as Compilation Steps for Adding a Voice to a Composer's Own Recording},
+  title     = {{ARRANGE}: Agentic Skills for Layering Vocals},
   author    = {Tan, Henry},
   booktitle = {HUMANE-LLM Workshop at ACM IUI 2027},
   year      = {2027},

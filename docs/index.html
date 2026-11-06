@@ -404,7 +404,7 @@ footer .end{font-size:26px;color:var(--shu);margin:0 0 12px}
     <h2>Typed edits, not rewrites</h2>
     <span class="sub"><span>Five LLMs, frozen requests</span><span class="jp" lang="ja">型</span></span>
   </div>
-  <p class="lede">A revision must change what the composer asked for and nothing else. With typed edits the model translates a request into a few edits from a fixed vocabulary, and a script applies them. Asking a question is one of the edits.</p>
+  <p class="lede">A revision must change what the composer asked for and nothing else. The composer asks in English; the agent compiles the request into <em>typed edits</em>, short instructions from a fixed vocabulary that each name one operation and its arguments, the way a compiler turns source code into instructions. As in a strongly typed language, a script checks each edit's operation and arguments and rejects one that does not fit before it runs, so nothing an edit does not name can change. Asking a question is one of the edits.</p>
   <div class="two">
     <ul class="ops" aria-label="Requests and the typed edits they become">
       <li><span class="say">Bring the strings in two bars later.</span><span class="op">shift_entry(strings, +2 bars)</span></li>

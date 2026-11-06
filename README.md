@@ -17,6 +17,12 @@ compiles it one skill at a time. Each skill writes an intermediate the composer 
 an engraved score with the words under the notes and the sounds sung on each note, and stops at a checkpoint the agent
 cannot pass for the composer. When something is wrong, the composer patches the intermediate, not the prompt.
 
+Changes work the same way. A request in English ("bring the strings in two bars later") is compiled into *typed
+edits*: short instructions from a fixed vocabulary, each naming one operation and its arguments
+(`shift_entry(layer="strings", by_bars=2)`). Typed is meant as in a strongly typed language: a script checks each
+edit's operation and arguments and rejects one that does not fit before it runs, so nothing an edit does not name can
+change. A request too vague to compile becomes a question instead of a guess.
+
 ```mermaid
 flowchart LR
     R[Piano recording] --> L[Listen<br/>notes, beat grid, key]

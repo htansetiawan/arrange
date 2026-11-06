@@ -1,0 +1,3543 @@
+{
+ "model": "qwen3.5-27b-fp8",
+ "rows": [
+  {
+   "id": "cp-bar18-assign",
+   "cat": "fitting",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 20 C5 'wa' @50.35",
+        "missing gold row 22 G4 'in' @51.27",
+        "missing gold row 30 F4 '~' @56.65",
+        "missing gold row 31 F4 'a' @58.62",
+        "missing gold row 32 F5 'hush' @59.37",
+        "missing gold row 33 F5 '~' @60.84",
+        "missing gold row 34 E5 'set' @61.33",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 21 'king' D5: got t 51.269 end 52.686 'king' note w=walking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 54.924 end 55.084 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 27 'walls' G4: got t 55.084 end 55.244 'wall' note w=walls; want t 55.244 end 55.807 'walls' note w=walls",
+        "row 35 'tles' D5: got t 61.822 end 62.145 '' unsung w=None; want t 61.822 end 62.145 'tles' note w=tles",
+        "row 38 'a' D5: got t 64.571 end 65.357 '' unsung w=None; want t 64.571 end 65.357 'a' note w=a",
+        "row 39 'breeze' C5: got t 65.357 end 65.986 '' unsung w=None; want t 65.357 end 65.986 'breeze' note w=breeze",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "missing gold row 23 C4 '' @53.20",
+        "missing gold row 25 F4 '' @54.92",
+        "missing gold row 28 Bb4 '' @55.81",
+        "missing gold row 29 C5 '' @56.33",
+        "extra row Bb4 'dows' @50.35",
+        "extra row C5 'wa' @50.90",
+        "extra row G4 'in' @53.20",
+        "extra row F4 's' @55.24",
+        "extra row F4 'a' @55.81",
+        "extra row F5 'hush' @56.33",
+        "extra row E5 'set' @56.65",
+        "extra row D5 'tles' @58.62",
+        "extra row C#5 'like' @59.37",
+        "extra row D5 'a' @60.84",
+        "extra row C5 'breeze' @61.33",
+        "extra row C5 '' @62.15"
+       ],
+       "n_collateral": 16,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 21 'king' D5: got t 51.269 end 52.686 'king' note w=walking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 54.924 end 55.084 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 27 'walls' G4: got t 55.084 end 55.244 'wall' note w=walls; want t 55.244 end 55.807 'walls' note w=walls",
+        "row 35 'tles' D5: got t 61.822 end 62.145 '' unsung w=None; want t 61.822 end 62.145 'tles' note w=tles"
+       ]
+      },
+      "raw": "\n\n[\n  {\"op\": \"set\", \"row\": 19, \"kind\": \"note\", \"text\": \"win\", \"word\": \"windows\", \"pitch\": \"Bb4\"},\n  {\"op\": \"set\", \"row\": 20, \"kind\": \"note\", \"text\": \"dows\", \"word\": \"windows\", \"pitch\": \"Bb4\"},\n  {\"op\": \"set\", \"row\": 21, \"kind\": \"note\", \"text\": \"wa\", \"word\": \"walking\", \"pitch\": \"C5\"},\n  {\"op\": \"set\", \"row\": 22, \"kind\": \"note\", \"text\": \"king\", \"word\": \"walking\", \"pitch\": \"D5\"},\n  {\"op\": \"set\", \"row\": 23, \"kind\": \"note\", \"text\": \"in\", \"word\": \"in\", \"pitch\": \"G4\"},\n  {\"op\": \"set\", \"row\": 24, \"kind\": \"note\", \"text\": \"red\", \"word\": \"red\", \"pitch\": \"A4\"},\n  {\"op\": \"set\", \"row\": 25, \"kind\": \"note\", \"text\": \"bricks\", \"word\": \"bricks\", \"pitch\": \"A4\"},\n  {\"op\": \"set\", \"row\": 26, \"kind\": \"note\", \"text\": \"wall\", \"word\": \"walls\", \"pitch\": \"G4\"},\n  {\"op\": \"set\", \"row\": 27, \"kind\": \"note\", \"text\": \"s\", \"word\": \"walls\", \"pitch\": \"F4\"},\n  {\"op\": \"set\", \"row\": 28, \"kind\": \"note\", \"text\": \"a\", \"word\": \"a\", \"pitch\": \"F4\"},\n  {\"op\": \"set\", \"row\": 29, \"kind\": \"note\", \"text\": \"hush\", \"word\": \"hush\", \"pitch\": \"F5\"},\n  {\"op\": \"set\", \"row\": 30, \"kind\": \"note\", \"text\": \"set\", \"word\": \"settles\", \"pitch\": \"E5\"},\n  {\"op\": \"set\", \"row\": 31, \"kind\": \"note\", \"text\": \"tles\", \"word\": \"settles\", \"pitch\": \"D5\"},\n  {\"op\": \"set\", \"row\": 32, \"kind\": \"note\", \"text\": \"like\", \"word\": \"like\", \"pitch\": \"C#5\"},\n  {\"op\": \"set\", \"row\": 33, \"kind\": \"note\", \"text\": \"a\", \"word\": \"a\", \"pitch\": \"D5\"},\n  {\"op\": \"set\", \"row\": 34, \"kind\": \"note\", \"text\": \"breeze\", \"word\": \"breeze\", \"pitch\": \"C5\"}\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2451,
+        "total_tokens": 11165,
+        "completion_tokens": 8714,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 8055
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 249.4
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 20 C5 'wa' @50.35",
+        "missing gold row 22 G4 'in' @51.27",
+        "missing gold row 30 F4 '~' @56.65",
+        "missing gold row 31 F4 'a' @58.62",
+        "missing gold row 32 F5 'hush' @59.37",
+        "missing gold row 33 F5 '~' @60.84",
+        "missing gold row 34 E5 'set' @61.33",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 21 'king' D5: got t 51.269 end 52.686 'king' note w=walking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 54.924 end 55.084 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 27 'walls' G4: got t 55.084 end 55.244 'wal' note w=walls; want t 55.244 end 55.807 'walls' note w=walls",
+        "row 35 'tles' D5: got t 61.822 end 62.145 '' unsung w=None; want t 61.822 end 62.145 'tles' note w=tles",
+        "row 38 'a' D5: got t 64.571 end 65.357 '' unsung w=None; want t 64.571 end 65.357 'a' note w=a",
+        "row 39 'breeze' C5: got t 65.357 end 65.986 '' unsung w=None; want t 65.357 end 65.986 'breeze' note w=breeze",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "missing gold row 23 C4 '' @53.20",
+        "missing gold row 25 F4 '' @54.92",
+        "missing gold row 28 Bb4 '' @55.81",
+        "missing gold row 29 C5 '' @56.33",
+        "extra row Bb4 'dows' @50.35",
+        "extra row C5 'wa' @50.90",
+        "extra row G4 'in' @53.20",
+        "extra row F4 'ls' @55.24",
+        "extra row F4 'a' @55.81",
+        "extra row F5 'hush' @56.33",
+        "extra row E5 'set' @56.65",
+        "extra row D5 'tles' @58.62",
+        "extra row C#5 'like' @59.37",
+        "extra row D5 'a' @60.84",
+        "extra row C5 'breeze' @61.33",
+        "extra row C5 '' @62.15"
+       ],
+       "n_collateral": 16,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 21 'king' D5: got t 51.269 end 52.686 'king' note w=walking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 54.924 end 55.084 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 27 'walls' G4: got t 55.084 end 55.244 'wal' note w=walls; want t 55.244 end 55.807 'walls' note w=walls",
+        "row 35 'tles' D5: got t 61.822 end 62.145 '' unsung w=None; want t 61.822 end 62.145 'tles' note w=tles"
+       ]
+      },
+      "raw": "\n\n[\n  {\"op\": \"set\", \"row\": 19, \"kind\": \"note\", \"text\": \"win\", \"word\": \"windows\", \"pitch\": \"Bb4\"},\n  {\"op\": \"set\", \"row\": 20, \"kind\": \"note\", \"text\": \"dows\", \"word\": \"windows\", \"pitch\": \"Bb4\"},\n  {\"op\": \"set\", \"row\": 21, \"kind\": \"note\", \"text\": \"wa\", \"word\": \"walking\", \"pitch\": \"C5\"},\n  {\"op\": \"set\", \"row\": 22, \"kind\": \"note\", \"text\": \"king\", \"word\": \"walking\", \"pitch\": \"D5\"},\n  {\"op\": \"set\", \"row\": 23, \"kind\": \"note\", \"text\": \"in\", \"word\": \"in\", \"pitch\": \"G4\"},\n  {\"op\": \"set\", \"row\": 24, \"kind\": \"note\", \"text\": \"red\", \"word\": \"red\", \"pitch\": \"A4\"},\n  {\"op\": \"set\", \"row\": 25, \"kind\": \"note\", \"text\": \"bricks\", \"word\": \"bricks\", \"pitch\": \"A4\"},\n  {\"op\": \"set\", \"row\": 26, \"kind\": \"note\", \"text\": \"wal\", \"word\": \"walls\", \"pitch\": \"G4\"},\n  {\"op\": \"set\", \"row\": 27, \"kind\": \"note\", \"text\": \"ls\", \"word\": \"walls\", \"pitch\": \"F4\"},\n  {\"op\": \"set\", \"row\": 28, \"kind\": \"note\", \"text\": \"a\", \"word\": \"a\", \"pitch\": \"F4\"},\n  {\"op\": \"set\", \"row\": 29, \"kind\": \"note\", \"text\": \"hush\", \"word\": \"hush\", \"pitch\": \"F5\"},\n  {\"op\": \"set\", \"row\": 30, \"kind\": \"note\", \"text\": \"set\", \"word\": \"settles\", \"pitch\": \"E5\"},\n  {\"op\": \"set\", \"row\": 31, \"kind\": \"note\", \"text\": \"tles\", \"word\": \"settles\", \"pitch\": \"D5\"},\n  {\"op\": \"set\", \"row\": 32, \"kind\": \"note\", \"text\": \"like\", \"word\": \"like\", \"pitch\": \"C#5\"},\n  {\"op\": \"set\", \"row\": 33, \"kind\": \"note\", \"text\": \"a\", \"word\": \"a\", \"pitch\": \"D5\"},\n  {\"op\": \"set\", \"row\": 34, \"kind\": \"note\", \"text\": \"breeze\", \"word\": \"breeze\", \"pitch\": \"C5\"}\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2451,
+        "total_tokens": 12097,
+        "completion_tokens": 9646,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 8987
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 277.4
+     },
+     {
+      "outcome": "invalid",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "error": "Expecting value: line 1 column 1 (char 0)",
+       "n_collateral": 0
+      },
+      "raw": "",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2451,
+        "total_tokens": 34451,
+        "completion_tokens": 32000,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 32000
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "length"
+      },
+      "elapsed": 948.5
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'dows' note w=windows; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'wa' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 22 'in' G4: got t 51.269 end 52.686 'king' note w=waking; want t 51.269 end 52.686 'in' note w=in",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'wall' note w=walls; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 'hush' note w=hush; want t 56.654 end 57.802 '~' slur w=walls",
+        "row 31 'a' F4: got t 58.620 end 59.371 'set' note w=settles; want t 58.620 end 59.371 'a' note w=a",
+        "row 32 'hush' F5: got t 59.371 end 60.838 'tles' note w=settles; want t 59.371 end 60.838 'hush' note w=hush",
+        "row 33 '~' F5: got t 60.838 end 61.333 'like' note w=like; want t 60.838 end 61.333 '~' slur w=hush",
+        "row 34 'set' E5: got t 61.333 end 61.822 'a' note w=a; want t 61.333 end 61.822 'set' note w=set",
+        "row 35 'tles' D5: got t 61.822 end 62.145 'breeze' note w=breeze; want t 61.822 end 62.145 'tles' note w=tles",
+        "row 38 'a' D5: got t 64.571 end 65.357 '' unsung w=None; want t 64.571 end 65.357 'a' note w=a",
+        "row 39 'breeze' C5: got t 65.357 end 65.986 '' unsung w=None; want t 65.357 end 65.986 'breeze' note w=breeze",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "changed row 23 '' C4 @53.20 -> 'in' note t 53.204-53.939 w=in",
+        "changed row 25 '' F4 @54.92 -> 'brick' note t 54.924-55.084 w=bricks",
+        "changed row 28 '' Bb4 @55.81 -> 's' note t 55.807-56.325 w=walls",
+        "changed row 29 '' C5 @56.33 -> 'a' note t 56.325-56.654 w=a",
+        "extra row G4 's' @55.08",
+        "extra row C5 '' @62.15"
+       ],
+       "n_collateral": 6,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'dows' note w=windows; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'wa' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 22 'in' G4: got t 51.269 end 52.686 'king' note w=waking; want t 51.269 end 52.686 'in' note w=in",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'wall' note w=walls; want t 55.084 end 55.244 'bricks' note w=bricks"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5171,
+        "total_tokens": 17133,
+        "completion_tokens": 11962,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 8947
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 354.9,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'dows' note w=windows; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'wa' note w=walking; want t 50.902 end 51.269 'king' note w=king",
+        "row 22 'in' G4: got t 51.269 end 52.686 'king' note w=walking; want t 51.269 end 52.686 'in' note w=in",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 '' slur w=walls; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 'set' note w=settles; want t 56.654 end 57.802 '~' slur w=walls",
+        "row 31 'a' F4: got t 58.620 end 59.371 'tles' note w=settles; want t 58.620 end 59.371 'a' note w=a",
+        "row 32 'hush' F5: got t 59.371 end 60.838 'like' note w=like; want t 59.371 end 60.838 'hush' note w=hush",
+        "row 33 '~' F5: got t 60.838 end 61.333 'a' note w=a; want t 60.838 end 61.333 '~' slur w=hush",
+        "row 34 'set' E5: got t 61.333 end 61.822 'breeze' note w=breeze; want t 61.333 end 61.822 'set' note w=set",
+        "row 35 'tles' D5: got t 61.822 end 62.145 '' slur w=breeze; want t 61.822 end 62.145 'tles' note w=tles",
+        "row 38 'a' D5: got t 64.571 end 65.357 '' unsung w=None; want t 64.571 end 65.357 'a' note w=a",
+        "row 39 'breeze' C5: got t 65.357 end 65.986 '' unsung w=None; want t 65.357 end 65.986 'breeze' note w=breeze",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "changed row 23 '' C4 @53.20 -> 'in' note t 53.204-53.939 w=in",
+        "changed row 25 '' F4 @54.92 -> 'bricks' note t 54.924-55.084 w=bricks",
+        "changed row 28 '' Bb4 @55.81 -> 'a' note t 55.807-56.325 w=a",
+        "changed row 29 '' C5 @56.33 -> 'hush' note t 56.325-56.654 w=hush",
+        "extra row G4 'walls' @55.08",
+        "extra row C5 '' @62.15"
+       ],
+       "n_collateral": 6,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'dows' note w=windows; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'wa' note w=walking; want t 50.902 end 51.269 'king' note w=king",
+        "row 22 'in' G4: got t 51.269 end 52.686 'king' note w=walking; want t 51.269 end 52.686 'in' note w=in",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 '' slur w=walls; want t 55.084 end 55.244 'bricks' note w=bricks"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5171,
+        "total_tokens": 24435,
+        "completion_tokens": 19264,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 16233
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 577.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 20 C5 'wa' @50.35",
+        "missing gold row 22 G4 'in' @51.27",
+        "missing gold row 30 F4 '~' @56.65",
+        "missing gold row 31 F4 'a' @58.62",
+        "missing gold row 32 F5 'hush' @59.37",
+        "missing gold row 33 F5 '~' @60.84",
+        "missing gold row 34 E5 'set' @61.33",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 21 'king' D5: got t 51.269 end 52.686 'king' note w=walking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 54.924 end 55.084 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 27 'walls' G4: got t 55.084 end 55.244 'walls' note w=walls; want t 55.244 end 55.807 'walls' note w=walls",
+        "row 35 'tles' D5: got t 61.822 end 62.145 '' unsung w=None; want t 61.822 end 62.145 'tles' note w=tles",
+        "row 38 'a' D5: got t 64.571 end 65.357 '' unsung w=None; want t 64.571 end 65.357 'a' note w=a",
+        "row 39 'breeze' C5: got t 65.357 end 65.986 '' unsung w=None; want t 65.357 end 65.986 'breeze' note w=breeze",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "missing gold row 23 C4 '' @53.20",
+        "missing gold row 25 F4 '' @54.92",
+        "missing gold row 28 Bb4 '' @55.81",
+        "missing gold row 29 C5 '' @56.33",
+        "extra row Bb4 'dows' @50.35",
+        "extra row C5 'wa' @50.90",
+        "extra row G4 'in' @53.20",
+        "extra row F4 '~' @55.24",
+        "extra row F4 'a' @55.81",
+        "extra row F5 'hush' @56.33",
+        "extra row E5 'set' @56.65",
+        "extra row D5 'tles' @58.62",
+        "extra row C#5 'like' @59.37",
+        "extra row D5 'a' @60.84",
+        "extra row C5 'breeze' @61.33",
+        "extra row C5 '' @62.15"
+       ],
+       "n_collateral": 16,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 21 'king' D5: got t 51.269 end 52.686 'king' note w=walking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 54.924 end 55.084 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 27 'walls' G4: got t 55.084 end 55.244 'walls' note w=walls; want t 55.244 end 55.807 'walls' note w=walls",
+        "row 35 'tles' D5: got t 61.822 end 62.145 '' unsung w=None; want t 61.822 end 62.145 'tles' note w=tles"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5171,
+        "total_tokens": 21157,
+        "completion_tokens": 15986,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 12794
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 480.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 19 Bb4 'dows' @49.81",
+        "missing gold row 20 C5 'wa' @50.35",
+        "missing gold row 22 G4 'in' @51.27",
+        "missing gold row 30 F4 '~' @56.65",
+        "missing gold row 31 F4 'a' @58.62",
+        "missing gold row 32 F5 'hush' @59.37",
+        "missing gold row 33 F5 '~' @60.84",
+        "missing gold row 34 E5 'set' @61.33",
+        "missing gold row 35 D5 'tles' @61.82",
+        "missing gold row 36 C#5 'like' @62.15",
+        "missing gold row 38 D5 'a' @64.57",
+        "missing gold row 39 C5 'breeze' @65.36",
+        "missing gold row 40 C5 '~' @65.99"
+       ],
+       "wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 21 'king' D5: got t 51.269 end 52.686 'king' note w=walking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 54.924 end 55.084 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 27 'walls' G4: got t 55.084 end 55.244 'walls' note w=walls; want t 55.244 end 55.807 'walls' note w=walls"
+       ],
+       "collateral": [
+        "missing gold row 23 C4 '' @53.20",
+        "missing gold row 25 F4 '' @54.92",
+        "missing gold row 28 Bb4 '' @55.81",
+        "missing gold row 29 C5 '' @56.33",
+        "missing gold row 37 B4 '' @63.46",
+        "extra row Ab4 'win' @49.81",
+        "extra row Ab4 'dows' @50.35",
+        "extra row C5 'wa' @50.90",
+        "extra row G4 'in' @53.20",
+        "extra row F4 'walls' @55.24",
+        "extra row F4 'a' @55.81",
+        "extra row F#5 'hush' @56.33",
+        "extra row E5 'settles' @56.65",
+        "extra row D5 'settles' @58.62",
+        "extra row C#5 'like' @59.37",
+        "extra row D5 'a' @60.84",
+        "extra row C5 'breeze' @61.33"
+       ],
+       "n_collateral": 17,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 21 'king' D5: got t 51.269 end 52.686 'king' note w=walking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 54.924 end 55.084 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 27 'walls' G4: got t 55.084 end 55.244 'walls' note w=walls; want t 55.244 end 55.807 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3054,
+        "total_tokens": 20128,
+        "completion_tokens": 17074,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 14557
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 504.7,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' unsung w=None; want t 56.654 end 57.802 '~' slur w=walls",
+        "row 33 '~' F5: got t 60.838 end 61.333 '' unsung w=None; want t 60.838 end 61.333 '~' slur w=hush",
+        "row 34 'set' E5: got t 61.333 end 61.822 'settles' note w=settles; want t 61.333 end 61.822 'set' note w=set",
+        "row 35 'tles' D5: got t 61.822 end 62.145 '' note w=settles; want t 61.822 end 62.145 'tles' note w=tles",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' note w=breeze; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "changed row 25 '' F4 @54.92 -> '' note t 55.084-55.244 w=walls",
+        "changed row 37 '' B4 @63.46 -> 'like' note t 63.463-64.571 w=like",
+        "extra row G4 'walls' @54.92",
+        "extra row C5 '' @62.15"
+       ],
+       "n_collateral": 4,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 'win' note w=windows; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'dows' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'wa' note w=waking; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'king' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' unsung w=None; want t 56.654 end 57.802 '~' slur w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3054,
+        "total_tokens": 22502,
+        "completion_tokens": 19448,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 16518
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 571.7,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 26 A4 'bricks' @55.08",
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 30 F4 '~' @56.65",
+        "missing gold row 31 F4 'a' @58.62",
+        "missing gold row 32 F5 'hush' @59.37",
+        "missing gold row 33 F5 '~' @60.84",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win-dows' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 24 'red' A4: got t 53.939 end 54.924 'bricks' note w=bricks; want t 53.939 end 54.924 'red' note w=red",
+        "row 34 'set' E5: got t 61.333 end 61.822 '' unsung w=None; want t 61.333 end 61.822 'set' note w=set",
+        "row 35 'tles' D5: got t 61.822 end 62.145 '' unsung w=None; want t 61.822 end 62.145 'tles' note w=tles",
+        "row 38 'a' D5: got t 64.571 end 65.357 '' unsung w=None; want t 64.571 end 65.357 'a' note w=a",
+        "row 39 'breeze' C5: got t 65.357 end 65.986 '' unsung w=None; want t 65.357 end 65.986 'breeze' note w=breeze",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "missing gold row 23 C4 '' @53.20",
+        "changed row 25 '' F4 @54.92 -> 'walls' note t 55.084-55.244 w=walls",
+        "missing gold row 28 Bb4 '' @55.81",
+        "missing gold row 29 C5 '' @56.33",
+        "extra row A4 'red' @53.20",
+        "extra row G4 'walls' @54.92",
+        "extra row F4 'a' @55.24",
+        "extra row F5 'hush' @55.81",
+        "extra row E5 'settles' @56.33",
+        "extra row D5 'settles' @56.65",
+        "extra row C#5 'like' @58.62",
+        "extra row D5 'a' @59.37",
+        "extra row C5 'breeze' @60.84",
+        "extra row C5 '' @62.15"
+       ],
+       "n_collateral": 14,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 '' unsung w=None; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'win-dows' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'wa' note w=walking; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'king' note w=walking; want t 50.902 end 51.269 'king' note w=king",
+        "row 24 'red' A4: got t 53.939 end 54.924 'bricks' note w=bricks; want t 53.939 end 54.924 'red' note w=red",
+        "row 34 'set' E5: got t 61.333 end 61.822 '' unsung w=None; want t 61.333 end 61.822 'set' note w=set"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3054,
+        "total_tokens": 17272,
+        "completion_tokens": 14218,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 11287
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 418.5,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-redbrick-melisma",
+   "cat": "fitting",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 A4 'red' @54.44",
+        "missing gold row 24 G4 '~' @54.92",
+        "missing gold row 27 F4 'walls' @56.33",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 25 '~' A4: got t 54.924 end 55.531 'brick' note w=brick; want t 55.244 end 55.807 '~' slur w=red",
+        "row 26 'brick' G4: got t 55.531 end 56.138 '~' slur w=brick; want t 55.807 end 56.325 'brick' note w=brick"
+       ],
+       "collateral": [
+        "extra row A4 '~' @56.14",
+        "extra row G4 'wall' @56.74",
+        "extra row F4 '~' @57.35"
+       ],
+       "n_collateral": 3,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 25 '~' A4: got t 54.924 end 55.531 'brick' note w=brick; want t 55.244 end 55.807 '~' slur w=red",
+        "row 26 'brick' G4: got t 55.531 end 56.138 '~' slur w=brick; want t 55.807 end 56.325 'brick' note w=brick"
+       ]
+      },
+      "raw": "\n\n[\n  {\"op\": \"set\", \"row\": 23, \"pitch\": \"F4\"},\n  {\"op\": \"set\", \"row\": 24, \"pitch\": \"A4\", \"t\": 54.924, \"end\": 55.531},\n  {\"op\": \"set\", \"row\": 25, \"pitch\": \"G4\", \"text\": \"~\", \"word\": \"brick\", \"kind\": \"slur\", \"t\": 55.531, \"end\": 56.138},\n  {\"op\": \"set\", \"row\": 26, \"pitch\": \"A4\", \"text\": \"~\", \"word\": \"brick\", \"kind\": \"slur\", \"t\": 56.138, \"end\": 56.745},\n  {\"op\": \"set\", \"row\": 27, \"pitch\": \"G4\", \"text\": \"wall\", \"word\": \"walls\", \"kind\": \"note\", \"t\": 56.745, \"end\": 57.352},\n  {\"op\": \"set\", \"row\": 28, \"pitch\": \"F4\", \"text\": \"~\", \"word\": \"walls\", \"kind\": \"slur\", \"t\": 57.352, \"end\": 57.960}\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2651,
+        "total_tokens": 12550,
+        "completion_tokens": 9899,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 9579
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 289.3
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 '~' @55.81",
+        "extra row G4 'walls' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": "\n\n[\n  {\"op\": \"set\", \"row\": 23, \"pitch\": \"F4\"},\n  {\"op\": \"set\", \"row\": 24, \"pitch\": \"A4\"},\n  {\"op\": \"set\", \"row\": 25, \"pitch\": \"G4\", \"text\": \"~\", \"kind\": \"slur\", \"word\": \"brick\"},\n  {\"op\": \"set\", \"row\": 26, \"pitch\": \"A4\", \"text\": \"~\", \"kind\": \"slur\", \"word\": \"brick\"},\n  {\"op\": \"set\", \"row\": 27, \"pitch\": \"G4\", \"text\": \"walls\", \"kind\": \"note\", \"word\": \"walls\"}\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2651,
+        "total_tokens": 12007,
+        "completion_tokens": 9356,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 9186
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 269.8
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 '~' @55.81",
+        "extra row G4 'wall' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": "\n\n[\n  {\"op\": \"set\", \"row\": 23, \"pitch\": \"F4\"},\n  {\"op\": \"set\", \"row\": 24, \"pitch\": \"A4\"},\n  {\"op\": \"set\", \"row\": 25, \"pitch\": \"G4\", \"kind\": \"slur\", \"text\": \"~\", \"word\": \"brick\"},\n  {\"op\": \"set\", \"row\": 26, \"pitch\": \"A4\", \"word\": \"brick\"},\n  {\"op\": \"set\", \"row\": 27, \"pitch\": \"G4\", \"kind\": \"note\", \"text\": \"wall\"}\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2651,
+        "total_tokens": 12534,
+        "completion_tokens": 9883,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 9731
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 285.1
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'br' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 'i' note w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 'k' @55.81",
+        "extra row G4 'wall' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'br' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 'i' note w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5267,
+        "total_tokens": 18635,
+        "completion_tokens": 13368,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10448
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 387.9,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 '~' @55.81",
+        "extra row G4 'walls' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5267,
+        "total_tokens": 16351,
+        "completion_tokens": 11084,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 8179
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 322.5,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 '~' @55.81",
+        "extra row G4 'walls' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5267,
+        "total_tokens": 17565,
+        "completion_tokens": 12298,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 9483
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 357.9,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted A4 'the' @53.94",
+        "not deleted F4 '~' @56.65"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.030 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.030 end 55.136 '~' note w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 25 '~' A4: got t 55.136 end 55.244 '~' note w=brick; want t 55.244 end 55.807 '~' slur w=red",
+        "row 26 'brick' G4: got t 55.807 end 56.325 '~' slur w=walls; want t 55.807 end 56.325 'brick' note w=brick",
+        "row 27 'walls' F4: got t 56.325 end 56.654 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row G4 'walls' @55.24"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.030 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.030 end 55.136 '~' note w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 25 '~' A4: got t 55.136 end 55.244 '~' note w=brick; want t 55.244 end 55.807 '~' slur w=red",
+        "row 26 'brick' G4: got t 55.807 end 56.325 '~' slur w=walls; want t 55.807 end 56.325 'brick' note w=brick",
+        "row 27 'walls' F4: got t 56.325 end 56.654 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2939,
+        "total_tokens": 13319,
+        "completion_tokens": 10380,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 7457
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 300.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "not deleted A4 'the' @53.94",
+        "not deleted F4 '~' @56.65"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 'walls' note w=walls; want t 54.924 end 55.244 '~' slur w=red",
+        "row 26 'brick' G4: got t 55.807 end 56.325 '~' slur w=walls; want t 55.807 end 56.325 'brick' note w=brick",
+        "row 27 'walls' F4: got t 56.325 end 56.654 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 'walls' note w=walls; want t 54.924 end 55.244 '~' slur w=red",
+        "row 26 'brick' G4: got t 55.807 end 56.325 '~' slur w=walls; want t 55.807 end 56.325 'brick' note w=brick",
+        "row 27 'walls' F4: got t 56.325 end 56.654 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2939,
+        "total_tokens": 12996,
+        "completion_tokens": 10057,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 7272
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 289.2,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted A4 'the' @53.94",
+        "not deleted F4 '~' @56.65"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.031 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.031 end 55.138 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 25 '~' A4: got t 55.138 end 55.244 '~' slur w=brick; want t 55.244 end 55.807 '~' slur w=red",
+        "row 26 'brick' G4: got t 55.807 end 56.325 '~' slur w=walls; want t 55.807 end 56.325 'brick' note w=brick",
+        "row 27 'walls' F4: got t 56.325 end 56.654 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row G4 'walls' @55.24"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.031 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.031 end 55.138 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 25 '~' A4: got t 55.138 end 55.244 '~' slur w=brick; want t 55.244 end 55.807 '~' slur w=red",
+        "row 26 'brick' G4: got t 55.807 end 56.325 '~' slur w=walls; want t 55.807 end 56.325 'brick' note w=brick",
+        "row 27 'walls' F4: got t 56.325 end 56.654 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2939,
+        "total_tokens": 15845,
+        "completion_tokens": 12906,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 9979
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 371.6,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-layer-words",
+   "cat": "words",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 28 F4 'brick' @56.33"
+       ],
+       "wrong": [
+        "row 25 'yer' G4: got t 54.924 end 55.244 'yer' slur w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.494 'of' note w=of; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 56.057 end 56.575 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 29 'walls' F4: got t 56.575 end 58.210 'walls' note w=walls; want t 56.823 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 'red' @55.49"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "row 25 'yer' G4: got t 54.924 end 55.244 'yer' slur w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.494 'of' note w=of; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 56.057 end 56.575 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 29 'walls' F4: got t 56.575 end 58.210 'walls' note w=walls; want t 56.823 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": "\n\n[\n  {\"op\": \"set\", \"row\": 22, \"text\": \"to\", \"word\": \"to\", \"end\": 54.189},\n  {\"op\": \"insert\", \"after\": 22, \"pitch\": \"F4\", \"kind\": \"note\", \"text\": \"the\", \"word\": \"the\", \"t\": 54.189, \"end\": 54.437},\n  {\"op\": \"set\", \"row\": 23, \"text\": \"la\", \"word\": \"layer\"},\n  {\"op\": \"set\", \"row\": 24, \"text\": \"yer\", \"word\": \"layer\"},\n  {\"op\": \"insert\", \"after\": 24, \"pitch\": \"A4\", \"kind\": \"note\", \"text\": \"of\", \"word\": \"of\", \"t\": 55.244, \"end\": 55.494},\n  {\"op\": \"shift\", \"rows\": [25, 26, 27], \"by\": 0.25},\n  {\"op\": \"set\", \"row\": 25, \"text\": \"red\", \"word\": \"red\"},\n  {\"op\": \"pronounce\", \"word\": \"layer\", \"sounds\": [\"L EY1\", \"ER0\"]}\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2509,
+        "total_tokens": 14821,
+        "completion_tokens": 12312,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 12003
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 355.3
+     },
+     {
+      "outcome": "asked",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19",
+        "missing gold row 29 F4 'walls' @56.82"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'the' note w=the; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'the' note w=the; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": "\n\n[{\"op\":\"ask\",\"question\":\"The new lyrics 'to the la-yer of red brick walls' contain 8 syllables, but the current melody section (rows 22-27) has only 6 notes. To maintain the one-note-per-syllable FIT, I need to insert 2 additional notes. Please provide the pitches and timing for these new notes.\"}]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2509,
+        "total_tokens": 9811,
+        "completion_tokens": 7302,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 7219
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 210.8
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 24 A4 'la' @54.44",
+        "missing gold row 25 G4 'yer' @54.92",
+        "missing gold row 28 F4 'brick' @56.33"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.442 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 23 'the' F4: got t 54.442 end 54.945 'the' note w=the; want t 54.188 end 54.437 'the' note w=the",
+        "row 26 'of' A4: got t 54.945 end 55.447 'la' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.447 end 55.950 'yer' note w=layer; want t 55.807 end 56.325 'red' note w=red",
+        "row 29 'walls' F4: got t 56.955 end 57.457 'brick' note w=brick; want t 56.823 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 'of' @55.95",
+        "extra row G4 'red' @56.45",
+        "extra row F4 'walls' @57.46"
+       ],
+       "n_collateral": 3,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.442 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 23 'the' F4: got t 54.442 end 54.945 'the' note w=the; want t 54.188 end 54.437 'the' note w=the",
+        "row 26 'of' A4: got t 54.945 end 55.447 'la' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.447 end 55.950 'yer' note w=layer; want t 55.807 end 56.325 'red' note w=red",
+        "row 29 'walls' F4: got t 56.955 end 57.457 'brick' note w=brick; want t 56.823 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": "\n\n[\n  {\"op\": \"set\", \"row\": 22, \"text\": \"to\", \"word\": \"to\", \"t\": 53.939, \"end\": 54.442},\n  {\"op\": \"insert\", \"after\": 22, \"pitch\": \"F4\", \"kind\": \"note\", \"text\": \"the\", \"word\": \"the\", \"t\": 54.442, \"end\": 54.945},\n  {\"op\": \"set\", \"row\": 23, \"text\": \"la\", \"word\": \"layer\", \"kind\": \"note\", \"t\": 54.945, \"end\": 55.447},\n  {\"op\": \"set\", \"row\": 24, \"text\": \"yer\", \"word\": \"layer\", \"kind\": \"note\", \"t\": 55.447, \"end\": 55.950},\n  {\"op\": \"set\", \"row\": 25, \"text\": \"of\", \"word\": \"of\", \"kind\": \"note\", \"t\": 55.950, \"end\": 56.452},\n  {\"op\": \"set\", \"row\": 26, \"text\": \"red\", \"word\": \"red\", \"t\": 56.452, \"end\": 56.955},\n  {\"op\": \"set\", \"row\": 27, \"text\": \"brick\", \"word\": \"brick\", \"t\": 56.955, \"end\": 57.457},\n  {\"op\": \"insert\", \"after\": 27, \"pitch\": \"F4\", \"kind\": \"note\", \"text\": \"walls\", \"word\": \"walls\", \"t\": 57.457, \"end\": 57.960}\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2509,
+        "total_tokens": 13816,
+        "completion_tokens": 11307,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10865
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 326.4
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19",
+        "missing gold row 29 F4 'walls' @56.82"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'the' note w=the; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 'la' note w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 'yer' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'of' note w=of; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'red brick walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'the' note w=the; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 'la' note w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 'yer' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'of' note w=of; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'red brick walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 4968,
+        "total_tokens": 18465,
+        "completion_tokens": 13497,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10690
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 394.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'the' note w=the; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 'la' note w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 'yer' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'of' note w=of; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 56.825 'red' note w=red; want t 56.325 end 56.823 'brick' note w=brick",
+        "row 29 'walls' F4: got t 56.825 end 57.325 'brick' note w=brick; want t 56.823 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row F4 'walls' @57.33"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'the' note w=the; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 'la' note w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 'yer' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'of' note w=of; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 56.825 'red' note w=red; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 4968,
+        "total_tokens": 18633,
+        "completion_tokens": 13665,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10725
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 400.5,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'the' note w=the; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 'la' note w=Layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 'yer' note w=Layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'of' note w=of; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 56.870 'red' note w=red; want t 56.325 end 56.823 'brick' note w=brick",
+        "row 29 'walls' F4: got t 56.870 end 57.415 'brick' note w=brick; want t 56.823 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row F4 'walls' @57.41"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'the' note w=the; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 'la' note w=Layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 'yer' note w=Layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'of' note w=of; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 56.870 'red' note w=red; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 4968,
+        "total_tokens": 20833,
+        "completion_tokens": 15865,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 13012
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 464.2,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'the' note w=the; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 'la' note w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 'yer' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'of' note w=of; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 56.870 'red' note w=red; want t 56.325 end 56.823 'brick' note w=brick",
+        "row 29 'walls' F4: got t 56.870 end 57.415 'brick' note w=brick; want t 56.823 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row F4 'walls' @57.41"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'the' note w=the; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 'la' note w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 'yer' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'of' note w=of; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 56.870 'red' note w=red; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2732,
+        "total_tokens": 14447,
+        "completion_tokens": 11715,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 8975
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 340.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19",
+        "missing gold row 24 A4 'la' @54.44"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.442 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 25 'yer' G4: got t 54.442 end 54.944 'the' note w=the; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 54.944 end 55.447 'la' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.447 end 55.949 'yer' note w=layer; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 55.949 end 56.452 'of' note w=of; want t 56.325 end 56.823 'brick' note w=brick",
+        "row 29 'walls' F4: got t 56.955 end 57.457 'brick' note w=brick; want t 56.823 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row G4 'red' @56.45",
+        "extra row F4 'walls' @57.46"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.442 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 25 'yer' G4: got t 54.442 end 54.944 'the' note w=the; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 54.944 end 55.447 'la' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.447 end 55.949 'yer' note w=layer; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 55.949 end 56.452 'of' note w=of; want t 56.325 end 56.823 'brick' note w=brick",
+        "row 29 'walls' F4: got t 56.955 end 57.457 'brick' note w=brick; want t 56.823 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2732,
+        "total_tokens": 13750,
+        "completion_tokens": 11018,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 8276
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 318.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19",
+        "missing gold row 29 F4 'walls' @56.82"
+       ],
+       "wrong": [
+        "row 24 'la' A4: got t 54.250 end 54.561 'the' note w=the; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 55.183 end 55.494 'of' note w=of; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.494 end 55.807 'red' note w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ],
+       "collateral": [
+        "extra row G4 'la' @54.56",
+        "extra row A4 'yer' @54.87"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 24 'la' A4: got t 54.250 end 54.561 'the' note w=the; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 55.183 end 55.494 'of' note w=of; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.494 end 55.807 'red' note w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2732,
+        "total_tokens": 17903,
+        "completion_tokens": 15171,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 12431
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 438.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-layer-pitches",
+   "cat": "fitting",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 G4 'the' @54.19",
+        "missing gold row 26 G4 'of' @55.24",
+        "missing gold row 27 A4 'red' @55.81",
+        "not deleted G4 'yer' @54.92"
+       ],
+       "wrong": [
+        "row 25 'yer' A4: got t 55.244 end 55.807 'of' note w=of; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 28 '~' G4: got t 55.807 end 56.325 'red' note w=red; want t 56.066 end 56.325 '~' slur w=red"
+       ],
+       "collateral": [
+        "extra row F4 'the' @54.19"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "row 25 'yer' A4: got t 55.244 end 55.807 'of' note w=of; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 28 '~' G4: got t 55.807 end 56.325 'red' note w=red; want t 56.066 end 56.325 '~' slur w=red"
+       ]
+      },
+      "raw": "\n\n[{\"op\":\"set\",\"row\":23,\"note\":\"G4\"},{\"op\":\"set\",\"row\":25,\"note\":\"A4\"},{\"op\":\"set\",\"row\":26,\"note\":\"G4\"},{\"op\":\"set\",\"row\":27,\"note\":\"A4\"},{\"op\":\"set\",\"row\":29,\"text\":\"wall\",\"word\":\"wall\"},{\"op\":\"pronounce\",\"word\":\"wall\",\"sounds\":[\"W AO1 L\"]}]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2628,
+        "total_tokens": 11841,
+        "completion_tokens": 9213,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 9118
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 266.6
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 27 'red' A4: got t 55.807 end 56.066 're' note w=red; want t 55.807 end 56.066 'red' note w=red",
+        "row 28 '~' G4: got t 56.066 end 56.325 'd' note w=red; want t 56.066 end 56.325 '~' slur w=red"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 27 'red' A4: got t 55.807 end 56.066 're' note w=red; want t 55.807 end 56.066 'red' note w=red",
+        "row 28 '~' G4: got t 56.066 end 56.325 'd' note w=red; want t 56.066 end 56.325 '~' slur w=red"
+       ]
+      },
+      "raw": "\n\n[\n  {\"op\": \"set\", \"row\": 23, \"pitch\": \"G4\"},\n  {\"op\": \"set\", \"row\": 25, \"pitch\": \"A4\"},\n  {\"op\": \"set\", \"row\": 26, \"pitch\": \"G4\"},\n  {\"op\": \"set\", \"row\": 27, \"pitch\": \"A4\", \"text\": \"re\", \"end\": 56.066},\n  {\"op\": \"insert\", \"after\": 27, \"pitch\": \"G4\", \"kind\": \"note\", \"text\": \"d\", \"word\": \"red\", \"t\": 56.066, \"end\": 56.325},\n  {\"op\": \"set\", \"row\": 29, \"text\": \"wall\", \"word\": \"wall\"},\n  {\"op\": \"pronounce\", \"word\": \"red\", \"sounds\": [\"R EH1\", \"D\"]}\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2628,
+        "total_tokens": 14196,
+        "completion_tokens": 11568,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 11342
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 334.6
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 28 G4 '~' @56.07"
+       ],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 27 'red' A4: got t 55.807 end 56.325 'red' note w=red; want t 55.807 end 56.066 'red' note w=red"
+       ]
+      },
+      "raw": "\n\n[\n  {\"op\": \"set\", \"row\": 23, \"pitch\": \"G4\"},\n  {\"op\": \"set\", \"row\": 25, \"pitch\": \"A4\"},\n  {\"op\": \"set\", \"row\": 26, \"pitch\": \"G4\"},\n  {\"op\": \"set\", \"row\": 27, \"pitch\": \"A4\"},\n  {\"op\": \"set\", \"row\": 29, \"text\": \"wall\", \"word\": \"wall\"}\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2628,
+        "total_tokens": 10561,
+        "completion_tokens": 7933,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 7812
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 229.3
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 28 G4 '~' @56.07"
+       ],
+       "wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 27 'red' A4: got t 55.807 end 56.325 'red' note w=red; want t 55.807 end 56.066 'red' note w=red",
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5201,
+        "total_tokens": 18783,
+        "completion_tokens": 13582,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10728
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 399.7,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 28 G4 '~' @56.07"
+       ],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 27 'red' A4: got t 55.807 end 56.325 'red' note w=red; want t 55.807 end 56.066 'red' note w=red"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5201,
+        "total_tokens": 18737,
+        "completion_tokens": 13536,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10701
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 399.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "invalid",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "error": "Expecting value: line 1 column 1 (char 0)",
+       "n_collateral": 0
+      },
+      "raw": "",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5201,
+        "total_tokens": 37201,
+        "completion_tokens": 32000,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 32000
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "length"
+      },
+      "elapsed": 948.9
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 28 G4 '~' @56.07"
+       ],
+       "wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 27 'red' A4: got t 55.807 end 56.325 'red' note w=red; want t 55.807 end 56.066 'red' note w=red",
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2881,
+        "total_tokens": 16790,
+        "completion_tokens": 13909,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 11167
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 418.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 28 '~' G4: got t 56.066 end 56.325 '' note w=red; want t 56.066 end 56.325 '~' slur w=red"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 28 '~' G4: got t 56.066 end 56.325 '' note w=red; want t 56.066 end 56.325 '~' slur w=red"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2881,
+        "total_tokens": 15781,
+        "completion_tokens": 12900,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10103
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 388.4,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 27 'red' A4: got t 55.807 end 56.066 're' note w=red; want t 55.807 end 56.066 'red' note w=red",
+        "row 28 '~' G4: got t 56.066 end 56.325 'd' note w=red; want t 56.066 end 56.325 '~' slur w=red"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 27 'red' A4: got t 55.807 end 56.066 're' note w=red; want t 55.807 end 56.066 'red' note w=red",
+        "row 28 '~' G4: got t 56.066 end 56.325 'd' note w=red; want t 56.066 end 56.325 '~' slur w=red",
+        "row 30 'wall' F4: got t 56.823 end 57.960 'wall' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2881,
+        "total_tokens": 14203,
+        "completion_tokens": 11322,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 8523
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 325.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-morning-sounds",
+   "cat": "phoneme",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "\n\n[\n  {\n    \"op\": \"pronounce\",\n    \"word\": \"Morning\",\n    \"sounds\": [\n      \"M AO1 R\",\n      \"N IH0 NG\"\n    ]\n  }\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2619,
+        "total_tokens": 6932,
+        "completion_tokens": 4313,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 4259
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 122.4
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "\n\n[{\"op\": \"pronounce\", \"word\": \"Morning\", \"sounds\": [\"M AO1 R\", \"N IH0 NG\"]}]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2619,
+        "total_tokens": 7735,
+        "completion_tokens": 5116,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 5083
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 145.6
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "\n\n[\n  {\n    \"op\": \"pronounce\",\n    \"word\": \"Morning\",\n    \"sounds\": [\n      \"M AO1 R\",\n      \"N IH0 NG\"\n    ]\n  }\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2619,
+        "total_tokens": 7428,
+        "completion_tokens": 4809,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 4755
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 139.1
+     }
+    ],
+    "free": [
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5235,
+        "total_tokens": 13755,
+        "completion_tokens": 8520,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 5715
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 245.7,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5235,
+        "total_tokens": 12074,
+        "completion_tokens": 6839,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 4034
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 196.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5235,
+        "total_tokens": 12676,
+        "completion_tokens": 7441,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 4636
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 213.1,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2915,
+        "total_tokens": 12441,
+        "completion_tokens": 9526,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 6741
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 272.5,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2915,
+        "total_tokens": 12320,
+        "completion_tokens": 9405,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 5700
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 269.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2915,
+        "total_tokens": 15125,
+        "completion_tokens": 12210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 9425
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 351.2,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-footsteps-sounds",
+   "cat": "phoneme",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "\n\n[{\"op\":\"pronounce\",\"word\":\"Footsteps\",\"sounds\":[\"F UH1\",\"T S EH1 P S\"]}]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2666,
+        "total_tokens": 3100,
+        "completion_tokens": 434,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 404
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 12.5
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "\n\n[{\"op\":\"pronounce\",\"word\":\"Footsteps\",\"sounds\":[\"F UH1\",\"T S EH1 P S\"]}]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2666,
+        "total_tokens": 3259,
+        "completion_tokens": 593,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 563
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 17.1
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ]
+      },
+      "raw": "\n\n[{\"op\":\"pronounce\",\"word\":\"Footsteps\",\"sounds\":[\"F UH1\",\"T S T EH2 P S\"]}]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2666,
+        "total_tokens": 11691,
+        "completion_tokens": 9025,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 8994
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 261.0
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound steps: got en_T-S-T-E1-H2-P-S want en_T-S-EH1-P-S"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound steps: got en_T-S-T-E1-H2-P-S want en_T-S-EH1-P-S"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5296,
+        "total_tokens": 12947,
+        "completion_tokens": 7651,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 4827
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 221.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5296,
+        "total_tokens": 14190,
+        "completion_tokens": 8894,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 6071
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 255.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5296,
+        "total_tokens": 11822,
+        "completion_tokens": 6526,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 3703
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 187.6,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [],
+       "collateral": [
+        "changed row 8 'Foot' C4 @38.22 -> 'Footsteps' note t 38.218-38.851 w=Footsteps",
+        "missing gold row 9 C4 'steps' @38.53"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2940,
+        "total_tokens": 10097,
+        "completion_tokens": 7157,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 4429
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 204.1,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [],
+       "collateral": [
+        "changed row 8 'Foot' C4 @38.22 -> 'Footsteps' note t 38.218-38.851 w=Footsteps",
+        "missing gold row 9 C4 'steps' @38.53"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2940,
+        "total_tokens": 13258,
+        "completion_tokens": 10318,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 7590
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 296.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [],
+       "collateral": [
+        "changed row 8 'Foot' C4 @38.22 -> 'Footsteps' note t 38.218-38.851 w=Footsteps",
+        "missing gold row 9 C4 'steps' @38.53"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2940,
+        "total_tokens": 13330,
+        "completion_tokens": 10390,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 7662
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 298.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-waking-sounds",
+   "cat": "phoneme",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": true,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": []
+      },
+      "raw": "\n\n[\n  {\n    \"op\": \"set\",\n    \"row\": 20,\n    \"text\": \"kin\"\n  },\n  {\n    \"op\": \"pronounce\",\n    \"word\": \"waking\",\n    \"sounds\": [\n      \"W EY1\",\n      \"K IH0 N\"\n    ]\n  }\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2657,
+        "total_tokens": 9624,
+        "completion_tokens": 6967,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 6881
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 201.7
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": true,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": []
+      },
+      "raw": "\n\n[\n  {\"op\": \"set\", \"row\": 20, \"text\": \"kin\"},\n  {\"op\": \"pronounce\", \"word\": \"waking\", \"sounds\": [\"W EY1\", \"K IH0 N\"]}\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2657,
+        "total_tokens": 8899,
+        "completion_tokens": 6242,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 6184
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 179.1
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": true,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": []
+      },
+      "raw": "\n\n[\n  {\"op\": \"set\", \"row\": 20, \"text\": \"kin\"},\n  {\"op\": \"pronounce\", \"word\": \"waking\", \"sounds\": [\"W EY1\", \"K IH0 N\"]}\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2657,
+        "total_tokens": 9554,
+        "completion_tokens": 6897,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 6839
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 198.0
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": true,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5287,
+        "total_tokens": 13310,
+        "completion_tokens": 8023,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 5185
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 230.2,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": true,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5287,
+        "total_tokens": 12656,
+        "completion_tokens": 7369,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 4434
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 211.5,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": true,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5287,
+        "total_tokens": 13691,
+        "completion_tokens": 8404,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 5566
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 241.2,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2915,
+        "total_tokens": 8910,
+        "completion_tokens": 5995,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 3196
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 172.4,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2915,
+        "total_tokens": 10888,
+        "completion_tokens": 7973,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 5174
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 230.1,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2915,
+        "total_tokens": 11062,
+        "completion_tokens": 8147,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 5348
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 235.1,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sd-grace-fold",
+   "cat": "fitting",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "asked",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 'mor' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": "\n\n[{\"op\":\"ask\",\"question\":\"For 'lamps in the ????', which word would you like to insert between 'the' and 'hall'? For 'till the (what?) ning light', do you want to extend the 'mor' syllable (row 45) to make it audible, or insert a word before 'morning'?\"}]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3223,
+        "total_tokens": 7377,
+        "completion_tokens": 4154,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 4075
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 119.1
+     },
+     {
+      "outcome": "asked",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 'mor' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": "\n\n[{\"op\":\"ask\",\"question\":\"For 'lamps in the ...' (rows 7-10), what word is missing or should 'hall' be extended? For 'morning' (rows 45-47), the 'mor' syllable is very short (0.09s); should I extend it or change the word?\"}]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3223,
+        "total_tokens": 10072,
+        "completion_tokens": 6849,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 6770
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 197.9
+     },
+     {
+      "outcome": "asked",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 9 A4 'hall' @17.86",
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 'mor' @37.14"
+       ],
+       "wrong": [
+        "row 41 'mor' E5: got t 37.636 end 38.128 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [
+        "changed row 42 'ning' E5 @37.72 -> 'ning' note t 38.128-38.653 w=morning",
+        "changed row 43 'light' C5 @38.24 -> 'light' note t 38.653-39.035 w=light",
+        "extra row A4 '' @18.36"
+       ],
+       "n_collateral": 3,
+       "strict_wrong": [
+        "row 41 'mor' E5: got t 37.636 end 38.128 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": "\n\n[\n  {\n    \"op\": \"set\",\n    \"row\": 10,\n    \"end\": 18.355\n  },\n  {\n    \"op\": \"shift\",\n    \"rows\": [11],\n    \"by\": 0.409\n  },\n  {\n    \"op\": \"set\",\n    \"row\": 45,\n    \"end\": 37.636\n  },\n  {\n    \"op\": \"shift\",\n    \"rows\": [46, 47, 48],\n    \"by\": 0.413\n  },\n  {\n    \"op\": \"ask\",\n    \"question\": \"For 'lamps in the hall', did you want to insert a word before 'hall' (e.g. 'warm') or was the syllable 'hall' just too short?\"\n  }\n]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3223,
+        "total_tokens": 13842,
+        "completion_tokens": 10619,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10409
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 309.5
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 '' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 'mor' note w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 'mor' note w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 6567,
+        "total_tokens": 22419,
+        "completion_tokens": 15852,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 12202
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 464.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 9 A4 'hall' @17.86",
+        "missing gold row 41 E5 'mor' @37.14",
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 'mor' @37.14"
+       ],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 6567,
+        "total_tokens": 17465,
+        "completion_tokens": 10898,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 7520
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 320.7,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 '' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 'and' note w=and; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' unsung w=; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [
+        "changed row 42 'ning' E5 @37.72 -> 'morning' note t 37.715-38.240 w=morning"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 'and' note w=and; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' unsung w=; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 6567,
+        "total_tokens": 20806,
+        "completion_tokens": 14239,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10725
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 417.7,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 41 E5 'mor' @37.14",
+        "not deleted Eb5 'mor' @37.14"
+       ],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3632,
+        "total_tokens": 17421,
+        "completion_tokens": 13789,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10315
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 402.5,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 'grand hall' @17.86",
+        "not deleted Eb5 'morning' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [
+        "changed row 42 'ning' E5 @37.72 -> '' note t 37.715-38.240 w=morning"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3632,
+        "total_tokens": 17897,
+        "completion_tokens": 14265,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10751
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 416.2,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 41 E5 'mor' @37.14",
+        "not deleted Ab4 'old hall' @17.86",
+        "not deleted Eb5 'morning' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall"
+       ],
+       "collateral": [
+        "missing gold row 42 E5 'ning' @37.72"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3632,
+        "total_tokens": 17727,
+        "completion_tokens": 14095,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 10723
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 410.9,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sd-hall-g4",
+   "cat": "fitting",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 10 G4 'way' @18.48"
+       ],
+       "wrong": [],
+       "collateral": [
+        "missing gold row 11 A4 'a' @19.31",
+        "extra row G4 'a' @19.31"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway"
+       ]
+      },
+      "raw": "\n\n[{\"op\":\"set\",\"row\":10,\"pitch\":\"G4\"}]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2947,
+        "total_tokens": 8556,
+        "completion_tokens": 5609,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 5589
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 160.6
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 10 G4 'way' @18.48"
+       ],
+       "wrong": [],
+       "collateral": [
+        "missing gold row 11 A4 'a' @19.31",
+        "extra row G4 'a' @19.31"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway"
+       ]
+      },
+      "raw": "\n\n[{\"op\": \"set\", \"row\": 10, \"pitch\": \"G4\"}]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2947,
+        "total_tokens": 11027,
+        "completion_tokens": 8080,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 8055
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 233.6
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 10 'way' G4: got t 18.482 end 19.309 '' unsung w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway",
+        "row 10 'way' G4: got t 18.482 end 19.309 '' unsung w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ]
+      },
+      "raw": "\n\n[{\"op\":\"insert\",\"after\":9,\"pitch\":\"G4\",\"kind\":\"unsung\",\"text\":\"\",\"word\":\"\",\"t\":18.482,\"end\":19.309}]",
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 2947,
+        "total_tokens": 10736,
+        "completion_tokens": 7789,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 7744
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 224.4
+     }
+    ],
+    "free": [
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway",
+        "row 10 'way' G4: got t 18.482 end 19.309 '~' slur w=hall; want t 18.482 end 19.309 'way' note w=hallway"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5936,
+        "total_tokens": 17221,
+        "completion_tokens": 11285,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 8050
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 328.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 10 G4 'way' @18.48"
+       ],
+       "wrong": [],
+       "collateral": [
+        "missing gold row 11 A4 'a' @19.31",
+        "extra row G4 'a' @19.31"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5936,
+        "total_tokens": 15259,
+        "completion_tokens": 9323,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 6159
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 272.1,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 10 G4 'way' @18.48"
+       ],
+       "wrong": [],
+       "collateral": [
+        "missing gold row 11 A4 'a' @19.31",
+        "extra row G4 'a' @19.31"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 5936,
+        "total_tokens": 19332,
+        "completion_tokens": 13396,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 9167
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 389.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 10 G4 'way' @18.48"
+       ],
+       "wrong": [],
+       "collateral": [
+        "missing gold row 11 A4 'a' @19.31",
+        "extra row G4 'a' @19.31"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3257,
+        "total_tokens": 14642,
+        "completion_tokens": 11385,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 8227
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 329.6,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 10 'way' G4: got t 18.482 end 19.309 ' ' note w= ; want t 18.482 end 19.309 'way' note w=hallway"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway",
+        "row 10 'way' G4: got t 18.482 end 19.309 ' ' note w= ; want t 18.482 end 19.309 'way' note w=hallway"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3257,
+        "total_tokens": 15834,
+        "completion_tokens": 12577,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 9350
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 363.7,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 9 A4 'hall' @17.86",
+        "missing gold row 10 G4 'way' @18.48"
+       ],
+       "wrong": [],
+       "collateral": [
+        "extra row G4 'hall' @17.86"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0,
+       "tokens": {
+        "prompt_tokens": 3257,
+        "total_tokens": 18064,
+        "completion_tokens": 14807,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+         "reasoning_tokens": 11649
+        }
+       },
+       "model": [
+        "qwen3.5-27b-fp8"
+       ],
+       "finish": "stop"
+      },
+      "elapsed": 422.6,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  }
+ ]
+}

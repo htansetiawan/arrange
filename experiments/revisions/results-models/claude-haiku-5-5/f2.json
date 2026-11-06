@@ -1,0 +1,599 @@
+{
+ "id": "f2",
+ "cat": "f",
+ "fixture": "synthetic",
+ "text": "The downbeat of bar 17 is at 78.9 seconds, not where you put it.",
+ "gold_ops": [
+  {
+   "op": "set_clock",
+   "bar": 17,
+   "t": 78.9
+  }
+ ],
+ "gold_paths": [
+  "piano-analysis.json#tempo_map"
+ ],
+ "gold_stale": [
+  "L1",
+  "L4"
+ ],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"set_clock\",\"bar\":17,\"t\":78.9}]",
+    "usage": {
+     "total_cost_usd": 0.0030577700000000005,
+     "duration_api_ms": 2194,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 3.8453850746154785,
+    "ops": [
+     {
+      "op": "set_clock",
+      "bar": 17,
+      "t": 78.9
+     }
+    ],
+    "applied": [
+     "bar 17 downbeat 78.621s -> 78.9s; beats between 73.338s and 83.499s re-spaced; map revision 1"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L1",
+     "L4"
+    ],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L1",
+      "L4"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"set_clock\",\"bar\":17,\"t\":78.9}]",
+    "usage": {
+     "total_cost_usd": 0.00037816,
+     "duration_api_ms": 2518,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 4.237898826599121,
+    "ops": [
+     {
+      "op": "set_clock",
+      "bar": 17,
+      "t": 78.9
+     }
+    ],
+    "applied": [
+     "bar 17 downbeat 78.621s -> 78.9s; beats between 73.338s and 83.499s re-spaced; map revision 1"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L1",
+     "L4"
+    ],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L1",
+      "L4"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"set_clock\",\"bar\":17,\"t\":78.9}]",
+    "usage": {
+     "total_cost_usd": 0.00042115999999999996,
+     "duration_api_ms": 2166,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 3.7866275310516357,
+    "ops": [
+     {
+      "op": "set_clock",
+      "bar": 17,
+      "t": 78.9
+     }
+    ],
+    "applied": [
+     "bar 17 downbeat 78.621s -> 78.9s; beats between 73.338s and 83.499s re-spaced; map revision 1"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L1",
+     "L4"
+    ],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L1",
+      "L4"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": true, \"stale_reason\": \"clock: bar 17 downbeat moved to 78.9 s (tempo map correction)\", \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": true, \"stale_reason\": \"clock: bar 17 downbeat moved to 78.9 s (tempo map correction)\", \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0",
+    "usage": {
+     "total_cost_usd": 0.00689897,
+     "duration_api_ms": 28224,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 29.539162397384644,
+    "stale": [
+     "L1",
+     "L2",
+     "L3",
+     "L4",
+     "L5"
+    ],
+    "questions": [
+     "Bar 17 moved to 78.9 s is recorded as a tempo-map correction only. Should bars 18–20 be re-derived from it, or is there a second correction to make there?",
+     "Does 78.9 s resolve the open 'bars 17–20 downbeat ambiguous' item, or is the fermata reading still open?",
+     "L6 (guitar take) and L7 (brass stub) are marked stale only because they follow the clock. Nothing is re-rendered for them: the take moves with the map, and the stub stays silent until restored. Confirm that is what you want."
+    ],
+    "diff": [
+     "layers.L7.notes",
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.5,
+     "collateral": [
+      "layers.L7.notes"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 1, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": true, \"stale_reason\": \"clock revision 1: tempo map bar 17 downbeat moved to 78.9 s\", \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": true, \"stale_reason\": \"clock revision 1: tempo map bar 17 downbeat moved to 78.9 s\", \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0",
+    "usage": {
+     "total_cost_usd": 0.00461992,
+     "duration_api_ms": 30908,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 32.792609453201294,
+    "stale": [
+     "L1",
+     "L2",
+     "L3",
+     "L4",
+     "L5"
+    ],
+    "questions": [
+     "Is bar 17 at 78.9 s the only correction? The current map puts bar 17 at 78.621 s, so the musician's point is about 0.28 s later. If that offset applies to the whole measured map, bars 18–40 (including the chorus at bar 25, now 117.88 s) would also move. Should I correct those bars too?",
+     "Does the 78.9 s downbeat resolve the open 'bars 17–20: downbeat ambiguous, two readings fit' item? I left it open in the plan.",
+     "L6 (the guitar take) and L7 (the brass stub) also depend on the clock. They have nothing to re-render, so I marked them stale but left them out of the re-render list. Their positions will follow the corrected map."
+    ],
+    "diff": [
+     "layers.L7.owner.prompt",
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 1, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 1, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": true, \"stale_reason\": \"clock revision 1: bar 17 downbeat corrected to 78.9 s\", \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": true, \"stale_reason\": \"clock revision 1: bar 17 downbeat corrected to 78.9 s\", \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 3",
+    "usage": {
+     "total_cost_usd": 0.00439442,
+     "duration_api_ms": 29287,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 31.001500606536865,
+    "stale": [
+     "L1",
+     "L2",
+     "L3",
+     "L4",
+     "L5"
+    ],
+    "questions": [
+     "Should bars 18–20 also be re-measured against the corrected bar 17 downbeat, or does 78.9 s apply only to bar 17? Only bar 17 was corrected here.",
+     "Does the bar 17 correction close the open spec 'bars 17–20: downbeat ambiguous, two readings fit'? I left it listed in open.unresolved_specs.",
+     "L6 (take) and L7 (stub) follow the clock but need no re-render; I marked them stale for re-placement only. Confirm that is the right handling.",
+     "The L4 strings were anchored at bar 17 beat 1 and will now start at 78.9 s instead of 78.621 s. Confirm you want the strings to keep entering on bar 17 under the corrected clock."
+    ],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [], \"stale\": [\"L1\", \"L2\", \"L3\", \"L4\", \"L5\", \"L6\", \"L7\"], \"questions\": [\"Should only bar 17 move to 78.9 s, or should bars 18 to 20 be re-measured from that downbeat too? The plan still lists bars 17 to 20 as ambiguous.\"], \"tempo_map_corrections\": [{\"bar\": 17, \"t\": 78.9}]}",
+    "usage": {
+     "total_cost_usd": 0.0035068700000000005,
+     "duration_api_ms": 6454,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 8.325562477111816,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [
+     "L1",
+     "L2",
+     "L3",
+     "L4",
+     "L5",
+     "L6",
+     "L7"
+    ],
+    "questions": [
+     "Should only bar 17 move to 78.9 s, or should bars 18 to 20 be re-measured from that downbeat too? The plan still lists bars 17 to 20 as ambiguous."
+    ],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [\"L1\", \"L2\", \"L3\", \"L4\", \"L5\", \"L6\", \"L7\"], \"questions\": [], \"tempo_map_corrections\": [{\"bar\": 17, \"t\": 78.9}]}",
+    "usage": {
+     "total_cost_usd": 0.00092429,
+     "duration_api_ms": 7015,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 8.569907188415527,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [
+     "L1",
+     "L2",
+     "L3",
+     "L4",
+     "L5",
+     "L6",
+     "L7"
+    ],
+    "questions": [],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [\"L1\", \"L2\", \"L3\", \"L4\", \"L5\"], \"questions\": [\"L6 (your guitar take) also depends on the clock but is a recording, not a render, so it is not in the stale list. Its bar-based anchors are unchanged, but its audio may need re-alignment to the new map. Should I flag it for that?\"], \"tempo_map_corrections\": [{\"bar\": 17, \"t\": 78.9}]}",
+    "usage": {
+     "total_cost_usd": 0.00090679,
+     "duration_api_ms": 7531,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 9.189527750015259,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [
+     "L1",
+     "L2",
+     "L3",
+     "L4",
+     "L5"
+    ],
+    "questions": [
+     "L6 (your guitar take) also depends on the clock but is a recording, not a render, so it is not in the stale list. Its bar-based anchors are unchanged, but its audio may need re-alignment to the new map. Should I flag it for that?"
+    ],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 1, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 1, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.006912399999999999,
+     "duration_api_ms": 29080,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 30.130834579467773,
+    "stale": [
+     "L4"
+    ],
+    "questions": [
+     "Bar 17 is now at 78.9 s, so L4's entry moved to 78.9 s and L4 is marked stale. The clock revision is now 1, but L1, L2, L3, L5, L6 and L7 still record clock revision 0 in their candidate parents. Should those be marked stale as well? Does the bar 25 boundary (117.88 s) also move, or only the bar 17 point? Should the 'bars 17-20 downbeat ambiguous' open spec be closed now that the downbeat is set?"
+    ],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": true, \"stale_reason\": \"clock: bar 17 downbeat corrected to 78.9 s\", \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", ",
+    "usage": {
+     "total_cost_usd": 0.0040856500000000006,
+     "duration_api_ms": 26557,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 27.79027271270752,
+    "stale": [
+     "L1",
+     "L4"
+    ],
+    "questions": [
+     "Does 78.9 s settle the bars 17–20 downbeat ambiguity? I left that entry open in open.unresolved_specs until you confirm.",
+     "Bar 17 is now 78.9 s, so the layers that cover it (L1 vocal, L4 strings) are marked stale. L4's t0 still reads 78.621 until the clock is rebuilt. Should the other clock-dependent layers (L2, L3, L5, L6, L7) also be re-checked, in case the tempo map is re-fit across the whole piece?"
+    ],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L1",
+      "L4"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 1, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 1, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.0042606499999999995,
+     "duration_api_ms": 28931,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 30.16600728034973,
+    "stale": [
+     "L4"
+    ],
+    "questions": [
+     "Bar 17 is now pinned at 78.9 s. L1 (vocal, bars 9–25) spans bar 17 and was rendered against the old map, so its timing may have shifted. Should L1 also be marked stale, or should the tempo map be re-fit with bar 25 (117.88 s) and the other anchors held fixed?",
+     "The fermata question for bars 17–20 is still open in the notebook (time signature: 4/4 assumed; bars 17–20 could be read as a fermata). Is the 78.9 s downbeat your reading of bar 17 as a plain bar, so I should remove that open item?"
+    ],
+    "diff": [
+     "layers.L6.owner.route",
+     "open.unresolved_specs",
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.5,
+     "collateral": [
+      "open.unresolved_specs"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L1",
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ]
+ }
+}

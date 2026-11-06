@@ -1,0 +1,198 @@
+{
+ "session": "S2",
+ "arm": "patch",
+ "model": "claude-haiku-5-5",
+ "draw": 3,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Use the second vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L1.chosen"
+   ],
+   "new_errors": [
+    "layers.L1.chosen"
+   ],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L2"
+   ],
+   "arm_stale": [],
+   "elapsed": 7.6,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"Do you mean candidate L1c2 (english-12), the second rendered vocal candidate? The plan has no second recording of your own voice. The current choice, L1c4 (henry-12), is your own voice, which you picked on 31 October. Switching to L1c2 would also make L2 (strings, rendered against L1c4) stale and need re-rendering. Should I make that change and mark L2 stale?\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L1.chosen"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 5.7,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.anchors.enter.bar\", \"value\": 21}], \"stale\": [\"L2\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 3,
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.conditions.audio_context",
+    "layers.L2.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L1.chosen"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 5.1,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.conditions.audio_context\", \"value\": [\"piano\"]}, {\"path\": \"layers.L2.conditions.depends_on\", \"value\": [\"clock\", \"piano\"]}], \"stale\": [\"L2\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 4,
+   "text": "Turn the vocal up 2 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L1.chosen"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 5.7,
+   "raw": "{\"edits\": [{\"path\": \"layers.L1.gain_db\", \"value\": 2.0}], \"stale\": [], \"questions\": [\"L1c4 peaks at 1.006, so +2 dB will push the vocal to about 1.27 before the mix, which is over full scale and may clip. Should I add headroom elsewhere in the mix, or leave it for you to check on playback?\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 5,
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L1.chosen",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 9.4,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"Bar 33's current measured time isn't in the plan, so I can't write the tempo-map correction yet. What is bar 33's time in piano-analysis.json#tempo_map? Once you confirm it, I'll set it to that time minus 0.5 s. Layers L1, L2 and L3 all depend on the clock, so they'll be marked stale when the correction is applied. Also, you said the beat is late, but at the roughly 46 BPM feel a beat is about 1.3 s, not 0.5 s. Is the correction 0.5 s, or a full beat?\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 6,
+   "text": "Let the strings run two bars longer at the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L1.chosen",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 5.0,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.anchors.exit.bar\", \"value\": 25}], \"stale\": [\"L2\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 7,
+   "text": "Make it more emotional.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [
+    "layers.L1.chosen",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 5.2,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different changes. Which do you want? (a) Louder or more present vocal (L1, currently gain 2.0 dB), (b) a bigger strings presence or swell (L2, currently gain 0.0 dB, chosen L2c6), (c) a different vocal or string performance direction, which would change the prompt or lyrics that you own, so I would need you to say what to write, or (d) a change to the clock or sections, such as the emotional peak at bars 15-22 or the ending at bars 39-41. Tell me the layer and the direction, and I will make the edit.\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 8,
+   "text": "Go back to the fourth vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 2.7,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"The fourth vocal take (L1c4, henry-12) is already the chosen candidate for L1, so no change was made.\"], \"tempo_map_corrections\": []}"
+  }
+ ],
+ "final_drift": 1,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 6,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [
+  "t1:L2"
+ ],
+ "cost": 0.0257
+}

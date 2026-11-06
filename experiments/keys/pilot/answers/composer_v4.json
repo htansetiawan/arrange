@@ -1,0 +1,38 @@
+{
+ "at": "2026-11-03T23:09:31.032Z",
+ "ladder": "v4",
+ "rater": "composer",
+ "steps": [
+  {
+   "clip": "Ci0",
+   "register": "right",
+   "score": 48
+  },
+  {
+   "clip": "Wi3",
+   "register": "right",
+   "score": 53
+  },
+  {
+   "clip": "Do6",
+   "register": "high",
+   "score": 65
+  },
+  {
+   "clip": "Zi9",
+   "register": "high",
+   "score": 75
+  },
+  {
+   "clip": "Ta5",
+   "register": "high",
+   "score": 85
+  },
+  {
+   "clip": "Ke3",
+   "register": "high",
+   "score": 95
+  }
+ ],
+ "sweet": "Ci0"
+}

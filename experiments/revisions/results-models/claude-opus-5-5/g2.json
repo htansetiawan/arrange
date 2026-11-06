@@ -1,0 +1,432 @@
+{
+ "id": "g2",
+ "cat": "g",
+ "fixture": "synthetic",
+ "text": "Move the strings a bit.",
+ "gold_ops": [
+  {
+   "op": "ask",
+   "question": "<which strings layer (L4 verse or L5 chorus), earlier or later, by how many bars>"
+  }
+ ],
+ "gold_paths": [
+  "open.questions"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"Which strings, and where should they go? There are two strings parts: L4 (verse 1, soft violas and cellos) plays bars 17–24 and exits at bar 25 beat 1. L5 (chorus, full section) plays bars 25–40 and exits at bar 41 beat 1. 'A bit' doesn't say which direction or how far. Here are some options: (a) start L4 earlier, e.g. at bar 13 instead of 17; (b) start L4 later, e.g. at bar 21; (c) start L5 a bar early at bar 24, so its swell leads into the chorus; (d) end L5 early, e.g. exit at bar 37 so the piano finishes alone; (e) move L4 or L5 by a number of bars you choose, keeping the same length. Tell me which part, which direction and how many bars. Moving a strings part means re-rendering that part only. The vocals, guitar and brass stay as they are.\"}]",
+    "usage": {
+     "total_cost_usd": 0.1207434,
+     "duration_api_ms": 4288,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 5.4475226402282715,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "Which strings, and where should they go? There are two strings parts: L4 (verse 1, soft violas and cellos) plays bars 17–24 and exits at bar 25 beat 1. L5 (chorus, full section) plays bars 25–40 and exits at bar 41 beat 1. 'A bit' doesn't say which direction or how far. Here are some options: (a) start L4 earlier, e.g. at bar 13 instead of 17; (b) start L4 later, e.g. at bar 21; (c) start L5 a bar early at bar 24, so its swell leads into the chorus; (d) end L5 early, e.g. exit at bar 37 so the piano finishes alone; (e) move L4 or L5 by a number of bars you choose, keeping the same length. Tell me which part, which direction and how many bars. Moving a strings part means re-rendering that part only. The vocals, guitar and brass stay as they are."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "Which strings, and where should they go? There are two strings parts: L4 (verse 1, soft violas and cellos) plays bars 17–24 and exits at bar 25 beat 1. L5 (chorus, full section) plays bars 25–40 and exits at bar 41 beat 1. 'A bit' doesn't say which direction or how far. Here are some options: (a) start L4 earlier, e.g. at bar 13 instead of 17; (b) start L4 later, e.g. at bar 21; (c) start L5 a bar early at bar 24, so its swell leads into the chorus; (d) end L5 early, e.g. exit at bar 37 so the piano finishes alone; (e) move L4 or L5 by a number of bars you choose, keeping the same length. Tell me which part, which direction and how many bars. Moving a strings part means re-rendering that part only. The vocals, guitar and brass stay as they are."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"There are two strings layers, and \\\"a bit\\\" doesn't say which way or how far. Which do you mean? (a) L4, the verse strings, now bars 17–24 (enter bar 17 beat 1, exit bar 25 beat 1). For example, start them earlier at bar 13, or later at bar 21. (b) L5, the chorus strings, now bars 25–40 (enter bar 25 beat 1, exit bar 41 beat 1). For example, start them at bar 27, or end them earlier at bar 37 so the release comes sooner. (c) Move both together by the same number of bars. Please tell me the layer, whether to move the entry, the exit or both, and how many bars earlier or later. Whatever you move will need a new render. If you move L4, the bar 17 entry also lands on the bars 17–20 downbeat that hasn't been settled yet. If you move L5, its prompt mentions a swell into bar 25, so moving its entry may mean that swell no longer lines up.\"}]",
+    "usage": {
+     "total_cost_usd": 0.0125984,
+     "duration_api_ms": 5335,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 6.322089910507202,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "There are two strings layers, and \"a bit\" doesn't say which way or how far. Which do you mean? (a) L4, the verse strings, now bars 17–24 (enter bar 17 beat 1, exit bar 25 beat 1). For example, start them earlier at bar 13, or later at bar 21. (b) L5, the chorus strings, now bars 25–40 (enter bar 25 beat 1, exit bar 41 beat 1). For example, start them at bar 27, or end them earlier at bar 37 so the release comes sooner. (c) Move both together by the same number of bars. Please tell me the layer, whether to move the entry, the exit or both, and how many bars earlier or later. Whatever you move will need a new render. If you move L4, the bar 17 entry also lands on the bars 17–20 downbeat that hasn't been settled yet. If you move L5, its prompt mentions a swell into bar 25, so moving its entry may mean that swell no longer lines up."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "There are two strings layers, and \"a bit\" doesn't say which way or how far. Which do you mean? (a) L4, the verse strings, now bars 17–24 (enter bar 17 beat 1, exit bar 25 beat 1). For example, start them earlier at bar 13, or later at bar 21. (b) L5, the chorus strings, now bars 25–40 (enter bar 25 beat 1, exit bar 41 beat 1). For example, start them at bar 27, or end them earlier at bar 37 so the release comes sooner. (c) Move both together by the same number of bars. Please tell me the layer, whether to move the entry, the exit or both, and how many bars earlier or later. Whatever you move will need a new render. If you move L4, the bar 17 entry also lands on the bars 17–20 downbeat that hasn't been settled yet. If you move L5, its prompt mentions a swell into bar 25, so moving its entry may mean that swell no longer lines up."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"There are two strings layers, and I need to know which one to move, which way, and how far. L4 (verse 1, soft violas and cellos) plays bars 17–24 and exits at bar 25 beat 1. L5 (chorus, full section) plays bars 25–40 and exits at bar 41 beat 1. Here are some options: (a) start L4 earlier, e.g. at bar 13 or at bar 9 with the vocal; (b) start L4 later, e.g. at bar 21; (c) bring L5 in early, e.g. at bar 21 so it overlaps the end of L4 and the swell builds into bar 25; (d) shift a whole layer, entry and exit together, by a number of bars you choose; (e) end L5 earlier than bar 41. Which layer do you want to move, in which direction, and by how many bars? Moving either one means re-rendering that layer.\"}]",
+    "usage": {
+     "total_cost_usd": 0.011498399999999999,
+     "duration_api_ms": 4304,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 5.479492425918579,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "There are two strings layers, and I need to know which one to move, which way, and how far. L4 (verse 1, soft violas and cellos) plays bars 17–24 and exits at bar 25 beat 1. L5 (chorus, full section) plays bars 25–40 and exits at bar 41 beat 1. Here are some options: (a) start L4 earlier, e.g. at bar 13 or at bar 9 with the vocal; (b) start L4 later, e.g. at bar 21; (c) bring L5 in early, e.g. at bar 21 so it overlaps the end of L4 and the swell builds into bar 25; (d) shift a whole layer, entry and exit together, by a number of bars you choose; (e) end L5 earlier than bar 41. Which layer do you want to move, in which direction, and by how many bars? Moving either one means re-rendering that layer."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "There are two strings layers, and I need to know which one to move, which way, and how far. L4 (verse 1, soft violas and cellos) plays bars 17–24 and exits at bar 25 beat 1. L5 (chorus, full section) plays bars 25–40 and exits at bar 41 beat 1. Here are some options: (a) start L4 earlier, e.g. at bar 13 or at bar 9 with the vocal; (b) start L4 later, e.g. at bar 21; (c) bring L5 in early, e.g. at bar 21 so it overlaps the end of L4 and the swell builds into bar 25; (d) shift a whole layer, entry and exit together, by a number of bars you choose; (e) end L5 earlier than bar 41. Which layer do you want to move, in which direction, and by how many bars? Moving either one means re-rendering that layer."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.2207714,
+     "duration_api_ms": 37401,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 38.205822706222534,
+    "stale": [],
+    "questions": [
+     "I haven't changed anything yet because I need three details first. (1) Which strings part do you mean? L4 is the verse strings (soft violas and cellos, bar 17 beat 1 up to bar 25). L5 is the chorus strings (full section, bar 25 beat 1 up to bar 41). I can also move both. (2) Earlier or later? (3) How far is 'a bit'? For example 1 beat, 2 beats or a whole bar. Also, should the start and end move together (the part shifts but stays the same length), or should only the start move? Two limits to know about: L5 already ends at the end of the piece (bar 41 beat 1), so it can't move later without being shortened. And if L4 moves later while L5 stays put, the two would overlap. After the move, that strings part will need re-rendering, plus L5 if you move L4 and they overlap or L5's timing changes."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.1169136,
+     "duration_api_ms": 38057,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 38.887165784835815,
+    "stale": [],
+    "questions": [
+     "I haven't changed anything yet. 'Move the strings a bit' could mean a few different things, so I need some details first. (1) Which strings? There are two string layers: L4 in verse 1 (soft violas and cellos, now bars 17–24, entering at bar 17 beat 1 and exiting at bar 25 beat 1) and L5 in the chorus (full section, now bars 25–40, exiting at bar 41 beat 1). Do you mean one of them or both? (2) Do you want to move the timing, the mix level or both? For timing: which direction, how far, and should the start, the end or the whole layer move? For example, 'L4 enters at bar 21' or 'L5 starts two beats earlier, at bar 24 beat 3'. For level: how many dB up or down? (3) Note that bars 17–20 have an unsettled downbeat (two readings fit), and L4 enters at bar 17. If the strings sound early or late there, the problem may be the tempo map rather than the layer. In that case I'd fix the downbeat, and every layer tied to the clock would need re-rendering. Is that what you're hearing? (4) If L4 moves, L5's prompt still asks for a 'long swell into bar 25' and its notes say 'Strings arrive with the voice opening up'. Should those stay as they are?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.1158336,
+     "duration_api_ms": 37136,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 37.994898557662964,
+    "stale": [],
+    "questions": [
+     "I haven't changed anything yet because 'move the strings a bit' could mean several things. Which strings layer do you mean? There are two: L4 (verse strings, bars 17–24, entering at bar 17 beat 1 and exiting at bar 25 beat 1) and L5 (chorus strings, bars 25–40, entering at bar 25 beat 1 and exiting at bar 41 beat 1). Or do you mean both?",
+     "Which way, and how far? For example, start 2 bars later, start 1 beat earlier, or shift the whole layer by 1 bar. Should only the entrance move, only the exit, or both so the length stays the same?",
+     "Two things to keep in mind. L5 can't be moved later as a whole, because it already ends at the end of the piece (bar 41 beat 1). And if you bring L5 in earlier, it would overlap L4 and come in before the chorus vocal. Your notes say 'Strings arrive with the voice opening up', so is that what you want?",
+     "Or did you mean something other than timing, like moving the strings in the mix (level), changing their register, or changing what they play?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"I need more detail before I move anything. There are two strings layers. L4 is the verse 1 strings: soft violas and cellos that start at bar 17 and stop at the end of bar 24, so they exit at bar 25 beat 1. L5 is the chorus strings: a full section from bar 25 through the end of bar 40, so they exit at bar 41 beat 1. Which one should I move, or both?\", \"Which way should they move, and how far? For example: start L4 a few bars earlier, say at bar 13 instead of bar 17. Or shift the start or end by a beat or two.\", \"Should I move the whole layer, keeping its length the same? Or should I only change where it starts, or only where it ends?\", \"One thing to know: if L4 moves earlier than bar 17, it will overlap the bars 17–20 area. The downbeat there is still uncertain, so we may want to settle that in the tempo map first.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.1186674,
+     "duration_api_ms": 4369,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 5.588660717010498,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "I need more detail before I move anything. There are two strings layers. L4 is the verse 1 strings: soft violas and cellos that start at bar 17 and stop at the end of bar 24, so they exit at bar 25 beat 1. L5 is the chorus strings: a full section from bar 25 through the end of bar 40, so they exit at bar 41 beat 1. Which one should I move, or both?",
+     "Which way should they move, and how far? For example: start L4 a few bars earlier, say at bar 13 instead of bar 17. Or shift the start or end by a beat or two.",
+     "Should I move the whole layer, keeping its length the same? Or should I only change where it starts, or only where it ends?",
+     "One thing to know: if L4 moves earlier than bar 17, it will overlap the bars 17–20 area. The downbeat there is still uncertain, so we may want to settle that in the tempo map first."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"I need a few details before I move anything, because 'move the strings a bit' could mean several things. (1) Which strings? There are two layers: L4 (verse strings, bars 17–24, entering at bar 17 beat 1 and exiting at bar 25 beat 1) and L5 (chorus strings, bars 25–40, entering at bar 25 beat 1 and exiting at bar 41 beat 1). Do you mean one of them or both? (2) Do you want them earlier or later? (3) By how much: a beat, half a bar, a whole bar, or something else? (4) Should only the entry point move, or the whole span, including where they stop? For example: 'start the verse strings at bar 19 instead of 17' or 'bring the chorus strings in 2 beats early'. Note that L4 currently stops exactly where L5 starts (bar 25), so moving one of them could leave a gap or an overlap there. Also, L5's prompt asks for a 'long swell into bar 25', but L5 itself starts at bar 25. If what you want is for the strings to swell into the chorus, I could start L5 a bar or two earlier. Whichever layer moves will need to be re-rendered.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.013391,
+     "duration_api_ms": 5409,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 6.321667671203613,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "I need a few details before I move anything, because 'move the strings a bit' could mean several things. (1) Which strings? There are two layers: L4 (verse strings, bars 17–24, entering at bar 17 beat 1 and exiting at bar 25 beat 1) and L5 (chorus strings, bars 25–40, entering at bar 25 beat 1 and exiting at bar 41 beat 1). Do you mean one of them or both? (2) Do you want them earlier or later? (3) By how much: a beat, half a bar, a whole bar, or something else? (4) Should only the entry point move, or the whole span, including where they stop? For example: 'start the verse strings at bar 19 instead of 17' or 'bring the chorus strings in 2 beats early'. Note that L4 currently stops exactly where L5 starts (bar 25), so moving one of them could leave a gap or an overlap there. Also, L5's prompt asks for a 'long swell into bar 25', but L5 itself starts at bar 25. If what you want is for the strings to swell into the chorus, I could start L5 a bar or two earlier. Whichever layer moves will need to be re-rendered."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"I need a few details before I move anything. There are two strings layers: L4 (verse 1, soft violas and cellos, bars 17–24, entering at bar 17 beat 1 and exiting at bar 25 beat 1) and L5 (chorus, full section, bars 25–40, entering at bar 25 beat 1 and exiting at bar 41 beat 1). Which one should move, or both? Should it start earlier or later, or should only its entry or exit change? And how far: a beat, half a bar, or a set number of bars? For example: 'bring the verse strings in 2 bars earlier, at bar 15'. Any move will mean re-rendering the strings layers that change.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.009911,
+     "duration_api_ms": 3967,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 5.0094451904296875,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "I need a few details before I move anything. There are two strings layers: L4 (verse 1, soft violas and cellos, bars 17–24, entering at bar 17 beat 1 and exiting at bar 25 beat 1) and L5 (chorus, full section, bars 25–40, entering at bar 25 beat 1 and exiting at bar 41 beat 1). Which one should move, or both? Should it start earlier or later, or should only its entry or exit change? And how far: a beat, half a bar, or a set number of bars? For example: 'bring the verse strings in 2 bars earlier, at bar 15'. Any move will mean re-rendering the strings layers that change."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.22352,
+     "duration_api_ms": 38452,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 39.34274864196777,
+    "stale": [],
+    "questions": [
+     "Which strings do you mean? There are two parts: L4, the soft violas and cellos in verse 1 (bar 17 to bar 25), and L5, the full section in the chorus (bar 25 to the end at bar 41). Or both?",
+     "Which way should they move, and by how much? For example, 'L4 starts 2 bars earlier, at bar 15' or 'L5 starts 1 beat late'. Should the whole part shift, or only where it starts or ends? Note that L5 already runs to the last bar (41), so moving it later would cut its end short unless you only want it to start later.",
+     "Did you mean moving them in time? If you meant something else, like turning them up or down or moving them left or right in the mix, tell me and I'll change that instead.",
+     "I haven't changed the plan yet. Whichever part you move will have to be re-rendered."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.11615819999999999,
+     "duration_api_ms": 38754,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 39.8142671585083,
+    "stale": [],
+    "questions": [
+     "\"Move the strings a bit\" could mean a few different things, so I haven't changed the plan yet. Which strings do you mean: L4 (the soft violas and cellos in verse 1, bars 17–24, starting at 78.621 s) or L5 (the full section in the chorus, bars 25–40, from 117.88 s to the end), or both?",
+     "Which way should they move, and how far? For example: start earlier or later, shift the whole layer by some number of bars or beats, or just change where it ends. Note that L5 already runs to the last bar (bar 41 exit, 199.602 s), so it can't be pushed any later without being shortened.",
+     "Is this a change in time at all? 'Move' could also mean changing the level (gain is currently 0 dB on both), sitting them lower or higher in register, or moving them in the stereo field.",
+     "Watch out for one thing: L5's text asks for a 'long swell into bar 25', but L5 doesn't start until bar 25. If you want that swell, L4 or L5 may need to start or overlap earlier. Should I fix that as part of this change?",
+     "Either strings layer will need re-rendering if its timing changes, and only that layer's candidates will be affected."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.1140582,
+     "duration_api_ms": 36877,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 37.8766188621521,
+    "stale": [],
+    "questions": [
+     "I haven't changed anything yet because I need to know which strings you mean and how to move them. There are two strings layers. L4 is the verse strings (soft violas and cellos, bar 17 to the end of bar 24, 78.621–117.88 s). L5 is the chorus strings (full section, bar 25 to the end of bar 40, 117.88–199.602 s). Do you want to move L4, L5 or both?",
+     "Which way and how far? For example: start L4 earlier or later (say bar 15 or bar 19 instead of bar 17), or start L5 earlier so its swell begins before the chorus at bar 25. Do you want to move the whole layer, or only where it starts or ends? Please give a bar number or a number of bars.",
+     "Or did you mean something else by 'move'? It could mean changing the level (both layers are at 0 dB now) or changing the register or voicing (L4 currently sits under the left hand)."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ]
+ }
+}

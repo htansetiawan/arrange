@@ -1,0 +1,290 @@
+{
+ "Fi0": {
+  "voice": "groban",
+  "shift": -12,
+  "pred": -6,
+  "offset_from_pred": -6
+ },
+ "Ne4": {
+  "voice": "groban",
+  "shift": -10,
+  "pred": -6,
+  "offset_from_pred": -4
+ },
+ "Ku7": {
+  "voice": "groban",
+  "shift": -8,
+  "pred": -6,
+  "offset_from_pred": -2
+ },
+ "Gi2": {
+  "voice": "groban",
+  "shift": -6,
+  "pred": -6,
+  "offset_from_pred": 0
+ },
+ "Ve6": {
+  "voice": "groban",
+  "shift": -4,
+  "pred": -6,
+  "offset_from_pred": 2
+ },
+ "Ge6": {
+  "voice": "groban",
+  "shift": -2,
+  "pred": -6,
+  "offset_from_pred": 4
+ },
+ "Ri1": {
+  "voice": "adams",
+  "shift": -6,
+  "pred": 0,
+  "offset_from_pred": -6
+ },
+ "Ra7": {
+  "voice": "adams",
+  "shift": -4,
+  "pred": 0,
+  "offset_from_pred": -4
+ },
+ "Lo0": {
+  "voice": "adams",
+  "shift": -2,
+  "pred": 0,
+  "offset_from_pred": -2
+ },
+ "Ta4": {
+  "voice": "adams",
+  "shift": 0,
+  "pred": 0,
+  "offset_from_pred": 0
+ },
+ "Mu2": {
+  "voice": "adams",
+  "shift": 2,
+  "pred": 0,
+  "offset_from_pred": 2
+ },
+ "Zo6": {
+  "voice": "adams",
+  "shift": 4,
+  "pred": 0,
+  "offset_from_pred": 4
+ },
+ "Fu0": {
+  "voice": "clarkson",
+  "shift": -2,
+  "pred": 4,
+  "offset_from_pred": -6
+ },
+ "Du6": {
+  "voice": "clarkson",
+  "shift": 0,
+  "pred": 4,
+  "offset_from_pred": -4
+ },
+ "Re6": {
+  "voice": "clarkson",
+  "shift": 2,
+  "pred": 4,
+  "offset_from_pred": -2
+ },
+ "Fa4": {
+  "voice": "clarkson",
+  "shift": 4,
+  "pred": 4,
+  "offset_from_pred": 0
+ },
+ "Ve3": {
+  "voice": "clarkson",
+  "shift": 6,
+  "pred": 4,
+  "offset_from_pred": 2
+ },
+ "Ta2": {
+  "voice": "clarkson",
+  "shift": 8,
+  "pred": 4,
+  "offset_from_pred": 4
+ },
+ "Ci0": {
+  "voice": "ariana",
+  "shift": -2,
+  "pred": 4,
+  "offset_from_pred": -6
+ },
+ "Wi3": {
+  "voice": "ariana",
+  "shift": 0,
+  "pred": 4,
+  "offset_from_pred": -4
+ },
+ "Do6": {
+  "voice": "ariana",
+  "shift": 2,
+  "pred": 4,
+  "offset_from_pred": -2
+ },
+ "Zi9": {
+  "voice": "ariana",
+  "shift": 4,
+  "pred": 4,
+  "offset_from_pred": 0
+ },
+ "Ta5": {
+  "voice": "ariana",
+  "shift": 6,
+  "pred": 4,
+  "offset_from_pred": 2
+ },
+ "Ke3": {
+  "voice": "ariana",
+  "shift": 8,
+  "pred": 4,
+  "offset_from_pred": 4
+ },
+ "Fo7": {
+  "voice": "jackson",
+  "shift": -7,
+  "pred": -1,
+  "offset_from_pred": -6
+ },
+ "Pa1": {
+  "voice": "jackson",
+  "shift": -5,
+  "pred": -1,
+  "offset_from_pred": -4
+ },
+ "Lu1": {
+  "voice": "jackson",
+  "shift": -3,
+  "pred": -1,
+  "offset_from_pred": -2
+ },
+ "Ca5": {
+  "voice": "jackson",
+  "shift": -1,
+  "pred": -1,
+  "offset_from_pred": 0
+ },
+ "Gu6": {
+  "voice": "jackson",
+  "shift": 1,
+  "pred": -1,
+  "offset_from_pred": 2
+ },
+ "Ka2": {
+  "voice": "jackson",
+  "shift": 3,
+  "pred": -1,
+  "offset_from_pred": 4
+ },
+ "Zu2": {
+  "voice": "bolton",
+  "shift": -5,
+  "pred": 1,
+  "offset_from_pred": -6
+ },
+ "We0": {
+  "voice": "bolton",
+  "shift": -3,
+  "pred": 1,
+  "offset_from_pred": -4
+ },
+ "Si6": {
+  "voice": "bolton",
+  "shift": -1,
+  "pred": 1,
+  "offset_from_pred": -2
+ },
+ "Ja0": {
+  "voice": "bolton",
+  "shift": 1,
+  "pred": 1,
+  "offset_from_pred": 0
+ },
+ "Me6": {
+  "voice": "bolton",
+  "shift": 3,
+  "pred": 1,
+  "offset_from_pred": 2
+ },
+ "Na4": {
+  "voice": "bolton",
+  "shift": 5,
+  "pred": 1,
+  "offset_from_pred": 4
+ },
+ "Gi4": {
+  "voice": "wonder",
+  "shift": -4,
+  "pred": 2,
+  "offset_from_pred": -6
+ },
+ "Ci2": {
+  "voice": "wonder",
+  "shift": -2,
+  "pred": 2,
+  "offset_from_pred": -4
+ },
+ "Pi8": {
+  "voice": "wonder",
+  "shift": 0,
+  "pred": 2,
+  "offset_from_pred": -2
+ },
+ "Ri0": {
+  "voice": "wonder",
+  "shift": 2,
+  "pred": 2,
+  "offset_from_pred": 0
+ },
+ "Ha0": {
+  "voice": "wonder",
+  "shift": 4,
+  "pred": 2,
+  "offset_from_pred": 2
+ },
+ "Wi9": {
+  "voice": "wonder",
+  "shift": 6,
+  "pred": 2,
+  "offset_from_pred": 4
+ },
+ "Ha3": {
+  "voice": "buble",
+  "shift": -12,
+  "pred": -6,
+  "offset_from_pred": -6
+ },
+ "Xe1": {
+  "voice": "buble",
+  "shift": -10,
+  "pred": -6,
+  "offset_from_pred": -4
+ },
+ "Ga3": {
+  "voice": "buble",
+  "shift": -8,
+  "pred": -6,
+  "offset_from_pred": -2
+ },
+ "Za3": {
+  "voice": "buble",
+  "shift": -6,
+  "pred": -6,
+  "offset_from_pred": 0
+ },
+ "Ta1": {
+  "voice": "buble",
+  "shift": -4,
+  "pred": -6,
+  "offset_from_pred": 2
+ },
+ "Lu2": {
+  "voice": "buble",
+  "shift": -2,
+  "pred": -6,
+  "offset_from_pred": 4
+ }
+}

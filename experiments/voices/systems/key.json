@@ -1,0 +1,242 @@
+{
+ "D5": {
+  "song": "all-the-things-cohen",
+  "system": "Seed-VC",
+  "voice": "adams",
+  "shift": -1,
+  "mix": "all-the-things-cohen__seedvc__adams-1",
+  "repeat": false
+ },
+ "B2": {
+  "song": "all-the-things-cohen",
+  "system": "TechSinger",
+  "voice": "EN-Alto-2",
+  "shift": 0,
+  "mix": "all-the-things-cohen__techsinger__EN-Alto-2+0",
+  "repeat": true
+ },
+ "B4": {
+  "song": "color-purple",
+  "system": "Seed-VC",
+  "voice": "adams",
+  "shift": -6,
+  "mix": "color-purple__seedvc__adams-6",
+  "repeat": false
+ },
+ "G7": {
+  "song": "all-the-things-cohen",
+  "system": "Seed-VC",
+  "voice": "clarkson",
+  "shift": 2,
+  "mix": "all-the-things-cohen__seedvc__clarkson+2",
+  "repeat": false
+ },
+ "R9": {
+  "song": "color-purple",
+  "system": "TechSinger",
+  "voice": "EN-Alto-2",
+  "shift": 0,
+  "mix": "color-purple__techsinger__EN-Alto-2+0",
+  "repeat": false
+ },
+ "B5": {
+  "song": "all-the-things-cohen",
+  "system": "TechSinger",
+  "voice": "EN-Tenor-1",
+  "shift": 0,
+  "mix": "all-the-things-cohen__techsinger__EN-Tenor-1+0",
+  "repeat": false
+ },
+ "W3": {
+  "song": "someday-my-prince",
+  "system": "TechSinger",
+  "voice": "EN-Alto-1",
+  "shift": 0,
+  "mix": "someday-my-prince__techsinger__EN-Alto-1+0",
+  "repeat": false
+ },
+ "T3": {
+  "song": "someday-my-prince",
+  "system": "SoulX",
+  "voice": "bolton",
+  "shift": -11,
+  "mix": "someday-my-prince__soulx__bolton-11",
+  "repeat": true
+ },
+ "B3": {
+  "song": "someday-my-prince",
+  "system": "SoulX",
+  "voice": "clarkson",
+  "shift": 1,
+  "mix": "someday-my-prince__soulx__clarkson+1",
+  "repeat": false
+ },
+ "M7": {
+  "song": "color-purple",
+  "system": "TechSinger",
+  "voice": "EN-Alto-1",
+  "shift": 0,
+  "mix": "color-purple__techsinger__EN-Alto-1+0",
+  "repeat": false
+ },
+ "F6": {
+  "song": "someday-my-prince",
+  "system": "Seed-VC",
+  "voice": "ariana",
+  "shift": -2,
+  "mix": "someday-my-prince__seedvc__ariana-2",
+  "repeat": false
+ },
+ "K9": {
+  "song": "color-purple",
+  "system": "SoulX",
+  "voice": "henry-yard",
+  "shift": -12,
+  "mix": "own-score",
+  "repeat": false
+ },
+ "X2": {
+  "song": "someday-my-prince",
+  "system": "SoulX",
+  "voice": "ariana",
+  "shift": -2,
+  "mix": "someday-my-prince__soulx__ariana-2",
+  "repeat": false
+ },
+ "C6": {
+  "song": "all-the-things-cohen",
+  "system": "TechSinger",
+  "voice": "EN-Alto-2",
+  "shift": 0,
+  "mix": "all-the-things-cohen__techsinger__EN-Alto-2+0",
+  "repeat": false
+ },
+ "D6": {
+  "song": "color-purple",
+  "system": "SoulX",
+  "voice": "bolton",
+  "shift": -11,
+  "mix": "color-purple__soulx__bolton-11",
+  "repeat": false
+ },
+ "P8": {
+  "song": "someday-my-prince",
+  "system": "Seed-VC",
+  "voice": "bolton",
+  "shift": -11,
+  "mix": "someday-my-prince__seedvc__bolton-11",
+  "repeat": false
+ },
+ "H5": {
+  "song": "someday-my-prince",
+  "system": "Seed-VC",
+  "voice": "clarkson",
+  "shift": 1,
+  "mix": "someday-my-prince__seedvc__clarkson+1",
+  "repeat": false
+ },
+ "W7": {
+  "song": "color-purple",
+  "system": "SoulX",
+  "voice": "adams",
+  "shift": -6,
+  "mix": "color-purple__soulx__adams-6",
+  "repeat": false
+ },
+ "K6": {
+  "song": "color-purple",
+  "system": "Seed-VC",
+  "voice": "henry-yard",
+  "shift": -12,
+  "mix": "own-seedvc",
+  "repeat": false
+ },
+ "S5": {
+  "song": "all-the-things-cohen",
+  "system": "TechSinger",
+  "voice": "EN-Alto-1",
+  "shift": 0,
+  "mix": "all-the-things-cohen__techsinger__EN-Alto-1+0",
+  "repeat": false
+ },
+ "N2": {
+  "song": "all-the-things-cohen",
+  "system": "Seed-VC",
+  "voice": "bolton",
+  "shift": -4,
+  "mix": "all-the-things-cohen__seedvc__bolton-4",
+  "repeat": false
+ },
+ "Z3": {
+  "song": "color-purple",
+  "system": "Seed-VC",
+  "voice": "bolton",
+  "shift": -11,
+  "mix": "color-purple__seedvc__bolton-11",
+  "repeat": false
+ },
+ "P7": {
+  "song": "someday-my-prince",
+  "system": "TechSinger",
+  "voice": "EN-Alto-2",
+  "shift": 0,
+  "mix": "someday-my-prince__techsinger__EN-Alto-2+0",
+  "repeat": false
+ },
+ "L6": {
+  "song": "someday-my-prince",
+  "system": "SoulX",
+  "voice": "bolton",
+  "shift": -11,
+  "mix": "someday-my-prince__soulx__bolton-11",
+  "repeat": false
+ },
+ "H8": {
+  "song": "color-purple",
+  "system": "TechSinger",
+  "voice": "EN-Tenor-1",
+  "shift": -12,
+  "mix": "color-purple__techsinger__EN-Tenor-1-12",
+  "repeat": false
+ },
+ "J8": {
+  "song": "all-the-things-cohen",
+  "system": "SoulX",
+  "voice": "adams",
+  "shift": -1,
+  "mix": "all-the-things-cohen__soulx__adams-1",
+  "repeat": false
+ },
+ "M5": {
+  "song": "all-the-things-cohen",
+  "system": "SoulX",
+  "voice": "bolton",
+  "shift": -4,
+  "mix": "all-the-things-cohen__soulx__bolton-4",
+  "repeat": false
+ },
+ "Z5": {
+  "song": "all-the-things-cohen",
+  "system": "Seed-VC",
+  "voice": "adams",
+  "shift": -1,
+  "mix": "all-the-things-cohen__seedvc__adams-1",
+  "repeat": true
+ },
+ "W2": {
+  "song": "someday-my-prince",
+  "system": "TechSinger",
+  "voice": "EN-Tenor-1",
+  "shift": -12,
+  "mix": "someday-my-prince__techsinger__EN-Tenor-1-12",
+  "repeat": false
+ },
+ "G9": {
+  "song": "all-the-things-cohen",
+  "system": "SoulX",
+  "voice": "clarkson",
+  "shift": 2,
+  "mix": "all-the-things-cohen__soulx__clarkson+2",
+  "repeat": false
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "session": "S2",
+ "arm": "patch",
+ "model": "qwen3.5-27b-fp8",
+ "draw": 1,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Use the second vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L2"
+   ],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 117.3,
+   "raw": "\n\n{\n  \"edits\": [\n    {\n      \"path\": \"layers.L1.chosen\",\n      \"value\": \"L1c2\"\n    }\n  ],\n  \"stale\": [\n    \"L2\"\n  ],\n  \"questions\": [],\n  \"tempo_map_corrections\": []\n}"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 142.2,
+   "raw": "\n\n{\n  \"edits\": [\n    {\n      \"path\": \"layers.L2.anchors.enter.bar\",\n      \"value\": 21\n    }\n  ],\n  \"stale\": [\n    \"L2\"\n  ],\n  \"questions\": [],\n  \"tempo_map_corrections\": []\n}"
+  },
+  {
+   "turn": 3,
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.conditions.audio_context",
+    "layers.L2.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 12.5,
+   "raw": "\n\n{\n  \"edits\": [\n    {\"path\": \"layers.L2.conditions.audio_context\", \"value\": [\"piano\"]},\n    {\"path\": \"layers.L2.conditions.depends_on\", \"value\": [\"clock\", \"piano\"]}\n  ],\n  \"stale\": [\"L2\"],\n  \"questions\": [],\n  \"tempo_map_corrections\": []\n}"
+  },
+  {
+   "turn": 4,
+   "text": "Turn the vocal up 2 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 100.9,
+   "raw": "\n\n{\"edits\": [{\"path\": \"layers.L1.gain_db\", \"value\": 2.0}], \"stale\": [], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 5,
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [
+    "L1",
+    "L2",
+    "L3"
+   ],
+   "elapsed": 34.3,
+   "raw": "\n\n{\n  \"edits\": [],\n  \"stale\": [\"L1\", \"L2\", \"L3\"],\n  \"questions\": [\"You said bar 33's downbeat is about half a second earlier than the grid. What exact time (in seconds) should bar 33 beat 1 start at, so I can record the tempo map correction precisely?\"],\n  \"tempo_map_corrections\": []\n}"
+  },
+  {
+   "turn": 6,
+   "text": "Let the strings run two bars longer at the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 16.8,
+   "raw": "\n\n{\"edits\": [{\"path\": \"layers.L2.anchors.exit.bar\", \"value\": 25}], \"stale\": [\"L2\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 7,
+   "text": "Make it more emotional.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 12.2,
+   "raw": "\n\n{\n  \"edits\": [],\n  \"stale\": [],\n  \"questions\": [\"'Make it more emotional' is vague—what specifically should change? Options: adjust the vocal delivery (L1), make the strings more expressive (L2), un-stub the brass layer (L3) and add actual brass, add dynamics/gain changes, or something else? Please specify which layer(s) and what kind of emotional change you want.\"],\n  \"tempo_map_corrections\": []\n}"
+  },
+  {
+   "turn": 8,
+   "text": "Go back to the fourth vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 44.7,
+   "raw": "\n\n{\n  \"edits\": [\n    {\"path\": \"layers.L1.chosen\", \"value\": \"L1c4\"}\n  ],\n  \"stale\": [],\n  \"questions\": [],\n  \"tempo_map_corrections\": []\n}"
+  }
+ ],
+ "final_drift": 1,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 7,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.0
+}

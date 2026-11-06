@@ -1,0 +1,751 @@
+{
+ "id": "h2",
+ "cat": "h",
+ "fixture": "synthetic",
+ "text": "Swap the verse strings for a guitar and bring it in at bar 20 instead of 17.",
+ "gold_ops": [
+  {
+   "op": "set_class",
+   "layer": "L4",
+   "class": "guitar"
+  },
+  {
+   "op": "set_entry",
+   "layer": "L4",
+   "bar": 20,
+   "beat": 1
+  }
+ ],
+ "gold_paths": [
+  "layers.L4.anchors.enter.bar",
+  "layers.L4.class",
+  "layers.L4.job.params.prompt",
+  "layers.L4.job.params.track_name",
+  "layers.L4.name",
+  "layers.L4.owner.anchors",
+  "layers.L4.owner.prompt"
+ ],
+ "gold_stale": [
+  "L4"
+ ],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"set_class\",\"layer\":\"L4\",\"class\":\"guitar\"},{\"op\":\"set_entry\",\"layer\":\"L4\",\"bar\":20,\"beat\":1.0}]",
+    "usage": {
+     "total_cost_usd": 0.1257114,
+     "duration_api_ms": 7120,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 8.024072408676147,
+    "ops": [
+     {
+      "op": "set_class",
+      "layer": "L4",
+      "class": "guitar"
+     },
+     {
+      "op": "set_entry",
+      "layer": "L4",
+      "bar": 20,
+      "beat": 1.0
+     }
+    ],
+    "applied": [
+     "L4 class strings -> guitar; prompt rewritten",
+     "L4 enter 17:1 -> 20:1"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L4"
+    ],
+    "diff": [
+     "layers.L4.anchors.enter.bar",
+     "layers.L4.class",
+     "layers.L4.job.params.prompt",
+     "layers.L4.job.params.track_name",
+     "layers.L4.name",
+     "layers.L4.owner.anchors",
+     "layers.L4.owner.prompt"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"set_class\",\"layer\":\"L4\",\"class\":\"guitar\"},{\"op\":\"set_entry\",\"layer\":\"L4\",\"bar\":20,\"beat\":1.0}]",
+    "usage": {
+     "total_cost_usd": 0.0199026,
+     "duration_api_ms": 8463,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 9.505056619644165,
+    "ops": [
+     {
+      "op": "set_class",
+      "layer": "L4",
+      "class": "guitar"
+     },
+     {
+      "op": "set_entry",
+      "layer": "L4",
+      "bar": 20,
+      "beat": 1.0
+     }
+    ],
+    "applied": [
+     "L4 class strings -> guitar; prompt rewritten",
+     "L4 enter 17:1 -> 20:1"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L4"
+    ],
+    "diff": [
+     "layers.L4.anchors.enter.bar",
+     "layers.L4.class",
+     "layers.L4.job.params.prompt",
+     "layers.L4.job.params.track_name",
+     "layers.L4.name",
+     "layers.L4.owner.anchors",
+     "layers.L4.owner.prompt"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"set_class\",\"layer\":\"L4\",\"class\":\"guitar\"},{\"op\":\"set_entry\",\"layer\":\"L4\",\"bar\":20,\"beat\":1.0}]",
+    "usage": {
+     "total_cost_usd": 0.0142826,
+     "duration_api_ms": 5812,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 6.746147632598877,
+    "ops": [
+     {
+      "op": "set_class",
+      "layer": "L4",
+      "class": "guitar"
+     },
+     {
+      "op": "set_entry",
+      "layer": "L4",
+      "bar": 20,
+      "beat": 1.0
+     }
+    ],
+    "applied": [
+     "L4 class strings -> guitar; prompt rewritten",
+     "L4 enter 17:1 -> 20:1"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L4"
+    ],
+    "diff": [
+     "layers.L4.anchors.enter.bar",
+     "layers.L4.class",
+     "layers.L4.job.params.prompt",
+     "layers.L4.job.params.track_name",
+     "layers.L4.name",
+     "layers.L4.owner.anchors",
+     "layers.L4.owner.prompt"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 1, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.25803940000000003,
+     "duration_api_ms": 54152,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 55.00459694862366,
+    "stale": [
+     "L4"
+    ],
+    "questions": [
+     "I made the verse guitar a generated part (ace-step, listening to the piano and the verse vocal). Your recorded nylon take (L6, asset a1) only covers chorus bars 33–40, so I didn't use it here. If you have your own guitar recording for the verse, tell me which asset it is and I'll switch L4 to a take.",
+     "Bar 20 is inside bars 17–20, where the downbeat could be read two ways (it might also be a fermata). The guitar's start time depends on which reading is right. Can you confirm where bar 20 beat 1 falls, or give me a tempo-map correction?",
+     "I kept 'soft, one chord per bar, under the left hand' from the strings brief and dropped the string-only parts ('sustained violas and cellos, no vibrato'). Do you want a specific guitar sound, like nylon fingerpicked to match your chorus take, or strummed?",
+     "The current L4 renders are strings starting at bar 17. L4 still points to L4c1 until new guitar renders are made."
+    ],
+    "diff": [
+     "layers.L4.anchors.enter.bar",
+     "layers.L4.class",
+     "layers.L4.job.params.prompt",
+     "layers.L4.job.params.track_name",
+     "layers.L4.name",
+     "layers.L4.owner.anchors",
+     "layers.L4.owner.exists",
+     "layers.L4.owner.prompt",
+     "layers.L4.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.833,
+     "collateral": [
+      "layers.L4.text"
+     ],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 1, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.1500378,
+     "duration_api_ms": 54016,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 54.98725366592407,
+    "stale": [
+     "L4"
+    ],
+    "questions": [
+     "I made the verse guitar a generated part (same audio route, still listening to the piano and the verse vocal). If you meant your own recording, tell me which take to use: the only guitar take in the plan, a1, is already used for chorus bars 33–40.",
+     "I rewrote the description as 'soft guitar, one chord per bar, under the left hand' and dropped 'violas and cellos, no vibrato'. Do you want a particular guitar (nylon to match your chorus take, or steel-string) or a style (strummed or fingerpicked)?",
+     "Bar 20 is inside bars 17–20, where the downbeat is still unclear (two readings fit, and it could be a fermata). Where the guitar actually comes in depends on which reading is right. If you can confirm where bar 20's downbeat falls, I'll correct the tempo map."
+    ],
+    "diff": [
+     "layers.L4.anchors.enter.bar",
+     "layers.L4.class",
+     "layers.L4.job.params.prompt",
+     "layers.L4.job.params.track_name",
+     "layers.L4.name",
+     "layers.L4.owner.anchors",
+     "layers.L4.owner.exists",
+     "layers.L4.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.833,
+     "collateral": [
+      "layers.L4.text"
+     ],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 1, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.1412178,
+     "duration_api_ms": 49758,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 50.78977584838867,
+    "stale": [
+     "L4"
+    ],
+    "questions": [
+     "I've treated the verse guitar as a generated part (same audio route, still listening to piano + verse vocal L1), not as a recording of yours. Your nylon guitar take (L6) only covers chorus bars 33–40. If you have a take you want for bars 20–24 too, tell me and I'll switch L4 to a take.",
+     "I dropped the string wording (violas/cellos, no vibrato) and kept 'soft, one chord per bar, under the left hand'. Do you want a particular guitar sound, like nylon fingerpicked to match L6, or steel strum/arpeggio?",
+     "Where bar 20 starts depends on how bars 17–20 are read. The downbeat there is still unresolved (two readings fit, possibly a fermata), so I can't pin the guitar's start time down until that's settled. If you know where the bar 20 downbeat falls in the recording, give me the time and I'll correct the tempo map.",
+     "Note: nothing else depends on L4, so only L4 needs re-rendering. The chorus strings (L5) are unchanged."
+    ],
+    "diff": [
+     "layers.L4.anchors.enter.bar",
+     "layers.L4.class",
+     "layers.L4.job.params.prompt",
+     "layers.L4.job.params.track_name",
+     "layers.L4.name",
+     "layers.L4.owner.anchors",
+     "layers.L4.owner.exists",
+     "layers.L4.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.833,
+     "collateral": [
+      "layers.L4.text"
+     ],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [{\"path\": \"layers.L4.name\", \"value\": \"guitar\"}, {\"path\": \"layers.L4.class\", \"value\": \"guitar\"}, {\"path\": \"layers.L4.text\", \"value\": \"soft guitar, one chord per bar, under the left hand\"}, {\"path\": \"layers.L4.job.params.track_name\", \"value\": \"guitar\"}, {\"path\": \"layers.L4.job.params.prompt\", \"value\": \"soft guitar, one chord per bar, under the left hand, guitar, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\"}, {\"path\": \"layers.L4.anchors.enter.bar\", \"value\": 20}], \"stale\": [\"L4\"], \"questions\": [\"I made the verse guitar a generated part, since your nylon guitar take (L6) is only planned for bars 33–40 of the chorus. If you meant to use your own recording here, tell me and I'll make L4 a take with its asset instead.\", \"Bar 20 falls inside the stretch (bars 17–20) where the downbeat could be read two ways. The guitar will come in at bar 20 beat 1 as the current tempo map places it. If that sounds early or late, send the corrected downbeat time and I'll fix the tempo map.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.1330154,
+     "duration_api_ms": 10430,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 11.404701232910156,
+    "edits": [
+     {
+      "path": "layers.L4.name",
+      "value": "guitar"
+     },
+     {
+      "path": "layers.L4.class",
+      "value": "guitar"
+     },
+     {
+      "path": "layers.L4.text",
+      "value": "soft guitar, one chord per bar, under the left hand"
+     },
+     {
+      "path": "layers.L4.job.params.track_name",
+      "value": "guitar"
+     },
+     {
+      "path": "layers.L4.job.params.prompt",
+      "value": "soft guitar, one chord per bar, under the left hand, guitar, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals"
+     },
+     {
+      "path": "layers.L4.anchors.enter.bar",
+      "value": 20
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L4"
+    ],
+    "questions": [
+     "I made the verse guitar a generated part, since your nylon guitar take (L6) is only planned for bars 33–40 of the chorus. If you meant to use your own recording here, tell me and I'll make L4 a take with its asset instead.",
+     "Bar 20 falls inside the stretch (bars 17–20) where the downbeat could be read two ways. The guitar will come in at bar 20 beat 1 as the current tempo map places it. If that sounds early or late, send the corrected downbeat time and I'll fix the tempo map."
+    ],
+    "diff": [
+     "layers.L4.anchors.enter.bar",
+     "layers.L4.class",
+     "layers.L4.job.params.prompt",
+     "layers.L4.job.params.track_name",
+     "layers.L4.name",
+     "layers.L4.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.833,
+     "collateral": [
+      "layers.L4.text"
+     ],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\": [{\"path\": \"layers.L4.name\", \"value\": \"guitar\"}, {\"path\": \"layers.L4.class\", \"value\": \"guitar\"}, {\"path\": \"layers.L4.text\", \"value\": \"soft guitar, one chord per bar, under the left hand\"}, {\"path\": \"layers.L4.job.params.track_name\", \"value\": \"guitar\"}, {\"path\": \"layers.L4.job.params.prompt\", \"value\": \"soft guitar, one chord per bar, under the left hand, guitar, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\"}, {\"path\": \"layers.L4.anchors.enter.bar\", \"value\": 20}], \"stale\": [\"L4\"], \"questions\": [\"I kept the verse guitar (L4) as a generated part that hears the piano and the verse vocal, and kept the strings' role: one chord per bar, under the left hand. If you meant your own recorded guitar instead, like the chorus take (a1), tell me which recording to use and I'll make it a take. Also tell me if you want nylon or steel, or fingerpicked rather than strummed.\", \"Bar 20 is in the stretch where the downbeat is still unclear (bars 17–20 fit two readings, and could be a fermata). Where the guitar actually comes in depends on which reading is right. If it lands in the wrong spot, tell me where bar 20 really starts and I'll correct the tempo map.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0323752,
+     "duration_api_ms": 13152,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 14.100909233093262,
+    "edits": [
+     {
+      "path": "layers.L4.name",
+      "value": "guitar"
+     },
+     {
+      "path": "layers.L4.class",
+      "value": "guitar"
+     },
+     {
+      "path": "layers.L4.text",
+      "value": "soft guitar, one chord per bar, under the left hand"
+     },
+     {
+      "path": "layers.L4.job.params.track_name",
+      "value": "guitar"
+     },
+     {
+      "path": "layers.L4.job.params.prompt",
+      "value": "soft guitar, one chord per bar, under the left hand, guitar, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals"
+     },
+     {
+      "path": "layers.L4.anchors.enter.bar",
+      "value": 20
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L4"
+    ],
+    "questions": [
+     "I kept the verse guitar (L4) as a generated part that hears the piano and the verse vocal, and kept the strings' role: one chord per bar, under the left hand. If you meant your own recorded guitar instead, like the chorus take (a1), tell me which recording to use and I'll make it a take. Also tell me if you want nylon or steel, or fingerpicked rather than strummed.",
+     "Bar 20 is in the stretch where the downbeat is still unclear (bars 17–20 fit two readings, and could be a fermata). Where the guitar actually comes in depends on which reading is right. If it lands in the wrong spot, tell me where bar 20 really starts and I'll correct the tempo map."
+    ],
+    "diff": [
+     "layers.L4.anchors.enter.bar",
+     "layers.L4.class",
+     "layers.L4.job.params.prompt",
+     "layers.L4.job.params.track_name",
+     "layers.L4.name",
+     "layers.L4.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.833,
+     "collateral": [
+      "layers.L4.text"
+     ],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\": [{\"path\": \"layers.L4.name\", \"value\": \"guitar\"}, {\"path\": \"layers.L4.class\", \"value\": \"guitar\"}, {\"path\": \"layers.L4.text\", \"value\": \"soft guitar, one chord per bar, under the left hand\"}, {\"path\": \"layers.L4.job.params.track_name\", \"value\": \"guitar\"}, {\"path\": \"layers.L4.job.params.prompt\", \"value\": \"soft guitar, one chord per bar, under the left hand, guitar, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\"}, {\"path\": \"layers.L4.anchors.enter.bar\", \"value\": 20}], \"stale\": [\"L4\"], \"questions\": [\"I've made the verse strings (L4) a generated guitar that comes in at bar 20, beat 1, and still stops before bar 25. Did you want a generated guitar here, or a recording of your own? Right now your only guitar recording (asset a1) is used in the chorus (L6, bars 33–40).\", \"The downbeat in bars 17–20 is still uncertain, with two readings that both fit. Bar 20 is inside that stretch, so the guitar's start could move by a beat or more depending on which reading is right. Do you want to confirm where bar 20's downbeat falls before L4 is re-rendered?\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.027795200000000003,
+     "duration_api_ms": 11028,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 12.030301809310913,
+    "edits": [
+     {
+      "path": "layers.L4.name",
+      "value": "guitar"
+     },
+     {
+      "path": "layers.L4.class",
+      "value": "guitar"
+     },
+     {
+      "path": "layers.L4.text",
+      "value": "soft guitar, one chord per bar, under the left hand"
+     },
+     {
+      "path": "layers.L4.job.params.track_name",
+      "value": "guitar"
+     },
+     {
+      "path": "layers.L4.job.params.prompt",
+      "value": "soft guitar, one chord per bar, under the left hand, guitar, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals"
+     },
+     {
+      "path": "layers.L4.anchors.enter.bar",
+      "value": 20
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L4"
+    ],
+    "questions": [
+     "I've made the verse strings (L4) a generated guitar that comes in at bar 20, beat 1, and still stops before bar 25. Did you want a generated guitar here, or a recording of your own? Right now your only guitar recording (asset a1) is used in the chorus (L6, bars 33–40).",
+     "The downbeat in bars 17–20 is still uncertain, with two readings that both fit. Bar 20 is inside that stretch, so the guitar's start could move by a beat or more depending on which reading is right. Do you want to confirm where bar 20's downbeat falls before L4 is re-rendered?"
+    ],
+    "diff": [
+     "layers.L4.anchors.enter.bar",
+     "layers.L4.class",
+     "layers.L4.job.params.prompt",
+     "layers.L4.job.params.track_name",
+     "layers.L4.name",
+     "layers.L4.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.833,
+     "collateral": [
+      "layers.L4.text"
+     ],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 1, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.264188,
+     "duration_api_ms": 57488,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 58.440601110458374,
+    "stale": [
+     "L4"
+    ],
+    "questions": [
+     "I made the verse guitar a new generated part (ace-step), like the strings it replaces. Did you mean that, or do you want to use a recorded guitar take of your own, as you do in the chorus (L6, asset a1)? If it's a take, which file should I use?",
+     "I set the bar 20 start to 93.343 s by spacing bars 17 to 25 evenly. The analysis lists the downbeats in bars 17–20 as ambiguous (two readings fit, and it could be a fermata), so the real downbeat of bar 20 may be off. Can you confirm where bar 20 lands, or give its time so I can correct the tempo map?",
+     "I wrote the guitar prompt as 'soft guitar, one chord per bar, under the left hand' and dropped the strings-only words ('sustained violas and cellos, no vibrato'). Do you want a particular kind of guitar (nylon or steel, fingerpicked or strummed)?",
+     "The ARRANGEMENT.md line for this part still reads '<strings: ... @bar 17>'. Should I update the notebook to match?"
+    ],
+    "diff": [
+     "layers.L4.anchors.enter.bar",
+     "layers.L4.chosen",
+     "layers.L4.class",
+     "layers.L4.job.params.prompt",
+     "layers.L4.job.params.track_name",
+     "layers.L4.name",
+     "layers.L4.notes",
+     "layers.L4.owner.anchors",
+     "layers.L4.owner.exists",
+     "layers.L4.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.625,
+     "collateral": [
+      "layers.L4.chosen",
+      "layers.L4.notes",
+      "layers.L4.text"
+     ],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.1525824,
+     "duration_api_ms": 55443,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 56.364213943481445,
+    "stale": [],
+    "questions": [
+     "I haven't changed anything yet. Bar 20 is the problem: the clock marks bars 17–20 as having an unclear downbeat. Two readings fit, and one of them treats those bars as a fermata. So the time where bar 20 starts isn't settled, and I can only see section boundaries, not the full tempo map. If I estimated it, the guitar could come in a beat or more off. Which reading of bars 17–20 is right? Or can you give me the time in seconds where bar 20, beat 1 lands in the piano take?",
+     "What kind of guitar do you want in the verse (bars 20–24)? (a) A generated guitar that keeps the strings' role: one chord per bar, under the left hand, nylon and fingerpicked to match your chorus take. (b) Your own recording? Your take a1 is only placed at bars 33–40 now, so I'd need a recording that covers the verse. (c) Something else, such as steel-string or strummed?",
+     "The verse vocal (L1) and the chorus strings (L5) stay as they are. Once you answer, I'll turn L4 into the guitar layer from bar 20 to bar 25 and mark it for re-rendering. Its three current string renders will be discarded."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 1, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.1520824,
+     "duration_api_ms": 56973,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 57.970134258270264,
+    "stale": [
+     "L4"
+    ],
+    "questions": [
+     "I treated the verse guitar as a new generated part, separate from your nylon guitar take (L6, asset a1) in the chorus. Did you want to use a recording of your own here instead? If so, which asset or take should I use?",
+     "I took out the strings-only details (violas and cellos, no vibrato) and kept 'soft, one chord per bar, under the left hand'. What should the guitar sound like (nylon or steel, fingerpicked or strummed, sustained chords)?",
+     "I estimated bar 20 at 93.343s by spreading bars 17–25 evenly (about 4.907s per bar, roughly 49 BPM). The analysis says the downbeats in bars 17–20 are unclear and could be a fermata, so the guitar entry may be off. Can you check where bar 20 starts in your piano take and send a correction if it's wrong?",
+     "ARRANGEMENT.md still says '<strings: ... @bar 17>' for this part. Should I update the notebook to match?"
+    ],
+    "diff": [
+     "layers.L4.anchors.enter.bar",
+     "layers.L4.candidates",
+     "layers.L4.candidates[0].id",
+     "layers.L4.candidates[0].parents.L1",
+     "layers.L4.candidates[0].parents.clock",
+     "layers.L4.candidates[0].parents.piano",
+     "layers.L4.candidates[0].path",
+     "layers.L4.candidates[1].id",
+     "layers.L4.candidates[1].parents.L1",
+     "layers.L4.candidates[1].parents.clock",
+     "layers.L4.candidates[1].parents.piano",
+     "layers.L4.candidates[1].path",
+     "layers.L4.candidates[2].id",
+     "layers.L4.candidates[2].parents.L1",
+     "layers.L4.candidates[2].parents.clock",
+     "layers.L4.candidates[2].parents.piano",
+     "layers.L4.candidates[2].path",
+     "layers.L4.chosen",
+     "layers.L4.class",
+     "layers.L4.job.params.prompt",
+     "layers.L4.job.params.track_name",
+     "layers.L4.name",
+     "layers.L4.owner.anchors",
+     "layers.L4.owner.exists",
+     "layers.L4.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.217,
+     "collateral": [
+      "layers.L4.candidates",
+      "layers.L4.candidates[0].id",
+      "layers.L4.candidates[0].parents.L1",
+      "layers.L4.candidates[0].parents.clock",
+      "layers.L4.candidates[0].parents.piano",
+      "layers.L4.candidates[0].path",
+      "layers.L4.candidates[1].id",
+      "layers.L4.candidates[1].parents.L1",
+      "layers.L4.candidates[1].parents.clock",
+      "layers.L4.candidates[1].parents.piano",
+      "layers.L4.candidates[1].path",
+      "layers.L4.candidates[2].id",
+      "layers.L4.candidates[2].parents.L1",
+      "layers.L4.candidates[2].parents.clock",
+      "layers.L4.candidates[2].parents.piano",
+      "layers.L4.candidates[2].path",
+      "layers.L4.chosen",
+      "layers.L4.text"
+     ],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L4"
+     ],
+     "expected_stale": [
+      "L4"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ]
+ }
+}

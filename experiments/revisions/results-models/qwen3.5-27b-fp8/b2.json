@@ -1,0 +1,555 @@
+{
+ "id": "b2",
+ "cat": "b",
+ "fixture": "synthetic",
+ "text": "I want the guitar to hear the piano and the vocal only, not the strings.",
+ "gold_ops": [
+  {
+   "op": "ask",
+   "question": "L6 guitar is your own take; a take does not listen to anything, so there is nothing to change. Did you mean a different layer?"
+  }
+ ],
+ "gold_paths": [
+  "open.questions"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "\n\n[{\"op\":\"ask\",\"question\":\"The guitar layer (L6) is a recorded 'take', which the schema specifies cannot consume audio context. Would you like to update its 'depends_on' list to track the piano and vocal instead, or is there a different adjustment needed?\"}]",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4760,
+      "total_tokens": 12865,
+      "completion_tokens": 8105,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 8044
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 210.94296717643738,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "The guitar layer (L6) is a recorded 'take', which the schema specifies cannot consume audio context. Would you like to update its 'depends_on' list to track the piano and vocal instead, or is there a different adjustment needed?"
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "The guitar layer (L6) is a recorded 'take', which the schema specifies cannot consume audio context. Would you like to update its 'depends_on' list to track the piano and vocal instead, or is there a different adjustment needed?"
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n[{\"op\":\"ask\",\"question\":\"The guitar layer (L6) is defined as a 'take' (recorded audio), which the schema specifies does not accept audio context inputs. Would you like to convert this to a generated layer to enable this, or is this instruction intended for the final mix balance?\"}]",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4760,
+      "total_tokens": 12749,
+      "completion_tokens": 7989,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 7922
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 207.73443698883057,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "The guitar layer (L6) is defined as a 'take' (recorded audio), which the schema specifies does not accept audio context inputs. Would you like to convert this to a generated layer to enable this, or is this instruction intended for the final mix balance?"
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "The guitar layer (L6) is defined as a 'take' (recorded audio), which the schema specifies does not accept audio context inputs. Would you like to convert this to a generated layer to enable this, or is this instruction intended for the final mix balance?"
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\"op\": \"ask\", \"question\": \"Take layers (like your guitar at L6) are recorded audio and do not support audio_context in this schema. Did you mean to: 1) Convert the guitar to a generated layer (so it can use context), 2) Adjust the context for the strings (L4/L5), or 3) Keep the guitar as a take (context ignored)?\"}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4760,
+      "total_tokens": 11286,
+      "completion_tokens": 6526,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 6438
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 169.47146487236023,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "Take layers (like your guitar at L6) are recorded audio and do not support audio_context in this schema. Did you mean to: 1) Convert the guitar to a generated layer (so it can use context), 2) Adjust the context for the strings (L4/L5), or 3) Keep the guitar as a take (context ignored)?"
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "Take layers (like your guitar at L6) are recorded audio and do not support audio_context in this schema. Did you mean to: 1) Convert the guitar to a generated layer (so it can use context), 2) Adjust the context for the strings (L4/L5), or 3) Keep the guitar as a take (context ignored)?"
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [1, 69]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions\": \"claude\",\n          \"prompt\": \"creator\",\n          \"chosen\": \"claude\",\n          \"gain\": \"claude\"\n        },\n        \"status\": \"chosen\",\n        \"stale\": false,\n        \"stale_reason\": null,\n        \"notes\": \"\",\n        \"lyrics\": [\n          \"Red brick and elm, the morning bell\",\n          \"A hundred doors, a single hall\",\n          \"We learn the words we cannot tell\",\n          \"And find the quiet in it all\"\n        ]\n      },\n      {\n        \"id\": \"L2\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"open and full, harmony on the last line\",\n        \"from\": {\n          \"cell\": \"chorus\",\n          \"component\": 0,\n          \"raw\": \"<vocal: open and full, harmony on the last line !>\",\n          \"chars\": [44, 94]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 41,\n            \"beat\": 1.0\n          ",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4538,
+      "total_tokens": 11332,
+      "completion_tokens": 6794,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1207
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 176.42479753494263,
+    "stale": [],
+    "questions": [
+     "L6 (guitar) is a 'take' layer (your recorded audio), which cannot have audio_context - takes don't listen to other layers as input. Did you want to change L6 from a 'take' to a 'generated' layer so it can listen to piano and vocals? Or did you mean something else about how the guitar should be mixed?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [1, 69]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions\": \"claude\",\n          \"prompt\": \"creator\",\n          \"chosen\": \"claude\",\n          \"gain\": \"claude\"\n        },\n        \"status\": \"chosen\",\n        \"stale\": false,\n        \"stale_reason\": null,\n        \"notes\": \"\",\n        \"lyrics\": [\n          \"Red brick and elm, the morning bell\",\n          \"A hundred doors, a single hall\",\n          \"We learn the words we cannot tell\",\n          \"And find the quiet in it all\"\n        ]\n      },\n      {\n        \"id\": \"L2\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"open and full, harmony on the last line\",\n        \"from\": {\n          \"cell\": \"chorus\",\n          \"component\": 0,\n          \"raw\": \"<vocal: open and full, harmony on the last line !>\",\n          \"chars\": [44, 94]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 41,\n            \"beat\": 1.0\n          ",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4538,
+      "total_tokens": 20175,
+      "completion_tokens": 15637,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 10043
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 409.6531558036804,
+    "stale": [],
+    "questions": [
+     "The guitar layer (L6) is defined as a 'take' (recorded audio). In this arrangement schema, 'take' layers do not use audio_context for generation (they listen to nothing). Do you want to convert the guitar to a 'generated' layer so it can listen to the piano and vocal (L2), or is this instruction about the final mix balance rather than generation inputs?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [1, 69]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions\": \"claude\",\n          \"prompt\": \"creator\",\n          \"chosen\": \"claude\",\n          \"gain\": \"claude\"\n        },\n        \"status\": \"chosen\",\n        \"stale\": false,\n        \"stale_reason\": null,\n        \"notes\": \"\",\n        \"lyrics\": [\n          \"Red brick and elm, the morning bell\",\n          \"A hundred doors, a single hall\",\n          \"We learn the words we cannot tell\",\n          \"And find the quiet in it all\"\n        ]\n      },\n      {\n        \"id\": \"L2\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"open and full, harmony on the last line\",\n        \"from\": {\n          \"cell\": \"chorus\",\n          \"component\": 0,\n          \"raw\": \"<vocal: open and full, harmony on the last line !>\",\n          \"chars\": [44, 94]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 41,\n            \"beat\": 1.0\n          ",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4538,
+      "total_tokens": 12482,
+      "completion_tokens": 7944,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 2343
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 206.52063179016113,
+    "stale": [],
+    "questions": [
+     "The guitar layer (L6) is marked as a 'take' (your recorded performance). According to the schema, take layers cannot have audio_context (they don't 'hear' other layers during generation since they're already recorded). Do you want to convert L6 to a generated layer so it can use piano and vocal as audio context, or did you mean something else by 'hear' (such as the final mix balance)?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "\n\n{\n  \"edits\": [\n    {\n      \"path\": \"layers.L6.conditions.audio_context\",\n      \"value\": [\"piano\", \"L2\"]\n    }\n  ],\n  \"stale\": [],\n  \"questions\": [],\n  \"tempo_map_corrections\": []\n}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4603,
+      "total_tokens": 5515,
+      "completion_tokens": 912,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 841
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 23.658647298812866,
+    "edits": [
+     {
+      "path": "layers.L6.conditions.audio_context",
+      "value": [
+       "piano",
+       "L2"
+      ]
+     }
+    ],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [],
+    "diff": [
+     "layers.L6.conditions.audio_context"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [
+      "layers.L6.conditions.audio_context"
+     ],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"edits\": [],\n  \"stale\": [],\n  \"questions\": [\"The guitar (L6) is currently a 'take' (your recorded performance), which cannot have audio_context in this schema. Do you want to change it to a 'generated' layer that can listen to piano and vocal (L2, the chorus vocal)? Or are you asking about something else?\"],\n  \"tempo_map_corrections\": []\n}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4603,
+      "total_tokens": 5914,
+      "completion_tokens": 1311,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1213
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 33.95939826965332,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "The guitar (L6) is currently a 'take' (your recorded performance), which cannot have audio_context in this schema. Do you want to change it to a 'generated' layer that can listen to piano and vocal (L2, the chorus vocal)? Or are you asking about something else?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\"edits\": [], \"stale\": [], \"questions\": [\"The guitar (L6) is a 'take' layer (your recorded audio). Take layers cannot have audio_context - they don't consume audio during generation. Did you want to change the guitar to a generated layer so it can hear piano and vocal as context? Or are you asking about the final mix balance (which isn't controlled by audio_context)?\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4603,
+      "total_tokens": 5495,
+      "completion_tokens": 892,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 794
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 23.139102935791016,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "The guitar (L6) is a 'take' layer (your recorded audio). Take layers cannot have audio_context - they don't consume audio during generation. Did you want to change the guitar to a generated layer so it can hear piano and vocal as context? Or are you asking about the final mix balance (which isn't controlled by audio_context)?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [\n            1,\n            69\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions\": \"claude\",\n          \"prompt\": \"creator\",\n          \"chosen\": \"claude\",\n          \"gain\": \"claude\"\n        },\n        \"status\": \"chosen\",\n        \"stale\": false,\n        \"stale_reason\": null,\n        \"notes\": \"\",\n        \"lyrics\": [\n          \"Red brick and elm, the morning bell\",\n          \"A hundred doors, a single hall\",\n          \"We learn the words we cannot tell\",\n          \"And find the quiet in it all\"\n        ]\n      },\n      {\n        \"id\": \"L2\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"open and full, harmony on the last line\",\n        \"from\": {\n          \"cell\": \"chorus\",\n          \"component\": 0,\n          \"raw\": \"<vocal: open and full, harmony on the last line !>\",\n          \"chars\": [\n            44,\n            94\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          },\n     ",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4211,
+      "total_tokens": 14181,
+      "completion_tokens": 9970,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 4373
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 259.5116102695465,
+    "stale": [
+     "L6"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L6.conditions.audio_context",
+     "layers.L6.conditions.depends_on"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [
+      "layers.L6.conditions.audio_context",
+      "layers.L6.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L6"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [\n            1,\n            69\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions\": \"claude\",\n          \"prompt\": \"creator\",\n          \"chosen\": \"claude\",\n          \"gain\": \"claude\"\n        },\n        \"status\": \"chosen\",\n        \"stale\": false,\n        \"stale_reason\": null,\n        \"notes\": \"\",\n        \"lyrics\": [\n          \"Red brick and elm, the morning bell\",\n          \"A hundred doors, a single hall\",\n          \"We learn the words we cannot tell\",\n          \"And find the quiet in it all\"\n        ]\n      },\n      {\n        \"id\": \"L2\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"open and full, harmony on the last line\",\n        \"from\": {\n          \"cell\": \"chorus\",\n          \"component\": 0,\n          \"raw\": \"<vocal: open and full, harmony on the last line !>\",\n          \"chars\": [\n            44,\n            94\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          },\n     ",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4211,
+      "total_tokens": 14971,
+      "completion_tokens": 10760,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 5177
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 280.29236793518066,
+    "stale": [],
+    "questions": [],
+    "diff": [
+     "layers.L6.conditions.audio_context",
+     "layers.L6.conditions.depends_on"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [
+      "layers.L6.conditions.audio_context",
+      "layers.L6.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [\n            1,\n            69\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions\": \"claude\",\n          \"prompt\": \"creator\",\n          \"chosen\": \"claude\",\n          \"gain\": \"claude\"\n        },\n        \"status\": \"chosen\",\n        \"stale\": false,\n        \"stale_reason\": null,\n        \"notes\": \"\",\n        \"lyrics\": [\n          \"Red brick and elm, the morning bell\",\n          \"A hundred doors, a single hall\",\n          \"We learn the words we cannot tell\",\n          \"And find the quiet in it all\"\n        ]\n      },\n      {\n        \"id\": \"L2\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"open and full, harmony on the last line\",\n        \"from\": {\n          \"cell\": \"chorus\",\n          \"component\": 0,\n          \"raw\": \"<vocal: open and full, harmony on the last line !>\",\n          \"chars\": [\n            44,\n            94\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          },\n     ",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4211,
+      "total_tokens": 15462,
+      "completion_tokens": 11251,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 5659
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 293.22770833969116,
+    "stale": [
+     "L6"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L6.conditions.audio_context",
+     "layers.L6.conditions.depends_on"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [
+      "layers.L6.conditions.audio_context",
+      "layers.L6.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L6"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "applied"
+    }
+   }
+  ]
+ }
+}

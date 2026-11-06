@@ -1,0 +1,229 @@
+{
+ "session": "S2",
+ "arm": "typed",
+ "model": "gemma-4-31b-fp8",
+ "draw": 2,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Use the second vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L2"
+   ],
+   "arm_stale": [
+    "L2"
+   ],
+   "refused": [],
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L1",
+     "candidate": "L1c2"
+    }
+   ],
+   "elapsed": 2.6,
+   "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L1\",\"candidate\":\"L1c2\"}]"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "shift_entry",
+     "layer": "L2",
+     "by_bars": 2
+    }
+   ],
+   "elapsed": 2.6,
+   "raw": "[{\"op\":\"shift_entry\",\"layer\":\"L2\",\"by_bars\":2}]"
+  },
+  {
+   "turn": 3,
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.conditions.audio_context",
+    "layers.L2.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_context",
+     "layer": "L2",
+     "audio_context": [
+      "piano"
+     ]
+    }
+   ],
+   "elapsed": 2.6,
+   "raw": "[{\"op\":\"set_context\",\"layer\":\"L2\",\"audio_context\":[\"piano\"]}]"
+  },
+  {
+   "turn": 4,
+   "text": "Turn the vocal up 2 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_gain",
+     "layer": "L1",
+     "db": 2.0
+    }
+   ],
+   "elapsed": 2.6,
+   "raw": "[{\"op\":\"set_gain\",\"layer\":\"L1\",\"db\":2.0}]"
+  },
+  {
+   "turn": 5,
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "ask",
+     "question": "A downbeat correction is a change to the tempo map (piano-analysis.json), not the arrangement plan. Please provide the precise time (seconds) for the start of bar 33, or confirm if I should mark this for the analysis team."
+    }
+   ],
+   "elapsed": 4.6,
+   "raw": "```json\n[\n  {\"op\": \"ask\", \"question\": \"A downbeat correction is a change to the tempo map (piano-analysis.json), not the arrangement plan. Please provide the precise time (seconds) for the start of bar 33, or confirm if I should mark this for the analysis team.\"}\n]\n```"
+  },
+  {
+   "turn": 6,
+   "text": "Let the strings run two bars longer at the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "shift_exit",
+     "layer": "L2",
+     "by_bars": 2
+    }
+   ],
+   "elapsed": 3.2,
+   "raw": "```json\n[\n  {\"op\": \"shift_exit\", \"layer\": \"L2\", \"by_bars\": 2}\n]\n```"
+  },
+  {
+   "turn": 7,
+   "text": "Make it more emotional.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "ask",
+     "question": "To make the arrangement more emotional, would you like to: 1) Increase the volume/presence of the strings (L2), 2) Extend the strings to start earlier or end later, 3) Replace the brass placeholder (L3) with a specific emotional texture (e.g., warm horns), or 4) Choose a different vocal take (L1) with more expression?"
+    }
+   ],
+   "elapsed": 5.8,
+   "raw": "```json\n[\n  {\"op\": \"ask\", \"question\": \"To make the arrangement more emotional, would you like to: 1) Increase the volume/presence of the strings (L2), 2) Extend the strings to start earlier or end later, 3) Replace the brass placeholder (L3) with a specific emotional texture (e.g., warm horns), or 4) Choose a different vocal take (L1) with more expression?\"}\n]\n```"
+  },
+  {
+   "turn": 8,
+   "text": "Go back to the fourth vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L1",
+     "candidate": "L1c4"
+    }
+   ],
+   "elapsed": 3.2,
+   "raw": "[\n  {\"op\": \"choose_candidate\", \"layer\": \"L1\", \"candidate\": \"L1c4\"}\n]"
+  }
+ ],
+ "final_drift": 1,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 7,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.0
+}

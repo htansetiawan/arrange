@@ -1,0 +1,597 @@
+{
+ "id": "g1",
+ "cat": "g",
+ "fixture": "real",
+ "text": "Make it more emotional.",
+ "gold_ops": [
+  {
+   "op": "ask",
+   "question": "<a question that offers concrete choices, e.g. strings later or softer, a different vocal take, a swell>"
+  }
+ ],
+ "gold_paths": [
+  "open.questions"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "\n\n{\"op\":\"ask\",\"question\":\"What would make it more emotional? Concrete options: 1) Unstub L3 (brass) to add brass parts, 2) Choose a more emotional vocal candidate (L1c1, L1c2, or L1c3 instead of L1c4), 3) Increase gain on L2 (strings), 4) Add a new layer (e.g., pads or additional strings), 5) Extend the emotional section (theme 2) with more bars, 6) Something else?\"}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 6351,
+      "total_tokens": 6737,
+      "completion_tokens": 386,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 268
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 10.21346402168274,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "What would make it more emotional? Concrete options: 1) Unstub L3 (brass) to add brass parts, 2) Choose a more emotional vocal candidate (L1c1, L1c2, or L1c3 instead of L1c4), 3) Increase gain on L2 (strings), 4) Add a new layer (e.g., pads or additional strings), 5) Extend the emotional section (theme 2) with more bars, 6) Something else?"
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "What would make it more emotional? Concrete options: 1) Unstub L3 (brass) to add brass parts, 2) Choose a more emotional vocal candidate (L1c1, L1c2, or L1c3 instead of L1c4), 3) Increase gain on L2 (strings), 4) Add a new layer (e.g., pads or additional strings), 5) Extend the emotional section (theme 2) with more bars, 6) Something else?"
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n[{\"op\": \"ask\", \"question\": \"How would you like to make it more emotional? Options: 1) Switch vocal to a more dramatic candidate (L1c3 'groban-12' instead of L1c4 'henry-12'), 2) Switch strings to a louder candidate (L2c4 instead of L2c6), 3) Unstub the brass layer (L3) to add harmony, or 4) Increase gain on specific layers?\"}]",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 6351,
+      "total_tokens": 9665,
+      "completion_tokens": 3314,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 3205
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 86.1543219089508,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "How would you like to make it more emotional? Options: 1) Switch vocal to a more dramatic candidate (L1c3 'groban-12' instead of L1c4 'henry-12'), 2) Switch strings to a louder candidate (L2c4 instead of L2c6), 3) Unstub the brass layer (L3) to add harmony, or 4) Increase gain on specific layers?"
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "How would you like to make it more emotional? Options: 1) Switch vocal to a more dramatic candidate (L1c3 'groban-12' instead of L1c4 'henry-12'), 2) Switch strings to a louder candidate (L2c4 instead of L2c6), 3) Unstub the brass layer (L3) to add harmony, or 4) Increase gain on specific layers?"
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\"op\":\"ask\",\"question\":\"\\\"More emotional\\\" could mean several things. Which would you like? 1) Unstub the brass layer (L3) to add brass instrumentation, 2) Increase string volume (L2 currently at 0dB), 3) Add a new layer (pads, additional strings, etc.), 4) Choose a different vocal candidate (L1 has 4 options), or 5) Extend existing layers to cover more bars?\"}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 6351,
+      "total_tokens": 6974,
+      "completion_tokens": 623,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 522
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 16.2110857963562,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "\"More emotional\" could mean several things. Which would you like? 1) Unstub the brass layer (L3) to add brass instrumentation, 2) Increase string volume (L2 currently at 0dB), 3) Add a new layer (pads, additional strings, etc.), 4) Choose a different vocal candidate (L1 has 4 options), or 5) Extend existing layers to cover more bars?"
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "\"More emotional\" could mean several things. Which would you like? 1) Unstub the brass layer (L3) to add brass instrumentation, 2) Increase string volume (L2 currently at 0dB), 3) Add a new layer (pads, additional strings, etc.), 4) Choose a different vocal candidate (L1 has 4 options), or 5) Extend existing layers to cover more bars?"
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 5,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [823, 946]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\"clock\", \"melody\"],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"label\": \"english+0\",\n            \"status\": \"rendered\",\n            \"path\": \"runs/color-purple/build/L1/english+0.mp3\",\n            \"parents\": {\n              \"score\": \"3a68bb8c32c4695c\",\n              \"spine\": \"3496d64f8e76d8e8\",\n              \"prompt\": \"fa7eed4baa89ad7f\",\n              \"checkpoint\": \"models/SoulX-Singer/model.pt\",\n              \"clock\": 0\n            },\n            \"measurements\": {\n              \"elapsed_s\": 23.6,\n              \"generated_sr\": 24000,\n              \"generated_s\": 44.197,\n              \"placed_at_s\": 71.371,\n              \"frames_matc",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 6129,
+      "total_tokens": 13439,
+      "completion_tokens": 7310,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 372
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 190.6213505268097,
+    "stale": [],
+    "questions": [
+     "What specifically should be made more emotional? Options include: (1) vocal performance prompt or reference, (2) strings prompt or level, (3) add brass content to the stub, (4) adjust gain/levels, or (5) something else?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 5,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [823, 946]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"label\": \"english+0\",\n            \"status\": \"rendered\",\n            \"path\": \"runs/color-purple/build/L1/english+0.mp3\",\n            \"parents\": {\n              \"score\": \"3a68bb8c32c4695c\",\n              \"spine\": \"3496d64f8e76d8e8\",\n              \"prompt\": \"fa7eed4baa89ad7f\",\n              \"checkpoint\": \"models/SoulX-Singer/model.pt\",\n              \"clock\": 0\n            },\n            \"measurements\": {\n              \"elapsed_s\": 23.6,\n              \"generated_sr\": 24000,\n              \"generated_s\": 44.197,\n              \"placed_at_s\"",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 6129,
+      "total_tokens": 13554,
+      "completion_tokens": 7425,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 406
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 193.63119959831238,
+    "stale": [],
+    "questions": [
+     "What specifically should be changed to make it more emotional? Options include: (1) choose a different vocal candidate with more expression, (2) choose louder/more dynamic strings instead of the softest option, (3) create the brass part instead of keeping it as a stub, (4) adjust gain levels, or (5) something else? Please specify."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 5,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [823, 946]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"label\": \"english+0\",\n            \"status\": \"rendered\",\n            \"path\": \"runs/color-purple/build/L1/english+0.mp3\",\n            \"parents\": {\n              \"score\": \"3a68bb8c32c4695c\",\n              \"spine\": \"3496d64f8e76d8e8\",\n              \"prompt\": \"fa7eed4baa89ad7f\",\n              \"checkpoint\": \"models/SoulX-Singer/model.pt\",\n              \"clock\": 0\n            },\n            \"measurements\": {\n              \"elapsed_s\": 23.6,\n              \"generated_sr\": 24000,\n              \"generated_s\": 44.197,\n              \"placed_at_s\"",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 6129,
+      "total_tokens": 13564,
+      "completion_tokens": 7435,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 418
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 193.88209700584412,
+    "stale": [],
+    "questions": [
+     "\"Make it more emotional\" is vague. What specifically should change? Options: (1) add vibrato to strings (currently says 'no vibrato'), (2) add the brass layer that's currently a stub, (3) make the vocal more expressive, (4) increase dynamics/gain on layers, (5) something else? Please specify."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "\n\n{\"edits\": [], \"stale\": [], \"questions\": [\"What specifically should be more emotional? The vocal delivery, the strings, or should we activate the brass placeholder (L3)?\", \"Should I modify existing prompts (e.g., add 'more emotional' to L1 or L2 prompts) or add new layers?\", \"What kind of emotional quality are you looking for - more dramatic, more intimate, more powerful?\"]}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 6194,
+      "total_tokens": 6522,
+      "completion_tokens": 328,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 236
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 8.642128705978394,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "What specifically should be more emotional? The vocal delivery, the strings, or should we activate the brass placeholder (L3)?",
+     "Should I modify existing prompts (e.g., add 'more emotional' to L1 or L2 prompts) or add new layers?",
+     "What kind of emotional quality are you looking for - more dramatic, more intimate, more powerful?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"edits\": [],\n  \"stale\": [],\n  \"questions\": [\"\\\"Make it more emotional\\\" is ambiguous. What specific changes would you like? For example: (a) use a different vocal candidate with more expression, (b) change the strings to be louder/more expressive, (c) activate the brass layer (L3) with actual content, (d) add new layers, or (e) something else? Please specify which layer(s) and what changes.\"],\n  \"tempo_map_corrections\": []\n}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 6194,
+      "total_tokens": 6552,
+      "completion_tokens": 358,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 238
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 9.434616088867188,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "\"Make it more emotional\" is ambiguous. What specific changes would you like? For example: (a) use a different vocal candidate with more expression, (b) change the strings to be louder/more expressive, (c) activate the brass layer (L3) with actual content, (d) add new layers, or (e) something else? Please specify which layer(s) and what changes."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"edits\": [],\n  \"stale\": [],\n  \"questions\": [\"'Make it more emotional' is vague. Which layer(s) should change? Options: 1) Choose a different vocal candidate (L1c1-3 have different character), 2) Change strings to be more expressive/louder (L2c4-c5 are louder than current L2c6), 3) Activate the brass placeholder (L3) with a specific sound, 4) Something else? Please specify.\"],\n  \"tempo_map_corrections\": []\n}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 6194,
+      "total_tokens": 6616,
+      "completion_tokens": 422,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 295
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 11.08654499053955,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "'Make it more emotional' is vague. Which layer(s) should change? Options: 1) Choose a different vocal candidate (L1c1-3 have different character), 2) Change strings to be more expressive/louder (L2c4-c5 are louder than current L2c6), 3) Activate the brass placeholder (L3) with a specific sound, 4) Something else? Please specify."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 6,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [823, 946]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\"clock\", \"melody\"],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"label\": \"english+0\",\n            \"status\": \"rendered\",\n            \"path\": \"runs/color-purple/build/L1/english+0.mp3\",\n            \"parents\": {\n              \"score\": \"3a68bb8c32c4695c\",\n              \"spine\": \"3496d64f8e76d8e8\",\n              \"prompt\": \"fa7eed4baa89ad7f\",\n              \"checkpoint\": \"models/SoulX-Singer/model.pt\",\n              \"clock\": 0\n            },\n            \"measurements\": {\n              \"elapsed_s\": 23.6,\n              \"generated_sr\": 24000,\n              \"generated_s\": 44.197,\n              \"placed_at_s\": 71.371,\n              \"frames_matc",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 5802,
+      "total_tokens": 14221,
+      "completion_tokens": 8419,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1196
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 219.54192447662354,
+    "stale": [
+     "L2",
+     "L3"
+    ],
+    "questions": [
+     "Would you like the brass to be more prominent or remain sparse and supportive?",
+     "Should the vocal delivery be adjusted for more emotion, or keep Henry's current take?"
+    ],
+    "diff": [
+     "layers.L2.chosen",
+     "layers.L2.from.raw",
+     "layers.L2.job.params.prompt",
+     "layers.L2.text",
+     "layers.L3.anchors.enter.bar",
+     "layers.L3.conditions.audio_context",
+     "layers.L3.conditions.depends_on",
+     "layers.L3.from.raw",
+     "layers.L3.job",
+     "layers.L3.job.backend",
+     "layers.L3.job.inputs.context_mix",
+     "layers.L3.job.params.guidance",
+     "layers.L3.job.params.prompt",
+     "layers.L3.job.params.seed",
+     "layers.L3.job.params.steps",
+     "layers.L3.job.params.track_name",
+     "layers.L3.job.params.variants",
+     "layers.L3.kind",
+     "layers.L3.owner.anchors",
+     "layers.L3.owner.chosen",
+     "layers.L3.owner.exists",
+     "layers.L3.owner.prompt",
+     "layers.L3.route",
+     "layers.L3.stub_reason",
+     "layers.L3.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [
+      "layers.L2.chosen",
+      "layers.L2.from.raw",
+      "layers.L2.job.params.prompt",
+      "layers.L2.text",
+      "layers.L3.anchors.enter.bar",
+      "layers.L3.conditions.audio_context",
+      "layers.L3.conditions.depends_on",
+      "layers.L3.from.raw",
+      "layers.L3.job",
+      "layers.L3.job.backend",
+      "layers.L3.job.inputs.context_mix",
+      "layers.L3.job.params.guidance",
+      "layers.L3.job.params.prompt",
+      "layers.L3.job.params.seed",
+      "layers.L3.job.params.steps",
+      "layers.L3.job.params.track_name",
+      "layers.L3.job.params.variants",
+      "layers.L3.kind",
+      "layers.L3.route",
+      "layers.L3.stub_reason",
+      "layers.L3.text"
+     ],
+     "protected_violations": [
+      "layers.L2.chosen",
+      "layers.L2.job.params.prompt"
+     ],
+     "stale_match": false,
+     "stale": [
+      "L2",
+      "L3"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 6,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [823, 946]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"label\": \"english+0\",\n            \"status\": \"rendered\",\n            \"path\": \"runs/color-purple/build/L1/english+0.mp3\",\n            \"parents\": {\n              \"score\": \"3a68bb8c32c4695c\",\n              \"spine\": \"3496d64f8e76d8e8\",\n              \"prompt\": \"fa7eed4baa89ad7f\",\n              \"checkpoint\": \"models/SoulX-Singer/model.pt\",\n              \"clock\": 0\n            },\n            \"measurements\": {\n              \"elapsed_s\": 23.6,\n              \"generated_sr\": 24000,\n              \"generated_s\": 44.197,\n              \"placed_at_s\"",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 5802,
+      "total_tokens": 19961,
+      "completion_tokens": 14159,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 6961
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 371.3627345561981,
+    "stale": [
+     "L2"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L2.job.params.prompt",
+     "layers.L2.notes",
+     "layers.L2.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [
+      "layers.L2.job.params.prompt",
+      "layers.L2.notes",
+      "layers.L2.text"
+     ],
+     "protected_violations": [
+      "layers.L2.job.params.prompt"
+     ],
+     "stale_match": false,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "\n\n{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 5802,
+      "total_tokens": 17793,
+      "completion_tokens": 11991,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 6456
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 313.7902400493622,
+    "stale": [],
+    "questions": [
+     "How would you like to make it more emotional? (e.g., increase dynamics, add vibrato to strings, fill the brass placeholder, or adjust the vocal intensity?)"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ]
+ }
+}

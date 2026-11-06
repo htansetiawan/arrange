@@ -1,0 +1,2646 @@
+{
+ "model": "claude-haiku-5-5",
+ "rows": [
+  {
+   "id": "cp-bar18-assign",
+   "cat": "fitting",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "asked",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' unsung w=None; want t 56.654 end 57.802 '~' slur w=walls",
+        "row 33 '~' F5: got t 60.838 end 61.333 '' unsung w=None; want t 60.838 end 61.333 '~' slur w=hush",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "extra row G4 '' @55.08",
+        "extra row C5 'like' @62.15"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 'win' note w=Windows; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'dows' note w=Windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'wa' note w=waking; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'king' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' unsung w=None; want t 56.654 end 57.802 '~' slur w=walls"
+       ]
+      },
+      "raw": "```json\n[\n{\"op\":\"set\",\"row\":18,\"kind\":\"note\",\"text\":\"win\",\"word\":\"Windows\"},\n{\"op\":\"set\",\"row\":19,\"kind\":\"note\",\"text\":\"dows\",\"word\":\"Windows\"},\n{\"op\":\"set\",\"row\":20,\"kind\":\"note\",\"text\":\"wa\",\"word\":\"waking\"},\n{\"op\":\"set\",\"row\":21,\"kind\":\"note\",\"text\":\"king\",\"word\":\"waking\"},\n{\"op\":\"set\",\"row\":22,\"kind\":\"note\",\"text\":\"in\",\"word\":\"in\"},\n{\"op\":\"set\",\"row\":24,\"kind\":\"note\",\"text\":\"red\",\"word\":\"red\"},\n{\"op\":\"set\",\"row\":27,\"kind\":\"note\",\"text\":\"bricks\",\"word\":\"bricks\"},\n{\"op\":\"ask\",\"question\":\"'walls (G4 F4)': after 'bricks' (row 27) the melody has no G4 followed by F4 (rows 28-30 are Bb4, C5, F4). The only G4-F4 pair is rows 25-26 (F4 then G4), which comes before 'bricks'. Where should 'walls' sit, and should it be one syllable held across two notes (G4 sung, F4 as slur)? Also, 'like' is written C#5, but the melody at row 36 is C5. Keep C5 or change the pitch?\"},\n{\"op\":\"set\",\"row\":31,\"kind\":\"note\",\"text\":\"a\",\"word\":\"a\"},\n{\"op\":\"set\",\"row\":32,\"kind\":\"note\",\"text\":\"hush\",\"word\":\"hush\"},\n{\"op\":\"set\",\"row\":34,\"kind\":\"note\",\"text\":\"set\",\"word\":\"settles\"},\n{\"op\":\"set\",\"row\":35,\"kind\":\"note\",\"text\":\"tles\",\"word\":\"settles\"},\n{\"op\":\"set\",\"row\":36,\"kind\":\"note\",\"text\":\"like\",\"word\":\"like\"},\n{\"op\":\"set\",\"row\":38,\"kind\":\"note\",\"text\":\"a\",\"word\":\"a\"},\n{\"op\":\"set\",\"row\":39,\"kind\":\"note\",\"text\":\"breeze\",\"word\":\"breeze\"}\n]\n```",
+      "usage": {
+       "total_cost_usd": 0.00741177,
+       "duration_api_ms": 42642,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 44.2
+     },
+     {
+      "outcome": "asked",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 26 'bricks' A4: got t 55.244 end 55.807 '' unsung w=None; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' unsung w=None; want t 56.654 end 57.802 '~' slur w=walls",
+        "row 33 '~' F5: got t 60.838 end 61.333 '' unsung w=None; want t 60.838 end 61.333 '~' slur w=hush",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "extra row G4 '' @55.08",
+        "extra row C5 'like' @62.15"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 'win' note w=windows; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'dows' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'wa' note w=waking; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'king' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 '' unsung w=None; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' unsung w=None; want t 56.654 end 57.802 '~' slur w=walls"
+       ]
+      },
+      "raw": "```json\n[\n  {\"op\":\"set\",\"row\":18,\"kind\":\"note\",\"text\":\"win\",\"word\":\"windows\"},\n  {\"op\":\"set\",\"row\":19,\"kind\":\"note\",\"text\":\"dows\",\"word\":\"windows\"},\n  {\"op\":\"set\",\"row\":20,\"kind\":\"note\",\"text\":\"wa\",\"word\":\"waking\"},\n  {\"op\":\"set\",\"row\":21,\"kind\":\"note\",\"text\":\"king\",\"word\":\"waking\"},\n  {\"op\":\"set\",\"row\":22,\"kind\":\"note\",\"text\":\"in\",\"word\":\"in\"},\n  {\"op\":\"set\",\"row\":24,\"kind\":\"note\",\"text\":\"red\",\"word\":\"red\"},\n  {\"op\":\"set\",\"row\":31,\"kind\":\"note\",\"text\":\"a\",\"word\":\"a\"},\n  {\"op\":\"set\",\"row\":32,\"kind\":\"note\",\"text\":\"hush\",\"word\":\"hush\"},\n  {\"op\":\"set\",\"row\":34,\"kind\":\"note\",\"text\":\"set\",\"word\":\"settles\"},\n  {\"op\":\"set\",\"row\":35,\"kind\":\"note\",\"text\":\"tles\",\"word\":\"settles\"},\n  {\"op\":\"set\",\"row\":36,\"kind\":\"note\",\"text\":\"like\",\"word\":\"like\"},\n  {\"op\":\"set\",\"row\":38,\"kind\":\"note\",\"text\":\"a\",\"word\":\"a\"},\n  {\"op\":\"set\",\"row\":39,\"kind\":\"note\",\"text\":\"breeze\",\"word\":\"breeze\"},\n  {\"op\":\"ask\",\"question\":\"'bricks (A4)' and 'walls (G4 F4)': after red (row 24, A4) the only A4 is row 27, but no G4 follows it, while rows 25 (F4) and 26 (G4) sit before row 27 in the reverse order. Which rows should 'bricks' and 'walls' take, and should walls be F4 then G4 or G4 then F4?\"},\n  {\"op\":\"ask\",\"question\":\"'hush (F5)': row 32 is F5 and row 33 is also F5. Should hush be a double F5 across rows 32-33 (as you marked 'windows' Bb4 double), or should row 33 stay unsung?\"},\n  {\"op\":\"ask\",\"question\":\"'like (C#5)': row 36 is C5 in the piano. Should I change its pitch to C#5, or keep C5?\"},\n  {\"op\":\"ask\",\"question\":\"Row 37 (B4, 23.2) falls between 'like' and 'a' with no lyric assigned. Should it stay unsung, or should 'like' be held through it as a slur?\"}\n]\n```",
+      "usage": {
+       "total_cost_usd": 0.007545769999999999,
+       "duration_api_ms": 47492,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 48.9
+     },
+     {
+      "outcome": "asked",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 26 'bricks' A4: got t 55.244 end 55.807 '' unsung w=None; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' unsung w=None; want t 56.654 end 57.802 '~' slur w=walls",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "extra row G4 '' @55.08",
+        "extra row C5 'like' @62.15"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 'win' note w=windows; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'dows' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'wa' note w=waking; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'king' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 '' unsung w=None; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' unsung w=None; want t 56.654 end 57.802 '~' slur w=walls"
+       ]
+      },
+      "raw": "```json\n[\n  {\"op\":\"set\",\"row\":18,\"kind\":\"note\",\"text\":\"win\",\"word\":\"windows\"},\n  {\"op\":\"set\",\"row\":19,\"kind\":\"note\",\"text\":\"dows\",\"word\":\"windows\"},\n  {\"op\":\"set\",\"row\":20,\"kind\":\"note\",\"text\":\"wa\",\"word\":\"waking\"},\n  {\"op\":\"set\",\"row\":21,\"kind\":\"note\",\"text\":\"king\",\"word\":\"waking\"},\n  {\"op\":\"set\",\"row\":22,\"kind\":\"note\",\"text\":\"in\",\"word\":\"in\"},\n  {\"op\":\"set\",\"row\":24,\"kind\":\"note\",\"text\":\"red\",\"word\":\"red\"},\n  {\"op\":\"ask\",\"question\":\"After 'red (A4)', the next A4 is row 27 and the G4/F4 pair doesn't line up in order with the melody (F4 at row 25, G4 at row 26, both before row 27). Which rows should 'bricks' (A4) and 'walls' (G4 F4) sit on?\"},\n  {\"op\":\"set\",\"row\":31,\"kind\":\"note\",\"text\":\"a\",\"word\":\"a\"},\n  {\"op\":\"set\",\"row\":32,\"kind\":\"note\",\"text\":\"hush\",\"word\":\"hush\"},\n  {\"op\":\"set\",\"row\":33,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"hush\"},\n  {\"op\":\"set\",\"row\":34,\"kind\":\"note\",\"text\":\"set\",\"word\":\"settles\"},\n  {\"op\":\"set\",\"row\":35,\"kind\":\"note\",\"text\":\"tles\",\"word\":\"settles\"},\n  {\"op\":\"set\",\"row\":36,\"kind\":\"note\",\"text\":\"like\",\"word\":\"like\"},\n  {\"op\":\"ask\",\"question\":\"'like' is marked C#5, but the melody note at that position (row 36) is C5. Should I change its pitch to C#5, or keep the melody's C5?\"},\n  {\"op\":\"set\",\"row\":38,\"kind\":\"note\",\"text\":\"a\",\"word\":\"a\"},\n  {\"op\":\"set\",\"row\":39,\"kind\":\"note\",\"text\":\"breeze\",\"word\":\"breeze\"}\n]\n```",
+      "usage": {
+       "total_cost_usd": 0.00888077,
+       "duration_api_ms": 57906,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 59.2
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 'walls' note w=walls; want t 56.654 end 57.802 '~' slur w=walls",
+        "row 32 'hush' F5: got t 59.371 end 60.838 '' unsung w=None; want t 59.371 end 60.838 'hush' note w=hush",
+        "row 33 '~' F5: got t 60.838 end 61.333 'hush' note w=hush; want t 60.838 end 61.333 '~' slur w=hush",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "extra row G4 '' @55.08",
+        "extra row C5 'like' @62.15"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 'win' note w=windows; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'dows' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'wa' note w=waking; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'king' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 'walls' note w=walls; want t 56.654 end 57.802 '~' slur w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.01259367,
+       "duration_api_ms": 80803,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 81.6,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 'walls' note w=walls; want t 56.654 end 57.802 '~' slur w=walls",
+        "row 33 '~' F5: got t 60.838 end 61.333 '' unsung w=None; want t 60.838 end 61.333 '~' slur w=hush",
+        "row 34 'set' E5: got t 61.333 end 61.822 'settles' note w=settles; want t 61.333 end 61.822 'set' note w=set",
+        "row 35 'tles' D5: got t 61.822 end 62.145 '~' slur w=settles; want t 61.822 end 62.145 'tles' note w=tles",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "extra row G4 '' @55.08",
+        "extra row C5 'like' @62.15"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 'win' note w=windows; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'dows' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'wa' note w=waking; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'king' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 'walls' note w=walls; want t 56.654 end 57.802 '~' slur w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.01065483,
+       "duration_api_ms": 83061,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 84.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 33 '~' F5: got t 60.838 end 61.333 '' unsung w=None; want t 60.838 end 61.333 '~' slur w=hush",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "changed row 29 '' C5 @56.33 -> 'walls' note t 56.325-56.654 w=walls",
+        "extra row G4 '' @55.08",
+        "extra row C5 'like' @62.15"
+       ],
+       "n_collateral": 3,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 'win' note w=windows; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'dows' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'wa' note w=waking; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'king' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 33 '~' F5: got t 60.838 end 61.333 '' unsung w=None; want t 60.838 end 61.333 '~' slur w=hush"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.012267330000000002,
+       "duration_api_ms": 97664,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 98.6,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 26 'bricks' A4: got t 55.244 end 55.807 '' note w=walls; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' unsung w=None; want t 56.654 end 57.802 '~' slur w=walls",
+        "row 33 '~' F5: got t 60.838 end 61.333 '' unsung w=None; want t 60.838 end 61.333 '~' slur w=hush",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "changed row 25 '' F4 @54.92 -> 'bricks' note t 54.924-55.084 w=bricks",
+        "extra row G4 'walls' @55.08",
+        "extra row C5 'like' @62.15"
+       ],
+       "n_collateral": 3,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 'win' note w=windows; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'dows' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'wa' note w=waking; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'king' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 '' note w=walls; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' unsung w=None; want t 56.654 end 57.802 '~' slur w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.01135362,
+       "duration_api_ms": 70471,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 71.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' note w=walls; want t 56.654 end 57.802 '~' slur w=walls",
+        "row 33 '~' F5: got t 60.838 end 61.333 '' unsung w=None; want t 60.838 end 61.333 '~' slur w=hush",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "changed row 29 '' C5 @56.33 -> 'walls' note t 56.325-56.654 w=walls",
+        "extra row G4 '' @55.08",
+        "extra row C5 'like' @62.15"
+       ],
+       "n_collateral": 3,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 'win' note w=windows; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'dows' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'wa' note w=waking; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'king' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 '' note w=walls; want t 56.654 end 57.802 '~' slur w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00913428,
+       "duration_api_ms": 66806,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 67.7,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 27 G4 'walls' @55.24",
+        "missing gold row 36 C#5 'like' @62.15"
+       ],
+       "wrong": [
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 'walls' note w=walls; want t 56.654 end 57.802 '~' slur w=walls",
+        "row 33 '~' F5: got t 60.838 end 61.333 '' unsung w=None; want t 60.838 end 61.333 '~' slur w=hush",
+        "row 40 '~' C5: got t 65.986 end 66.701 '' unsung w=None; want t 65.986 end 66.701 '~' slur w=breeze"
+       ],
+       "collateral": [
+        "extra row G4 '' @55.08",
+        "extra row C5 'like' @62.15"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 18 'Win' Bb4: got t 48.208 end 49.813 'win' note w=windows; want t 48.208 end 49.813 'Win' note w=Win",
+        "row 19 'dows' Bb4: got t 49.813 end 50.355 'dows' note w=windows; want t 49.813 end 50.355 'dows' note w=dows",
+        "row 20 'wa' C5: got t 50.355 end 50.902 'wa' note w=waking; want t 50.355 end 50.902 'wa' note w=wa",
+        "row 21 'king' D5: got t 50.902 end 51.269 'king' note w=waking; want t 50.902 end 51.269 'king' note w=king",
+        "row 26 'bricks' A4: got t 55.244 end 55.807 'bricks' note w=bricks; want t 55.084 end 55.244 'bricks' note w=bricks",
+        "row 30 '~' F4: got t 56.654 end 57.802 'walls' note w=walls; want t 56.654 end 57.802 '~' slur w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.01107128,
+       "duration_api_ms": 88992,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 90.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-redbrick-melisma",
+   "cat": "fitting",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "asked",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 22 F4 'the' @53.94",
+        "not deleted A4 'the' @53.94",
+        "not deleted F4 '~' @56.65"
+       ],
+       "wrong": [
+        "row 24 '~' G4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 25 '~' A4: got t 55.244 end 55.807 'walls' note w=walls; want t 55.244 end 55.807 '~' slur w=red",
+        "row 26 'brick' G4: got t 55.807 end 56.325 '~' slur w=walls; want t 55.807 end 56.325 'brick' note w=brick",
+        "row 27 'walls' F4: got t 56.325 end 56.654 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 24 '~' G4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 25 '~' A4: got t 55.244 end 55.807 'walls' note w=walls; want t 55.244 end 55.807 '~' slur w=red",
+        "row 26 'brick' G4: got t 55.807 end 56.325 '~' slur w=walls; want t 55.807 end 56.325 'brick' note w=brick",
+        "row 27 'walls' F4: got t 56.325 end 56.654 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": "```json\n[\n  {\"op\":\"ask\",\"question\":\"Your pitch note is ambiguous, so I haven't changed anything yet. I read '(X)' as the pitch of the word just before it, which gives the=F4, red=A4, brick=G4, wall=F4. That leaves the '-G4-A4' between 'red' and 'brick' unplaced. Do you want two extra notes (G4, A4) inserted between 'red' and 'brick', with 'the' at F4 and 'walls' ending on F4 (rows 22-28)? Or should 'red' itself be sung as A4-G4-A4, and if so, on which rows? Please confirm which notes should carry 'the', 'red', 'brick', and 'walls'.\"}\n]\n```",
+      "usage": {
+       "total_cost_usd": 0.00547107,
+       "duration_api_ms": 30587,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 31.5
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 '~' @55.81",
+        "extra row G4 'walls' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": "[\n{\"op\":\"set\",\"row\":23,\"pitch\":\"F4\"},\n{\"op\":\"set\",\"row\":24,\"pitch\":\"A4\"},\n{\"op\":\"set\",\"row\":25,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"brick\",\"pitch\":\"G4\"},\n{\"op\":\"set\",\"row\":26,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"brick\",\"pitch\":\"A4\"},\n{\"op\":\"set\",\"row\":27,\"kind\":\"note\",\"text\":\"walls\",\"word\":\"walls\",\"pitch\":\"G4\"}\n]",
+      "usage": {
+       "total_cost_usd": 0.0022485,
+       "duration_api_ms": 17930,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 18.9
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 '~' @55.81",
+        "extra row G4 'walls' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": "```json\n[\n  {\"op\":\"set\",\"row\":23,\"pitch\":\"F4\"},\n  {\"op\":\"set\",\"row\":24,\"pitch\":\"A4\"},\n  {\"op\":\"set\",\"row\":25,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"brick\",\"pitch\":\"G4\"},\n  {\"op\":\"set\",\"row\":26,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"brick\",\"pitch\":\"A4\"},\n  {\"op\":\"set\",\"row\":27,\"kind\":\"note\",\"text\":\"walls\",\"word\":\"walls\",\"pitch\":\"G4\"}\n]\n```",
+      "usage": {
+       "total_cost_usd": 0.0027685,
+       "duration_api_ms": 23780,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 24.8
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 '~' @55.81",
+        "extra row G4 'walls' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00417399,
+       "duration_api_ms": 29022,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 30.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 '~' @55.81",
+        "extra row G4 'walls' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00786287,
+       "duration_api_ms": 38145,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 39.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 '~' @55.81",
+        "extra row G4 'walls' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00404949,
+       "duration_api_ms": 27724,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 28.6,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 '~' @55.81",
+        "extra row G4 'walls' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 '~' slur w=brick; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00574272,
+       "duration_api_ms": 25868,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 26.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 25 A4 '~' @55.24",
+        "missing gold row 26 G4 'brick' @55.81",
+        "not deleted A4 'the' @53.94"
+       ],
+       "wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 'walls' note w=walls; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row A4 '~' @55.81",
+        "extra row G4 '~' @56.33"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 22 'the' F4: got t 54.437 end 54.924 'red' note w=red; want t 53.939 end 54.437 'the' note w=the",
+        "row 23 'red' A4: got t 54.924 end 55.244 'brick' note w=brick; want t 54.437 end 54.924 'red' note w=red",
+        "row 24 '~' G4: got t 55.244 end 55.807 'walls' note w=walls; want t 54.924 end 55.244 '~' slur w=red",
+        "row 27 'walls' F4: got t 56.654 end 57.960 '~' slur w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0031475100000000005,
+       "duration_api_ms": 22480,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 23.5,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted F4 '~' @56.65"
+       ],
+       "wrong": [
+        "row 27 'walls' F4: got t 56.325 end 56.654 'walls' note w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 27 'walls' F4: got t 56.325 end 56.654 'walls' note w=walls; want t 56.325 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00543251,
+       "duration_api_ms": 41594,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 42.6,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-layer-words",
+   "cat": "words",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "asked",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19",
+        "missing gold row 29 F4 'walls' @56.82"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'the' note w=the; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'the' note w=the; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": "[{\"op\":\"ask\",\"question\":\"\\\"to the la-yer of red brick walls\\\" needs 8 syllables, but \\\"the red brick walls\\\" (rows 22-27) has only 6 notes, and \\\"red\\\" already takes 3 of them (rows 23-25, two of them slurs). Where should the extra two syllables go? Options: (a) add two notes, and if so at what pitches and timings (for example, split the long 1.6 s hold on \\\"walls\\\" in row 27); or (b) fit them onto the existing notes by setting \\\"red\\\" to a single note and dropping its two slur rows. Which do you want?\"}]",
+      "usage": {
+       "total_cost_usd": 0.00134436,
+       "duration_api_ms": 11741,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 12.9
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19",
+        "missing gold row 28 F4 'brick' @56.33"
+       ],
+       "wrong": [
+        "row 24 'la' A4: got t 54.579 end 54.899 'la' note w=layer; want t 54.437 end 54.924 'la' note w=layer",
+        "row 26 'of' A4: got t 55.539 end 55.939 'red' note w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.939 end 56.239 '~' slur w=red; want t 55.807 end 56.325 'red' note w=red",
+        "row 29 'walls' F4: got t 56.939 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'walls' note w=walls"
+       ],
+       "collateral": [
+        "extra row G4 'the' @54.26",
+        "extra row F4 'of' @55.22",
+        "extra row A4 '~' @56.24",
+        "extra row G4 'brick' @56.54"
+       ],
+       "n_collateral": 4,
+       "strict_wrong": [
+        "row 24 'la' A4: got t 54.579 end 54.899 'la' note w=layer; want t 54.437 end 54.924 'la' note w=layer",
+        "row 26 'of' A4: got t 55.539 end 55.939 'red' note w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.939 end 56.239 '~' slur w=red; want t 55.807 end 56.325 'red' note w=red",
+        "row 29 'walls' F4: got t 56.939 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'walls' note w=walls"
+       ]
+      },
+      "raw": "```json\n[\n{\"op\":\"set\",\"row\":22,\"text\":\"to\",\"word\":\"to\",\"t\":53.939,\"end\":54.259},\n{\"op\":\"insert\",\"after\":22,\"pitch\":\"F4\",\"kind\":\"note\",\"text\":\"of\",\"word\":\"of\",\"t\":55.219,\"end\":55.539},\n{\"op\":\"insert\",\"after\":22,\"pitch\":\"G4\",\"kind\":\"note\",\"text\":\"yer\",\"word\":\"layer\",\"t\":54.899,\"end\":55.219},\n{\"op\":\"insert\",\"after\":22,\"pitch\":\"A4\",\"kind\":\"note\",\"text\":\"la\",\"word\":\"layer\",\"t\":54.579,\"end\":54.899},\n{\"op\":\"insert\",\"after\":22,\"pitch\":\"G4\",\"kind\":\"note\",\"text\":\"the\",\"word\":\"the\",\"t\":54.259,\"end\":54.579},\n{\"op\":\"set\",\"row\":23,\"t\":55.539,\"end\":55.939},\n{\"op\":\"set\",\"row\":24,\"t\":55.939,\"end\":56.239},\n{\"op\":\"set\",\"row\":25,\"t\":56.239,\"end\":56.539},\n{\"op\":\"set\",\"row\":26,\"t\":56.539,\"end\":56.939},\n{\"op\":\"set\",\"row\":27,\"t\":56.939,\"end\":57.960}\n]\n```",
+      "usage": {
+       "total_cost_usd": 0.007626530000000001,
+       "duration_api_ms": 31279,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 32.2
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 22 F4 'to' @53.94",
+        "missing gold row 29 F4 'walls' @56.82"
+       ],
+       "wrong": [
+        "row 23 'the' F4: got t 54.200 end 54.520 'of' note w=of; want t 54.188 end 54.437 'the' note w=the",
+        "row 24 'la' A4: got t 54.520 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ],
+       "collateral": [
+        "extra row G4 'to' @52.86",
+        "extra row F4 'the' @53.20",
+        "extra row A4 'la' @53.54",
+        "extra row G4 'yer' @53.88"
+       ],
+       "n_collateral": 4,
+       "strict_wrong": [
+        "row 23 'the' F4: got t 54.200 end 54.520 'of' note w=of; want t 54.188 end 54.437 'the' note w=the",
+        "row 24 'la' A4: got t 54.520 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": "```json\n[\n  {\"op\":\"set\",\"row\":22,\"t\":53.200,\"end\":53.540},\n  {\"op\":\"set\",\"row\":23,\"t\":54.520},\n  {\"op\":\"insert\",\"after\":22,\"pitch\":\"F4\",\"kind\":\"note\",\"text\":\"of\",\"word\":\"of\",\"t\":54.200,\"end\":54.520},\n  {\"op\":\"insert\",\"after\":22,\"pitch\":\"G4\",\"kind\":\"note\",\"text\":\"yer\",\"word\":\"layer\",\"t\":53.880,\"end\":54.200},\n  {\"op\":\"insert\",\"after\":22,\"pitch\":\"A4\",\"kind\":\"note\",\"text\":\"la\",\"word\":\"layer\",\"t\":53.540,\"end\":53.880},\n  {\"op\":\"insert\",\"after\":21,\"pitch\":\"G4\",\"kind\":\"note\",\"text\":\"to\",\"word\":\"to\",\"t\":52.858,\"end\":53.200}\n]\n```",
+      "usage": {
+       "total_cost_usd": 0.00403136,
+       "duration_api_ms": 35569,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 36.4
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19",
+        "missing gold row 29 F4 'walls' @56.82"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'the' note w=the; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'the' note w=the; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.006760369999999999,
+       "duration_api_ms": 31757,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 32.6,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19",
+        "missing gold row 29 F4 'walls' @56.82"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'the' note w=the; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'the' note w=the; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00395574,
+       "duration_api_ms": 29882,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 30.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 23 F4 'the' @54.19",
+        "missing gold row 29 F4 'walls' @56.82"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'to the' note w=to the; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'la-yer of' note w=la-yer of; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=la-yer of; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=la-yer of; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'red brick' note w=red brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.437 'to the' note w=to the; want t 53.939 end 54.188 'to' note w=to",
+        "row 24 'la' A4: got t 54.437 end 54.924 'la-yer of' note w=la-yer of; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=la-yer of; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=la-yer of; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'red brick' note w=red brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00443674,
+       "duration_api_ms": 34120,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 35.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 24 A4 'la' @54.44",
+        "missing gold row 29 F4 'walls' @56.82"
+       ],
+       "wrong": [
+        "row 23 'the' F4: got t 54.280 end 54.620 'the' note w=the; want t 54.188 end 54.437 'the' note w=the",
+        "row 25 'yer' G4: got t 54.620 end 54.961 'la' note w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 54.961 end 55.302 'yer' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.984 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ],
+       "collateral": [
+        "extra row G4 'of' @55.30",
+        "extra row A4 'red' @55.64"
+       ],
+       "n_collateral": 2,
+       "strict_wrong": [
+        "row 23 'the' F4: got t 54.280 end 54.620 'the' note w=the; want t 54.188 end 54.437 'the' note w=the",
+        "row 25 'yer' G4: got t 54.620 end 54.961 'la' note w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 54.961 end 55.302 'yer' note w=layer; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.984 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.005320419999999999,
+       "duration_api_ms": 23206,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 24.1,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 29 F4 'walls' @56.82"
+       ],
+       "wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.039 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 23 'the' F4: got t 54.138 end 54.238 'la' note w=layer; want t 54.188 end 54.437 'the' note w=the",
+        "row 24 'la' A4: got t 54.437 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ],
+       "collateral": [
+        "extra row F4 'the' @54.04",
+        "extra row F4 'yer' @54.24",
+        "extra row F4 'of' @54.34"
+       ],
+       "n_collateral": 3,
+       "strict_wrong": [
+        "row 22 'to' F4: got t 53.939 end 54.039 'to' note w=to; want t 53.939 end 54.188 'to' note w=to",
+        "row 23 'the' F4: got t 54.138 end 54.238 'la' note w=layer; want t 54.188 end 54.437 'the' note w=the",
+        "row 24 'la' A4: got t 54.437 end 54.924 'red' note w=red; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.924 end 55.244 '~' slur w=red; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 '~' slur w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0033082700000000003,
+       "duration_api_ms": 23780,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 24.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 29 F4 'walls' @56.82"
+       ],
+       "wrong": [
+        "row 24 'la' A4: got t 54.437 end 54.700 'la' note w=layer; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.700 end 54.924 'yer' note w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 'red' note w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ],
+       "collateral": [
+        "extra row A4 'of' @54.92"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "row 24 'la' A4: got t 54.437 end 54.700 'la' note w=layer; want t 54.437 end 54.924 'la' note w=layer",
+        "row 25 'yer' G4: got t 54.700 end 54.924 'yer' note w=layer; want t 54.924 end 55.244 'yer' note w=layer",
+        "row 26 'of' A4: got t 55.244 end 55.807 'red' note w=red; want t 55.244 end 55.807 'of' note w=of",
+        "row 27 'red' G4: got t 55.807 end 56.325 'brick' note w=brick; want t 55.807 end 56.325 'red' note w=red",
+        "row 28 'brick' F4: got t 56.325 end 57.960 'walls' note w=walls; want t 56.325 end 56.823 'brick' note w=brick"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00405877,
+       "duration_api_ms": 31983,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 33.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-layer-pitches",
+   "cat": "fitting",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": "```json\n[\n  {\"op\":\"set\",\"row\":23,\"pitch\":\"G4\"},\n  {\"op\":\"set\",\"row\":25,\"pitch\":\"A4\"},\n  {\"op\":\"set\",\"row\":26,\"pitch\":\"G4\"},\n  {\"op\":\"set\",\"row\":27,\"pitch\":\"A4\",\"end\":56.066},\n  {\"op\":\"insert\",\"after\":27,\"pitch\":\"G4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"red\",\"t\":56.066,\"end\":56.325}\n]\n```",
+      "usage": {
+       "total_cost_usd": 0.00368087,
+       "duration_api_ms": 14964,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 15.9
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": "[\n  {\"op\":\"set\",\"row\":23,\"pitch\":\"G4\"},\n  {\"op\":\"set\",\"row\":25,\"pitch\":\"A4\"},\n  {\"op\":\"set\",\"row\":26,\"pitch\":\"G4\"},\n  {\"op\":\"set\",\"row\":27,\"pitch\":\"A4\",\"end\":56.066},\n  {\"op\":\"insert\",\"after\":27,\"pitch\":\"G4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"red\",\"t\":56.066,\"end\":56.325}\n]",
+      "usage": {
+       "total_cost_usd": 0.0016725899999999998,
+       "duration_api_ms": 14026,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 15.2
+     },
+     {
+      "outcome": "asked",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": "[\n  {\"op\":\"set\",\"row\":23,\"pitch\":\"G4\"},\n  {\"op\":\"set\",\"row\":25,\"pitch\":\"A4\"},\n  {\"op\":\"set\",\"row\":26,\"pitch\":\"G4\"},\n  {\"op\":\"set\",\"row\":27,\"pitch\":\"A4\",\"end\":56.066},\n  {\"op\":\"insert\",\"after\":27,\"pitch\":\"G4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"red\",\"t\":56.066,\"end\":56.325},\n  {\"op\":\"pronounce\",\"word\":\"red\",\"sounds\":[\"R EH1\",\"D\"]},\n  {\"op\":\"ask\",\"question\":\"Do you want the per-note phonemes shown in the canvas? These edits can change pitches and the pronunciation of 'red', but they cannot change how the canvas displays phonemes.\"}\n]",
+      "usage": {
+       "total_cost_usd": 0.0019845899999999996,
+       "duration_api_ms": 17291,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 18.2
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00674527,
+       "duration_api_ms": 29973,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 31.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00461416,
+       "duration_api_ms": 32141,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 33.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00535166,
+       "duration_api_ms": 37486,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 38.5,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'wall' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00507992,
+       "duration_api_ms": 19815,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 20.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00285897,
+       "duration_api_ms": 19402,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 20.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 30 'wall' F4: got t 56.823 end 57.960 'walls' note w=walls; want t 56.823 end 57.960 'wall' note w=wall"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00278697,
+       "duration_api_ms": 17760,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 18.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-morning-sounds",
+   "cat": "phoneme",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "[{\"op\":\"pronounce\",\"word\":\"Morning\",\"sounds\":[\"M AO1 R\",\"N IH0 NG\"]}]",
+      "usage": {
+       "total_cost_usd": 0.00274567,
+       "duration_api_ms": 5631,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 6.8
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "[{\"op\":\"pronounce\",\"word\":\"Morning\",\"sounds\":[\"M AO1 R\",\"N IH0 NG\"]}]",
+      "usage": {
+       "total_cost_usd": 0.00059458,
+       "duration_api_ms": 4525,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 5.8
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "[{\"op\":\"pronounce\",\"word\":\"Morning\",\"sounds\":[\"M AO1 R\",\"N IH0 NG\"]}]",
+      "usage": {
+       "total_cost_usd": 0.00065458,
+       "duration_api_ms": 4570,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 5.8
+     }
+    ],
+    "free": [
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00478047,
+       "duration_api_ms": 13341,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 14.5,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00226107,
+       "duration_api_ms": 13660,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 14.7,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00325107,
+       "duration_api_ms": 18273,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 19.1,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00425832,
+       "duration_api_ms": 12101,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 13.2,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00215419,
+       "duration_api_ms": 13381,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 14.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound Mor: got en_M-AO1 want en_M-AO1-R",
+        "sound ning: got en_R-N-IH0-NG want en_N-IH0-NG"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00260219,
+       "duration_api_ms": 16491,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 17.4,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-footsteps-sounds",
+   "cat": "phoneme",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "```json\n[{\"op\":\"pronounce\",\"word\":\"Footsteps\",\"sounds\":[\"F UH1\",\"T S EH1 P S\"]}]\n```",
+      "usage": {
+       "total_cost_usd": 0.00121846,
+       "duration_api_ms": 11422,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 12.6
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "[{\"op\":\"pronounce\",\"word\":\"Footsteps\",\"sounds\":[\"F UH1\",\"T S EH1 P S\"]}]",
+      "usage": {
+       "total_cost_usd": 0.00063346,
+       "duration_api_ms": 5347,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 6.4
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "```json\n[{\"op\":\"pronounce\",\"word\":\"Footsteps\",\"sounds\":[\"F UH1\",\"T S EH1 P S\"]}]\n```",
+      "usage": {
+       "total_cost_usd": 0.00076846,
+       "duration_api_ms": 6459,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 7.6
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00302963,
+       "duration_api_ms": 20852,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 21.9,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0034461300000000004,
+       "duration_api_ms": 22519,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 23.5,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound steps: got en_T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0029396300000000004,
+       "duration_api_ms": 20293,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 21.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound Foot: got en_F-UH1-T want en_F-UH1",
+        "sound steps: got en_S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ],
+       "collateral": [
+        "changed row 8 'Foot' C4 @38.22 -> 'Foot' note t 38.218-38.851 w=Footsteps"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "sound Foot: got en_F-UH1-T want en_F-UH1",
+        "sound steps: got en_S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0026961000000000003,
+       "duration_api_ms": 18599,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 19.5,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound Foot: got en_F-UH1-T want en_F-UH1",
+        "sound steps: got en_S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "sound Foot: got en_F-UH1-T want en_F-UH1",
+        "sound steps: got en_S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0030016,
+       "duration_api_ms": 22060,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 22.9,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound Foot: got en_F-UH1-T-S-T-EH2-P-S want en_F-UH1",
+        "sound steps: got en_F-UH1-T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ],
+       "collateral": [
+        "changed row 9 'steps' C4 @38.53 -> 'steps' slur t 38.535-38.851 w=Footsteps"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "sound Foot: got en_F-UH1-T-S-T-EH2-P-S want en_F-UH1",
+        "sound steps: got en_F-UH1-T-S-T-EH2-P-S want en_T-S-EH1-P-S"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0022806000000000002,
+       "duration_api_ms": 14141,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 15.2,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cp-waking-sounds",
+   "cat": "phoneme",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "```json\n[{\"op\":\"pronounce\",\"word\":\"waking\",\"sounds\":[\"W EY1\",\"K IH0 N\"]}]\n```",
+      "usage": {
+       "total_cost_usd": 0.00300457,
+       "duration_api_ms": 8071,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 9.4
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "[{\"op\":\"pronounce\",\"word\":\"waking\",\"sounds\":[\"W EY1\",\"K IH0 N\"]}]",
+      "usage": {
+       "total_cost_usd": 0.00082385,
+       "duration_api_ms": 5896,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 6.9
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": "```json\n[{\"op\":\"pronounce\",\"word\":\"Waking\",\"sounds\":[\"W EY1\",\"K IH0 N\"]}]\n```",
+      "usage": {
+       "total_cost_usd": 0.00088435,
+       "duration_api_ms": 6573,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 7.6
+     }
+    ],
+    "free": [
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.005284470000000001,
+       "duration_api_ms": 17670,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 18.6,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00271702,
+       "duration_api_ms": 17031,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 18.1,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "correct",
+      "score": {
+       "correct": true,
+       "request_done": true,
+       "strict_correct": true,
+       "missing": [],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": []
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00356202,
+       "duration_api_ms": 22096,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 22.9,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0044252200000000005,
+       "duration_api_ms": 13669,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 14.9,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0019437599999999999,
+       "duration_api_ms": 10770,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 12.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ],
+       "collateral": [
+        "changed row 20 'king' D5 @50.72 -> 'kin' note t 50.718-51.269 w=waking"
+       ],
+       "n_collateral": 1,
+       "strict_wrong": [
+        "sound king: got en_K-IH0-NG want en_K-IH0-N"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00217476,
+       "duration_api_ms": 12754,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 14.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sd-grace-fold",
+   "cat": "fitting",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 '~' @17.86",
+        "not deleted Eb5 '~' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 'mor' note w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 'mor' note w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": "```json\n[\n  {\"op\":\"set\",\"row\":10,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"the\"},\n  {\"op\":\"set\",\"row\":11,\"kind\":\"note\",\"text\":\"hall\",\"word\":\"hall\"},\n  {\"op\":\"set\",\"row\":45,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"the\"},\n  {\"op\":\"set\",\"row\":46,\"kind\":\"note\",\"text\":\"mor\",\"word\":\"morning\"}\n]\n```",
+      "usage": {
+       "total_cost_usd": 0.00514617,
+       "duration_api_ms": 26005,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 26.9
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 'mor' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 18.200 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.450 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 18.200 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.450 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": "```json\n[\n  {\"op\":\"set\",\"row\":10,\"end\":18.2},\n  {\"op\":\"set\",\"row\":11,\"t\":18.2},\n  {\"op\":\"set\",\"row\":45,\"end\":37.45},\n  {\"op\":\"set\",\"row\":46,\"t\":37.45}\n]\n```",
+      "usage": {
+       "total_cost_usd": 0.0017023799999999999,
+       "duration_api_ms": 14628,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 15.5
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 'mor' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": "```json\n[\n  {\"op\":\"pronounce\",\"word\":\"hall\",\"sounds\":[\"HH\",\"AO1 L\"]},\n  {\"op\":\"pronounce\",\"word\":\"morning\",\"sounds\":[\"M\",\"AO1 R\",\"N IH0 NG\"]}\n]\n```",
+      "usage": {
+       "total_cost_usd": 0.0042413799999999995,
+       "duration_api_ms": 37912,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 39.1
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 '' @17.86",
+        "not deleted Eb5 '' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 'mor' note w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 'mor' note w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00905607,
+       "duration_api_ms": 45299,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 46.2,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 '' @17.86",
+        "not deleted Eb5 '' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 'mor' note w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 'mor' note w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00468605,
+       "duration_api_ms": 33218,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 34.1,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 'mor' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.946 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.223 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.006977049999999999,
+       "duration_api_ms": 49158,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 50.0,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 'mor' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 18.200 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.450 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 18.200 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.450 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00656362,
+       "duration_api_ms": 28985,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 29.9,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 'mor' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 18.200 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.450 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 18.200 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.450 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.004108229999999999,
+       "duration_api_ms": 27934,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 28.8,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "not deleted Ab4 'hall' @17.86",
+        "not deleted Eb5 'mor' @37.14"
+       ],
+       "wrong": [
+        "row 9 'hall' A4: got t 18.150 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.450 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 18.150 end 18.482 '' slur w=hall; want t 17.855 end 18.482 'hall' note w=hall",
+        "row 41 'mor' E5: got t 37.450 end 37.715 '' slur w=morning; want t 37.136 end 37.715 'mor' note w=morning"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00491523,
+       "duration_api_ms": 31464,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 32.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sd-hall-g4",
+   "cat": "fitting",
+   "draws": {
+    "typed": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 10 'way' G4: got t 18.482 end 19.309 '' unsung w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway",
+        "row 10 'way' G4: got t 18.482 end 19.309 '' unsung w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ]
+      },
+      "raw": "[{\"op\":\"insert\",\"after\":9,\"pitch\":\"G4\",\"kind\":\"unsung\",\"text\":\"\",\"word\":\"\",\"t\":18.482,\"end\":19.309}]",
+      "usage": {
+       "total_cost_usd": 0.00328877,
+       "duration_api_ms": 10692,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 11.8
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 10 'way' G4: got t 18.482 end 18.899 '~' slur w=hall; want t 18.482 end 19.309 'way' note w=hallway"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway",
+        "row 10 'way' G4: got t 18.482 end 18.899 '~' slur w=hall; want t 18.482 end 19.309 'way' note w=hallway"
+       ]
+      },
+      "raw": "[{\"op\":\"insert\",\"after\":9,\"pitch\":\"G4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"hall\",\"t\":18.482,\"end\":18.899}]",
+      "usage": {
+       "total_cost_usd": 0.00123001,
+       "duration_api_ms": 10251,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 11.3
+     },
+     {
+      "outcome": "asked",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [
+        "missing gold row 10 G4 'way' @18.48"
+       ],
+       "wrong": [],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway"
+       ]
+      },
+      "raw": "[{\"op\":\"ask\",\"question\":\"After 'hall' (row 9, A4), should the new G4 be (a) a sung syllable, and if so what text, (b) a slur '~' that holds 'hall', or (c) an unsung piano note with empty text? Also, should it sit in the gap between 'hall' ending at 18.482 s and 'a' starting at 19.309 s?\"}]",
+      "usage": {
+       "total_cost_usd": 0.00108751,
+       "duration_api_ms": 8991,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 9.9
+     }
+    ],
+    "free": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 10 'way' G4: got t 18.482 end 19.309 '' unsung w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway",
+        "row 10 'way' G4: got t 18.482 end 19.309 '' unsung w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.00598107,
+       "duration_api_ms": 22694,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 23.7,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 10 'way' G4: got t 18.620 end 18.926 '' unsung w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway",
+        "row 10 'way' G4: got t 18.620 end 18.926 '' unsung w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.003401,
+       "duration_api_ms": 22577,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 23.4,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 10 'way' G4: got t 18.870 end 19.221 '' unsung w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway",
+        "row 10 'way' G4: got t 18.870 end 19.221 '' unsung w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.002818,
+       "duration_api_ms": 17460,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 18.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ],
+    "bare": [
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 10 'way' G4: got t 18.482 end 19.000 '' note w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway",
+        "row 10 'way' G4: got t 18.482 end 19.000 '' note w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.005062820000000001,
+       "duration_api_ms": 18415,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 19.3,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 10 'way' G4: got t 18.820 end 19.150 '' note w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway",
+        "row 10 'way' G4: got t 18.820 end 19.150 '' note w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0028062900000000003,
+       "duration_api_ms": 18392,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 19.2,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     },
+     {
+      "outcome": "wrong",
+      "score": {
+       "correct": false,
+       "request_done": false,
+       "strict_correct": false,
+       "missing": [],
+       "wrong": [
+        "row 10 'way' G4: got t 18.482 end 19.309 '' note w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ],
+       "collateral": [],
+       "n_collateral": 0,
+       "strict_wrong": [
+        "row 9 'hall' A4: got t 17.855 end 18.482 'hall' note w=hall; want t 17.855 end 18.482 'hall' note w=hallway",
+        "row 10 'way' G4: got t 18.482 end 19.309 '' note w=; want t 18.482 end 19.309 'way' note w=hallway"
+       ]
+      },
+      "raw": null,
+      "usage": {
+       "total_cost_usd": 0.0033417900000000003,
+       "duration_api_ms": 22669,
+       "model": [
+        "claude-haiku-5-5"
+       ]
+      },
+      "elapsed": 23.6,
+      "raw_withheld": "rows rewritten whole: the edited fit, not distributed"
+     }
+    ]
+   }
+  }
+ ]
+}

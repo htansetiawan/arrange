@@ -1,0 +1,762 @@
+{
+ "id": "e2",
+ "cat": "e",
+ "fixture": "synthetic",
+ "text": "Put the brass back in, I want to hear it.",
+ "gold_ops": [
+  {
+   "op": "unstub",
+   "layer": "L7"
+  }
+ ],
+ "gold_paths": [
+  "layers.L7.job",
+  "layers.L7.job.backend",
+  "layers.L7.job.inputs.context_mix",
+  "layers.L7.job.params.guidance",
+  "layers.L7.job.params.prompt",
+  "layers.L7.job.params.seed",
+  "layers.L7.job.params.steps",
+  "layers.L7.job.params.track_name",
+  "layers.L7.job.params.variants",
+  "layers.L7.kind",
+  "layers.L7.owner.route",
+  "layers.L7.route",
+  "layers.L7.stub_reason"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"unstub\",\"layer\":\"L7\"}]",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4861,
+      "total_tokens": 4875,
+      "completion_tokens": 14,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 0.581763505935669,
+    "ops": [
+     {
+      "op": "unstub",
+      "layer": "L7"
+     }
+    ],
+    "applied": [
+     "L7 restored to audio (ace-step/lego)"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.owner.route",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"unstub\",\"layer\":\"L7\"}]",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4861,
+      "total_tokens": 4875,
+      "completion_tokens": 14,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 0.4827866554260254,
+    "ops": [
+     {
+      "op": "unstub",
+      "layer": "L7"
+     }
+    ],
+    "applied": [
+     "L7 restored to audio (ace-step/lego)"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.owner.route",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"unstub\",\"layer\":\"L7\"}]",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4861,
+      "total_tokens": 4875,
+      "completion_tokens": 14,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 0.46728515625,
+    "ops": [
+     {
+      "op": "unstub",
+      "layer": "L7"
+     }
+    ],
+    "applied": [
+     "L7 restored to audio (ace-step/lego)"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.owner.route",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4626,
+      "total_tokens": 8620,
+      "completion_tokens": 3994,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 127.61344265937805,
+    "stale": [
+     "L7"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4626,
+      "total_tokens": 8620,
+      "completion_tokens": 3994,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 127.16692066192627,
+    "stale": [
+     "L7"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4626,
+      "total_tokens": 8620,
+      "completion_tokens": 3994,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 127.73226284980774,
+    "stale": [
+     "L7"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [{\"path\": \"layers.L7.kind\", \"value\": \"generated\"}, {\"path\": \"layers.L7.route\", \"value\": \"audio\"}, {\"path\": \"layers.L7.job\", \"value\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L7/context.wav\"}, \"params\": {\"track_name\": \"brass\", \"prompt\": \"empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\", \"variants\": 3, \"guidance\": 7.0, \"steps\": 50, \"seed\": null}}}], \"stale\": [\"L7\"], \"questions\": [], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4696,
+      "total_tokens": 4878,
+      "completion_tokens": 182,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 5.854583024978638,
+    "edits": [
+     {
+      "path": "layers.L7.kind",
+      "value": "generated"
+     },
+     {
+      "path": "layers.L7.route",
+      "value": "audio"
+     },
+     {
+      "path": "layers.L7.job",
+      "value": {
+       "backend": "ace-step/lego",
+       "inputs": {
+        "context_mix": "jobs/L7/context.wav"
+       },
+       "params": {
+        "track_name": "brass",
+        "prompt": "empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals",
+        "variants": 3,
+        "guidance": 7.0,
+        "steps": 50,
+        "seed": null
+       }
+      }
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L7"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.917,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\": [{\"path\": \"layers.L7.kind\", \"value\": \"generated\"}, {\"path\": \"layers.L7.route\", \"value\": \"audio\"}, {\"path\": \"layers.L7.job\", \"value\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L7/context.wav\"}, \"params\": {\"track_name\": \"brass\", \"prompt\": \"empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\", \"variants\": 3, \"guidance\": 7.0, \"steps\": 50, \"seed\": null}}}], \"stale\": [\"L7\"], \"questions\": []}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4696,
+      "total_tokens": 4869,
+      "completion_tokens": 173,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 5.481256008148193,
+    "edits": [
+     {
+      "path": "layers.L7.kind",
+      "value": "generated"
+     },
+     {
+      "path": "layers.L7.route",
+      "value": "audio"
+     },
+     {
+      "path": "layers.L7.job",
+      "value": {
+       "backend": "ace-step/lego",
+       "inputs": {
+        "context_mix": "jobs/L7/context.wav"
+       },
+       "params": {
+        "track_name": "brass",
+        "prompt": "empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals",
+        "variants": 3,
+        "guidance": 7.0,
+        "steps": 50,
+        "seed": null
+       }
+      }
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L7"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.917,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\": [{\"path\": \"layers.L7.kind\", \"value\": \"generated\"}, {\"path\": \"layers.L7.route\", \"value\": \"audio\"}, {\"path\": \"layers.L7.job\", \"value\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L7/context.wav\"}, \"params\": {\"track_name\": \"brass\", \"prompt\": \"empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\", \"variants\": 3, \"guidance\": 7.0, \"steps\": 50, \"seed\": null}}}], \"stale\": [\"L7\"], \"questions\": [], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4696,
+      "total_tokens": 4878,
+      "completion_tokens": 182,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 5.7526679039001465,
+    "edits": [
+     {
+      "path": "layers.L7.kind",
+      "value": "generated"
+     },
+     {
+      "path": "layers.L7.route",
+      "value": "audio"
+     },
+     {
+      "path": "layers.L7.job",
+      "value": {
+       "backend": "ace-step/lego",
+       "inputs": {
+        "context_mix": "jobs/L7/context.wav"
+       },
+       "params": {
+        "track_name": "brass",
+        "prompt": "empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals",
+        "variants": 3,
+        "guidance": 7.0,
+        "steps": 50,
+        "seed": null
+       }
+      }
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L7"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.917,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4287,
+      "total_tokens": 8285,
+      "completion_tokens": 3998,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 126.85435152053833,
+    "stale": [
+     "L7"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason",
+     "layers.L7.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.923,
+     "collateral": [
+      "layers.L7.text"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4287,
+      "total_tokens": 8273,
+      "completion_tokens": 3986,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 126.42687106132507,
+    "stale": [
+     "L7"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason",
+     "layers.L7.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.923,
+     "collateral": [
+      "layers.L7.text"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4287,
+      "total_tokens": 8265,
+      "completion_tokens": 3978,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+     },
+     "model": [
+      "gemma-4-31b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 126.17611241340637,
+    "stale": [
+     "L7"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason",
+     "layers.L7.text"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.923,
+     "collateral": [
+      "layers.L7.text"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ]
+ }
+}

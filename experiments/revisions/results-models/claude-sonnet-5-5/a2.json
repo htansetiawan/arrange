@@ -1,0 +1,522 @@
+{
+ "id": "a2",
+ "cat": "a",
+ "fixture": "synthetic",
+ "text": "Let the chorus strings finish at the end of bar 38 instead of running to the end.",
+ "gold_ops": [
+  {
+   "op": "set_exit",
+   "layer": "L5",
+   "bar": 39,
+   "beat": 1
+  }
+ ],
+ "gold_paths": [
+  "layers.L5.anchors.exit.bar",
+  "layers.L5.owner.anchors"
+ ],
+ "gold_stale": [
+  "L5"
+ ],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"set_exit\",\"layer\":\"L5\",\"bar\":39,\"beat\":1.0}]",
+    "usage": {
+     "total_cost_usd": 0.057939700000000004,
+     "duration_api_ms": 2052,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 3.254383087158203,
+    "ops": [
+     {
+      "op": "set_exit",
+      "layer": "L5",
+      "bar": 39,
+      "beat": 1.0
+     }
+    ],
+    "applied": [
+     "L5 exit 41:1 -> 39:1"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L5"
+    ],
+    "diff": [
+     "layers.L5.anchors.exit.bar",
+     "layers.L5.owner.anchors"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"set_exit\",\"layer\":\"L5\",\"bar\":39,\"beat\":1.0}]",
+    "usage": {
+     "total_cost_usd": 0.0031514000000000004,
+     "duration_api_ms": 1179,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 2.3081912994384766,
+    "ops": [
+     {
+      "op": "set_exit",
+      "layer": "L5",
+      "bar": 39,
+      "beat": 1.0
+     }
+    ],
+    "applied": [
+     "L5 exit 41:1 -> 39:1"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L5"
+    ],
+    "diff": [
+     "layers.L5.anchors.exit.bar",
+     "layers.L5.owner.anchors"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"set_exit\",\"layer\":\"L5\",\"bar\":39,\"beat\":1.0}]",
+    "usage": {
+     "total_cost_usd": 0.0033014000000000003,
+     "duration_api_ms": 1390,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 2.6078991889953613,
+    "ops": [
+     {
+      "op": "set_exit",
+      "layer": "L5",
+      "bar": 39,
+      "beat": 1.0
+     }
+    ],
+    "applied": [
+     "L5 exit 41:1 -> 39:1"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L5"
+    ],
+    "diff": [
+     "layers.L5.anchors.exit.bar",
+     "layers.L5.owner.anchors"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.1061637,
+     "duration_api_ms": 25155,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 25.99375057220459,
+    "stale": [
+     "L5"
+    ],
+    "questions": [
+     "L5's prompt still says 'release on the last chord'. With the strings now ending at bar 38, the release will land there. Is that what you want?"
+    ],
+    "diff": [
+     "layers.L5.anchors.exit.bar"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.053409,
+     "duration_api_ms": 24486,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 25.422298431396484,
+    "stale": [
+     "L5"
+    ],
+    "questions": [
+     "Done: the chorus strings (L5) now exit at bar 39 beat 1. Exits are exclusive, so they sound through the end of bar 38. L5 needs a re-render so the release on the last chord lands at bar 38. Do you want the guitar (L6) and the vocal (L2) to keep running to bar 40? I left them as they were."
+    ],
+    "diff": [
+     "layers.L5.anchors.exit.bar"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.052948999999999996,
+     "duration_api_ms": 25609,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 26.443153381347656,
+    "stale": [
+     "L5"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L5.anchors.exit.bar"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\":[{\"path\":\"layers.L5.anchors.exit.bar\",\"value\":39}],\"stale\":[\"L5\"],\"questions\":[],\"tempo_map_corrections\":[]}",
+    "usage": {
+     "total_cost_usd": 0.058021699999999996,
+     "duration_api_ms": 3056,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 4.130374193191528,
+    "edits": [
+     {
+      "path": "layers.L5.anchors.exit.bar",
+      "value": 39
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L5"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L5.anchors.exit.bar"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\":[{\"path\":\"layers.L5.anchors.exit.bar\",\"value\":39}],\"stale\":[\"L5\"],\"questions\":[],\"tempo_map_corrections\":[]}",
+    "usage": {
+     "total_cost_usd": 0.0050877000000000006,
+     "duration_api_ms": 2692,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 3.807861804962158,
+    "edits": [
+     {
+      "path": "layers.L5.anchors.exit.bar",
+      "value": 39
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L5"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L5.anchors.exit.bar"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\":[{\"path\":\"layers.L5.anchors.exit.bar\",\"value\":39}],\"stale\":[\"L5\"],\"questions\":[],\"tempo_map_corrections\":[]}",
+    "usage": {
+     "total_cost_usd": 0.0045977,
+     "duration_api_ms": 2461,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 3.5605525970458984,
+    "edits": [
+     {
+      "path": "layers.L5.anchors.exit.bar",
+      "value": 39
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L5"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L5.anchors.exit.bar"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.115008,
+     "duration_api_ms": 30260,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 31.13083052635193,
+    "stale": [
+     "L5"
+    ],
+    "questions": [
+     "The chorus strings (L5) now exit at bar 39 beat 1 (end of bar 38). I set t1 to 189.387 s by spacing the chorus bars evenly between bar 25 (117.88 s) and bar 41 (199.602 s), because I don't have per-bar times. If the tempo map has a different time for bar 39, please correct it. L5's candidates were rendered for the longer span, so I marked L5 stale and it needs a re-render. The prompt still says 'release on the last chord'. That chord will now land at bar 38."
+    ],
+    "diff": [
+     "layers.L5.anchors.exit.bar"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.0578813,
+     "duration_api_ms": 29225,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 30.110183238983154,
+    "stale": [
+     "L5"
+    ],
+    "questions": [
+     "I read 'end of bar 38' as the strings stopping at the start of bar 39 (bar 39 beat 1, using the plan's half-open intervals). The exact time of bar 39 isn't in the plan, so I set L5 t1 to about 188.953 s by interpolating between bar 33 (157.007 s) and bar 41 (199.602 s). Please confirm this against the tempo map. The plan's existing 'release on the last chord' note now has to land at bar 38, so L5 needs a re-render."
+    ],
+    "diff": [
+     "layers.L5.anchors.exit.bar"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.05908129999999999,
+     "duration_api_ms": 29881,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 30.87339949607849,
+    "stale": [
+     "L5"
+    ],
+    "questions": [
+     "I moved the chorus strings (L5) to exit at bar 39 beat 1, which is the end of bar 38. The plan has no onset time for bar 39, so I interpolated t1 = 188.953 s from the bar 33 to bar 41 span. The tempo there seems to slow, so please check that time against the tempo map. L5's existing candidates were rendered to bar 41 and need re-rendering. The prompt still says 'release on the last chord', and that release will now land at bar 38."
+    ],
+    "diff": [
+     "layers.L5.anchors.exit.bar"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L5"
+     ],
+     "expected_stale": [
+      "L5"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ]
+ }
+}

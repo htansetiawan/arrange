@@ -1,0 +1,229 @@
+{
+ "session": "S2",
+ "arm": "typed",
+ "model": "claude-haiku-5-5",
+ "draw": 1,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Use the second vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L2"
+   ],
+   "arm_stale": [
+    "L2"
+   ],
+   "refused": [],
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L1",
+     "candidate": "L1c2"
+    }
+   ],
+   "elapsed": 5.6,
+   "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L1\",\"candidate\":\"L1c2\"}]"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "shift_entry",
+     "layer": "L2",
+     "by_bars": 2
+    }
+   ],
+   "elapsed": 2.6,
+   "raw": "[{\"op\":\"shift_entry\",\"layer\":\"L2\",\"by_bars\":2}]"
+  },
+  {
+   "turn": 3,
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.conditions.audio_context",
+    "layers.L2.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_context",
+     "layer": "L2",
+     "audio_context": [
+      "piano"
+     ]
+    }
+   ],
+   "elapsed": 3.0,
+   "raw": "[{\"op\":\"set_context\",\"layer\":\"L2\",\"audio_context\":[\"piano\"]}]"
+  },
+  {
+   "turn": 4,
+   "text": "Turn the vocal up 2 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_gain",
+     "layer": "L1",
+     "db": 2.0
+    }
+   ],
+   "elapsed": 2.7,
+   "raw": "[{\"op\":\"set_gain\",\"layer\":\"L1\",\"db\":2.0}]"
+  },
+  {
+   "turn": 5,
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "ask",
+     "question": "Bar 33 is on the tempo map, but the plan doesn't list its time. Section 5 starts at bar 31 (157.556 s) at about 5.2 s per bar, so bar 33 is roughly 167.9 s. Moving the downbeat is a clock change, not a layer change. Which correction do you want? (a) Move bar 33 earlier by 0.5 s, as you said, and leave the later bars where they are. (b) Move bar 33 earlier by one beat (about 1.3 s), if 'a beat late' is the more accurate measure. (c) Move bar 33 and every later bar earlier by the same amount. A clock change can also mark the clock-dependent layers L1 and L2 stale, so they would need re-rendering. Tell me which option, and whether to re-render L1 and L2 afterward."
+    }
+   ],
+   "elapsed": 12.8,
+   "raw": "[{\"op\":\"ask\",\"question\":\"Bar 33 is on the tempo map, but the plan doesn't list its time. Section 5 starts at bar 31 (157.556 s) at about 5.2 s per bar, so bar 33 is roughly 167.9 s. Moving the downbeat is a clock change, not a layer change. Which correction do you want? (a) Move bar 33 earlier by 0.5 s, as you said, and leave the later bars where they are. (b) Move bar 33 earlier by one beat (about 1.3 s), if 'a beat late' is the more accurate measure. (c) Move bar 33 and every later bar earlier by the same amount. A clock change can also mark the clock-dependent layers L1 and L2 stale, so they would need re-rendering. Tell me which option, and whether to re-render L1 and L2 afterward.\"}]"
+  },
+  {
+   "turn": 6,
+   "text": "Let the strings run two bars longer at the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "shift_exit",
+     "layer": "L2",
+     "by_bars": 2
+    }
+   ],
+   "elapsed": 3.1,
+   "raw": "[{\"op\":\"shift_exit\",\"layer\":\"L2\",\"by_bars\":2}]"
+  },
+  {
+   "turn": 7,
+   "text": "Make it more emotional.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "ask",
+     "question": "\"More emotional\" could be several changes. Which one do you want? (a) Bring the strings in earlier, at bar 19, instead of bar 21, so they sit under the voice sooner. (b) Raise the vocal by 2 more dB, to 4 dB total, so the voice carries more. (c) Switch the strings to the other rendered take, L2c5, which is a different take of the same prompt. (d) Keep the mix as it is and give me a different direction, in your own words."
+    }
+   ],
+   "elapsed": 4.2,
+   "raw": "{\"op\":\"ask\",\"question\":\"\\\"More emotional\\\" could be several changes. Which one do you want? (a) Bring the strings in earlier, at bar 19, instead of bar 21, so they sit under the voice sooner. (b) Raise the vocal by 2 more dB, to 4 dB total, so the voice carries more. (c) Switch the strings to the other rendered take, L2c5, which is a different take of the same prompt. (d) Keep the mix as it is and give me a different direction, in your own words.\"}"
+  },
+  {
+   "turn": 8,
+   "text": "Go back to the fourth vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L1",
+     "candidate": "L1c4"
+    }
+   ],
+   "elapsed": 5.0,
+   "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L1\",\"candidate\":\"L1c4\"}]"
+  }
+ ],
+ "final_drift": 1,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 7,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.0311
+}

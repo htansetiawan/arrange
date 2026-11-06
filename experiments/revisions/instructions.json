@@ -1,0 +1,302 @@
+{
+ "frozen": "2026-10-31 draft; Henry reviews the wording before any model call; expected ops are the gold answer",
+ "categories": {
+  "a": "move an entry or exit",
+  "b": "change what a layer hears",
+  "c": "choose a candidate",
+  "d": "protect or substitute a human take",
+  "e": "stub or restore a layer",
+  "f": "correct the clock",
+  "g": "unsupported or ambiguous",
+  "h": "compound"
+ },
+ "fixtures": {
+  "real": "runs/color-purple/plan/arrangement.json (E1, Henry's piece: L1 vocal, L2 strings, L3 brass stub)",
+  "synthetic": "e2/synthetic/arrangement.json (example piece: L1 vocal, L2 vocal, L3 room fx, L4 strings, L5 strings, L6 guitar take, L7 brass stub)"
+ },
+ "instructions": [
+  {
+   "id": "a1",
+   "cat": "a",
+   "fixture": "real",
+   "text": "Bring the strings in two bars later.",
+   "expected_ops": [
+    {
+     "op": "shift_entry",
+     "layer": "strings",
+     "by_bars": 2
+    }
+   ],
+   "expected_stale": [
+    "L2"
+   ],
+   "alternatives": "set_entry to the same resulting bar"
+  },
+  {
+   "id": "a2",
+   "cat": "a",
+   "fixture": "synthetic",
+   "text": "Let the chorus strings finish at the end of bar 38 instead of running to the end.",
+   "expected_ops": [
+    {
+     "op": "set_exit",
+     "layer": "L5",
+     "bar": 39,
+     "beat": 1
+    }
+   ],
+   "expected_stale": [
+    "L5"
+   ],
+   "alternatives": "exit 39:1 is the only correct half-open exit; 38:4 is wrong"
+  },
+  {
+   "id": "b1",
+   "cat": "b",
+   "fixture": "real",
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "expected_ops": [
+    {
+     "op": "set_context",
+     "layer": "strings",
+     "audio_context": [
+      "piano"
+     ]
+    }
+   ],
+   "expected_stale": [
+    "L2"
+   ]
+  },
+  {
+   "id": "b2",
+   "cat": "b",
+   "fixture": "synthetic",
+   "text": "I want the guitar to hear the piano and the vocal only, not the strings.",
+   "expected_ops": [
+    {
+     "op": "ask",
+     "question": "L6 guitar is your own take; a take does not listen to anything, so there is nothing to change. Did you mean a different layer?"
+    }
+   ],
+   "expected_stale": [],
+   "note": "trap: the guitar is a human take with no conditions; the right answer is a visible question, not a silent edit"
+  },
+  {
+   "id": "c1",
+   "cat": "c",
+   "fixture": "real",
+   "text": "Use the second vocal take.",
+   "expected_ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "vocal",
+     "candidate": 2
+    }
+   ],
+   "expected_stale": [
+    "L2"
+   ],
+   "note": "the strings were rendered against vocal candidate 1"
+  },
+  {
+   "id": "c2",
+   "cat": "c",
+   "fixture": "synthetic",
+   "text": "Go with the third strings option in the chorus.",
+   "expected_ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L5",
+     "candidate": 3
+    }
+   ],
+   "expected_stale": [],
+   "note": "nothing hears L5 in the synthetic fixture (guitar is a take), so nothing goes stale"
+  },
+  {
+   "id": "d1",
+   "cat": "d",
+   "fixture": "synthetic",
+   "text": "Keep my guitar exactly as I played it, whatever else changes.",
+   "expected_ops": [
+    {
+     "op": "lock",
+     "layer": "L6"
+    }
+   ],
+   "expected_stale": [],
+   "alternatives": "lock with an explicit full field list"
+  },
+  {
+   "id": "d2",
+   "cat": "d",
+   "fixture": "synthetic",
+   "text": "Drop the room fx and use my recorded guitar there instead.",
+   "expected_ops": [
+    {
+     "op": "replace_with_take",
+     "layer": "L3",
+     "asset": "a1"
+    }
+   ],
+   "expected_stale": [],
+   "note": "the catalogue has one guitar take, a1; the fx layer becomes that take"
+  },
+  {
+   "id": "e1",
+   "cat": "e",
+   "fixture": "real",
+   "text": "Leave the brass out for now, just keep an empty track for it.",
+   "expected_ops": [
+    {
+     "op": "set_stub",
+     "layer": "brass",
+     "reason": "left out for now"
+    }
+   ],
+   "expected_stale": [],
+   "note": "the brass is already a stub; the correct result is a no-op reported as such, not an error and not a second stub"
+  },
+  {
+   "id": "e2",
+   "cat": "e",
+   "fixture": "synthetic",
+   "text": "Put the brass back in, I want to hear it.",
+   "expected_ops": [
+    {
+     "op": "unstub",
+     "layer": "L7"
+    }
+   ],
+   "expected_stale": [],
+   "note": "L7 has a remembered generation job"
+  },
+  {
+   "id": "f1",
+   "cat": "f",
+   "fixture": "real",
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "expected_ops": [
+    {
+     "op": "set_clock",
+     "bar": 33,
+     "t": "<downbeat(33) - 0.5, frozen from the fixture map>"
+    }
+   ],
+   "expected_stale": [
+    "L1",
+    "L2"
+   ],
+   "note": "every rendered layer depends on the clock"
+  },
+  {
+   "id": "f2",
+   "cat": "f",
+   "fixture": "synthetic",
+   "text": "The downbeat of bar 17 is at 78.9 seconds, not where you put it.",
+   "expected_ops": [
+    {
+     "op": "set_clock",
+     "bar": 17,
+     "t": 78.9
+    }
+   ],
+   "expected_stale": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+   ],
+   "note": "L6 is a take and L7 a stub: no candidates, so not stale"
+  },
+  {
+   "id": "g1",
+   "cat": "g",
+   "fixture": "real",
+   "text": "Make it more emotional.",
+   "expected_ops": [
+    {
+     "op": "ask",
+     "question": "<a question that offers concrete choices, e.g. strings later or softer, a different vocal take, a swell>"
+    }
+   ],
+   "expected_stale": [],
+   "note": "no field maps to this; a silent prompt rewrite is a failure"
+  },
+  {
+   "id": "g2",
+   "cat": "g",
+   "fixture": "synthetic",
+   "text": "Move the strings a bit.",
+   "expected_ops": [
+    {
+     "op": "ask",
+     "question": "<which strings layer (L4 verse or L5 chorus), earlier or later, by how many bars>"
+    }
+   ],
+   "expected_stale": [],
+   "note": "ambiguous layer and direction"
+  },
+  {
+   "id": "h1",
+   "cat": "h",
+   "fixture": "real",
+   "text": "Use the second vocal take and have the strings come in two bars later, hearing the piano only.",
+   "expected_ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "vocal",
+     "candidate": 2
+    },
+    {
+     "op": "shift_entry",
+     "layer": "strings",
+     "by_bars": 2
+    },
+    {
+     "op": "set_context",
+     "layer": "strings",
+     "audio_context": [
+      "piano"
+     ]
+    }
+   ],
+   "expected_stale": [
+    "L2"
+   ]
+  },
+  {
+   "id": "h2",
+   "cat": "h",
+   "fixture": "synthetic",
+   "text": "Swap the verse strings for a guitar and bring it in at bar 20 instead of 17.",
+   "expected_ops": [
+    {
+     "op": "set_class",
+     "layer": "L4",
+     "class": "guitar"
+    },
+    {
+     "op": "set_entry",
+     "layer": "L4",
+     "bar": 20,
+     "beat": 1
+    }
+   ],
+   "expected_stale": [
+    "L4"
+   ]
+  }
+ ],
+ "scoring": {
+  "intended_change": "precision and recall of changed JSON paths (derived paths excluded) against the gold diff produced by applying expected_ops to the frozen fixture",
+  "collateral": "changed paths outside the gold set",
+  "protected": "changed paths under a field whose owner is creator and that the gold diff does not touch",
+  "stale_set": "exact match of the stale set to expected_stale",
+  "unsupported": "for g-cases and b2: a visible question or unresolved state (pass) versus any plan change (fail)",
+  "validity": "parses, applies, passes validate.py",
+  "outcomes": "applied | refused | no-op | unresolved | invalid — all counted, none dropped"
+ }
+}

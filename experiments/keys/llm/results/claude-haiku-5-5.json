@@ -1,0 +1,965 @@
+{
+ "model": "claude-haiku-5-5",
+ "rows": [
+  {
+   "case": "attya/buble",
+   "cond": "name",
+   "draw": 1,
+   "shift": -7,
+   "gold": -8,
+   "answer": "{\"shift\": -7, \"why\": \"Moving the melody down 7 semitones puts its median near G#3 and its 90th percentile near F#4, which keeps the phrases in Bublé's warm chest-dominant core and keeps the top note (G4) below the register where a clone would strain.\"}",
+   "cost": 0.00266261,
+   "elapsed": 12.7
+  },
+  {
+   "case": "attya/buble",
+   "cond": "name",
+   "draw": 2,
+   "shift": -2,
+   "gold": -8,
+   "answer": "{\"shift\": -2, \"why\": \"This moves the 90th-percentile top from B4 to A4 and the peak from D5 to C5, which sits in Bublé's strong upper range, while the median (C#4) and low end (A3) stay comfortably in his chest and mix voice.\"}",
+   "cost": 0.00105318,
+   "elapsed": 11.3
+  },
+  {
+   "case": "attya/buble",
+   "cond": "name",
+   "draw": 3,
+   "shift": -2,
+   "gold": -8,
+   "answer": "{\"shift\": -2, \"why\": \"Moving down two semitones puts the 90th-percentile top note at A4 and the highest note at C5, both within Bublé's strong range, while the median lands at C#4, near the centre of his sung tessitura.\"}",
+   "cost": 0.00090468,
+   "elapsed": 10.0
+  },
+  {
+   "case": "attya/buble",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": -7,
+   "gold": -8,
+   "answer": "{\"shift\": -7, \"why\": \"Shifting down 7 semitones puts the melody's median (D#4 → G#3) inside the singer's comfortable 25th–75th band (G3–B3), keeps the lowest note at the singer's 10th-percentile floor (E3), and leaves the 90th-percentile peak only about 2 semitones above the singer's D4 ceiling.\"}",
+   "cost": 0.0027077100000000003,
+   "elapsed": 11.5
+  },
+  {
+   "case": "attya/buble",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": -7,
+   "gold": -8,
+   "answer": "{\"shift\": -7, \"why\": \"Shifting by -7 semitones puts the melody's 10th percentile (B3→F#2... no: B3→F3 region) and median (D#4→G#3) within about 1–2 semitones of the singer's comfortable 10th percentile, median and 90th percentile, which gives the smallest total mismatch of the candidate shifts.\"}",
+   "cost": 0.00101126,
+   "elapsed": 9.9
+  },
+  {
+   "case": "attya/buble",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": -7,
+   "gold": -8,
+   "answer": "{\"shift\": -7, \"why\": \"At -7 the melody's bottom (B3 to E3) sits exactly at the singer's 10th-percentile floor, its middle (D#4 to G#3) lands within one semitone of the singer's median A3, and its 90th percentile (B4 to E4) is only two semitones above the singer's D4, the smallest total deviation of the candidate shifts.\"}",
+   "cost": 0.00089526,
+   "elapsed": 8.3
+  },
+  {
+   "case": "attya/buble",
+   "cond": "anon",
+   "draw": 1,
+   "shift": -7,
+   "gold": -8,
+   "answer": "{\"shift\": -7, \"why\": \"Moving the melody down 7 semitones puts its time-weighted median (D#4 to G#3) inside the singer's comfortable core (G3 to B3, median A3), matches the melody's 10th percentile to the singer's 10th (E3), and keeps the 90th percentile only about 2 semitones above the singer's 90th (D4).\"}",
+   "cost": 0.00269561,
+   "elapsed": 11.3
+  },
+  {
+   "case": "attya/buble",
+   "cond": "anon",
+   "draw": 2,
+   "shift": -6,
+   "gold": -8,
+   "answer": "{\"shift\": -6, \"why\": \"Shifting down 6 semitones moves the melody's time-weighted median (D#4) onto the singer's median (A3), keeping most of the song in the singer's core range, though the written top (B4 to F4) still sits about 3 semitones above the singer's 90th percentile (D4).\"}",
+   "cost": 0.00149523,
+   "elapsed": 15.6
+  },
+  {
+   "case": "attya/buble",
+   "cond": "anon",
+   "draw": 3,
+   "shift": -6,
+   "gold": -8,
+   "answer": "{\"shift\": -6, \"why\": \"Shifting down 6 semitones moves the song's time-weighted median (D#4) onto the singer's median sung pitch (A3), which is the center of their most-used range, while keeping the melody's low end (F3 after the shift) at the singer's 10th-percentile floor.\"}",
+   "cost": 0.0009127299999999999,
+   "elapsed": 9.4
+  },
+  {
+   "case": "attya/buble",
+   "cond": "image",
+   "draw": 1,
+   "shift": -7,
+   "gold": -8,
+   "answer": "{\"shift\": -7, \"why\": \"Shifting down 7 semitones puts the melody's median (D#4) at G#3, between Voice A's two strongest peaks (G3 and A3), and its 90th percentile (B4) at E4, the top of the range Voice A actually sings, while the lowest note (E3) stays within their sung range.\"}",
+   "cost": 0.00461372,
+   "elapsed": 19.9
+  },
+  {
+   "case": "attya/buble",
+   "cond": "image",
+   "draw": 2,
+   "shift": -7,
+   "gold": -8,
+   "answer": "{\"shift\": -7, \"why\": \"Shifting down 7 semitones moves the melody's most-sung note (D4) onto Voice A's strongest peak (G3), puts the melody's 90th percentile (B4) on E4, the top of the range this singer actually sings, and keeps the melody's median (D#4) in the G3–A3 core instead of pushing the top into the unsung range above E4.\"}",
+   "cost": 0.007148999999999999,
+   "elapsed": 62.7
+  },
+  {
+   "case": "attya/buble",
+   "cond": "image",
+   "draw": 3,
+   "shift": -6,
+   "gold": -8,
+   "answer": "{\"shift\": -6, \"why\": \"Voice A's sung time clusters around G3–A3 with a usable top near E4–F4, and a shift of -6 puts the melody's median (D#4) at A3 and its 90th percentile (B4) at F4, keeping most of the song in that zone.\"}",
+   "cost": 0.0021594,
+   "elapsed": 15.6
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "name",
+   "draw": 1,
+   "shift": -2,
+   "gold": -4,
+   "answer": "{\"shift\": -2, \"why\": \"At -2 the 10th-90th percentile band moves to A3-A4 and the median to C#4, which sits in Michael Jackson's strong chest/mix range, and the top note D5 drops to C5, which he can reach cleanly.\"}",
+   "cost": 0.00233861,
+   "elapsed": 8.6
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "name",
+   "draw": 2,
+   "shift": 2,
+   "gold": -4,
+   "answer": "{\"shift\": 2, \"why\": \"Moving up two semitones puts the median at F4 and the 90th percentile at C#5, inside Michael Jackson's strong chest-mix core, while lifting the low B3 out of his weaker lower range and keeping the top E5 in his falsetto, which he used comfortably.\"}",
+   "cost": 0.00066818,
+   "elapsed": 7.4
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "name",
+   "draw": 3,
+   "shift": -2,
+   "gold": -4,
+   "answer": "{\"shift\": -2, \"why\": \"Moving down two semitones centers the median near C#4 and keeps the 90th percentile at A4 and the peak at C5, so most of the melody sits in the singer's strong chest-mix range and the high notes stay out of his strained top.\"}",
+   "cost": 0.00067218,
+   "elapsed": 7.5
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": -1,
+   "gold": -4,
+   "answer": "{\"shift\": -1, \"why\": \"Shifting down one semitone puts the melody's time-weighted median (D#4 → D4) exactly on the singer's measured median, the most-sung and best-cloned pitch, and pulls the top note (D5 → C#5) closer to the singer's 90th percentile (B4).\"}",
+   "cost": 0.00221841,
+   "elapsed": 6.0
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": -1,
+   "gold": -4,
+   "answer": "{\"shift\": -1, \"why\": \"Shifting down one semitone moves the melody's time-weighted median (D#4) onto the singer's measured median (D4), keeping the bulk of the line in their comfortable middle range while the top (D5 to C#5) stays near their upper limit.\"}",
+   "cost": 0.00071177,
+   "elapsed": 7.5
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": -1,
+   "gold": -4,
+   "answer": "{\"shift\": -1, \"why\": \"Moving the melody down one semitone lands its median (D#4 to D4) exactly on the singer's median and core sweet spot, keeps the 10th and 90th percentiles closest to the singer's own (G3 and B4), and puts the top note at C#5, only slightly above the singer's B4 comfort limit.\"}",
+   "cost": 0.00117777,
+   "elapsed": 11.6
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "anon",
+   "draw": 1,
+   "shift": -1,
+   "gold": -4,
+   "answer": "{\"shift\": -1, \"why\": \"Shifting down one semitone moves the song's time-weighted median (D#4) onto the singer's median (D4), and keeps the song's 10th–90th percentile span (A#3–A#4) inside the singer's 10th–90th range (G3–B4), with only the top D5 peak sitting slightly above it.\"}",
+   "cost": 0.00250581,
+   "elapsed": 9.4
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "anon",
+   "draw": 2,
+   "shift": -1,
+   "gold": -4,
+   "answer": "{\"shift\": -1, \"why\": \"Shifting down one semitone puts the song's time-weighted median (D#4) on the singer's median (D4), and the song's 90th percentile (A4) falls inside the singer's upper-middle range (G#4 to B4) rather than at its top edge.\"}",
+   "cost": 0.0008707400000000001,
+   "elapsed": 8.8
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "anon",
+   "draw": 3,
+   "shift": -1,
+   "gold": -4,
+   "answer": "{\"shift\": -1, \"why\": \"Shifting down one semitone puts the melody's time-weighted median (D#4 to D4) exactly on the singer's median, keeps the 90th percentile (A#4) just under the singer's 90th (B4), and leaves the 10th percentile (A3) inside the lower range, so most of the melody sits in the singer's core range.\"}",
+   "cost": 0.00062074,
+   "elapsed": 6.5
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "image",
+   "draw": 1,
+   "shift": -1,
+   "gold": -4,
+   "answer": "{\"shift\": -1, \"why\": \"Voice A's time-weighted median sits near D4 and its dense range runs roughly G3 to B4, so moving the melody down one semitone puts its median (D#4 to D4) on the singer's centre and keeps the top note (D5 to C#5) at the edge of that range.\"}",
+   "cost": 0.00477783,
+   "elapsed": 22.3
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "image",
+   "draw": 2,
+   "shift": -1,
+   "gold": -4,
+   "answer": "{\"shift\": -1, \"why\": \"Voice A's time-weighted median is about D4, so shifting the melody down one semitone puts its median (D#4 to D4) at the singer's centre of gravity, with the 10th to 90th percentile span (A#3 to A#4) inside the voice's dense range and only the single highest note (D5 to C#5) at the sparse top edge.\"}",
+   "cost": 0.0057084200000000005,
+   "elapsed": 46.7
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "image",
+   "draw": 3,
+   "shift": -2,
+   "gold": -4,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the melody's middle (D#4 to C#4) and its 10th-90th percentile band (A3 to A4) over the middle of Voice A's densest range (about G3 to A4), and keeps the highest note (C5) at the thin upper edge of their range.\"}",
+   "cost": 0.00319222,
+   "elapsed": 21.9
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "name",
+   "draw": 1,
+   "shift": 0,
+   "gold": 2,
+   "answer": "{\"shift\": 0, \"why\": \"The time-weighted median (D#4) already sits in Kelly Clarkson's strong mid-chest range, the 90th percentile (B4) and peak (D5) fall in her well-recorded belt zone, and the lowest note (B3) stays comfortable, so no move is needed.\"}",
+   "cost": 0.00227551,
+   "elapsed": 7.5
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "name",
+   "draw": 2,
+   "shift": -2,
+   "gold": 2,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down two semitones centers the 10th–90th percentile core (B3–B4 becomes A3–A4) and the time-weighted median (D#4 becomes C#4) around Kelly Clarkson's strong mid-chest and lower belt, keeping the top note (D5 becomes C5) out of her strained upper range.\"}",
+   "cost": 0.0008587,
+   "elapsed": 11.0
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "name",
+   "draw": 3,
+   "shift": -2,
+   "gold": 2,
+   "answer": "{\"shift\": -2, \"why\": \"At -2 the median falls to C#4 and the 90th percentile to A4, placing the bulk of the melody in Kelly Clarkson's strong chest/belt zone, with the peak at C5 still in her comfortable upper range and the low note at A3 safely above her floor.\"}",
+   "cost": 0.0011052,
+   "elapsed": 12.2
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": 0,
+   "gold": 2,
+   "answer": "{\"shift\": 0, \"why\": \"At shift 0 the melody's low end (B3) matches the singer's 10th percentile and its 90th percentile (B4) sits near the singer's 75th, so the phrase stays almost entirely inside the range the singer actually uses, with only the top D5 slightly above the 90th-percentile C5.\"}",
+   "cost": 0.00342281,
+   "elapsed": 18.6
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": 2,
+   "gold": 2,
+   "answer": "{\"shift\": 2, \"why\": \"Shifting up 2 semitones puts the melody's time-weighted median at F4, inside the singer's core range (C#4 to B4), and its 90th percentile at C#5, only one semitone above her 90th percentile of C5, so most of the song sits where she sings comfortably.\"}",
+   "cost": 0.0017342899999999999,
+   "elapsed": 17.3
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": 1,
+   "gold": 2,
+   "answer": "{\"shift\": 1, \"why\": \"At +1 the melody's 10th–90th percentile span (C4–C5) sits almost entirely inside the singer's 10th–90th range (B3–C5), which lifts the lowest notes off the singer's floor and brings the median (E4) closer to the singer's median (G4), while only the top few notes exceed the singer's ceiling by about a semitone more than at shift 0.\"}",
+   "cost": 0.00219279,
+   "elapsed": 22.2
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "anon",
+   "draw": 1,
+   "shift": 1,
+   "gold": 2,
+   "answer": "{\"shift\": 1, \"why\": \"Shifting up 1 semitone puts the melody's 10th-90th percentile band (C4 to C5) inside the singer's own 10th-90th band (B3 to C5), and the 90th percentile lands exactly on the singer's C5 ceiling, while a larger shift to match the median (+4) would push the upper notes well above the singer's comfortable range.\"}",
+   "cost": 0.00346981,
+   "elapsed": 18.7
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "anon",
+   "draw": 2,
+   "shift": 1,
+   "gold": 2,
+   "answer": "{\"shift\": 1, \"why\": \"Shifting up 1 semitone puts the song's 10th percentile (B3→C4), median (D#4→E4) and 90th percentile (B4→C5) closest to the singer's own 10th, median and 90th percentile, keeping most of the melody in the singer's well-sung zone and only the top peak a little above it.\"}",
+   "cost": 0.0012452399999999999,
+   "elapsed": 13.1
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "anon",
+   "draw": 3,
+   "shift": 1,
+   "gold": 2,
+   "answer": "{\"shift\": 1, \"why\": \"Shifting up 1 semitone puts the melody's 90th percentile (B4) at the singer's 90th (C5), keeps the 10th percentile within a semitone of the singer's B3, and brings the median (D#4) closest to the singer's sung-centre of G4 among the shifts that keep the top within reach.\"}",
+   "cost": 0.00111024,
+   "elapsed": 11.4
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "image",
+   "draw": 1,
+   "shift": 4,
+   "gold": 2,
+   "answer": "{\"shift\": 4, \"why\": \"Shifting up 4 semitones moves the written median from D#4 to G4, which is Voice A's time-weighted center, and gives the largest overlap between the written melody and the singer's recorded pitch distribution. The written top (D5) then lands at F#5, above where the singer sings, but that note is rare in the melody, so the bulk of the melody stays in their comfortable zone.\"}",
+   "cost": 0.00717804,
+   "elapsed": 38.3
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "image",
+   "draw": 2,
+   "shift": 4,
+   "gold": 2,
+   "answer": "{\"shift\": 4, \"why\": \"Voice A's time-weighted median sits near G4 and its densest sung range is C4 to A4 with a strong C5, so moving the written median from D#4 up 4 semitones to G4 centers the melody there (written B3 to B4 becomes D#4 to D#5, inside the voice's main range).\"}",
+   "cost": 0.00544919,
+   "elapsed": 46.0
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "image",
+   "draw": 3,
+   "shift": 1,
+   "gold": 2,
+   "answer": "{\"shift\": 1, \"why\": \"Moving the melody up one semitone puts its lowest note on C4, its 90th percentile on C5, and its highest on D#5, which keeps most of the written line inside Voice A's densest sung notes (C4 to C5, with its midpoint near F#4 to G4), while larger shifts push the top of the melody beyond what the singer sings.\"}",
+   "cost": 0.00500964,
+   "elapsed": 36.4
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "name",
+   "draw": 1,
+   "shift": -3,
+   "gold": -4,
+   "answer": "{\"shift\": -3, \"why\": \"Shifting down 3 semitones puts the median at C4 and the 90th percentile at G#4, which centers the melody in Michael Bolton's strongest chest-voice range and keeps the peak (D5 becomes B4) below the strain zone.\"}",
+   "cost": 0.0023586099999999997,
+   "elapsed": 8.4
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "name",
+   "draw": 2,
+   "shift": -3,
+   "gold": -4,
+   "answer": "{\"shift\": -3, \"why\": \"Moving the melody down 3 semitones centers its median on C4 and keeps the 90th percentile (G#4) and peak (B4) within Bolton's strong tenor middle-to-upper range, while the lowest note (G#3) stays comfortably in his chest voice.\"}",
+   "cost": 0.00069068,
+   "elapsed": 8.6
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "name",
+   "draw": 3,
+   "shift": -2,
+   "gold": -4,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down two semitones moves the median to C#4 and the 90th percentile to A4 and the peak to C5, which keeps most of the melody in Michael Bolton's strong chest-belt range and away from the top edge where a clone would strain.\"}",
+   "cost": 0.0010006799999999999,
+   "elapsed": 10.3
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": 0,
+   "gold": -4,
+   "answer": "{\"shift\": 0, \"why\": \"At shift 0 the melody's median (D#4) sits one semitone under the singer's median (E4), its 10th percentile (B3) one under the singer's 10th (C4), and its 90th (B4) one over the singer's 90th (A#4), so the top stays closest to the singer's comfortable ceiling where strain would start.\"}",
+   "cost": 0.00296491,
+   "elapsed": 13.4
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": 1,
+   "gold": -4,
+   "answer": "{\"shift\": 1, \"why\": \"Moving the melody up one semitone puts its time-weighted median (D#4) on the singer's median (E4) and its 10th percentile (B3) on the singer's 10th (C4), so most of the line sits in the singer's well-used middle; only the top notes (B4 to C5, D5 to D#5) go slightly above the singer's 90th percentile (A#4).\"}",
+   "cost": 0.00120827,
+   "elapsed": 12.4
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": 0,
+   "gold": -4,
+   "answer": "{\"shift\": 0, \"why\": \"At shift 0 the melody's 10th-90th span (B3 to B4) is centred exactly on the singer's (C4 to A#4, both midpoints at MIDI 65), and the melody's median (D#4) sits one semitone under the singer's median (E4). Shifting up would push the melody's 90th percentile to C5, two semitones above the singer's top, which is where strain would show.\"}",
+   "cost": 0.00128277,
+   "elapsed": 12.7
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "anon",
+   "draw": 1,
+   "shift": 1,
+   "gold": -4,
+   "answer": "{\"shift\": 1, \"why\": \"This puts the song's time-weighted median (D#4 → E4) on the singer's median (E4), and the 10th-percentile low note (B3 → C4) on the singer's 10th percentile (C4), so most of the melody sits in the singer's habitual range, with only the top 10% of notes (C5) slightly above their 90th percentile (A#4).\"}",
+   "cost": 0.00268781,
+   "elapsed": 10.8
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "anon",
+   "draw": 2,
+   "shift": 1,
+   "gold": -4,
+   "answer": "{\"shift\": 1, \"why\": \"Shifting up one semitone puts the melody's median (D#4 to E4) and 10th percentile (B3 to C4) on the singer's own median and 10th percentile, and the 90th percentile (B4 to C5) sits only about two semitones above the singer's 90th (A#4), which is the smallest total deviation among the candidate shifts.\"}",
+   "cost": 0.00105274,
+   "elapsed": 10.2
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "anon",
+   "draw": 3,
+   "shift": 0,
+   "gold": -4,
+   "answer": "{\"shift\": 0, \"why\": \"Shifting by 0 centers the melody's 10th-90th percentile span (B3-B4, midpoint MIDI 65) exactly on the singer's (C4-A#4, midpoint 65), and its median D#4 sits within the singer's comfortable D4-A4 band, so the only excursions are about one semitone at each end.\"}",
+   "cost": 0.0009607400000000001,
+   "elapsed": 9.6
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "image",
+   "draw": 1,
+   "shift": 1,
+   "gold": -4,
+   "answer": "{\"shift\": 1, \"why\": \"Shifting the written melody up one semitone moves its time-weighted median from D#4 to E4, which is where Voice A's own singing is centred, and puts its 10th percentile on C4, where the singer has dense coverage.\"}",
+   "cost": 0.005880130000000001,
+   "elapsed": 30.0
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "image",
+   "draw": 2,
+   "shift": 1,
+   "gold": -4,
+   "answer": "{\"shift\": 1, \"why\": \"Moving the written melody up one semitone puts its time-weighted median (D#4 to E4) at the centre of Voice A's own sung range, where the recording's density peaks, and its 10th–90th percentile span (B3–B4 becomes C4–C5) sits inside the range the singer actually uses.\"}",
+   "cost": 0.0027644199999999996,
+   "elapsed": 18.3
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "image",
+   "draw": 3,
+   "shift": 1,
+   "gold": -4,
+   "answer": "{\"shift\": 1, \"why\": \"Shifting up one semitone moves the written median from D#4 to about E4, near the centre of Voice A's densest singing (roughly C4 to F4) and close to where their recording peaks, while keeping the written 90th percentile at the top edge of what they sing.\"}",
+   "cost": 0.005758920000000001,
+   "elapsed": 46.0
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "name",
+   "draw": 1,
+   "shift": 3,
+   "gold": 2,
+   "answer": "{\"shift\": 3, \"why\": \"Moving the melody up 3 semitones puts its time-weighted median at F#4, inside her mixed-voice comfort zone, and keeps the 90th percentile at D5 and the peak at G5, which she sings in her strong belt-mix range.\"}",
+   "cost": 0.00257411,
+   "elapsed": 10.8
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "name",
+   "draw": 2,
+   "shift": 0,
+   "gold": 2,
+   "answer": "{\"shift\": 0, \"why\": \"The median D#4 already sits in the singer's comfortable chest-mix zone just below the passaggio, the 90th percentile B4 is in her strong range, and the peak D5 is within her reliable belt, so moving the line up would push the median into the passaggio and lowering it gains little.\"}",
+   "cost": 0.00098918,
+   "elapsed": 11.6
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "name",
+   "draw": 3,
+   "shift": 2,
+   "gold": 2,
+   "answer": "{\"shift\": 2, \"why\": \"Moving up two semitones puts the time-weighted median at F4 and the 90th percentile at C#5, the core of Ariana's confident chest-mix range, while the highest note becomes E5, still comfortable for her, and the lowest note stays at C#4, above where her chest voice thins.\"}",
+   "cost": 0.00097468,
+   "elapsed": 11.5
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": 2,
+   "gold": 2,
+   "answer": "{\"shift\": 2, \"why\": \"At +2 the melody's 10th–90th percentile band (C#4–C#5) lines up with the singer's measured 10th–90th band (C#4–C5), and its time-weighted median (F4) sits inside the singer's comfortable 25th–75th core (E4–A#4), keeping the peaks within about a semitone of the singer's upper limit.\"}",
+   "cost": 0.0028631100000000003,
+   "elapsed": 13.1
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": 3,
+   "gold": 2,
+   "answer": "{\"shift\": 3, \"why\": \"Moving the melody up 3 semitones puts its time-weighted median (D#4 to G4) exactly on the singer's measured median, with the lowest note landing at D4 just above her 10th percentile, though the top of the melody (F5) still sits above her 90th percentile (C5).\"}",
+   "cost": 0.00091478,
+   "elapsed": 8.9
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": 4,
+   "gold": 2,
+   "answer": "{\"shift\": 4, \"why\": \"Moving the melody up 4 semitones puts its time-weighted median (D#4) on the singer's median (G4), the centre where she spends most of her time singing, though the melody's top (about D5 to F#5 after shifting) will sit a few semitones above her 90th percentile (C5).\"}",
+   "cost": 0.00131928,
+   "elapsed": 13.5
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "anon",
+   "draw": 1,
+   "shift": 2,
+   "gold": 2,
+   "answer": "{\"shift\": 2, \"why\": \"Moving the melody up 2 semitones puts its time-weighted median (D#4) at F4, between the singer's 25th percentile (E4) and median (G4), and its 10th-90th percentile span (B3-B4) at C#4-C#5, which closely matches the singer's own C#4-C5 span.\"}",
+   "cost": 0.00265401,
+   "elapsed": 9.6
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "anon",
+   "draw": 2,
+   "shift": 2,
+   "gold": 2,
+   "answer": "{\"shift\": 2, \"why\": \"This moves the song's 10th/median/90th percentiles (B3/D#4/B4) to C#4/F4/C#5, which keeps the median inside the singer's comfortable E4–A#4 core and puts the 10th percentile on their 10th, with only the top note sitting slightly above their 90th; a +4 shift would centre the median on G4 but push the high notes about three semitones past their C5 limit.\"}",
+   "cost": 0.0009642499999999999,
+   "elapsed": 9.7
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "anon",
+   "draw": 3,
+   "shift": 2,
+   "gold": 2,
+   "answer": "{\"shift\": 2, \"why\": \"Shifting up 2 semitones aligns the melody's 10th percentile with the singer's (C#4), puts its time-weighted median at F4 inside the singer's comfortable E4–A#4 band, and leaves only the top phrase peaks (90th percentile C#5, highest E5) slightly above the singer's C5 ceiling, rather than pushing the high notes to D#5 as a +4 median match would.\"}",
+   "cost": 0.00122675,
+   "elapsed": 12.1
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "image",
+   "draw": 1,
+   "shift": 2,
+   "gold": 2,
+   "answer": "{\"shift\": 2, \"why\": \"Shifting up 2 semitones puts the melody's 10th percentile (B3→C#4) on the singer's own 10th percentile (C#4), keeps its 90th percentile within about a semitone of the singer's (C#5 vs C5), and places the highest note (E5) at the singer's upper edge, whereas a median-matching shift of +4 would push the 90th percentile about three semitones above the singer's comfortable top.\"}",
+   "cost": 0.0068359300000000005,
+   "elapsed": 39.4
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "image",
+   "draw": 2,
+   "shift": 4,
+   "gold": 2,
+   "answer": "{\"shift\": 4, \"why\": \"Shifting the melody up 4 semitones puts its median (D#4) at G4, near the centre of Voice A's time, and keeps its 10th-90th percentile span (D#4 to D#5) mostly within the zone where this voice sings most, with the top phrases only slightly into its thinning upper tail.\"}",
+   "cost": 0.0034614199999999998,
+   "elapsed": 26.5
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "image",
+   "draw": 3,
+   "shift": 2,
+   "gold": 2,
+   "answer": "{\"shift\": 2, \"why\": \"Voice A's densest singing sits around G4 to A#4 with a 10th-to-90th percentile span of C#4 to C5, and shifting the written melody up 2 semitones puts the most written time (about 83%) inside that span while keeping the top note at E5 rather than pushing it higher.\"}",
+   "cost": 0.00749292,
+   "elapsed": 53.8
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "name",
+   "draw": 1,
+   "shift": -3,
+   "gold": 2,
+   "answer": "```json\n{\"shift\": -3, \"why\": \"This moves the median from D#4 to C4 and the highest note from D5 to B4, so most of the melody sits in Stevie Wonder's comfortable middle register and only the top note reaches the stretched upper range.\"}\n```",
+   "cost": 0.00258031,
+   "elapsed": 10.7
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "name",
+   "draw": 2,
+   "shift": -2,
+   "gold": 2,
+   "answer": "{\"shift\": -2, \"why\": \"Moving the melody down two semitones centers its median (D#4 to C#4) in Stevie Wonder's comfortable chest-mix range and brings the highest note (D5) to C5, where his voice is most reliable, while the lowest note (B3 to G#3) stays comfortably within his range.\"}",
+   "cost": 0.0008981900000000001,
+   "elapsed": 9.9
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "name",
+   "draw": 3,
+   "shift": -2,
+   "gold": 2,
+   "answer": "{\"shift\": -2, \"why\": \"Moving down two semitones centers the median near C#4 and keeps the 90th-percentile peak at A4 and the top note at C5, inside Stevie Wonder's strongest mid-to-upper range and away from the B4/D5 strain zone.\"}",
+   "cost": 0.0007836900000000001,
+   "elapsed": 8.9
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": 2,
+   "gold": 2,
+   "answer": "{\"shift\": 2, \"why\": \"Shifting up 2 semitones moves the melody's time-weighted median from D#4 to F4, the singer's median, so most of the tune falls in the voice's most-used band (D#4 to G4), with the low end landing near the singer's C4 floor.\"}",
+   "cost": 0.0024871100000000003,
+   "elapsed": 9.0
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": 2,
+   "gold": 2,
+   "answer": "{\"shift\": 2, \"why\": \"Moving the melody up 2 semitones places its time-weighted median (D#4) on the singer's median (F4), where the voice sits most of the time, at the cost of the top phrases reaching about a major third above the singer's 90th percentile.\"}",
+   "cost": 0.0009117800000000001,
+   "elapsed": 9.1
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": 1,
+   "gold": 2,
+   "answer": "{\"shift\": 1, \"why\": \"Shifting up one semitone puts the melody's 10th percentile (C4) on the singer's 10th percentile and its median (E4) just below the singer's median (F4) and inside the 25–75 band, while the melody's 90th percentile still runs about 3 semitones above the singer's 90th, so the upper phrases will be the strained part.\"}",
+   "cost": 0.00107028,
+   "elapsed": 12.4
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "anon",
+   "draw": 1,
+   "shift": 2,
+   "gold": 2,
+   "answer": "{\"shift\": 2, \"why\": \"The melody's time-weighted median (D#4) moves to F4, the singer's median and center of their sung range, which puts most of the song in their sweet spot, though the top notes (about C#5 to E5) will sit above the singer's 90th percentile (A4).\"}",
+   "cost": 0.00279131,
+   "elapsed": 12.8
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "anon",
+   "draw": 2,
+   "shift": 1,
+   "gold": 2,
+   "answer": "{\"shift\": 1, \"why\": \"Shifting up one semitone puts the melody's time-weighted median (D#4 to E4) inside the singer's core range (D#4 to G4), matches the 10th percentile (C4), and keeps the 90th-percentile overshoot to three semitones, the smallest total mismatch of the candidate shifts.\"}",
+   "cost": 0.0018347399999999999,
+   "elapsed": 18.4
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "anon",
+   "draw": 3,
+   "shift": 1,
+   "gold": 2,
+   "answer": "{\"shift\": 1, \"why\": \"This moves the melody's time-weighted median (D#4) to E4, inside the singer's 25–75% band (D#4–G4), matches the melody's 10th percentile to the singer's 10th (C4), and keeps the top near the singer's 90th-percentile ceiling (A4) to within about a minor third.\"}",
+   "cost": 0.00177724,
+   "elapsed": 18.3
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "image",
+   "draw": 1,
+   "shift": 3,
+   "gold": 2,
+   "answer": "{\"shift\": 3, \"why\": \"Voice A's time-weighted median sits at about F#4 (their most-sung note), while the song's median is D#4, so moving the melody up 3 semitones centers it on that comfortable core, though its top notes will reach about D5, a little above the singer's usual upper range.\"}",
+   "cost": 0.0050976300000000006,
+   "elapsed": 23.7
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "image",
+   "draw": 2,
+   "shift": 1,
+   "gold": 2,
+   "answer": "{\"shift\": 1, \"why\": \"Shifting up one semitone puts the melody's middle (D#4) at E4, inside the singer's densest range, with its 10th-percentile note (B3→C4) at the singer's usual floor, though its top (90th-percentile B4→C5) still sits about a step above the singer's comfortable ceiling of roughly A4.\"}",
+   "cost": 0.00505392,
+   "elapsed": 41.1
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "image",
+   "draw": 3,
+   "shift": 1,
+   "gold": 2,
+   "answer": "{\"shift\": 1, \"why\": \"Shifting up one semitone puts the song's 10th-percentile note (B3) on the voice's 10th-percentile note (C4) and keeps the most time-weighted notes inside the voice's comfortable C4–A4 core, with only the top few notes (B4, C5, D5) sitting above its 90th percentile.\"}",
+   "cost": 0.00598372,
+   "elapsed": 44.8
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "name",
+   "draw": 1,
+   "shift": -5,
+   "gold": 1,
+   "answer": "{\"shift\": -5, \"why\": \"This moves the time-weighted median from A4 to E4, the middle of Kelly Clarkson's strong chest-voice range, and keeps the 90th percentile (B4) and the top note (D5) below her belt ceiling, while the lowest note (G#3) stays comfortably in her range.\"}",
+   "cost": 0.0026958100000000003,
+   "elapsed": 11.5
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "name",
+   "draw": 2,
+   "shift": -3,
+   "gold": 1,
+   "answer": "{\"shift\": -3, \"why\": \"Shifting down 3 semitones puts the time-weighted median near F#4 and the 90th percentile at D5, keeping the frequently sung upper phrases in her strong chest/mix belt zone while the top note lands at E5 and the low note at A3, both comfortable for her.\"}",
+   "cost": 0.0006917399999999999,
+   "elapsed": 7.2
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "name",
+   "draw": 3,
+   "shift": -3,
+   "gold": 1,
+   "answer": "{\"shift\": -3, \"why\": \"This moves the top note (G5) down to E5, Kelly Clarkson's strong upper limit, while the median (A4 to F#4) and the bottom (C4 to A3) stay in her comfortable chest and mix range, so the clone is not pushed into strained high notes.\"}",
+   "cost": 0.00062874,
+   "elapsed": 7.3
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": -2,
+   "gold": 1,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the melody's 10th percentile (B3) and median (G4) exactly on the singer's, and only the 90th percentile sits 2 semitones high, which is the closest fit of the candidate shifts.\"}",
+   "cost": 0.0022781100000000003,
+   "elapsed": 6.7
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": -2,
+   "gold": 1,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the melody's median (A4) on the singer's median (G4), and its 10th percentile (C#4) lands on the singer's 10th percentile (B3), so most of the melody sits in the range where the voice is strongest.\"}",
+   "cost": 0.00050883,
+   "elapsed": 5.3
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": -3,
+   "gold": 1,
+   "answer": "{\"shift\": -3, \"why\": \"This puts the melody's 10th-to-90th percentile span (C#4–E5) centred on the singer's comfortable zone (B3–C5), keeping the high notes (E5→C#5, G5→E5) closer to the singer's 90th-percentile ceiling of C5 than a -2 shift would, at the cost of the median sitting one semitone below the singer's median G4.\"}",
+   "cost": 0.0011363299999999998,
+   "elapsed": 11.5
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "anon",
+   "draw": 1,
+   "shift": -2,
+   "gold": 1,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the melody's time-weighted median (A4) on the singer's median (G4), so the voice sits in its core range; the 10th-percentile note then lands at the singer's 10th-percentile floor (B3), with only the top 90th-percentile notes overhanging C5 by about a whole step.\"}",
+   "cost": 0.0027131100000000003,
+   "elapsed": 11.5
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "anon",
+   "draw": 2,
+   "shift": -2,
+   "gold": 1,
+   "answer": "{\"shift\": -2, \"why\": \"It places the song's time-weighted median (A4) on the singer's median (G4) and its 10th percentile (C#4 to B3 after the shift) on the singer's 10th percentile, keeping most of the melody in the singer's well-sampled middle range while the top phrases stay only about a whole step above the singer's 90th percentile.\"}",
+   "cost": 0.00103178,
+   "elapsed": 10.6
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "anon",
+   "draw": 3,
+   "shift": -2,
+   "gold": 1,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the song's time-weighted median (A4 to G4) exactly on the singer's sung median (G4) and its low end (C#4 to A3-ish, 10th percentile) on the singer's 10th percentile (B3), so most of the melody sits where the voice is most practiced, though the top phrase (G5 to F5) still reaches above the singer's usual range.\"}",
+   "cost": 0.00101078,
+   "elapsed": 11.2
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "image",
+   "draw": 1,
+   "shift": -2,
+   "gold": 1,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting the melody down 2 semitones moves its median from A4 to G4, the centre of Voice A's own time-weighted range (roughly C4 to C5, with most singing around G4 to A4), so the clone sings mostly where the source voice is strongest.\"}",
+   "cost": 0.0047187900000000005,
+   "elapsed": 15.0
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "image",
+   "draw": 2,
+   "shift": -2,
+   "gold": 1,
+   "answer": "{\"shift\": -2, \"why\": \"Voice A's own recording centres around G4 and spends most of its time between C#4 and C5, while the melody's 10th-90th percentile span (C#4 to E5) and median (A4) sit about two semitones higher, so moving the melody down 2 semitones puts its median near G4 and its top near D5.\"}",
+   "cost": 0.0011862700000000001,
+   "elapsed": 10.4
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "image",
+   "draw": 3,
+   "shift": -2,
+   "gold": 1,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the melody's median (A4) at about G4, the centre of Voice A's own singing, and brings the top note from G5 to F5, which is near the upper edge of what they sing, while the lowest note (A3) stays close to their lower limit.\"}",
+   "cost": 0.0010132700000000001,
+   "elapsed": 8.2
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "name",
+   "draw": 1,
+   "shift": 2,
+   "gold": -2,
+   "answer": "{\"shift\": 2, \"why\": \"The melody's median (A4) sits a little below Ariana Grande's strongest mix-and-belt zone, so moving it up 2 semitones centers the median near B4 while the top G5 becomes A5, which she sings cleanly.\"}",
+   "cost": 0.0024294100000000003,
+   "elapsed": 9.8
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "name",
+   "draw": 2,
+   "shift": -2,
+   "gold": -2,
+   "answer": "{\"shift\": -2, \"why\": \"Lowering the melody two semitones centers its median on G4 and brings the top note from G5 to F5, keeping the phrasing in the clone's strongest chest-mix zone, where Ariana sings most often and the training data is densest, and off the strained upper edge of her range.\"}",
+   "cost": 0.00062172,
+   "elapsed": 7.4
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "name",
+   "draw": 3,
+   "shift": -4,
+   "gold": -2,
+   "answer": "{\"shift\": -4, \"why\": \"After shifting down 4 semitones, the melody's median lands on F4 and its top note on E5, keeping the line centred in Ariana Grande's strongest chest-mix zone and away from her strained top register.\"}",
+   "cost": 0.00079222,
+   "elapsed": 8.7
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": -2,
+   "gold": -2,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the melody's time-weighted median (A4) on the singer's median (G4) and centers its 10th–90th percentile span (C#4–E5) on the singer's comfortable span, so most of the melody sits where the clone is strongest.\"}",
+   "cost": 0.00223341,
+   "elapsed": 6.7
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": -2,
+   "gold": -2,
+   "answer": "{\"shift\": -2, \"why\": \"Moving the melody down 2 semitones puts its time-weighted median (A4) on the singer's median (G4), and its 90th percentile (E5 becomes C5) on the singer's 90th percentile (C5), so the bulk of the melody sits where the voice is most reliable.\"}",
+   "cost": 0.0005548199999999999,
+   "elapsed": 5.5
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": -2,
+   "gold": -2,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the melody's time-weighted median (A4) on the singer's median (G4), which is also the midpoint of her interquartile range, so most of the song sits in her best-sounding zone; the 90th-percentile top note then lands near her 90th percentile (C5).\"}",
+   "cost": 0.0012238199999999998,
+   "elapsed": 11.7
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "anon",
+   "draw": 1,
+   "shift": -2,
+   "gold": -2,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the melody's time-weighted median (A4) on the singer's median (G4), keeps its 10th and 90th percentiles within about 2 semitones of the singer's, and avoids pushing the top of the tune well above the singer's comfortable range.\"}",
+   "cost": 0.00247381,
+   "elapsed": 8.0
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "anon",
+   "draw": 2,
+   "shift": -2,
+   "gold": -2,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the song's time-weighted median (A4) on the singer's median sung pitch (G4), the centre of their comfortable range, while keeping most of the melody within their sung range.\"}",
+   "cost": 0.00058429,
+   "elapsed": 6.4
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "anon",
+   "draw": 3,
+   "shift": -2,
+   "gold": -2,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the melody's time-weighted median (A4) on the singer's median (G4), which sits in the middle of the singer's comfortable E4–A#4 core, though the melody's top (E5 to D5) still reaches about 2 semitones above the singer's 90th percentile (C5).\"}",
+   "cost": 0.00088529,
+   "elapsed": 8.7
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "image",
+   "draw": 1,
+   "shift": -3,
+   "gold": -2,
+   "answer": "{\"shift\": -3, \"why\": \"Shifting down 3 semitones puts the written melody's dominant C5 on Voice A's strong A4 region, moves the E5 and G5 peaks onto the range where the singer rarely goes, and gives the best overlap between the song's note distribution and the singer's own.\"}",
+   "cost": 0.006583469999999999,
+   "elapsed": 35.9
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "image",
+   "draw": 2,
+   "shift": -2,
+   "gold": -2,
+   "answer": "{\"shift\": -2, \"why\": \"Voice A's own time-weighted centre and its peak both sit around G4, while the melody's median is A4, so lowering by two semitones puts the melody's middle on the singer's most-used notes and moves its heavy C5 and E5 passages down toward the B4/C#5 region the singer actually uses.\"}",
+   "cost": 0.007562299999999999,
+   "elapsed": 61.3
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "image",
+   "draw": 3,
+   "shift": -2,
+   "gold": -2,
+   "answer": "{\"shift\": -2, \"why\": \"Shifting down 2 semitones puts the melody's median (A4) on Voice A's time-weighted median (about G4) and centers its 10th-90th percentile span (C#4-E5) on Voice A's comfortable band (about C#4-C5), so the melody's upper tail stays near the top of what this singer actually sings.\"}",
+   "cost": 0.0027575,
+   "elapsed": 18.1
+  }
+ ]
+}

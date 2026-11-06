@@ -1,0 +1,65 @@
+{
+ "note": "The composer's corrections as frozen requests, in his words. The fits before and after each correction are not distributed.",
+ "items": [
+  {
+   "id": "cp-bar18-assign",
+   "category": "fitting",
+   "request": "then the bar 18th ...  win-dows (Bb4 double) wa (C5) king (D5) in (G4) ... red (A4) bricks (A4) walls (G4 F4) ... a (F4) hush (F5) settles (E5 D5) like (C#5) a (D5) breeze (C5)"
+  },
+  {
+   "id": "cp-redbrick-melisma",
+   "category": "fitting",
+   "request": "ok I want to fix this part ... it does not sing good unless it is a pro real singer like groban itself ... suno did this part well but not with SoulX prosody singing.\n\nI want to change the melodies to the (F4) red (A4)-G4-A4 brick (G4) wall (F4) try this fitting"
+  },
+  {
+   "id": "cp-layer-words",
+   "category": "words",
+   "request": "also can we tune the lyrics on \"the red brick walls\" to \"to the la-yer of red brick walls\""
+  },
+  {
+   "id": "cp-layer-pitches",
+   "category": "fitting",
+   "request": "I think it should be more like this -- and make sure the phonemes mapping is good -- to F4 the G4 la A4 yer A4 of G4 red A4-G4 brick F4 wall F4\n\nSeems the phoneme mapping need to show up in the canvas?"
+  },
+  {
+   "id": "cp-morning-sounds",
+   "category": "phoneme",
+   "request": "a small fix ... it has a funny mor - re - ning ... it should be mor (C4) - ning (F4) - comes (A4) Soft (G4) like clean on each token and melody -- bar 10"
+  },
+  {
+   "id": "cp-footsteps-sounds",
+   "category": "phoneme",
+   "request": "why the \"Foot-Steps\" feels a bit choppy .. it should be kind of one word and more connected when singing \"footsteps\" even though \"foot-steps\" but it is more connected not \"foot^steps\" right now it feels more like disconnected is it about the phoneme mapping?"
+  },
+  {
+   "id": "cp-waking-sounds",
+   "category": "phoneme",
+   "request": "there is something wrong with the current \"Win-dows wa king in\", the wa king in should be easy 3 phoneme smooth wa-kin-in ... not even saying the g"
+  },
+  {
+   "id": "cp-dict-footsteps-pickup",
+   "category": "timing",
+   "request": "I think the \"Foot-steps on the paths ben neath the tree\" the first note should start after a full beat rest then followed by C4/ C4/ not one beat each. so Foot-steps are two C4/ each half beat and started only at the second beat"
+  },
+  {
+   "id": "cp-dict-line3-rest",
+   "category": "timing",
+   "request": "ok after the \"the tree\" the rest should be 7 beats not 2 beats. Like in the first phrase we need a full bar additional rest before starting again. Then the next phrase .. .you had melodies wrong.\n\nIt should be \n\n| z2 Bb4/ Bb4 C5 D5/ | G4 z6 | A4/ A4 G4 A4 | A4,2 G4/ F4,2 | ."
+  },
+  {
+   "id": "sd-grace-fold",
+   "category": "fitting",
+   "request": "ok few things to fit in better ...\n\nlamps in the ???? is missing something ... \n\nthen at the end I hear and we will waltz till the  (what?) ning light"
+  },
+  {
+   "id": "sd-hall-g4",
+   "category": "fitting",
+   "request": "also something missing after lamps in the hall (A4) must be followed by (G4)"
+  },
+  {
+   "id": "atty-words-bars13-18",
+   "category": "words",
+   "request": "lets add lyrics on that bar 13 to 18"
+  }
+ ]
+}

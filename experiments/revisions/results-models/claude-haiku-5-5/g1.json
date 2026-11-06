@@ -1,0 +1,421 @@
+{
+ "id": "g1",
+ "cat": "g",
+ "fixture": "real",
+ "text": "Make it more emotional.",
+ "gold_ops": [
+  {
+   "op": "ask",
+   "question": "<a question that offers concrete choices, e.g. strings later or softer, a different vocal take, a swell>"
+  }
+ ],
+ "gold_paths": [
+  "open.questions"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "{\"op\":\"ask\",\"question\":\"\\\"More emotional\\\" could mean several different changes. Which do you want? (a) Bring the strings in earlier, at bar 15 instead of bar 19, so they sit under the whole second theme. (b) Raise the strings' level by a set number of dB, which I'd need you to specify. (c) Bring the brass in as a soft layer, which would replace its current empty placeholder, from bar 15 to bar 23. (d) Keep the arrangement and change the vocal take (L1c1-L1c4). Or describe the feeling you want in your own words, and I'll map it to one of these.\"}",
+    "usage": {
+     "total_cost_usd": 0.0035194700000000002,
+     "duration_api_ms": 3419,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 5.45564341545105,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "\"More emotional\" could mean several different changes. Which do you want? (a) Bring the strings in earlier, at bar 15 instead of bar 19, so they sit under the whole second theme. (b) Raise the strings' level by a set number of dB, which I'd need you to specify. (c) Bring the brass in as a soft layer, which would replace its current empty placeholder, from bar 15 to bar 23. (d) Keep the arrangement and change the vocal take (L1c1-L1c4). Or describe the feeling you want in your own words, and I'll map it to one of these."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "\"More emotional\" could mean several different changes. Which do you want? (a) Bring the strings in earlier, at bar 15 instead of bar 19, so they sit under the whole second theme. (b) Raise the strings' level by a set number of dB, which I'd need you to specify. (c) Bring the brass in as a soft layer, which would replace its current empty placeholder, from bar 15 to bar 23. (d) Keep the arrangement and change the vocal take (L1c1-L1c4). Or describe the feeling you want in your own words, and I'll map it to one of these."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"op\":\"ask\",\"question\":\"\\\"More emotional\\\" could mean several different changes. Which do you want? (a) Bring the strings in earlier, at bar 15 with the voice, instead of bar 19. (b) Raise the strings' level (set_gain). (c) Raise the vocal's level, though it currently sits below the piano. (d) Hold the strings into the ending by moving their exit from bar 23 to bar 31. (e) Something else, described in your words. Tell me which, and for (b) or (c) how many dB.\"}",
+    "usage": {
+     "total_cost_usd": 0.00050942,
+     "duration_api_ms": 3492,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 5.551034688949585,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "\"More emotional\" could mean several different changes. Which do you want? (a) Bring the strings in earlier, at bar 15 with the voice, instead of bar 19. (b) Raise the strings' level (set_gain). (c) Raise the vocal's level, though it currently sits below the piano. (d) Hold the strings into the ending by moving their exit from bar 23 to bar 31. (e) Something else, described in your words. Tell me which, and for (b) or (c) how many dB."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "\"More emotional\" could mean several different changes. Which do you want? (a) Bring the strings in earlier, at bar 15 with the voice, instead of bar 19. (b) Raise the strings' level (set_gain). (c) Raise the vocal's level, though it currently sits below the piano. (d) Hold the strings into the ending by moving their exit from bar 23 to bar 31. (e) Something else, described in your words. Tell me which, and for (b) or (c) how many dB."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"op\":\"ask\",\"question\":\"\\\"More emotional\\\" could mean several different changes. Which one do you want? (a) Strings enter earlier, at bar 15 with the theme 2 vocal, instead of bar 19. (b) Stronger strings: switch from the current softest take (L2c6) to a fuller one (L2c4, the louder rendered candidate). (c) A more forward vocal: raise L1 gain by 2 dB, which goes against your 'never louder than the piano' note. (d) Try another vocal take (L1c1, L1c2 or L1c3) in place of your own voice (L1c4). Or describe it in your own words.\"}",
+    "usage": {
+     "total_cost_usd": 0.00056492,
+     "duration_api_ms": 3812,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 5.869561672210693,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "\"More emotional\" could mean several different changes. Which one do you want? (a) Strings enter earlier, at bar 15 with the theme 2 vocal, instead of bar 19. (b) Stronger strings: switch from the current softest take (L2c6) to a fuller one (L2c4, the louder rendered candidate). (c) A more forward vocal: raise L1 gain by 2 dB, which goes against your 'never louder than the piano' note. (d) Try another vocal take (L1c1, L1c2 or L1c3) in place of your own voice (L1c4). Or describe it in your own words."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "\"More emotional\" could mean several different changes. Which one do you want? (a) Strings enter earlier, at bar 15 with the theme 2 vocal, instead of bar 19. (b) Stronger strings: switch from the current softest take (L2c6) to a fuller one (L2c4, the louder rendered candidate). (c) A more forward vocal: raise L1 gain by 2 dB, which goes against your 'never louder than the piano' note. (d) Try another vocal take (L1c1, L1c2 or L1c3) in place of your own voice (L1c4). Or describe it in your own words."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.007089669999999999,
+     "duration_api_ms": 27284,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 29.09681534767151,
+    "stale": [],
+    "questions": [
+     "\"More emotional\" is open to several readings, so I left the plan unchanged. Which layer should change: the vocal (L1), the strings (L2), or the overall dynamics across the piece? The piano stays as played either way.",
+     "L2c6 is the softest strings take, which you chose on 31 October. A more emotional string part would most likely mean a bigger swell or a louder entry, which would replace that choice and need a re-render of L2. Do you want that, and how much louder or more swelling?",
+     "Changing the strings or vocal wording means editing your own text (the prompt and notes are yours to decide). If you want that, give me the wording you'd like (for example, 'bigger swell on each phrase, more vibrato in the voice')."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.00417868,
+     "duration_api_ms": 27305,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 29.208059549331665,
+    "stale": [],
+    "questions": [
+     "\"More emotional\" could apply to several things, so I have left the plan unchanged. Which layer should change: the sung vocal (L1), the strings (L2), or the whole arrangement? And what should change: a bigger swell per phrase, a warmer or more breathy voice, a slower or more held phrasing, or a louder and fuller texture? The strings prompt and the vocal's words and settings are your decisions, so I need your go-ahead before I edit them. Separately, the last lyric line 'A hush, a breeze' is the agent's four-syllable version and is still waiting for your word on whether it is right."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.00411218,
+     "duration_api_ms": 25976,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 27.702917098999023,
+    "stale": [],
+    "questions": [
+     "\"More emotional\" doesn't name a layer or a setting, so I've left the plan unchanged. Which should change? (a) the vocal (L1): its sung delivery is set by the score and voice reference, and its prompt is yours to set; (b) the strings (L2): their prompt and swell are yours to set, and changing them would re-render L2 (its audio context depends on L1); (c) the arrangement overall: where the strings or vocal should enter and how loud they sit against the piano. Tell me which, and any direction you want (e.g., warmer, more restrained, more swell, a bigger climax at bar 31). Also still open from your notes: the last vocal line ('A hush, a breeze') is four syllables, pending your word on the agent's shortening.",
+     "Note: the layers' prompts are creator-owned, so I won't rewrite them without your direction."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different changes, and the plan's creator-owned fields (prompt, chosen) shouldn't be changed without a clearer instruction. Which layer should change: the vocal (L1, currently the L1c4 take, a score-route soulx-singer render), the strings (L2, currently L2c6, whose prompt is 'soft sustained strings... no vibrato, one slow swell per phrase'), or both? For the strings, do you want more swell or vibrato, a stronger entrance, or a fuller sound? For the vocal, do you want a different voice reference or a different dynamic (for example, letting it rise above the piano in the second half)? Also, should the strings enter earlier than bar 19?\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0034555700000000003,
+     "duration_api_ms": 3587,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 5.337392091751099,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "\"More emotional\" could mean several different changes, and the plan's creator-owned fields (prompt, chosen) shouldn't be changed without a clearer instruction. Which layer should change: the vocal (L1, currently the L1c4 take, a score-route soulx-singer render), the strings (L2, currently L2c6, whose prompt is 'soft sustained strings... no vibrato, one slow swell per phrase'), or both? For the strings, do you want more swell or vibrato, a stronger entrance, or a fuller sound? For the vocal, do you want a different voice reference or a different dynamic (for example, letting it rise above the piano in the second half)? Also, should the strings enter earlier than bar 19?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several things here. Which layer should change: the sung vocal (L1), the strings (L2), or the overall balance? The piano stays as played. For the strings, I could change the feel or the swell, but the prompt is creator-owned, so should I edit it and re-render L2, or would you rather change it in ARRANGEMENT.md? Or would you like a gain change only, such as raising the strings or vocal by a few dB? Any of these would make L2 stale and need a re-render.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.00049355,
+     "duration_api_ms": 3362,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 5.138214349746704,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "\"More emotional\" could mean several things here. Which layer should change: the sung vocal (L1), the strings (L2), or the overall balance? The piano stays as played. For the strings, I could change the feel or the swell, but the prompt is creator-owned, so should I edit it and re-render L2, or would you rather change it in ARRANGEMENT.md? Or would you like a gain change only, such as raising the strings or vocal by a few dB? Any of these would make L2 stale and need a re-render."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different changes. Which do you want: (a) the vocal (L1) sung with more feeling, which would mean a new render with different phrasing or dynamics; (b) the strings (L2) entering earlier, for example at bar 15 instead of bar 19, with a fuller swell, which would mean re-rendering L2; (c) the brass (L3), which is still an empty placeholder; or (d) the whole arrangement, with the piano left as played? Note that the strings were just set to the softest candidate (L2c6) on your instruction, so I would not make them louder unless you ask.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.00046905000000000004,
+     "duration_api_ms": 3544,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 5.317231178283691,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "\"More emotional\" could mean several different changes. Which do you want: (a) the vocal (L1) sung with more feeling, which would mean a new render with different phrasing or dynamics; (b) the strings (L2) entering earlier, for example at bar 15 instead of bar 19, with a fuller swell, which would mean re-rendering L2; (c) the brass (L3), which is still an empty placeholder; or (d) the whole arrangement, with the piano left as played? Note that the strings were just set to the softest candidate (L2c6) on your instruction, so I would not make them louder unless you ask."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.0071205999999999995,
+     "duration_api_ms": 26572,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 27.49314546585083,
+    "stale": [],
+    "questions": [
+     "\"More emotional\" could mean several different changes, and the plan has no single control for it, so I left the plan unchanged. Which layer should change: the vocal (L1), the strings (L2), or both? Brass (L3) is an empty placeholder, so I assumed it is out of scope. For strings, do you want more pronounced swells, or vibrato added where it is now forbidden? For the vocal, do you want a wider dynamic range (currently 'never louder than the piano'), a more exposed delivery, or a change to the lyrics? Any change to L1 or L2 will require re-rendering that layer, and I can then set the stale list accordingly.",
+     "Note: the vocal's chosen take (L1c4) and strings take (L2c6) already match your latest decisions, so they are unchanged."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.0041264100000000005,
+     "duration_api_ms": 26847,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 27.908732652664185,
+    "stale": [],
+    "questions": [
+     "\"More emotional\" could be carried out in several different places, and each one re-renders different layers, so I have left the plan unchanged. Which do you want: (a) the vocal (L1), e.g. a more intimate, breathy or sustained delivery, which would re-render the vocal; (b) the strings (L2), e.g. a deeper, slower swell or a warmer, more mournful timbre, which would re-render the strings; (c) the overall dynamics, e.g. a wider range from the quiet opening to the second theme, which affects the mix; or (d) the lyrics, which are still pending your word on the last line (\"A hush, a breeze\" vs. your \"A hush that settles like a breeze\")? If you have a specific feeling or reference in mind, tell me that too."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.00402591,
+     "duration_api_ms": 25308,
+     "model": [
+      "claude-haiku-5-5"
+     ]
+    },
+    "elapsed": 26.4526104927063,
+    "stale": [],
+    "questions": [
+     "\"More emotional\" could mean several different changes, so I left the plan unchanged. Which layer should change, and how? Options: (a) L1 vocal: a slower, more breathy or intimate delivery, or a different take. This would re-render L1 and make L2 stale. (b) L2 strings: a bigger, slower swell per phrase, or an entrance that comes earlier. This would re-render L2 only. (c) Dynamics or balance: bring the vocal and strings forward in the mix, which would change gain only. (d) Lyrics or the closing line: the last line is still pending your word on 'A hush that settles like a breeze'. Which of these, or what else, do you want? Also, the piano is fixed, so I won't change it."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ]
+ }
+}

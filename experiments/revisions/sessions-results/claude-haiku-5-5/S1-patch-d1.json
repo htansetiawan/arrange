@@ -1,0 +1,204 @@
+{
+ "session": "S1",
+ "arm": "patch",
+ "model": "claude-haiku-5-5",
+ "draw": 1,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Keep my guitar exactly as I played it, whatever else changes.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 7.3,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"Already the case: L6 (guitar) is a take on route 'take' with asset a1, not a generated layer. It has no candidates and nothing to re-render, its status is planned and not stale, and it is unchanged by this revision. If a later tempo-map correction moves bar 33 or bar 41, the take's audio stays as recorded but its t0/t1 will shift with the bars. Confirm that you want it to follow the bars.\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the verse strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L4.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L4"
+   ],
+   "arm_stale": [
+    "L4"
+   ],
+   "elapsed": 4.4,
+   "raw": "{\"edits\": [{\"path\": \"layers.L4.anchors.enter.bar\", \"value\": 19}], \"stale\": [\"L4\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 3,
+   "text": "Go with the third strings option in the chorus.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L5.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 4.7,
+   "raw": "{\"edits\": [{\"path\": \"layers.L5.chosen\", \"value\": \"L5c3\"}], \"stale\": [], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 4,
+   "text": "Put the brass back in, I want to hear it.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L7.job",
+    "layers.L7.job.backend",
+    "layers.L7.job.inputs.context_mix",
+    "layers.L7.job.params.guidance",
+    "layers.L7.job.params.prompt",
+    "layers.L7.job.params.seed",
+    "layers.L7.job.params.steps",
+    "layers.L7.job.params.track_name",
+    "layers.L7.job.params.variants",
+    "layers.L7.kind",
+    "layers.L7.route",
+    "layers.L7.stub_reason"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [
+    "layers.L7.stub_reason"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L7"
+   ],
+   "elapsed": 7.9,
+   "raw": "{\"edits\": [{\"path\": \"layers.L7.kind\", \"value\": \"generated\"}, {\"path\": \"layers.L7.route\", \"value\": \"audio\"}, {\"path\": \"layers.L7.job\", \"value\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L7/context.wav\"}, \"params\": {\"track_name\": \"brass\", \"prompt\": \"empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\", \"variants\": 3, \"guidance\": 7.0, \"steps\": 50, \"seed\": null}}}, {\"path\": \"layers.L7.stub_reason\", \"value\": null}], \"stale\": [\"L7\"], \"questions\": [\"The restored brass job's prompt still reads 'empty placeholder track for horns, nothing decided yet'. Should I rewrite it to describe the horns you want (for example, the 'full section' swell into bar 25 and the release on the last chord), or keep the original prompt for the first render?\", \"The brass layer has no rendered candidates, so it will need a fresh render. Its audio_context is currently empty, so it will not hear the piano or the vocals. Should it be fed the piano, or the piano plus L2, like the strings layers?\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 5,
+   "text": "The verse strings should only hear the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L4.conditions.audio_context",
+    "layers.L4.conditions.depends_on"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L4.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [
+    "layers.L4.conditions.depends_on"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L4"
+   ],
+   "elapsed": 4.8,
+   "raw": "{\"edits\": [{\"path\": \"layers.L4.conditions.audio_context\", \"value\": [\"piano\"]}], \"stale\": [\"L4\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 6,
+   "text": "Turn the second vocal down 3 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L4.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L5"
+   ],
+   "elapsed": 5.0,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.gain_db\", \"value\": -3.0}], \"stale\": [\"L5\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 7,
+   "text": "The downbeat of bar 17 is at 78.9 seconds, not where you put it.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L4.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L1"
+   ],
+   "arm_stale": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7"
+   ],
+   "elapsed": 6.8,
+   "raw": "{\"edits\": [], \"stale\": [\"L1\", \"L2\", \"L3\", \"L4\", \"L5\", \"L6\", \"L7\"], \"questions\": [], \"tempo_map_corrections\": [{\"bar\": 17, \"t\": 78.9}]}"
+  },
+  {
+   "turn": 8,
+   "text": "Let the chorus strings finish at the end of bar 38 instead of running to the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L5.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L4.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L5"
+   ],
+   "arm_stale": [
+    "L5"
+   ],
+   "elapsed": 6.1,
+   "raw": "{\"edits\": [{\"path\": \"layers.L5.anchors.exit\", \"value\": {\"bar\": 39, \"beat\": 1.0}}], \"stale\": [\"L5\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  }
+ ],
+ "final_drift": 2,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 6,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.0236
+}

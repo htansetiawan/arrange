@@ -1,0 +1,208 @@
+{
+ "session": "S1",
+ "arm": "patch",
+ "model": "claude-opus-5-5",
+ "draw": 1,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Keep my guitar exactly as I played it, whatever else changes.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 7.8,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"Your guitar is already protected, so I made no changes. L6 is your own recording (kind 'take', route 'take'). It is never generated or re-rendered, and it doesn't take in audio from any other layer. You set whether it exists, where it sits (bar 33 beat 1 up to bar 41 beat 1, so it plays through bar 40), its route and its description, and I won't change any of those unless you ask. I chose its gain (0 dB) and which recording it uses (asset a1), and I'll leave both as they are. One thing to check: the guitar is placed by bar, not by seconds. If the downbeats are ever corrected (bars 17–20 are still open), its start and end times in seconds could move even though the recording itself is untouched. Do you want it fixed to the exact time it starts now (157.007 s) instead? Also, should I set its gain to 0 dB and mark that as your decision?\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the verse strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L4.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L4"
+   ],
+   "arm_stale": [
+    "L4"
+   ],
+   "elapsed": 6.8,
+   "raw": "{\"edits\": [{\"path\": \"layers.L4.anchors.enter.bar\", \"value\": 19}], \"stale\": [\"L4\"], \"questions\": [\"Done: the verse strings (L4) now come in at bar 19 beat 1 instead of bar 17, and still stop before bar 25. One thing to check: the downbeat in bars 17–20 could be read two ways, so bar 19 may land a little off where you hear it. If it does, tell me where the bar-19 downbeat should be and I'll fix the tempo map.\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 3,
+   "text": "Go with the third strings option in the chorus.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L5.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 5.0,
+   "raw": "{\"edits\": [{\"path\": \"layers.L5.chosen\", \"value\": \"L5c3\"}, {\"path\": \"layers.L5.owner.chosen\", \"value\": \"creator\"}], \"stale\": [], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 4,
+   "text": "Put the brass back in, I want to hear it.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L7.job",
+    "layers.L7.job.backend",
+    "layers.L7.job.inputs.context_mix",
+    "layers.L7.job.params.guidance",
+    "layers.L7.job.params.prompt",
+    "layers.L7.job.params.seed",
+    "layers.L7.job.params.steps",
+    "layers.L7.job.params.track_name",
+    "layers.L7.job.params.variants",
+    "layers.L7.kind",
+    "layers.L7.route",
+    "layers.L7.stub_reason"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L7.before_stub",
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [
+    "layers.L7.before_stub",
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L7"
+   ],
+   "elapsed": 14.0,
+   "raw": "{\"edits\": [{\"path\": \"layers.L7.kind\", \"value\": \"generated\"}, {\"path\": \"layers.L7.route\", \"value\": \"audio\"}, {\"path\": \"layers.L7.job\", \"value\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L7/context.wav\"}, \"params\": {\"track_name\": \"brass\", \"prompt\": \"empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\", \"variants\": 3, \"guidance\": 7.0, \"steps\": 50, \"seed\": null}}}, {\"path\": \"layers.L7.conditions.depends_on\", \"value\": [\"L2\", \"clock\", \"piano\"]}, {\"path\": \"layers.L7.conditions.audio_context\", \"value\": [\"piano\", \"L2\"]}, {\"path\": \"layers.L7.stub_reason\", \"value\": null}, {\"path\": \"layers.L7.before_stub\", \"value\": null}], \"stale\": [\"L7\"], \"questions\": [\"I've brought the brass (L7) back as a generated layer for the chorus, bars 25–40, using the job it had before it was made a placeholder. Like the chorus strings (L5), it will listen to the piano and the chorus vocal (L2). It has no renders yet, so it needs rendering before you can hear it. One problem: the saved prompt still begins 'empty placeholder track for horns, nothing decided yet', which isn't really a musical brief. What should the horns do? For example: soft sustained French horns under the strings, or a swell only on the last line. Do you also want them to play the whole chorus, or just part of it?\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 5,
+   "text": "The verse strings should only hear the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L4.conditions.audio_context",
+    "layers.L4.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.before_stub",
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L4"
+   ],
+   "elapsed": 6.1,
+   "raw": "{\"edits\": [{\"path\": \"layers.L4.conditions.audio_context\", \"value\": [\"piano\"]}, {\"path\": \"layers.L4.conditions.depends_on\", \"value\": [\"clock\", \"piano\"]}], \"stale\": [\"L4\"], \"questions\": [\"The verse strings (L4) now hear only the piano, not the verse vocal (L1). Their 3 existing takes were rendered while hearing L1, so L4 needs re-rendering. No other layer uses L4, so nothing else goes stale.\", \"Not changed, but you may want to check: your note puts the verse strings '@bar 17', but the plan has them coming in at bar 19. Bars 17–20 are also where the downbeat is unclear. Should they come in at bar 17?\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 6,
+   "text": "Turn the second vocal down 3 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.before_stub",
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 4.6,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.gain_db\", \"value\": -3.0}], \"stale\": [], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 7,
+   "text": "The downbeat of bar 17 is at 78.9 seconds, not where you put it.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.before_stub",
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L1"
+   ],
+   "arm_stale": [
+    "L1"
+   ],
+   "elapsed": 17.2,
+   "raw": "{\"edits\": [], \"stale\": [\"L1\"], \"questions\": [\"I've treated this as a fix to the tempo map only: bar 17 now starts at 78.9 s. Bars 16 and 18 move to fit, and the other bar times stay as measured, so no layer anchors change. L1, the verse vocal over bars 9–24, crosses bar 17 and needs re-rendering. L4 enters at bar 19 and keeps its time, so it isn't marked stale. If the whole passage from bar 17 to 20 is also off, tell me where bar 19 starts and I'll correct it and mark L4 stale too. This also settles the open note that the bar 17–20 downbeat was ambiguous.\"], \"tempo_map_corrections\": [{\"bar\": 17, \"t\": 78.9}]}"
+  },
+  {
+   "turn": 8,
+   "text": "Let the chorus strings finish at the end of bar 38 instead of running to the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L5.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.before_stub",
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L5"
+   ],
+   "arm_stale": [
+    "L5"
+   ],
+   "elapsed": 4.6,
+   "raw": "{\"edits\": [{\"path\": \"layers.L5.anchors.exit.bar\", \"value\": 39}], \"stale\": [\"L5\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  }
+ ],
+ "final_drift": 4,
+ "final_exact": false,
+ "final_drift_lenient": 3,
+ "turns_ok": 7,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.9912
+}

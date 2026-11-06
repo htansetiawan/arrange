@@ -1,0 +1,880 @@
+[
+ {
+  "voice": "groban",
+  "shift": -14,
+  "rung": 1,
+  "register": "low",
+  "strain": 40,
+  "sweet": false,
+  "blind_strain": [
+   46,
+   40
+  ],
+  "blind_register": [
+   "right",
+   "low"
+  ]
+ },
+ {
+  "voice": "groban",
+  "shift": -12,
+  "rung": 2,
+  "register": "low",
+  "strain": 45,
+  "sweet": false,
+  "blind_strain": [
+   43,
+   45
+  ],
+  "blind_register": [
+   "low",
+   "low"
+  ]
+ },
+ {
+  "voice": "groban",
+  "shift": -10,
+  "rung": 3,
+  "register": "right",
+  "strain": 50,
+  "sweet": true,
+  "blind_strain": [
+   55,
+   46
+  ],
+  "blind_register": [
+   "right",
+   "right"
+  ]
+ },
+ {
+  "voice": "groban",
+  "shift": -8,
+  "rung": 4,
+  "register": "right",
+  "strain": 58,
+  "sweet": false,
+  "blind_strain": [
+   70,
+   85
+  ],
+  "blind_register": [
+   "high",
+   "high"
+  ]
+ },
+ {
+  "voice": "groban",
+  "shift": -6,
+  "rung": 5,
+  "register": "high",
+  "strain": 75,
+  "sweet": false,
+  "blind_strain": [
+   54,
+   50
+  ],
+  "blind_register": [
+   "right",
+   "right"
+  ]
+ },
+ {
+  "voice": "groban",
+  "shift": -4,
+  "rung": 6,
+  "register": "high",
+  "strain": 82,
+  "sweet": false,
+  "blind_strain": [
+   45,
+   80
+  ],
+  "blind_register": [
+   "low",
+   "high"
+  ]
+ },
+ {
+  "voice": "groban",
+  "shift": -2,
+  "rung": 7,
+  "register": "high",
+  "strain": 92,
+  "sweet": false,
+  "blind_strain": null,
+  "blind_register": null
+ },
+ {
+  "voice": "adams",
+  "shift": -12,
+  "rung": 1,
+  "register": "low",
+  "strain": 35,
+  "sweet": false,
+  "blind_strain": null,
+  "blind_register": null
+ },
+ {
+  "voice": "adams",
+  "shift": -10,
+  "rung": 2,
+  "register": "low",
+  "strain": 40,
+  "sweet": false,
+  "blind_strain": null,
+  "blind_register": null
+ },
+ {
+  "voice": "adams",
+  "shift": -8,
+  "rung": 3,
+  "register": "right",
+  "strain": 45,
+  "sweet": false,
+  "blind_strain": [
+   56,
+   83
+  ],
+  "blind_register": [
+   "right",
+   "high"
+  ]
+ },
+ {
+  "voice": "adams",
+  "shift": -6,
+  "rung": 4,
+  "register": "right",
+  "strain": 50,
+  "sweet": true,
+  "blind_strain": [
+   75
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "adams",
+  "shift": -4,
+  "rung": 5,
+  "register": "high",
+  "strain": 58,
+  "sweet": false,
+  "blind_strain": [
+   90
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "adams",
+  "shift": -2,
+  "rung": 6,
+  "register": "high",
+  "strain": 70,
+  "sweet": false,
+  "blind_strain": [
+   92,
+   88
+  ],
+  "blind_register": [
+   "high",
+   "high"
+  ]
+ },
+ {
+  "voice": "adams",
+  "shift": 0,
+  "rung": 7,
+  "register": "high",
+  "strain": 85,
+  "sweet": false,
+  "blind_strain": [
+   88
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "adams",
+  "shift": 2,
+  "rung": 8,
+  "register": "high",
+  "strain": 98,
+  "sweet": false,
+  "blind_strain": [
+   99
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "clarkson",
+  "shift": -8,
+  "rung": 1,
+  "register": "low",
+  "strain": 30,
+  "sweet": false,
+  "blind_strain": null,
+  "blind_register": null
+ },
+ {
+  "voice": "clarkson",
+  "shift": -6,
+  "rung": 2,
+  "register": "low",
+  "strain": 40,
+  "sweet": false,
+  "blind_strain": [
+   42,
+   46
+  ],
+  "blind_register": [
+   "low",
+   "right"
+  ]
+ },
+ {
+  "voice": "clarkson",
+  "shift": -4,
+  "rung": 3,
+  "register": "right",
+  "strain": 48,
+  "sweet": false,
+  "blind_strain": [
+   78,
+   83
+  ],
+  "blind_register": [
+   "high",
+   "high"
+  ]
+ },
+ {
+  "voice": "clarkson",
+  "shift": -2,
+  "rung": 4,
+  "register": "right",
+  "strain": 55,
+  "sweet": true,
+  "blind_strain": [
+   45,
+   45
+  ],
+  "blind_register": [
+   "low",
+   "low"
+  ]
+ },
+ {
+  "voice": "clarkson",
+  "shift": 0,
+  "rung": 5,
+  "register": "high",
+  "strain": 70,
+  "sweet": false,
+  "blind_strain": [
+   85,
+   84
+  ],
+  "blind_register": [
+   "high",
+   "high"
+  ]
+ },
+ {
+  "voice": "clarkson",
+  "shift": 2,
+  "rung": 6,
+  "register": "high",
+  "strain": 80,
+  "sweet": false,
+  "blind_strain": [
+   90
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "clarkson",
+  "shift": 4,
+  "rung": 7,
+  "register": "high",
+  "strain": 90,
+  "sweet": false,
+  "blind_strain": [
+   97
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "clarkson",
+  "shift": 6,
+  "rung": 8,
+  "register": "high",
+  "strain": 100,
+  "sweet": false,
+  "blind_strain": [
+   99
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "ariana",
+  "shift": -8,
+  "rung": 1,
+  "register": "low",
+  "strain": 35,
+  "sweet": false,
+  "blind_strain": null,
+  "blind_register": null
+ },
+ {
+  "voice": "ariana",
+  "shift": -6,
+  "rung": 2,
+  "register": "low",
+  "strain": 40,
+  "sweet": false,
+  "blind_strain": [
+   48
+  ],
+  "blind_register": [
+   "right"
+  ]
+ },
+ {
+  "voice": "ariana",
+  "shift": -4,
+  "rung": 3,
+  "register": "right",
+  "strain": 45,
+  "sweet": false,
+  "blind_strain": [
+   47,
+   71
+  ],
+  "blind_register": [
+   "right",
+   "high"
+  ]
+ },
+ {
+  "voice": "ariana",
+  "shift": -2,
+  "rung": 4,
+  "register": "right",
+  "strain": 50,
+  "sweet": true,
+  "blind_strain": [
+   80
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "ariana",
+  "shift": 0,
+  "rung": 5,
+  "register": "high",
+  "strain": 60,
+  "sweet": false,
+  "blind_strain": [
+   85,
+   75
+  ],
+  "blind_register": [
+   "high",
+   "high"
+  ]
+ },
+ {
+  "voice": "ariana",
+  "shift": 2,
+  "rung": 6,
+  "register": "high",
+  "strain": 75,
+  "sweet": false,
+  "blind_strain": [
+   85
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "ariana",
+  "shift": 4,
+  "rung": 7,
+  "register": "high",
+  "strain": 88,
+  "sweet": false,
+  "blind_strain": [
+   92
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "ariana",
+  "shift": 6,
+  "rung": 8,
+  "register": "high",
+  "strain": 98,
+  "sweet": false,
+  "blind_strain": [
+   100
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "jackson",
+  "shift": -11,
+  "rung": 1,
+  "register": "low",
+  "strain": 35,
+  "sweet": false,
+  "blind_strain": [
+   38
+  ],
+  "blind_register": [
+   "low"
+  ]
+ },
+ {
+  "voice": "jackson",
+  "shift": -9,
+  "rung": 2,
+  "register": "low",
+  "strain": 40,
+  "sweet": false,
+  "blind_strain": [
+   38
+  ],
+  "blind_register": [
+   "low"
+  ]
+ },
+ {
+  "voice": "jackson",
+  "shift": -7,
+  "rung": 3,
+  "register": "right",
+  "strain": 48,
+  "sweet": true,
+  "blind_strain": [
+   45
+  ],
+  "blind_register": [
+   "low"
+  ]
+ },
+ {
+  "voice": "jackson",
+  "shift": -5,
+  "rung": 4,
+  "register": "right",
+  "strain": 55,
+  "sweet": false,
+  "blind_strain": [
+   42,
+   55,
+   48
+  ],
+  "blind_register": [
+   "low",
+   "right",
+   "right"
+  ]
+ },
+ {
+  "voice": "jackson",
+  "shift": -3,
+  "rung": 5,
+  "register": "high",
+  "strain": 60,
+  "sweet": false,
+  "blind_strain": [
+   88
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "jackson",
+  "shift": -1,
+  "rung": 6,
+  "register": "high",
+  "strain": 75,
+  "sweet": false,
+  "blind_strain": [
+   75
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "jackson",
+  "shift": 1,
+  "rung": 7,
+  "register": "high",
+  "strain": 88,
+  "sweet": false,
+  "blind_strain": [
+   90
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "jackson",
+  "shift": 3,
+  "rung": 8,
+  "register": "high",
+  "strain": 98,
+  "sweet": false,
+  "blind_strain": null,
+  "blind_register": null
+ },
+ {
+  "voice": "bolton",
+  "shift": -13,
+  "rung": 1,
+  "register": "low",
+  "strain": 30,
+  "sweet": false,
+  "blind_strain": null,
+  "blind_register": null
+ },
+ {
+  "voice": "bolton",
+  "shift": -11,
+  "rung": 2,
+  "register": "low",
+  "strain": 40,
+  "sweet": false,
+  "blind_strain": null,
+  "blind_register": null
+ },
+ {
+  "voice": "bolton",
+  "shift": -9,
+  "rung": 3,
+  "register": "low",
+  "strain": 45,
+  "sweet": false,
+  "blind_strain": [
+   55,
+   46
+  ],
+  "blind_register": [
+   "right",
+   "right"
+  ]
+ },
+ {
+  "voice": "bolton",
+  "shift": -7,
+  "rung": 4,
+  "register": "right",
+  "strain": 50,
+  "sweet": true,
+  "blind_strain": [
+   70
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "bolton",
+  "shift": -5,
+  "rung": 5,
+  "register": "high",
+  "strain": 60,
+  "sweet": false,
+  "blind_strain": [
+   86
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "bolton",
+  "shift": -3,
+  "rung": 6,
+  "register": "high",
+  "strain": 75,
+  "sweet": false,
+  "blind_strain": [
+   95,
+   80
+  ],
+  "blind_register": [
+   "high",
+   "high"
+  ]
+ },
+ {
+  "voice": "bolton",
+  "shift": -1,
+  "rung": 7,
+  "register": "high",
+  "strain": 88,
+  "sweet": false,
+  "blind_strain": [
+   88
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "bolton",
+  "shift": 1,
+  "rung": 8,
+  "register": "high",
+  "strain": 95,
+  "sweet": false,
+  "blind_strain": [
+   89
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "wonder",
+  "shift": -12,
+  "rung": 1,
+  "register": "low",
+  "strain": 35,
+  "sweet": false,
+  "blind_strain": null,
+  "blind_register": null
+ },
+ {
+  "voice": "wonder",
+  "shift": -10,
+  "rung": 2,
+  "register": "low",
+  "strain": 40,
+  "sweet": false,
+  "blind_strain": null,
+  "blind_register": null
+ },
+ {
+  "voice": "wonder",
+  "shift": -8,
+  "rung": 3,
+  "register": "right",
+  "strain": 45,
+  "sweet": false,
+  "blind_strain": [
+   60
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "wonder",
+  "shift": -6,
+  "rung": 4,
+  "register": "right",
+  "strain": 50,
+  "sweet": true,
+  "blind_strain": [
+   90
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "wonder",
+  "shift": -4,
+  "rung": 5,
+  "register": "high",
+  "strain": 60,
+  "sweet": false,
+  "blind_strain": [
+   85
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "wonder",
+  "shift": -2,
+  "rung": 6,
+  "register": "high",
+  "strain": 75,
+  "sweet": false,
+  "blind_strain": [
+   86,
+   75
+  ],
+  "blind_register": [
+   "high",
+   "high"
+  ]
+ },
+ {
+  "voice": "wonder",
+  "shift": 0,
+  "rung": 7,
+  "register": "high",
+  "strain": 88,
+  "sweet": false,
+  "blind_strain": [
+   89
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "wonder",
+  "shift": 2,
+  "rung": 8,
+  "register": "high",
+  "strain": 98,
+  "sweet": false,
+  "blind_strain": [
+   90
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "buble",
+  "shift": -16,
+  "rung": 1,
+  "register": "low",
+  "strain": 35,
+  "sweet": false,
+  "blind_strain": [
+   38
+  ],
+  "blind_register": [
+   "low"
+  ]
+ },
+ {
+  "voice": "buble",
+  "shift": -14,
+  "rung": 2,
+  "register": "low",
+  "strain": 40,
+  "sweet": false,
+  "blind_strain": [
+   42
+  ],
+  "blind_register": [
+   "low"
+  ]
+ },
+ {
+  "voice": "buble",
+  "shift": -12,
+  "rung": 3,
+  "register": "right",
+  "strain": 48,
+  "sweet": false,
+  "blind_strain": [
+   45
+  ],
+  "blind_register": [
+   "low"
+  ]
+ },
+ {
+  "voice": "buble",
+  "shift": -10,
+  "rung": 4,
+  "register": "right",
+  "strain": 52,
+  "sweet": true,
+  "blind_strain": [
+   47,
+   48
+  ],
+  "blind_register": [
+   "right",
+   "right"
+  ]
+ },
+ {
+  "voice": "buble",
+  "shift": -8,
+  "rung": 5,
+  "register": "high",
+  "strain": 61,
+  "sweet": false,
+  "blind_strain": [
+   56
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "buble",
+  "shift": -6,
+  "rung": 6,
+  "register": "high",
+  "strain": 70,
+  "sweet": false,
+  "blind_strain": [
+   70
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "buble",
+  "shift": -4,
+  "rung": 7,
+  "register": "high",
+  "strain": 80,
+  "sweet": false,
+  "blind_strain": [
+   60
+  ],
+  "blind_register": [
+   "high"
+  ]
+ },
+ {
+  "voice": "buble",
+  "shift": -2,
+  "rung": 8,
+  "register": "high",
+  "strain": 88,
+  "sweet": false,
+  "blind_strain": null,
+  "blind_register": null
+ }
+]

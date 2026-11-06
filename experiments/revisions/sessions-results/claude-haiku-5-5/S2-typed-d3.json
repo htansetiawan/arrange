@@ -1,0 +1,258 @@
+{
+ "session": "S2",
+ "arm": "typed",
+ "model": "claude-haiku-5-5",
+ "draw": 3,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Use the second vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L1.chosen"
+   ],
+   "new_errors": [
+    "layers.L1.chosen"
+   ],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L2"
+   ],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "ask",
+     "question": "Which 'second vocal take' do you mean? (a) L1c2, the english-12 render, which is the second candidate in the list and replaces your own voice (L1c4, henry-12) that you chose on 31 October; (b) a recording of your own voice as a take, which needs an asset id because none is listed in the plan. Reply with a or b, or give the asset id."
+    }
+   ],
+   "elapsed": 7.4,
+   "raw": "{\"op\":\"ask\",\"question\":\"Which 'second vocal take' do you mean? (a) L1c2, the english-12 render, which is the second candidate in the list and replaces your own voice (L1c4, henry-12) that you chose on 31 October; (b) a recording of your own voice as a take, which needs an asset id because none is listed in the plan. Reply with a or b, or give the asset id.\"}"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L1.chosen"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "refused": [],
+   "ops": [
+    {
+     "op": "shift_entry",
+     "layer": "L2",
+     "by_bars": 2
+    }
+   ],
+   "elapsed": 3.8,
+   "raw": "[{\"op\":\"shift_entry\",\"layer\":\"L2\",\"by_bars\":2}]"
+  },
+  {
+   "turn": 3,
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.conditions.audio_context",
+    "layers.L2.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L1.chosen"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_context",
+     "layer": "L2",
+     "audio_context": [
+      "piano"
+     ]
+    }
+   ],
+   "elapsed": 3.8,
+   "raw": "[{\"op\":\"set_context\",\"layer\":\"L2\",\"audio_context\":[\"piano\"]}]"
+  },
+  {
+   "turn": 4,
+   "text": "Turn the vocal up 2 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L1.chosen"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_gain",
+     "layer": "L1",
+     "db": 2.0
+    }
+   ],
+   "elapsed": 3.2,
+   "raw": "[{\"op\":\"set_gain\",\"layer\":\"L1\",\"db\":2.0}]"
+  },
+  {
+   "turn": 5,
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L1.chosen",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.389,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_clock",
+     "bar": 33,
+     "t": 167.375
+    }
+   ],
+   "elapsed": 8.4,
+   "raw": "[{\"op\":\"set_clock\",\"bar\":33,\"t\":167.375}]"
+  },
+  {
+   "turn": 6,
+   "text": "Let the strings run two bars longer at the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L1.chosen",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.389,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "shift_exit",
+     "layer": "L2",
+     "by_bars": 2
+    }
+   ],
+   "elapsed": 3.0,
+   "raw": "[{\"op\":\"shift_exit\",\"layer\":\"L2\",\"by_bars\":2}]"
+  },
+  {
+   "turn": 7,
+   "text": "Make it more emotional.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [
+    "layers.L1.chosen",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L1.chosen"
+   ],
+   "tempo_err_s": 0.389,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "ask",
+     "question": "\"More emotional\" could mean several different changes. Which do you want? (a) Bring the strings in earlier, at bar 19 instead of 21, so they swell under the first phrase. (b) Raise the vocal by a few dB above the current +2 dB, so the voice sits further forward. (c) Switch the strings to a fuller or more swelling render (L2c4 or L2c5) in place of the softest one (L2c6). (d) Something else, described in your own words."
+    }
+   ],
+   "elapsed": 5.2,
+   "raw": "[{\"op\":\"ask\",\"question\":\"\\\"More emotional\\\" could mean several different changes. Which do you want? (a) Bring the strings in earlier, at bar 19 instead of 21, so they swell under the first phrase. (b) Raise the vocal by a few dB above the current +2 dB, so the voice sits further forward. (c) Switch the strings to a fuller or more swelling render (L2c4 or L2c5) in place of the softest one (L2c6). (d) Something else, described in your own words.\"}]"
+  },
+  {
+   "turn": 8,
+   "text": "Go back to the fourth vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.389,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L1",
+     "candidate": "L1c4"
+    }
+   ],
+   "elapsed": 6.2,
+   "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L1\",\"candidate\":\"L1c4\"}]"
+  }
+ ],
+ "final_drift": 1,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 6,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [
+  "t1:L2"
+ ],
+ "cost": 0.0266
+}

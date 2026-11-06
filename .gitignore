@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# song projects and built items hold the fits and recordings; they are not distributed
+runs/
+experiments/*/build/
+experiments/*/cache/
+
+# audio stays out except the two clips in audio/
+*.wav
+*.m4a
+*.flac
+*.mp3
+!audio/*.mp3

@@ -1,0 +1,114 @@
+[
+ {
+  "voice": "clarkson",
+  "shift": -4,
+  "strain": 83,
+  "register": "high",
+  "broken": false,
+  "at": "2026-11-04T00:30:35.397Z"
+ },
+ {
+  "voice": "groban",
+  "shift": -6,
+  "strain": 50,
+  "register": "right",
+  "broken": false,
+  "at": "2026-11-04T00:30:50.813Z"
+ },
+ {
+  "voice": "buble",
+  "shift": -10,
+  "strain": 48,
+  "register": "right",
+  "broken": false,
+  "at": "2026-11-04T00:31:14.434Z"
+ },
+ {
+  "voice": "groban",
+  "shift": -4,
+  "strain": 80,
+  "register": "high",
+  "broken": false,
+  "at": "2026-11-04T00:31:33.691Z"
+ },
+ {
+  "voice": "clarkson",
+  "shift": -6,
+  "strain": 46,
+  "register": "right",
+  "broken": false,
+  "at": "2026-11-04T00:31:54.115Z"
+ },
+ {
+  "voice": "groban",
+  "shift": -12,
+  "strain": 45,
+  "register": "low",
+  "broken": false,
+  "at": "2026-11-04T00:32:10.067Z"
+ },
+ {
+  "voice": "clarkson",
+  "shift": -2,
+  "strain": 45,
+  "register": "low",
+  "broken": false,
+  "at": "2026-11-04T00:32:26.357Z"
+ },
+ {
+  "voice": "jackson",
+  "shift": -5,
+  "strain": 48,
+  "register": "right",
+  "broken": false,
+  "at": "2026-11-04T00:32:39.415Z"
+ },
+ {
+  "voice": "groban",
+  "shift": -14,
+  "strain": 40,
+  "register": "low",
+  "broken": false,
+  "at": "2026-11-04T00:32:52.542Z"
+ },
+ {
+  "voice": "ariana",
+  "shift": -4,
+  "strain": 71,
+  "register": "high",
+  "broken": false,
+  "at": "2026-11-04T00:33:12.477Z"
+ },
+ {
+  "voice": "groban",
+  "shift": -8,
+  "strain": 85,
+  "register": "high",
+  "broken": false,
+  "at": "2026-11-04T00:33:58.369Z"
+ },
+ {
+  "voice": "adams",
+  "shift": -8,
+  "strain": 83,
+  "register": "high",
+  "broken": false,
+  "at": "2026-11-04T00:34:23.838Z"
+ },
+ {
+  "voice": "bolton",
+  "shift": -9,
+  "strain": 46,
+  "register": "right",
+  "broken": false,
+  "at": "2026-11-04T00:35:04.520Z"
+ },
+ {
+  "voice": "groban",
+  "shift": -10,
+  "strain": 46,
+  "register": "right",
+  "broken": false,
+  "at": "2026-11-04T00:35:23.090Z"
+ }
+]

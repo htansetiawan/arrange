@@ -1,0 +1,48 @@
+{
+ "at": "2026-11-04T02:02:23.854Z",
+ "ladder": "v4",
+ "rater": "composer",
+ "steps": [
+  {
+   "clip": "Wo8",
+   "register": "low",
+   "score": 35
+  },
+  {
+   "clip": "Pa0",
+   "register": "low",
+   "score": 40
+  },
+  {
+   "clip": "Ri3",
+   "register": "right",
+   "score": 45
+  },
+  {
+   "clip": "Li8",
+   "register": "right",
+   "score": 50
+  },
+  {
+   "clip": "Va1",
+   "register": "high",
+   "score": 60
+  },
+  {
+   "clip": "Ja9",
+   "register": "high",
+   "score": 75
+  },
+  {
+   "clip": "Mu6",
+   "register": "high",
+   "score": 88
+  },
+  {
+   "clip": "Va9",
+   "register": "high",
+   "score": 98
+  }
+ ],
+ "sweet": "Li8"
+}

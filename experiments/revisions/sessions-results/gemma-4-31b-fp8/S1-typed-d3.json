@@ -1,0 +1,239 @@
+{
+ "session": "S1",
+ "arm": "typed",
+ "model": "gemma-4-31b-fp8",
+ "draw": 3,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Keep my guitar exactly as I played it, whatever else changes.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "lock",
+     "layer": "L6"
+    }
+   ],
+   "elapsed": 3.0,
+   "raw": "[{\"op\":\"lock\",\"layer\":\"L6\"}]"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the verse strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L4.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L4"
+   ],
+   "arm_stale": [
+    "L4"
+   ],
+   "refused": [],
+   "ops": [
+    {
+     "op": "shift_entry",
+     "layer": "L4",
+     "by_bars": 2
+    }
+   ],
+   "elapsed": 2.0,
+   "raw": "[{\"op\":\"shift_entry\",\"layer\":\"L4\",\"by_bars\":2}]"
+  },
+  {
+   "turn": 3,
+   "text": "Go with the third strings option in the chorus.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L5.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L5",
+     "candidate": "L5c3"
+    }
+   ],
+   "elapsed": 2.1,
+   "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L5\",\"candidate\":\"L5c3\"}]"
+  },
+  {
+   "turn": 4,
+   "text": "Put the brass back in, I want to hear it.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L7.job",
+    "layers.L7.job.backend",
+    "layers.L7.job.inputs.context_mix",
+    "layers.L7.job.params.guidance",
+    "layers.L7.job.params.prompt",
+    "layers.L7.job.params.seed",
+    "layers.L7.job.params.steps",
+    "layers.L7.job.params.track_name",
+    "layers.L7.job.params.variants",
+    "layers.L7.kind",
+    "layers.L7.route",
+    "layers.L7.stub_reason"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "unstub",
+     "layer": "L7"
+    }
+   ],
+   "elapsed": 1.9,
+   "raw": "[{\"op\":\"unstub\",\"layer\":\"L7\"}]"
+  },
+  {
+   "turn": 5,
+   "text": "The verse strings should only hear the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L4.conditions.audio_context",
+    "layers.L4.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_context",
+     "layer": "L4",
+     "audio_context": [
+      "piano"
+     ]
+    }
+   ],
+   "elapsed": 2.2,
+   "raw": "[{\"op\":\"set_context\",\"layer\":\"L4\",\"audio_context\":[\"piano\"]}]"
+  },
+  {
+   "turn": 6,
+   "text": "Turn the second vocal down 3 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_gain",
+     "layer": "L2",
+     "db": -3.0
+    }
+   ],
+   "elapsed": 3.3,
+   "raw": "[{\"op\":\"set_gain\",\"layer\":\"L2\",\"db\":-3.0}]"
+  },
+  {
+   "turn": 7,
+   "text": "The downbeat of bar 17 is at 78.9 seconds, not where you put it.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L1"
+   ],
+   "arm_stale": [
+    "L1"
+   ],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_clock",
+     "bar": 17,
+     "t": 78.9
+    }
+   ],
+   "elapsed": 2.2,
+   "raw": "[{\"op\":\"set_clock\",\"bar\":17,\"t\":78.9}]"
+  },
+  {
+   "turn": 8,
+   "text": "Let the chorus strings finish at the end of bar 38 instead of running to the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L5.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L5"
+   ],
+   "arm_stale": [
+    "L5"
+   ],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_exit",
+     "layer": "L5",
+     "bar": 39,
+     "beat": 1.0
+    }
+   ],
+   "elapsed": 3.1,
+   "raw": "[{\"op\":\"set_exit\",\"layer\":\"L5\",\"bar\":39,\"beat\":1.0}]"
+  }
+ ],
+ "final_drift": 0,
+ "final_exact": true,
+ "final_drift_lenient": 0,
+ "turns_ok": 8,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.0
+}

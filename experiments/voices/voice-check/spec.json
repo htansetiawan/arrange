@@ -1,0 +1,109 @@
+{
+ "score": "studio/sung-score.json",
+ "skip": [
+  [
+   53.5,
+   58.65
+  ]
+ ],
+ "window": [
+  26,
+  68
+ ],
+ "singers": {
+  "henry": {
+   "ref": [
+    "../voices/henry-yard/pre/vocal",
+    31.5,
+    39.7
+   ],
+   "heldout": [
+    "../voices/henry-yard/pre/vocal",
+    146.9,
+    156.8
+   ],
+   "format": "wav"
+  },
+  "ingram": {
+   "ref": [
+    "../voices/ingram/pre/vocal",
+    125.8,
+    140.3
+   ],
+   "heldout": [
+    "../voices/ingram/pre/vocal",
+    64.1,
+    74.9
+   ],
+   "format": "wav"
+  }
+ },
+ "renders": [
+  {
+   "name": "source: Groban-sampled SoulX render (before conversion)",
+   "singer": "henry",
+   "file": "studio/voice/groban-12",
+   "shift": -12,
+   "format": "mp3"
+  },
+  {
+   "name": "source: Groban-sampled SoulX render (before conversion)",
+   "singer": "ingram",
+   "file": "studio/voice/groban-12",
+   "shift": -12,
+   "format": "mp3"
+  },
+  {
+   "name": "SoulX score mode",
+   "singer": "henry",
+   "file": "public/voice/henry-yard-12",
+   "shift": -12,
+   "format": "mp3"
+  },
+  {
+   "name": "SoulX conversion",
+   "singer": "henry",
+   "file": "studio/voice/henry-yard-svc",
+   "shift": -12,
+   "format": "wav"
+  },
+  {
+   "name": "Seed-VC zero-shot",
+   "singer": "henry",
+   "file": "seedvc/out-henry-yard/vc_source_ref-henry-yard_1.0_50_0.7",
+   "start": 26,
+   "shift": -12,
+   "format": "wav"
+  },
+  {
+   "name": "Seed-VC fine-tuned on the author",
+   "singer": "henry",
+   "file": "seedvc/out-henry-ft/vc_source_ref-henry-yard_1.0_50_0.7",
+   "start": 26,
+   "shift": -12,
+   "format": "wav"
+  },
+  {
+   "name": "SoulX score mode",
+   "singer": "ingram",
+   "file": "studio/voice/ingram-clip1-12",
+   "shift": -12,
+   "format": "mp3"
+  },
+  {
+   "name": "SoulX conversion",
+   "singer": "ingram",
+   "file": "studio/voice/ingram-svc",
+   "shift": -12,
+   "format": "wav"
+  },
+  {
+   "name": "Seed-VC zero-shot",
+   "singer": "ingram",
+   "file": "seedvc/out-ingram/vc_source_ref-ingram_1.0_50_0.7",
+   "start": 26,
+   "shift": -12,
+   "format": "wav"
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "session": "S2",
+ "arm": "patch",
+ "model": "claude-sonnet-5-5",
+ "draw": 3,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Use the second vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L2"
+   ],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 6.0,
+   "raw": "{\"edits\":[{\"path\":\"layers.L1.chosen\",\"value\":\"L1c2\"}],\"stale\":[\"L2\"],\"questions\":[\"I read 'second vocal take' as the second candidate, L1c2 (english-12), which replaces L1c4 (henry-12). Tell me if you meant a different take. L2 (strings) was rendered against L1c4, so it is stale and needs a re-render.\"],\"tempo_map_corrections\":[]}"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 3.2,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.anchors.enter.bar\", \"value\": 21}], \"stale\": [\"L2\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 3,
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.conditions.audio_context",
+    "layers.L2.conditions.depends_on"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L2.conditions.depends_on"
+   ],
+   "new_errors": [
+    "layers.L2.conditions.depends_on"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 2.8,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.conditions.audio_context\", \"value\": [\"piano\"]}], \"stale\": [\"L2\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 4,
+   "text": "Turn the vocal up 2 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L2.conditions.depends_on"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 3.8,
+   "raw": "{\"edits\": [{\"path\": \"layers.L1.gain_db\", \"value\": 2.0}], \"stale\": [], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 5,
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L2.conditions.depends_on",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.414,
+   "gold_stale": [],
+   "arm_stale": [
+    "L1",
+    "L2",
+    "L3"
+   ],
+   "elapsed": 9.3,
+   "raw": "{\"edits\": [], \"stale\": [\"L1\", \"L2\", \"L3\"], \"questions\": [\"I put bar 33 at about 167.4 s. That is my estimate: the plan has no per-bar times, so I took the current bar 33 start at roughly 167.9 s from the section boundaries and moved it half a second earlier. Please confirm, or give me the exact time of the bass note, and I'll use that. I don't know whether the bars on either side of 33 should shift with it. Should bar 32 stay where it is and become half a second longer, or should the bars after it move too? No layer anchors change, because the layers sit on bars 15–23. Every layer lists the clock as a dependency, so all three are marked stale and need re-rendering.\"], \"tempo_map_corrections\": [{\"bar\": 33, \"t\": 167.4}]}"
+  },
+  {
+   "turn": 6,
+   "text": "Let the strings run two bars longer at the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L2.conditions.depends_on",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.414,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 4.2,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.anchors.exit.bar\", \"value\": 25}], \"stale\": [\"L2\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 7,
+   "text": "Make it more emotional.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [
+    "layers.L2.conditions.depends_on",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.414,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 4.7,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different things here, and most of them would override choices you made yourself. Which do you mean? (a) Strings: enter earlier or swell more. Right now they come in at bar 21 and exit at bar 25, and the chosen candidate L2c6 is the softest one, which you picked deliberately. (b) Brass: the placeholder L3 is empty, so I could restore it as a generated layer for the theme 2 climax. (c) Vocal: a different candidate or gain for L1. You chose L1c2 and the notes mention your own voice, L1c4, so I'd rather not change that without your word. (d) A new layer or a change to a different section, such as the ending or the second half. Tell me which layer or section you mean, and whether you want it louder and bigger or more intimate and restrained.\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 8,
+   "text": "Go back to the fourth vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L2.conditions.depends_on",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.414,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 5.4,
+   "raw": "{\"edits\":[{\"path\":\"layers.L1.chosen\",\"value\":\"L1c4\"}],\"stale\":[],\"questions\":[\"L1 is now set to its fourth take, L1c4 (henry-12). The strings (L2c6) were rendered against L1c4, so they don't need re-rendering. L1's gain is +2.0 dB. L1c4 already peaks at about 1.006, so the extra gain may clip. Do you want me to lower it?\"],\"tempo_map_corrections\":[]}"
+  }
+ ],
+ "final_drift": 2,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 6,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.225
+}

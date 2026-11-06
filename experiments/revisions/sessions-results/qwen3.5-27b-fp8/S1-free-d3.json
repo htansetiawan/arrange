@@ -1,0 +1,204 @@
+{
+ "session": "S1",
+ "arm": "free",
+ "model": "qwen3.5-27b-fp8",
+ "draw": 3,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Keep my guitar exactly as I played it, whatever else changes.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 179.9,
+   "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [1, 69]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"rou"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the verse strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L4.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L4"
+   ],
+   "arm_stale": [
+    "L4"
+   ],
+   "elapsed": 265.5,
+   "raw": "\n\n{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\","
+  },
+  {
+   "turn": 3,
+   "text": "Go with the third strings option in the chorus.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L5.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 184.6,
+   "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [1, 69]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\"clock\", \"melody\"],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions"
+  },
+  {
+   "turn": 4,
+   "text": "Put the brass back in, I want to hear it.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L7.job",
+    "layers.L7.job.backend",
+    "layers.L7.job.inputs.context_mix",
+    "layers.L7.job.params.guidance",
+    "layers.L7.job.params.prompt",
+    "layers.L7.job.params.seed",
+    "layers.L7.job.params.steps",
+    "layers.L7.job.params.track_name",
+    "layers.L7.job.params.variants",
+    "layers.L7.kind",
+    "layers.L7.route",
+    "layers.L7.stub_reason"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on"
+   ],
+   "new_errors": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L7"
+   ],
+   "elapsed": 278.9,
+   "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [\n            1,\n            69\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          "
+  },
+  {
+   "turn": 5,
+   "text": "The verse strings should only hear the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L4.conditions.audio_context",
+    "layers.L4.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L4"
+   ],
+   "elapsed": 168.4,
+   "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [1, 69]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\"clock\", \"melody\"],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions"
+  },
+  {
+   "turn": 6,
+   "text": "Turn the second vocal down 3 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L5"
+   ],
+   "elapsed": 253.4,
+   "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [1, 69]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"rou"
+  },
+  {
+   "turn": 7,
+   "text": "The downbeat of bar 17 is at 78.9 seconds, not where you put it.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L1"
+   ],
+   "arm_stale": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7"
+   ],
+   "elapsed": 193.8,
+   "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [1, 69]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"rou"
+  },
+  {
+   "turn": 8,
+   "text": "Let the chorus strings finish at the end of bar 38 instead of running to the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L5.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L5"
+   ],
+   "arm_stale": [
+    "L5"
+   ],
+   "elapsed": 185.3,
+   "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 1,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [1, 69]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\"clock\", \"melody\"],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions"
+  }
+ ],
+ "final_drift": 2,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 7,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.0
+}

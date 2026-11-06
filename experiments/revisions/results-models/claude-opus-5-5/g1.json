@@ -1,0 +1,443 @@
+{
+ "id": "g1",
+ "cat": "g",
+ "fixture": "real",
+ "text": "Make it more emotional.",
+ "gold_ops": [
+  {
+   "op": "ask",
+   "question": "<a question that offers concrete choices, e.g. strings later or softer, a different vocal take, a swell>"
+  }
+ ],
+ "gold_paths": [
+  "open.questions"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"'More emotional' could mean several different changes, and some of them would undo things you already decided. Which of these do you want? (You can pick more than one.)\\n(a) Bring the strings in earlier. Right now they enter at bar 19. They could enter at bar 15 with the voice, or at bar 10 under theme 1. Strings would have to be re-rendered.\\n(b) Let the strings carry on past the theme. Right now they stop at the end of bar 22. They could run through 'after the theme' (to the end of bar 30) or through the end of the piece (bar 41).\\n(c) Make the strings louder, for example +3 dB on L2c6. Or switch to a fuller take: L2c4 is about 7 dB louder than L2c6, which you picked as the softest.\\n(d) Turn the brass placeholder into real brass, for bars 15–22 or a range you choose. It would play under the voice and strings, and you'd need to describe what you want it to play.\\n(e) Add a new layer, such as a solo cello or a low pad. Tell me which bars it should cover.\\n(f) Make the vocal louder. Your note says 'never louder than the piano', so it could only come up a little, by about 1–2 dB.\\nOr tell me in your own words what you want to feel more, and where.\"}]",
+    "usage": {
+     "total_cost_usd": 0.1406434,
+     "duration_api_ms": 8012,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 9.114802598953247,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "'More emotional' could mean several different changes, and some of them would undo things you already decided. Which of these do you want? (You can pick more than one.)\n(a) Bring the strings in earlier. Right now they enter at bar 19. They could enter at bar 15 with the voice, or at bar 10 under theme 1. Strings would have to be re-rendered.\n(b) Let the strings carry on past the theme. Right now they stop at the end of bar 22. They could run through 'after the theme' (to the end of bar 30) or through the end of the piece (bar 41).\n(c) Make the strings louder, for example +3 dB on L2c6. Or switch to a fuller take: L2c4 is about 7 dB louder than L2c6, which you picked as the softest.\n(d) Turn the brass placeholder into real brass, for bars 15–22 or a range you choose. It would play under the voice and strings, and you'd need to describe what you want it to play.\n(e) Add a new layer, such as a solo cello or a low pad. Tell me which bars it should cover.\n(f) Make the vocal louder. Your note says 'never louder than the piano', so it could only come up a little, by about 1–2 dB.\nOr tell me in your own words what you want to feel more, and where."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "'More emotional' could mean several different changes, and some of them would undo things you already decided. Which of these do you want? (You can pick more than one.)\n(a) Bring the strings in earlier. Right now they enter at bar 19. They could enter at bar 15 with the voice, or at bar 10 under theme 1. Strings would have to be re-rendered.\n(b) Let the strings carry on past the theme. Right now they stop at the end of bar 22. They could run through 'after the theme' (to the end of bar 30) or through the end of the piece (bar 41).\n(c) Make the strings louder, for example +3 dB on L2c6. Or switch to a fuller take: L2c4 is about 7 dB louder than L2c6, which you picked as the softest.\n(d) Turn the brass placeholder into real brass, for bars 15–22 or a range you choose. It would play under the voice and strings, and you'd need to describe what you want it to play.\n(e) Add a new layer, such as a solo cello or a low pad. Tell me which bars it should cover.\n(f) Make the vocal louder. Your note says 'never louder than the piano', so it could only come up a little, by about 1–2 dB.\nOr tell me in your own words what you want to feel more, and where."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"\\\"More emotional\\\" could mean several different changes. Which of these do you want? You can pick more than one. (a) Bring the strings in with the voice at bar 15 beat 1 instead of bar 19. You placed them at bar 19, so this changes your decision. (b) Let the strings carry on past the theme. They would end at bar 31 beat 1 instead of bar 23 beat 1, covering 'after the theme' (bars 23–30). (c) Turn the strings up, for example by +3 dB. L2c6 stays your chosen take; only its level changes. (d) Switch the strings to a fuller take: L2c4 (about 7 dB louder than L2c6) or L2c5. You chose L2c6 as the softest, so this would undo that choice. (e) Replace the brass placeholder (bars 15–22) with a generated part, such as a soft horn swell under the last phrase of the voice. (f) Add a new layer, such as a low cello line, at bars you choose. The vocal stays as you set it, never louder than the piano, and the piano stays exactly as played unless you say otherwise.\"}]",
+    "usage": {
+     "total_cost_usd": 0.0168374,
+     "duration_api_ms": 7073,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 8.203592538833618,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "\"More emotional\" could mean several different changes. Which of these do you want? You can pick more than one. (a) Bring the strings in with the voice at bar 15 beat 1 instead of bar 19. You placed them at bar 19, so this changes your decision. (b) Let the strings carry on past the theme. They would end at bar 31 beat 1 instead of bar 23 beat 1, covering 'after the theme' (bars 23–30). (c) Turn the strings up, for example by +3 dB. L2c6 stays your chosen take; only its level changes. (d) Switch the strings to a fuller take: L2c4 (about 7 dB louder than L2c6) or L2c5. You chose L2c6 as the softest, so this would undo that choice. (e) Replace the brass placeholder (bars 15–22) with a generated part, such as a soft horn swell under the last phrase of the voice. (f) Add a new layer, such as a low cello line, at bars you choose. The vocal stays as you set it, never louder than the piano, and the piano stays exactly as played unless you say otherwise."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "\"More emotional\" could mean several different changes. Which of these do you want? You can pick more than one. (a) Bring the strings in with the voice at bar 15 beat 1 instead of bar 19. You placed them at bar 19, so this changes your decision. (b) Let the strings carry on past the theme. They would end at bar 31 beat 1 instead of bar 23 beat 1, covering 'after the theme' (bars 23–30). (c) Turn the strings up, for example by +3 dB. L2c6 stays your chosen take; only its level changes. (d) Switch the strings to a fuller take: L2c4 (about 7 dB louder than L2c6) or L2c5. You chose L2c6 as the softest, so this would undo that choice. (e) Replace the brass placeholder (bars 15–22) with a generated part, such as a soft horn swell under the last phrase of the voice. (f) Add a new layer, such as a low cello line, at bars you choose. The vocal stays as you set it, never louder than the piano, and the piano stays exactly as played unless you say otherwise."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"'More emotional' could mean several things, and some of them would undo choices you've already made, so here are some concrete options. Which one, or which combination, do you want? (a) Let the strings swell further: raise their level by +3 dB. They stay as rendered (L2c6), so nothing needs re-rendering. (b) Bring the strings in sooner: right with the voice at bar 15 beat 1 instead of bar 19. This changes an entry point you chose, and the strings would need re-rendering. (c) Let the arrangement carry on past the theme: keep the strings, and the voice too if you like, going into 'after the theme', for example until bar 31 beat 1 instead of bar 23. This also means re-rendering. (d) Swap in a fuller strings take: L2c4 (louder, -20.6 dB) instead of L2c6, the softest one you picked. (e) Give the brass something to play. Right now it's an empty placeholder by your choice. For example, a soft, warm swell under bars 19–22. (f) Add a new layer: tell me the instrument and the bars. I'll keep the voice no louder than the piano, as you asked, unless you tell me otherwise.\"}]",
+    "usage": {
+     "total_cost_usd": 0.017797399999999998,
+     "duration_api_ms": 7401,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 8.700802326202393,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "'More emotional' could mean several things, and some of them would undo choices you've already made, so here are some concrete options. Which one, or which combination, do you want? (a) Let the strings swell further: raise their level by +3 dB. They stay as rendered (L2c6), so nothing needs re-rendering. (b) Bring the strings in sooner: right with the voice at bar 15 beat 1 instead of bar 19. This changes an entry point you chose, and the strings would need re-rendering. (c) Let the arrangement carry on past the theme: keep the strings, and the voice too if you like, going into 'after the theme', for example until bar 31 beat 1 instead of bar 23. This also means re-rendering. (d) Swap in a fuller strings take: L2c4 (louder, -20.6 dB) instead of L2c6, the softest one you picked. (e) Give the brass something to play. Right now it's an empty placeholder by your choice. For example, a soft, warm swell under bars 19–22. (f) Add a new layer: tell me the instrument and the bars. I'll keep the voice no louder than the piano, as you asked, unless you tell me otherwise."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "'More emotional' could mean several things, and some of them would undo choices you've already made, so here are some concrete options. Which one, or which combination, do you want? (a) Let the strings swell further: raise their level by +3 dB. They stay as rendered (L2c6), so nothing needs re-rendering. (b) Bring the strings in sooner: right with the voice at bar 15 beat 1 instead of bar 19. This changes an entry point you chose, and the strings would need re-rendering. (c) Let the arrangement carry on past the theme: keep the strings, and the voice too if you like, going into 'after the theme', for example until bar 31 beat 1 instead of bar 23. This also means re-rendering. (d) Swap in a fuller strings take: L2c4 (louder, -20.6 dB) instead of L2c6, the softest one you picked. (e) Give the brass something to play. Right now it's an empty placeholder by your choice. For example, a soft, warm swell under bars 19–22. (f) Add a new layer: tell me the instrument and the bars. I'll keep the voice no louder than the piano, as you asked, unless you tell me otherwise."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.2874514,
+     "duration_api_ms": 58052,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 58.9672954082489,
+    "stale": [],
+    "questions": [
+     "'More emotional' could mean several different edits, and most of them would change things you decided yourself. So I've left the plan unchanged until you tell me which you mean. Which of these do you want? (You can pick more than one.)",
+     "(a) Strings (L2, bars 19–22): you wrote 'soft sustained strings… no vibrato, one slow swell per phrase', and on 31 Oct you picked L2c6 because it was the softest. I could rewrite that description, for example to allow some warm vibrato, a fuller swell into bar 22, or more presence under the voice. That changes your prompt, so I'd need new wording or your go-ahead. L2 would then need re-rendering and your L2c6 choice would be replaced.",
+     "(b) Vocal (L1, bars 15–22): it's rendered from the score, so there's no style prompt to make 'more emotional'. The ways to change it are: add dynamics or phrasing to the score (jobs/L1/vocal.abc), pick a different voice candidate (you chose L1c4, your own voice an octave down), or change the lyrics. Your note also says the vocal is 'sung softly… never louder than the piano'. Should that still hold?",
+     "(c) Brass (L3): it's an empty placeholder on purpose ('nothing decided yet'). Do you want to give it a job now, for example a quiet, warm horn swell under bars 19–22? If so, tell me what it should do and where it should come in.",
+     "(d) Shape over time: right now everything happens in 'theme 2' (bars 15–22). Your Suno reference stays quiet for the first minute and grows after about 90 s. Do you want the strings (or a new layer) to continue into 'after the theme' (bars 23–30) or the 'second half' (bars 31–38), so the arrangement builds instead of stopping at bar 23?",
+     "(e) Levels only: should I raise the strings and/or vocal in the mix, with no new renders? This would still keep the vocal below the piano.",
+     "Separately, still waiting on you: L1's last lyric line was shortened to 'A hush, a breeze' (from your 'A hush that settles like a breeze') to fit the four-note closing phrase. Is that OK? If you want a more emotional last line, now is a good time to change it."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.16767260000000003,
+     "duration_api_ms": 58767,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 59.63039827346802,
+    "stale": [],
+    "questions": [
+     "'More emotional' could mean several different changes, and most of them would override something you already decided, so I've left the plan unchanged. The piano stays exactly as you played it either way. Which of these do you mean? (You can pick more than one.)",
+     "1) Strings (L2): you wrote 'soft sustained strings, no vibrato, one slow swell per phrase', and you chose the softest take (L2c6, about -27.7 dB). I could rewrite the strings prompt to add warm vibrato and a bigger swell toward bar 22, then render the strings again. Do you want that, and how much bigger: a little warmer, or clearly fuller?",
+     "2) Strings entrance (L2): they enter at bar 19 and stop before bar 23. Should they come in earlier, say at bar 15 with the voice, or carry on into 'after the theme' (bars 23–30)? Your Suno reference keeps the band quiet at first and lets it grow after about 90 s. In this recording, 90 s falls around bar 18.",
+     "3) Vocal (L1): the singer works from the written score and has no 'emotion' setting. The options are a different take (L1c3 'groban-12' is the loudest and fullest, but L1c4 is your own voice, which you picked on purpose), raising the vocal level (which breaks your 'never louder than the piano' rule), or changing the notes or words. If the vocal changes, the strings have to be rendered again because they listen to it. Should I leave the vocal as it is?",
+     "4) Brass (L3): it's still an empty placeholder. Should I turn it into a real part, for example a soft low horn coming in under the last phrase (bars 19–22)? If so, describe it in a few words.",
+     "Unrelated, but still waiting on you: the agent shortened the last lyric line to 'A hush, a breeze' (from your 'A hush that settles like a breeze'). Do you approve? A more emotional last line might be part of what you're after."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.16697260000000003,
+     "duration_api_ms": 58297,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 59.30018854141235,
+    "stale": [],
+    "questions": [
+     "I haven't changed anything yet. 'More emotional' could mean several different changes, and most of them would undo choices you made yourself. Which do you want? (Your piano stays exactly as played in every case.)",
+     "(a) Strings (L2): rewrite the prompt for more feeling, for example a fuller swell, some vibrato, or a warmer, more yearning sound. Your current words say 'soft … no vibrato, one slow swell per phrase', and you picked L2c6 as the softest take. This would mean re-rendering L2 and replacing L2c6. Should I drop 'no vibrato', 'soft', or both?",
+     "(b) Strings timing (L2): bring them in earlier than bar 19 (for example at bar 15 with the voice), or keep them going after bar 23 into 'after the theme' (bars 23–30). You chose the entry and exit bars, so I need your go-ahead. This would also mean re-rendering L2.",
+     "(c) Vocal (L1): change 'sung softly … never louder than the piano' to something more open or intense. One catch: the singing model works from the written notes and lyrics, so the description has little effect on how it sounds. A real change would mean, for example, adjusting the octave or rewriting the written vocal part. That would re-render L1, and L2 after it, because the strings listen to the vocal.",
+     "(d) Brass (L3): turn the empty placeholder into a real part, for example a quiet, warm brass swell under the last phrase of theme 2. Its job is saved, so I can bring it back. Do you want that, and between which bars?",
+     "(e) Mix only: raise the vocal and strings levels without re-rendering anything. This goes against 'never louder than the piano', so tell me if that rule can change.",
+     "Separately: the last lyric line, 'A hush, a breeze', still needs your OK. It's a shortened version of your 'A hush that settles like a breeze'."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different changes, and I don't want to guess on parts you've already decided. Which do you mean? (a) The strings (L2): keep your prompt but ask for more, e.g. a little vibrato or bigger swells. Right now your prompt says 'no vibrato, one slow swell per phrase', so this would go against your own words. (b) The vocal (L1): sing with more feeling. That would mean a different reference voice or re-rendering, and right now you have it 'sung softly … never louder than the piano'. (c) Make L3 (brass) a real part instead of the empty placeholder, e.g. a warm low horn swell near the end of theme 2. (d) Start the strings earlier than bar 19, or let them run past bar 22. (e) Mix levels: bring the strings or vocal up. Any of these except (e) means new renders: changing the strings re-renders L2, and changing the vocal re-renders L1 and then L2, because the strings listen to the vocal. The piano stays exactly as played either way.\", \"Also still open: the last lyric line 'A hush, a breeze' was shortened by the agent from your 'A hush that settles like a breeze' and is waiting for your OK. If you want more emotion in the words, should that line change too?\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.1359874,
+     "duration_api_ms": 6476,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 7.553383111953735,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "\"More emotional\" could mean several different changes, and I don't want to guess on parts you've already decided. Which do you mean? (a) The strings (L2): keep your prompt but ask for more, e.g. a little vibrato or bigger swells. Right now your prompt says 'no vibrato, one slow swell per phrase', so this would go against your own words. (b) The vocal (L1): sing with more feeling. That would mean a different reference voice or re-rendering, and right now you have it 'sung softly … never louder than the piano'. (c) Make L3 (brass) a real part instead of the empty placeholder, e.g. a warm low horn swell near the end of theme 2. (d) Start the strings earlier than bar 19, or let them run past bar 22. (e) Mix levels: bring the strings or vocal up. Any of these except (e) means new renders: changing the strings re-renders L2, and changing the vocal re-renders L1 and then L2, because the strings listen to the vocal. The piano stays exactly as played either way.",
+     "Also still open: the last lyric line 'A hush, a breeze' was shortened by the agent from your 'A hush that settles like a breeze' and is waiting for your OK. If you want more emotion in the words, should that line change too?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"'More emotional' could mean several different changes, and some of them would undo things you asked for. Which of these do you want? (a) Strings: change your 'no vibrato, one slow swell per phrase' prompt, for example to a warmer, more expressive sound with some vibrato and bigger swells. You asked for no vibrato, so I won't remove that unless you say so. L2 would be re-rendered, and you'd pick a new candidate in place of L2c6. (b) Strings entry: bring them in earlier than bar 19, or keep them past bar 23 into 'after the theme'. (c) Vocal: change how it's sung. The current prompt says 'sung softly … never louder than the piano'. Do you want to relax that, or should the voice stay under the piano? Any change to the vocal also makes L2 stale, because the strings listen to it. (d) Brass: L3 is still an empty placeholder. Do you want it to become a real part, for example a soft horn swell at the climax? (e) Gain: raise L2 (now 0 dB) so the strings sit more forward. The piano stays exactly as played either way. Also, while we're here: the last lyric line 'A hush, a breeze' is still waiting for your OK, shortened from your 'A hush that settles like a breeze'.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.01673,
+     "duration_api_ms": 7487,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 8.498772621154785,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "'More emotional' could mean several different changes, and some of them would undo things you asked for. Which of these do you want? (a) Strings: change your 'no vibrato, one slow swell per phrase' prompt, for example to a warmer, more expressive sound with some vibrato and bigger swells. You asked for no vibrato, so I won't remove that unless you say so. L2 would be re-rendered, and you'd pick a new candidate in place of L2c6. (b) Strings entry: bring them in earlier than bar 19, or keep them past bar 23 into 'after the theme'. (c) Vocal: change how it's sung. The current prompt says 'sung softly … never louder than the piano'. Do you want to relax that, or should the voice stay under the piano? Any change to the vocal also makes L2 stale, because the strings listen to it. (d) Brass: L3 is still an empty placeholder. Do you want it to become a real part, for example a soft horn swell at the climax? (e) Gain: raise L2 (now 0 dB) so the strings sit more forward. The piano stays exactly as played either way. Also, while we're here: the last lyric line 'A hush, a breeze' is still waiting for your OK, shortened from your 'A hush that settles like a breeze'."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"'More emotional' could mean several different changes, and every one of them would change something you decided: the strings prompt, the vocal, the layers' entries or which takes you picked. So I haven't changed anything yet. Which of these do you mean? (a) Strings: let them swell further or come in earlier than bar 19. Either way the current pick (L2c6, which you chose as the softest) would have to be re-rendered. (b) Vocal: make the singing more expressive. The vocal is rendered from the notated melody, so this means changing the vocal score or the singer's reference voice, not a wording prompt. It would mean re-rendering L1, and the strings too, because they are built to follow the vocal. (c) Brass: replace the empty placeholder with a real part, and tell me what it should play. (d) Mix: change only the volume balance between layers, so nothing is re-rendered. (e) Something else, such as carrying the arrangement past bar 22 into 'after the theme'. Your piano stays exactly as you played it whichever you choose.\", \"Unrelated to this request but still open: the last lyric line was shortened to 'A hush, a breeze' (from your 'A hush that settles like a breeze') and still needs your OK.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.01577,
+     "duration_api_ms": 6654,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 7.680765390396118,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "'More emotional' could mean several different changes, and every one of them would change something you decided: the strings prompt, the vocal, the layers' entries or which takes you picked. So I haven't changed anything yet. Which of these do you mean? (a) Strings: let them swell further or come in earlier than bar 19. Either way the current pick (L2c6, which you chose as the softest) would have to be re-rendered. (b) Vocal: make the singing more expressive. The vocal is rendered from the notated melody, so this means changing the vocal score or the singer's reference voice, not a wording prompt. It would mean re-rendering L1, and the strings too, because they are built to follow the vocal. (c) Brass: replace the empty placeholder with a real part, and tell me what it should play. (d) Mix: change only the volume balance between layers, so nothing is re-rendered. (e) Something else, such as carrying the arrangement past bar 22 into 'after the theme'. Your piano stays exactly as you played it whichever you choose.",
+     "Unrelated to this request but still open: the last lyric line was shortened to 'A hush, a breeze' (from your 'A hush that settles like a breeze') and still needs your OK."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.28066,
+     "duration_api_ms": 54689,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 55.59678339958191,
+    "stale": [],
+    "questions": [
+     "I haven't changed anything yet. 'More emotional' could mean several different edits, and most of them would undo something you chose on purpose. The piano stays exactly as played either way. Which of these do you mean? You can pick more than one.",
+     "(a) Strings, L2: right now they're 'soft sustained, no vibrato, one slow swell per phrase', and you picked L2c6 as the softest take. I could add vibrato, make the swells bigger, or bring the strings in earlier, at bar 15 with the voice instead of bar 19. Any of these means new strings renders, and L2c6 would no longer be the chosen take.",
+     "(b) Vocal, L1: right now it's 'sung softly, never louder than the piano', in your own voice (L1c4). Do you want a more expressive delivery, even if it gets louder than the piano at the climax? That needs a new vocal render, and then the strings would need re-rendering too, because they were made against the current vocal.",
+     "(c) Length: the vocal and strings currently end at bar 23. Should they carry on into 'after the theme' (bars 23–30) or 'second half' (bars 31–38), building the way your Suno reference does after about 90 s?",
+     "(d) Brass, L3: it's still an empty placeholder. Do you want to define it now, for example as a warm, low brass swell under the end of theme 2?",
+     "Separate from this: the last lyric line 'A hush, a breeze' (shortened from your 'A hush that settles like a breeze') is still waiting for your OK."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.16347720000000002,
+     "duration_api_ms": 56460,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 57.70257520675659,
+    "stale": [],
+    "questions": [
+     "I haven't changed anything yet. \"More emotional\" could mean several different things, and the most likely ones would undo choices you made yourself. You wrote the vocal as \"sung softly, never louder than the piano.\" You wrote the strings as \"no vibrato, one slow swell per phrase.\" And on 31 Oct you picked L2c6 because it had the softest strings. The piano stays exactly as played either way. Which of these do you mean? (a) Strings: allow some vibrato and build to a bigger swell into the last phrase (bars 21–22). This means re-rendering L2, and you'd choose a new take. (b) Strings: keep playing past bar 22 into 'after the theme' (bars 23–30) so they grow after the vocal ends. This is close to what you liked in your Suno version, where the band grows after about 90 s. This means re-rendering L2. (c) Vocal: let it come forward, a little louder or more open, instead of 'never louder than the piano.' A level change alone needs no re-render. A different delivery needs L1 re-rendered, and then L2 too, because the strings were rendered against the vocal. (d) Brass: turn the empty placeholder into a real part, for example a low, warm sustained line under the last phrase. (e) Something else, or a mix of these. Tell me which, and whether it applies only to theme 2 (bars 15–22) or to the whole piece.",
+     "Separately, the last lyric line 'A hush, a breeze' was my shortening of your 'A hush that settles like a breeze' and is still waiting for your OK. If you want more feeling in the words as well, now is a good time to change it."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.15913720000000003,
+     "duration_api_ms": 54471,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 55.45155334472656,
+    "stale": [],
+    "questions": [
+     "I didn't change anything because 'more emotional' could mean several different edits. Each one reverses something you chose, and each needs a re-render. Which do you mean? (a) Strings (L2): you asked for 'no vibrato, one slow swell per phrase' and picked the softest take, L2c6. I could allow light vibrato, make the swells bigger toward each phrase's peak, or bring the strings in before bar 19 (for example at bar 15, with the voice). This would make L2c6 stale and need new takes. (b) Vocal (L1): you said 'sung softly… never louder than the piano'. I could ask for a warmer, more open sound with more push on the longer held notes, still in your own voice an octave down. This would make L1c4 stale, and L2 too, because the strings were rendered against the vocal. (c) Extend the arrangement past bar 22 into 'after the theme' (bars 23–30) and/or 'second half' (bars 31–38). That would build a slow rise, like your Suno reference, where the band grows after about 90 s. (d) Brass (L3): give the empty placeholder a real part, such as a soft horn under the last phrase. You marked it 'nothing decided yet', so I've left it alone. (e) Mix only: raise the strings a few dB. Nothing gets re-rendered. The piano stays exactly as played in every option.",
+     "Still waiting on you from before: should the last lyric line stay as the shortened 'A hush, a breeze', or go back to your original 'A hush that settles like a breeze'?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ]
+ }
+}

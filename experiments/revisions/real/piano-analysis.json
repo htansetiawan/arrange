@@ -1,0 +1,1111 @@
+{
+ "schema": "arrange/piano-analysis@1",
+ "source": {
+  "path": "runs/color-purple/source/recording.wav",
+  "sha256": "3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15",
+  "sr": 48000,
+  "channels": 2,
+  "dur_s": 210.347,
+  "frames": 10096640,
+  "peak_dbfs": -1.44,
+  "silence_lead_s": 0.0,
+  "silence_tail_s": 0.001
+ },
+ "transcription": {
+  "midi": "runs/color-purple/analysis/piano.mid",
+  "tool": "bytedance piano_transcription_inference (Kong et al. 2021)",
+  "notes": 1010,
+  "pedal_events": 216,
+  "first_note_s": 0.915,
+  "confidence": "high",
+  "inspection": "auto"
+ },
+ "tempo_map": {
+  "method": "creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)",
+  "time_signature": "4/4",
+  "beats": [
+   {
+    "t": 0.627,
+    "bar": 1,
+    "beat": 1
+   },
+   {
+    "t": 1.931,
+    "bar": 1,
+    "beat": 2
+   },
+   {
+    "t": 3.246,
+    "bar": 1,
+    "beat": 3
+   },
+   {
+    "t": 4.473,
+    "bar": 1,
+    "beat": 4
+   },
+   {
+    "t": 5.745,
+    "bar": 2,
+    "beat": 1
+   },
+   {
+    "t": 7.221,
+    "bar": 2,
+    "beat": 2
+   },
+   {
+    "t": 8.319,
+    "bar": 2,
+    "beat": 3
+   },
+   {
+    "t": 9.497,
+    "bar": 2,
+    "beat": 4
+   },
+   {
+    "t": 10.684,
+    "bar": 3,
+    "beat": 1
+   },
+   {
+    "t": 11.783,
+    "bar": 3,
+    "beat": 2
+   },
+   {
+    "t": 12.934,
+    "bar": 3,
+    "beat": 3
+   },
+   {
+    "t": 14.09,
+    "bar": 3,
+    "beat": 4
+   },
+   {
+    "t": 15.391,
+    "bar": 4,
+    "beat": 1
+   },
+   {
+    "t": 16.737,
+    "bar": 4,
+    "beat": 2
+   },
+   {
+    "t": 17.983,
+    "bar": 4,
+    "beat": 3
+   },
+   {
+    "t": 19.333,
+    "bar": 4,
+    "beat": 4
+   },
+   {
+    "t": 20.742,
+    "bar": 5,
+    "beat": 1
+   },
+   {
+    "t": 22.333,
+    "bar": 5,
+    "beat": 2
+   },
+   {
+    "t": 23.461,
+    "bar": 5,
+    "beat": 3
+   },
+   {
+    "t": 24.773,
+    "bar": 5,
+    "beat": 4
+   },
+   {
+    "t": 26.371,
+    "bar": 6,
+    "beat": 1
+   },
+   {
+    "t": 27.904,
+    "bar": 6,
+    "beat": 2
+   },
+   {
+    "t": 29.296,
+    "bar": 6,
+    "beat": 3
+   },
+   {
+    "t": 30.604,
+    "bar": 6,
+    "beat": 4
+   },
+   {
+    "t": 32.276,
+    "bar": 7,
+    "beat": 1
+   },
+   {
+    "t": 33.573,
+    "bar": 7,
+    "beat": 2
+   },
+   {
+    "t": 34.922,
+    "bar": 7,
+    "beat": 3
+   },
+   {
+    "t": 36.132,
+    "bar": 7,
+    "beat": 4
+   },
+   {
+    "t": 37.553,
+    "bar": 8,
+    "beat": 1
+   },
+   {
+    "t": 38.773,
+    "bar": 8,
+    "beat": 2
+   },
+   {
+    "t": 40.077,
+    "bar": 8,
+    "beat": 3
+   },
+   {
+    "t": 41.306,
+    "bar": 8,
+    "beat": 4
+   },
+   {
+    "t": 42.672,
+    "bar": 9,
+    "beat": 1
+   },
+   {
+    "t": 44.014,
+    "bar": 9,
+    "beat": 2
+   },
+   {
+    "t": 45.387,
+    "bar": 9,
+    "beat": 3
+   },
+   {
+    "t": 46.719,
+    "bar": 9,
+    "beat": 4
+   },
+   {
+    "t": 48.388,
+    "bar": 10,
+    "beat": 1
+   },
+   {
+    "t": 49.905,
+    "bar": 10,
+    "beat": 2
+   },
+   {
+    "t": 51.134,
+    "bar": 10,
+    "beat": 3
+   },
+   {
+    "t": 52.479,
+    "bar": 10,
+    "beat": 4
+   },
+   {
+    "t": 53.936,
+    "bar": 11,
+    "beat": 1
+   },
+   {
+    "t": 55.311,
+    "bar": 11,
+    "beat": 2
+   },
+   {
+    "t": 56.555,
+    "bar": 11,
+    "beat": 3
+   },
+   {
+    "t": 57.884,
+    "bar": 11,
+    "beat": 4
+   },
+   {
+    "t": 59.469,
+    "bar": 12,
+    "beat": 1
+   },
+   {
+    "t": 60.81,
+    "bar": 12,
+    "beat": 2
+   },
+   {
+    "t": 62.113,
+    "bar": 12,
+    "beat": 3
+   },
+   {
+    "t": 63.375,
+    "bar": 12,
+    "beat": 4
+   },
+   {
+    "t": 64.661,
+    "bar": 13,
+    "beat": 1
+   },
+   {
+    "t": 65.895,
+    "bar": 13,
+    "beat": 2
+   },
+   {
+    "t": 67.324,
+    "bar": 13,
+    "beat": 3
+   },
+   {
+    "t": 68.365,
+    "bar": 13,
+    "beat": 4
+   },
+   {
+    "t": 69.565,
+    "bar": 14,
+    "beat": 1
+   },
+   {
+    "t": 70.647,
+    "bar": 14,
+    "beat": 2
+   },
+   {
+    "t": 71.953,
+    "bar": 14,
+    "beat": 3
+   },
+   {
+    "t": 73.134,
+    "bar": 14,
+    "beat": 4
+   },
+   {
+    "t": 74.318,
+    "bar": 15,
+    "beat": 1
+   },
+   {
+    "t": 75.742,
+    "bar": 15,
+    "beat": 2
+   },
+   {
+    "t": 76.965,
+    "bar": 15,
+    "beat": 3
+   },
+   {
+    "t": 78.184,
+    "bar": 15,
+    "beat": 4
+   },
+   {
+    "t": 79.344,
+    "bar": 16,
+    "beat": 1
+   },
+   {
+    "t": 80.716,
+    "bar": 16,
+    "beat": 2
+   },
+   {
+    "t": 81.866,
+    "bar": 16,
+    "beat": 3
+   },
+   {
+    "t": 83.086,
+    "bar": 16,
+    "beat": 4
+   },
+   {
+    "t": 84.264,
+    "bar": 17,
+    "beat": 1
+   },
+   {
+    "t": 85.556,
+    "bar": 17,
+    "beat": 2
+   },
+   {
+    "t": 86.822,
+    "bar": 17,
+    "beat": 3
+   },
+   {
+    "t": 88.139,
+    "bar": 17,
+    "beat": 4
+   },
+   {
+    "t": 89.421,
+    "bar": 18,
+    "beat": 1
+   },
+   {
+    "t": 90.814,
+    "bar": 18,
+    "beat": 2
+   },
+   {
+    "t": 92.129,
+    "bar": 18,
+    "beat": 3
+   },
+   {
+    "t": 93.367,
+    "bar": 18,
+    "beat": 4
+   },
+   {
+    "t": 94.671,
+    "bar": 19,
+    "beat": 1
+   },
+   {
+    "t": 96.056,
+    "bar": 19,
+    "beat": 2
+   },
+   {
+    "t": 97.357,
+    "bar": 19,
+    "beat": 3
+   },
+   {
+    "t": 98.635,
+    "bar": 19,
+    "beat": 4
+   },
+   {
+    "t": 99.901,
+    "bar": 20,
+    "beat": 1
+   },
+   {
+    "t": 101.454,
+    "bar": 20,
+    "beat": 2
+   },
+   {
+    "t": 102.793,
+    "bar": 20,
+    "beat": 3
+   },
+   {
+    "t": 104.117,
+    "bar": 20,
+    "beat": 4
+   },
+   {
+    "t": 105.324,
+    "bar": 21,
+    "beat": 1
+   },
+   {
+    "t": 106.663,
+    "bar": 21,
+    "beat": 2
+   },
+   {
+    "t": 107.987,
+    "bar": 21,
+    "beat": 3
+   },
+   {
+    "t": 109.315,
+    "bar": 21,
+    "beat": 4
+   },
+   {
+    "t": 110.279,
+    "bar": 22,
+    "beat": 1
+   },
+   {
+    "t": 111.544,
+    "bar": 22,
+    "beat": 2
+   },
+   {
+    "t": 112.651,
+    "bar": 22,
+    "beat": 3
+   },
+   {
+    "t": 114.034,
+    "bar": 22,
+    "beat": 4
+   },
+   {
+    "t": 115.245,
+    "bar": 23,
+    "beat": 1
+   },
+   {
+    "t": 116.44,
+    "bar": 23,
+    "beat": 2
+   },
+   {
+    "t": 117.845,
+    "bar": 23,
+    "beat": 3
+   },
+   {
+    "t": 119.107,
+    "bar": 23,
+    "beat": 4
+   },
+   {
+    "t": 120.361,
+    "bar": 24,
+    "beat": 1
+   },
+   {
+    "t": 121.536,
+    "bar": 24,
+    "beat": 2
+   },
+   {
+    "t": 122.975,
+    "bar": 24,
+    "beat": 3
+   },
+   {
+    "t": 124.194,
+    "bar": 24,
+    "beat": 4
+   },
+   {
+    "t": 125.444,
+    "bar": 25,
+    "beat": 1
+   },
+   {
+    "t": 126.665,
+    "bar": 25,
+    "beat": 2
+   },
+   {
+    "t": 128.012,
+    "bar": 25,
+    "beat": 3
+   },
+   {
+    "t": 129.303,
+    "bar": 25,
+    "beat": 4
+   },
+   {
+    "t": 130.656,
+    "bar": 26,
+    "beat": 1
+   },
+   {
+    "t": 131.956,
+    "bar": 26,
+    "beat": 2
+   },
+   {
+    "t": 133.234,
+    "bar": 26,
+    "beat": 3
+   },
+   {
+    "t": 134.73,
+    "bar": 26,
+    "beat": 4
+   },
+   {
+    "t": 135.975,
+    "bar": 27,
+    "beat": 1
+   },
+   {
+    "t": 137.284,
+    "bar": 27,
+    "beat": 2
+   },
+   {
+    "t": 138.533,
+    "bar": 27,
+    "beat": 3
+   },
+   {
+    "t": 139.854,
+    "bar": 27,
+    "beat": 4
+   },
+   {
+    "t": 141.161,
+    "bar": 28,
+    "beat": 1
+   },
+   {
+    "t": 142.434,
+    "bar": 28,
+    "beat": 2
+   },
+   {
+    "t": 143.865,
+    "bar": 28,
+    "beat": 3
+   },
+   {
+    "t": 145.227,
+    "bar": 28,
+    "beat": 4
+   },
+   {
+    "t": 146.609,
+    "bar": 29,
+    "beat": 1
+   },
+   {
+    "t": 147.84,
+    "bar": 29,
+    "beat": 2
+   },
+   {
+    "t": 149.146,
+    "bar": 29,
+    "beat": 3
+   },
+   {
+    "t": 150.419,
+    "bar": 29,
+    "beat": 4
+   },
+   {
+    "t": 151.706,
+    "bar": 30,
+    "beat": 1
+   },
+   {
+    "t": 153.062,
+    "bar": 30,
+    "beat": 2
+   },
+   {
+    "t": 154.841,
+    "bar": 30,
+    "beat": 3
+   },
+   {
+    "t": 156.204,
+    "bar": 30,
+    "beat": 4
+   },
+   {
+    "t": 157.556,
+    "bar": 31,
+    "beat": 1
+   },
+   {
+    "t": 158.844,
+    "bar": 31,
+    "beat": 2
+   },
+   {
+    "t": 160.302,
+    "bar": 31,
+    "beat": 3
+   },
+   {
+    "t": 161.28,
+    "bar": 31,
+    "beat": 4
+   },
+   {
+    "t": 162.598,
+    "bar": 32,
+    "beat": 1
+   },
+   {
+    "t": 163.766,
+    "bar": 32,
+    "beat": 2
+   },
+   {
+    "t": 165.024,
+    "bar": 32,
+    "beat": 3
+   },
+   {
+    "t": 166.253,
+    "bar": 32,
+    "beat": 4
+   },
+   {
+    "t": 167.486,
+    "bar": 33,
+    "beat": 1
+   },
+   {
+    "t": 168.737,
+    "bar": 33,
+    "beat": 2
+   },
+   {
+    "t": 170.074,
+    "bar": 33,
+    "beat": 3
+   },
+   {
+    "t": 171.405,
+    "bar": 33,
+    "beat": 4
+   },
+   {
+    "t": 172.714,
+    "bar": 34,
+    "beat": 1
+   },
+   {
+    "t": 174.191,
+    "bar": 34,
+    "beat": 2
+   },
+   {
+    "t": 175.751,
+    "bar": 34,
+    "beat": 3
+   },
+   {
+    "t": 176.658,
+    "bar": 34,
+    "beat": 4
+   },
+   {
+    "t": 177.754,
+    "bar": 35,
+    "beat": 1
+   },
+   {
+    "t": 179.176,
+    "bar": 35,
+    "beat": 2
+   },
+   {
+    "t": 180.464,
+    "bar": 35,
+    "beat": 3
+   },
+   {
+    "t": 181.742,
+    "bar": 35,
+    "beat": 4
+   },
+   {
+    "t": 183.085,
+    "bar": 36,
+    "beat": 1
+   },
+   {
+    "t": 184.388,
+    "bar": 36,
+    "beat": 2
+   },
+   {
+    "t": 185.69,
+    "bar": 36,
+    "beat": 3
+   },
+   {
+    "t": 186.944,
+    "bar": 36,
+    "beat": 4
+   },
+   {
+    "t": 188.303,
+    "bar": 37,
+    "beat": 1
+   },
+   {
+    "t": 189.773,
+    "bar": 37,
+    "beat": 2
+   },
+   {
+    "t": 191.143,
+    "bar": 37,
+    "beat": 3
+   },
+   {
+    "t": 192.534,
+    "bar": 37,
+    "beat": 4
+   },
+   {
+    "t": 193.983,
+    "bar": 38,
+    "beat": 1
+   },
+   {
+    "t": 195.187,
+    "bar": 38,
+    "beat": 2
+   },
+   {
+    "t": 196.392,
+    "bar": 38,
+    "beat": 3
+   },
+   {
+    "t": 197.638,
+    "bar": 38,
+    "beat": 4
+   },
+   {
+    "t": 198.832,
+    "bar": 39,
+    "beat": 1
+   },
+   {
+    "t": 200.014,
+    "bar": 39,
+    "beat": 2
+   },
+   {
+    "t": 201.322,
+    "bar": 39,
+    "beat": 3
+   },
+   {
+    "t": 202.701,
+    "bar": 39,
+    "beat": 4
+   },
+   {
+    "t": 204.005,
+    "bar": 40,
+    "beat": 1
+   },
+   {
+    "t": 205.615,
+    "bar": 40,
+    "beat": 2
+   },
+   {
+    "t": 206.837,
+    "bar": 40,
+    "beat": 3
+   },
+   {
+    "t": 207.974,
+    "bar": 40,
+    "beat": 4
+   },
+   {
+    "t": 209.027,
+    "bar": 41,
+    "beat": 1
+   },
+   {
+    "t": 210.326,
+    "bar": 41,
+    "beat": 2
+   }
+  ],
+  "bpm_mean": 46.1,
+  "bpm_min": 33.7,
+  "bpm_max": 66.2,
+  "rubato": "medium",
+  "tempo_cv": 0.099,
+  "confidence": 0.9,
+  "downbeat_phase_scores": [
+   32.0,
+   24.0,
+   27.0,
+   24.0
+  ],
+  "tracker_start_bpm": 52.0,
+  "tracker_estimate_bpm": 46.1,
+  "inspection": "creator-confirmed",
+  "revision": 0,
+  "unresolved": [
+   "bars 1–3: no played note within 120 ms of a tracked beat; the beat is the tracker's guess there",
+   "bar 32: no played note within 120 ms of a tracked beat; the beat is the tracker's guess there",
+   "bars 38–39: no played note within 120 ms of a tracked beat; the beat is the tracker's guess there",
+   "bar 41: no played note within 120 ms of a tracked beat; the beat is the tracker's guess there"
+  ],
+  "creator_note": "2026-10-31: Henry listened to the 70-110 s click tracks at 46 and 92 BPM and chose the slow feel (46 BPM, one bar about five seconds); theme 2 = bars 15-22. Individual beats remain the tracker's where listed under unresolved."
+ },
+ "key": {
+  "tonic": "F",
+  "mode": "major",
+  "confidence": 0.99,
+  "runner_up": "D minor (0.71)",
+  "modulations": []
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "label": "opening",
+   "bar_start": 1,
+   "bar_end": 9,
+   "source": "auto",
+   "t0": 0.627,
+   "t1": 48.388
+  },
+  {
+   "id": "s2",
+   "label": "theme 1",
+   "bar_start": 10,
+   "bar_end": 14,
+   "source": "auto",
+   "t0": 48.388,
+   "t1": 74.318
+  },
+  {
+   "id": "s3",
+   "label": "theme 2",
+   "bar_start": 15,
+   "bar_end": 22,
+   "source": "creator",
+   "t0": 74.318,
+   "t1": 115.245
+  },
+  {
+   "id": "s4",
+   "label": "after the theme",
+   "bar_start": 23,
+   "bar_end": 30,
+   "source": "auto",
+   "t0": 115.245,
+   "t1": 157.556
+  },
+  {
+   "id": "s5",
+   "label": "second half",
+   "bar_start": 31,
+   "bar_end": 38,
+   "source": "auto",
+   "t0": 157.556,
+   "t1": 198.832
+  },
+  {
+   "id": "s6",
+   "label": "ending",
+   "bar_start": 39,
+   "bar_end": 41,
+   "source": "auto",
+   "t0": 198.832,
+   "t1": 211.625
+  }
+ ],
+ "melody": {
+  "midi": "runs/color-purple/analysis/melody.mid",
+  "json": "runs/color-purple/analysis/melody.json",
+  "method": "skyline",
+  "range": {
+   "low": "F1",
+   "high": "F6"
+  },
+  "notes": 596,
+  "notes_per_section": {
+   "s1": 112,
+   "s2": 82,
+   "s3": 128,
+   "s4": 134,
+   "s5": 112,
+   "s6": 28
+  },
+  "inspection": "auto"
+ },
+ "dynamics": [
+  {
+   "bar": 1,
+   "rms_db": -20.5
+  },
+  {
+   "bar": 2,
+   "rms_db": -19.6
+  },
+  {
+   "bar": 3,
+   "rms_db": -18.8
+  },
+  {
+   "bar": 4,
+   "rms_db": -18.4
+  },
+  {
+   "bar": 5,
+   "rms_db": -21.6
+  },
+  {
+   "bar": 6,
+   "rms_db": -18.6
+  },
+  {
+   "bar": 7,
+   "rms_db": -21.4
+  },
+  {
+   "bar": 8,
+   "rms_db": -17.3
+  },
+  {
+   "bar": 9,
+   "rms_db": -21.1
+  },
+  {
+   "bar": 10,
+   "rms_db": -18.4
+  },
+  {
+   "bar": 11,
+   "rms_db": -18.9
+  },
+  {
+   "bar": 12,
+   "rms_db": -20.6
+  },
+  {
+   "bar": 13,
+   "rms_db": -20.2
+  },
+  {
+   "bar": 14,
+   "rms_db": -17.6
+  },
+  {
+   "bar": 15,
+   "rms_db": -19.8
+  },
+  {
+   "bar": 16,
+   "rms_db": -17.9
+  },
+  {
+   "bar": 17,
+   "rms_db": -21.6
+  },
+  {
+   "bar": 18,
+   "rms_db": -19.5
+  },
+  {
+   "bar": 19,
+   "rms_db": -18.0
+  },
+  {
+   "bar": 20,
+   "rms_db": -19.4
+  },
+  {
+   "bar": 21,
+   "rms_db": -21.7
+  },
+  {
+   "bar": 22,
+   "rms_db": -18.8
+  },
+  {
+   "bar": 23,
+   "rms_db": -19.4
+  },
+  {
+   "bar": 24,
+   "rms_db": -18.0
+  },
+  {
+   "bar": 25,
+   "rms_db": -20.0
+  },
+  {
+   "bar": 26,
+   "rms_db": -21.3
+  },
+  {
+   "bar": 27,
+   "rms_db": -18.7
+  },
+  {
+   "bar": 28,
+   "rms_db": -21.3
+  },
+  {
+   "bar": 29,
+   "rms_db": -19.9
+  },
+  {
+   "bar": 30,
+   "rms_db": -21.4
+  },
+  {
+   "bar": 31,
+   "rms_db": -20.3
+  },
+  {
+   "bar": 32,
+   "rms_db": -18.5
+  },
+  {
+   "bar": 33,
+   "rms_db": -17.3
+  },
+  {
+   "bar": 34,
+   "rms_db": -18.4
+  },
+  {
+   "bar": 35,
+   "rms_db": -20.6
+  },
+  {
+   "bar": 36,
+   "rms_db": -21.2
+  },
+  {
+   "bar": 37,
+   "rms_db": -24.5
+  },
+  {
+   "bar": 38,
+   "rms_db": -23.7
+  },
+  {
+   "bar": 39,
+   "rms_db": -17.5
+  },
+  {
+   "bar": 40,
+   "rms_db": -20.2
+  }
+ ],
+ "derived_at": "2026-10-31T22:00:48+00:00",
+ "unresolved": [
+  "time signature: 4/4 given by the creator",
+  "melody: skyline (highest note per onset); inner-voice melodies would be missed"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "Xe4": {
+  "pos": 1,
+  "voice": "clarkson",
+  "shift": -4,
+  "repeat": false
+ },
+ "Su6": {
+  "pos": 2,
+  "voice": "groban",
+  "shift": -6,
+  "repeat": false
+ },
+ "Tu8": {
+  "pos": 3,
+  "voice": "buble",
+  "shift": -10,
+  "repeat": false
+ },
+ "Xe3": {
+  "pos": 4,
+  "voice": "groban",
+  "shift": -4,
+  "repeat": false
+ },
+ "Ca9": {
+  "pos": 5,
+  "voice": "clarkson",
+  "shift": -6,
+  "repeat": false
+ },
+ "Ka5": {
+  "pos": 6,
+  "voice": "groban",
+  "shift": -12,
+  "repeat": false
+ },
+ "Vi0": {
+  "pos": 7,
+  "voice": "clarkson",
+  "shift": -2,
+  "repeat": false
+ },
+ "Sa8": {
+  "pos": 8,
+  "voice": "jackson",
+  "shift": -5,
+  "repeat": false
+ },
+ "Ha4": {
+  "pos": 9,
+  "voice": "groban",
+  "shift": -14,
+  "repeat": false
+ },
+ "Mi6": {
+  "pos": 10,
+  "voice": "ariana",
+  "shift": -4,
+  "repeat": false
+ },
+ "Na1": {
+  "pos": 11,
+  "voice": "groban",
+  "shift": -8,
+  "repeat": false
+ },
+ "Mu1": {
+  "pos": 12,
+  "voice": "adams",
+  "shift": -8,
+  "repeat": false
+ },
+ "Ze8": {
+  "pos": 13,
+  "voice": "bolton",
+  "shift": -9,
+  "repeat": false
+ },
+ "Zo0": {
+  "pos": 14,
+  "voice": "groban",
+  "shift": -10,
+  "repeat": false
+ }
+}

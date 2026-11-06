@@ -1,0 +1,63 @@
+{
+ "ariana": {
+  "low": 62.226831418969475,
+  "centre": 68.69035437229839,
+  "high": 72.69646858533349,
+  "start": 157.04,
+  "source": "clip of the separated whole recording"
+ },
+ "bolton": {
+  "low": 60.35620025209135,
+  "centre": 67.30765395160395,
+  "high": 70.24210781443013,
+  "start": 48.62,
+  "source": "clip of the separated whole recording"
+ },
+ "buble": {
+  "low": 52.85707364629403,
+  "centre": 59.103363022239556,
+  "high": 64.00113012472144,
+  "start": 175.12,
+  "source": "clip of the separated whole recording"
+ },
+ "clarkson": {
+  "low": 60.19482480397138,
+  "centre": 67.51643242935239,
+  "high": 72.29314454703324,
+  "start": 182.08,
+  "source": "clip of the separated whole recording"
+ },
+ "groban": {
+  "low": 55.0,
+  "centre": 57.0,
+  "high": 62.0,
+  "start": 0.0,
+  "source": "reference clip"
+ },
+ "jackson": {
+  "low": 53.876980883930806,
+  "centre": 59.11826274302669,
+  "high": 62.304391677593856,
+  "start": 34.5,
+  "source": "clip of the separated whole recording"
+ },
+ "wonder": {
+  "low": 60.687730600451246,
+  "centre": 65.28814175677849,
+  "high": 68.52479228928179,
+  "start": 104.28,
+  "source": "clip of the separated whole recording"
+ },
+ "control-A3": {
+  "low": 53.0,
+  "centre": 57.0,
+  "high": 61.0,
+  "synthetic": true
+ },
+ "control-E4": {
+  "low": 60.0,
+  "centre": 64.0,
+  "high": 68.0,
+  "synthetic": true
+ }
+}

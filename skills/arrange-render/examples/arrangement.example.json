@@ -1,0 +1,511 @@
+{
+  "schema": "arrange/arrangement@2",
+  "piece": "Evening hymn (solo piano cover)",
+  "revision": 0,
+  "inputs": {
+    "analysis": "piano-analysis.json",
+    "notebook": "ARRANGEMENT.md"
+  },
+  "clock": {
+    "from": "piano-analysis.json#tempo_map",
+    "status": "onsets+madmom-downbeat",
+    "revision": 0,
+    "time_signature": "4/4",
+    "intervals": "half-open: exit is the first position not sounding",
+    "domain_end_s": 199.602
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "label": "intro",
+      "bar_start": 1,
+      "bar_end": 8,
+      "t0": 0.42,
+      "t1": 39.363,
+      "source": "auto"
+    },
+    {
+      "id": "s2",
+      "label": "verse 1",
+      "bar_start": 9,
+      "bar_end": 24,
+      "t0": 39.363,
+      "t1": 117.88,
+      "source": "auto"
+    },
+    {
+      "id": "s3",
+      "label": "chorus",
+      "bar_start": 25,
+      "bar_end": 40,
+      "t0": 117.88,
+      "t1": 199.602,
+      "source": "auto"
+    }
+  ],
+  "spine": {
+    "id": "piano",
+    "kind": "take",
+    "path": "takes/piano_master.wav",
+    "sha256": "<sha256>",
+    "class": "keyboard"
+  },
+  "layers": [
+    {
+      "id": "L1",
+      "name": "vocal",
+      "class": "vocals",
+      "kind": "generated",
+      "text": "intimate, conversational, sits below the piano's top line",
+      "from": {
+        "cell": "verse 1",
+        "component": 0,
+        "raw": "<vocal: intimate, conversational, sits below the piano's top line !>",
+        "chars": [
+          1,
+          69
+        ]
+      },
+      "anchors": {
+        "enter": {
+          "bar": 9,
+          "beat": 1.0
+        },
+        "exit": {
+          "bar": 25,
+          "beat": 1.0
+        }
+      },
+      "t0": 39.363,
+      "t1": 117.88,
+      "route": "score",
+      "job": {
+        "backend": "soulx-singer",
+        "inputs": {
+          "score": "jobs/L1/vocal.abc",
+          "lyrics": "jobs/L1/lyrics.txt"
+        },
+        "params": {
+          "variants": 2,
+          "transpose": 0
+        }
+      },
+      "conditions": {
+        "depends_on": [
+          "clock",
+          "melody"
+        ],
+        "audio_context": [],
+        "score_condition": "melody",
+        "voice_reference": "soulx:english"
+      },
+      "candidates": [],
+      "chosen": null,
+      "gain_db": 0.0,
+      "owner": {
+        "exists": "creator",
+        "anchors": "creator",
+        "route": "claude",
+        "conditions": "claude",
+        "prompt": "creator",
+        "chosen": "claude",
+        "gain": "claude"
+      },
+      "status": "planned",
+      "stale": false,
+      "stale_reason": null,
+      "notes": "",
+      "lyrics": [
+        "Red brick and elm, the morning bell",
+        "A hundred doors, a single hall",
+        "We learn the words we cannot tell",
+        "And find the quiet in it all"
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "vocal",
+      "class": "vocals",
+      "kind": "generated",
+      "text": "open and full, harmony on the last line",
+      "from": {
+        "cell": "chorus",
+        "component": 0,
+        "raw": "<vocal: open and full, harmony on the last line !>",
+        "chars": [
+          44,
+          94
+        ]
+      },
+      "anchors": {
+        "enter": {
+          "bar": 25,
+          "beat": 1.0
+        },
+        "exit": {
+          "bar": 41,
+          "beat": 1.0
+        }
+      },
+      "t0": 117.88,
+      "t1": 199.602,
+      "route": "score",
+      "job": {
+        "backend": "soulx-singer",
+        "inputs": {
+          "score": "jobs/L2/vocal.abc",
+          "lyrics": "jobs/L2/lyrics.txt"
+        },
+        "params": {
+          "variants": 2,
+          "transpose": 0
+        }
+      },
+      "conditions": {
+        "depends_on": [
+          "clock",
+          "melody"
+        ],
+        "audio_context": [],
+        "score_condition": "melody",
+        "voice_reference": "soulx:english"
+      },
+      "candidates": [],
+      "chosen": null,
+      "gain_db": 0.0,
+      "owner": {
+        "exists": "creator",
+        "anchors": "creator",
+        "route": "claude",
+        "conditions": "claude",
+        "prompt": "creator",
+        "chosen": "claude",
+        "gain": "claude"
+      },
+      "status": "planned",
+      "stale": false,
+      "stale_reason": null,
+      "notes": "Strings arrive with the voice opening up.",
+      "lyrics": [
+        "Carry the light across the yard",
+        "Let every window hold a star",
+        "Nothing we learn is ever hard",
+        "When we remember whose we are"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "fx",
+      "class": "fx",
+      "kind": "generated",
+      "text": "very quiet room tone / air, no pitch",
+      "from": {
+        "cell": "intro",
+        "component": 0,
+        "raw": "<fx: very quiet room tone / air, no pitch ?>",
+        "chars": [
+          95,
+          139
+        ]
+      },
+      "anchors": {
+        "enter": {
+          "bar": 1,
+          "beat": 1.0
+        },
+        "exit": {
+          "bar": 9,
+          "beat": 1.0
+        }
+      },
+      "t0": 0.42,
+      "t1": 39.363,
+      "route": "audio",
+      "job": {
+        "backend": "ace-step/lego",
+        "inputs": {
+          "context_mix": "jobs/L3/context.wav"
+        },
+        "params": {
+          "track_name": "fx",
+          "prompt": "very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals",
+          "variants": 3,
+          "guidance": 7.0,
+          "steps": 50,
+          "seed": null
+        }
+      },
+      "conditions": {
+        "depends_on": [
+          "clock",
+          "piano"
+        ],
+        "audio_context": [
+          "piano"
+        ],
+        "score_condition": null,
+        "voice_reference": null
+      },
+      "candidates": [],
+      "chosen": null,
+      "gain_db": 0.0,
+      "owner": {
+        "exists": "claude",
+        "anchors": "claude",
+        "route": "claude",
+        "conditions": "claude",
+        "prompt": "claude",
+        "chosen": "claude",
+        "gain": "claude"
+      },
+      "status": "planned",
+      "stale": false,
+      "stale_reason": null,
+      "notes": "Piano alone, let it breathe. A hint of room is fine but nothing that reads as an instrument."
+    },
+    {
+      "id": "L4",
+      "name": "strings",
+      "class": "strings",
+      "kind": "generated",
+      "text": "soft sustained violas and cellos, no vibrato, one chord per bar, under the left hand",
+      "from": {
+        "cell": "verse 1",
+        "component": 2,
+        "raw": "<strings: soft sustained violas and cellos, no vibrato, one chord per bar, under the left hand @bar 17>",
+        "chars": [
+          210,
+          313
+        ]
+      },
+      "anchors": {
+        "enter": {
+          "bar": 17,
+          "beat": 1.0
+        },
+        "exit": {
+          "bar": 25,
+          "beat": 1.0
+        }
+      },
+      "t0": 78.621,
+      "t1": 117.88,
+      "route": "audio",
+      "job": {
+        "backend": "ace-step/lego",
+        "inputs": {
+          "context_mix": "jobs/L4/context.wav"
+        },
+        "params": {
+          "track_name": "strings",
+          "prompt": "soft sustained violas and cellos, no vibrato, one chord per bar, under the left hand, strings, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals",
+          "variants": 3,
+          "guidance": 7.0,
+          "steps": 50,
+          "seed": null
+        }
+      },
+      "conditions": {
+        "depends_on": [
+          "L1",
+          "clock",
+          "piano"
+        ],
+        "audio_context": [
+          "piano",
+          "L1"
+        ],
+        "score_condition": null,
+        "voice_reference": null
+      },
+      "candidates": [],
+      "chosen": null,
+      "gain_db": 0.0,
+      "owner": {
+        "exists": "claude",
+        "anchors": "claude",
+        "route": "claude",
+        "conditions": "claude",
+        "prompt": "claude",
+        "chosen": "claude",
+        "gain": "claude"
+      },
+      "status": "planned",
+      "stale": false,
+      "stale_reason": null,
+      "notes": ""
+    },
+    {
+      "id": "L5",
+      "name": "strings",
+      "class": "strings",
+      "kind": "generated",
+      "text": "full section, long swell into bar 25, release on the last chord",
+      "from": {
+        "cell": "chorus",
+        "component": 2,
+        "raw": "<strings: full section, long swell into bar 25, release on the last chord>",
+        "chars": [
+          226,
+          300
+        ]
+      },
+      "anchors": {
+        "enter": {
+          "bar": 25,
+          "beat": 1.0
+        },
+        "exit": {
+          "bar": 41,
+          "beat": 1.0
+        }
+      },
+      "t0": 117.88,
+      "t1": 199.602,
+      "route": "audio",
+      "job": {
+        "backend": "ace-step/lego",
+        "inputs": {
+          "context_mix": "jobs/L5/context.wav"
+        },
+        "params": {
+          "track_name": "strings",
+          "prompt": "full section, long swell into bar 25, release on the last chord, strings, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals",
+          "variants": 3,
+          "guidance": 7.0,
+          "steps": 50,
+          "seed": null
+        }
+      },
+      "conditions": {
+        "depends_on": [
+          "L2",
+          "clock",
+          "piano"
+        ],
+        "audio_context": [
+          "piano",
+          "L2"
+        ],
+        "score_condition": null,
+        "voice_reference": null
+      },
+      "candidates": [],
+      "chosen": null,
+      "gain_db": 0.0,
+      "owner": {
+        "exists": "claude",
+        "anchors": "claude",
+        "route": "claude",
+        "conditions": "claude",
+        "prompt": "claude",
+        "chosen": "claude",
+        "gain": "claude"
+      },
+      "status": "planned",
+      "stale": false,
+      "stale_reason": null,
+      "notes": "Strings arrive with the voice opening up."
+    },
+    {
+      "id": "L6",
+      "name": "guitar",
+      "class": "guitar",
+      "kind": "generated",
+      "text": "fingerpicked nylon, doubles the left-hand rhythm",
+      "from": {
+        "cell": "chorus",
+        "component": 3,
+        "raw": "<guitar: fingerpicked nylon, doubles the left-hand rhythm ~bars 33–40 ?>",
+        "chars": [
+          301,
+          373
+        ]
+      },
+      "anchors": {
+        "enter": {
+          "bar": 33,
+          "beat": 1.0
+        },
+        "exit": {
+          "bar": 41,
+          "beat": 1.0
+        }
+      },
+      "t0": 157.007,
+      "t1": 199.602,
+      "route": "audio",
+      "job": {
+        "backend": "ace-step/lego",
+        "inputs": {
+          "context_mix": "jobs/L6/context.wav"
+        },
+        "params": {
+          "track_name": "guitar",
+          "prompt": "fingerpicked nylon, doubles the left-hand rhythm, guitar, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals",
+          "variants": 3,
+          "guidance": 7.0,
+          "steps": 50,
+          "seed": null
+        }
+      },
+      "conditions": {
+        "depends_on": [
+          "L2",
+          "L5",
+          "clock",
+          "piano"
+        ],
+        "audio_context": [
+          "piano",
+          "L2",
+          "L5"
+        ],
+        "score_condition": null,
+        "voice_reference": null
+      },
+      "candidates": [],
+      "chosen": null,
+      "gain_db": 0.0,
+      "owner": {
+        "exists": "claude",
+        "anchors": "claude",
+        "route": "claude",
+        "conditions": "claude",
+        "prompt": "claude",
+        "chosen": "claude",
+        "gain": "claude"
+      },
+      "status": "planned",
+      "stale": false,
+      "stale_reason": null,
+      "notes": "Strings arrive with the voice opening up."
+    }
+  ],
+  "order": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6"
+  ],
+  "open": {
+    "questions": [
+      "intro: <fx: very quiet room tone / air, no pitch ?> is marked tentative; bound as audio, say the word to drop or change it.",
+      "chorus: <guitar: fingerpicked nylon, doubles the left-hand rhythm ~bars 33–40 ?> is marked tentative; bound as audio, say the word to drop or change it."
+    ],
+    "unresolved_specs": [
+      "time signature: 4/4 assumed; bars 17–20 could be read as a fermata",
+      "melody: bars 41–44 ambiguous between right-hand voices",
+      "bars 17–20: downbeat ambiguous, two readings fit"
+    ]
+  },
+  "export": {
+    "target": "logic",
+    "sr": 48000,
+    "bit_depth": 24,
+    "preroll_bars": 1
+  },
+  "history": []
+}

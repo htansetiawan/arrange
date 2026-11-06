@@ -1,0 +1,529 @@
+{
+ "id": "g2",
+ "cat": "g",
+ "fixture": "synthetic",
+ "text": "Move the strings a bit.",
+ "gold_ops": [
+  {
+   "op": "ask",
+   "question": "<which strings layer (L4 verse or L5 chorus), earlier or later, by how many bars>"
+  }
+ ],
+ "gold_paths": [
+  "open.questions"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "\n\n[{\"op\":\"ask\",\"question\":\"There are two string layers: L4 (verse, bars 17–25) and L5 (chorus, bars 25–41). Which layer(s) should be shifted, earlier or later, and by how many bars or beats?\"}]",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4749,
+      "total_tokens": 8042,
+      "completion_tokens": 3293,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 3227
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 85.41862368583679,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "There are two string layers: L4 (verse, bars 17–25) and L5 (chorus, bars 25–41). Which layer(s) should be shifted, earlier or later, and by how many bars or beats?"
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "There are two string layers: L4 (verse, bars 17–25) and L5 (chorus, bars 25–41). Which layer(s) should be shifted, earlier or later, and by how many bars or beats?"
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n[{\"op\":\"ask\",\"question\":\"There are two string layers: L4 (verse, enters bar 17) and L5 (chorus, enters bar 25). Which layer should be moved, and should the entry be shifted earlier or later (e.g., by 1 bar)?\"}]",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4749,
+      "total_tokens": 9316,
+      "completion_tokens": 4567,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 4500
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 118.43492221832275,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "There are two string layers: L4 (verse, enters bar 17) and L5 (chorus, enters bar 25). Which layer should be moved, and should the entry be shifted earlier or later (e.g., by 1 bar)?"
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "There are two string layers: L4 (verse, enters bar 17) and L5 (chorus, enters bar 25). Which layer should be moved, and should the entry be shifted earlier or later (e.g., by 1 bar)?"
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n[{\"op\":\"ask\",\"question\":\"There are two string layers: L4 (verse, bars 17–25) and L5 (chorus, bars 25–41). Which one should I move, and by how many bars/beats (earlier or later)?\"}]",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4749,
+      "total_tokens": 7992,
+      "completion_tokens": 3243,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 3177
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 83.98156642913818,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "There are two string layers: L4 (verse, bars 17–25) and L5 (chorus, bars 25–41). Which one should I move, and by how many bars/beats (earlier or later)?"
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "There are two string layers: L4 (verse, bars 17–25) and L5 (chorus, bars 25–41). Which one should I move, and by how many bars/beats (earlier or later)?"
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [\n            1,\n            69\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions\": \"claude\",\n          \"prompt\": \"creator\",\n          \"chosen\": \"claude\",\n          \"gain\": \"claude\"\n        },\n        \"status\": \"chosen\",\n        \"stale\": false,\n        \"stale_reason\": null,\n        \"notes\": \"\",\n        \"lyrics\": [\n          \"Red brick and elm, the morning bell\",\n          \"A hundred doors, a single hall\",\n          \"We learn the words we cannot tell\",\n          \"And find the quiet in it all\"\n        ]\n      },\n      {\n        \"id\": \"L2\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"open and full, harmony on the last line\",\n        \"from\": {\n          \"cell\": \"chorus\",\n          \"component\": 0,\n          \"raw\": \"<vocal: open and full, harmony on the last line !>\",\n          \"chars\": [\n            44,\n            94\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          },\n     ",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4527,
+      "total_tokens": 13315,
+      "completion_tokens": 8788,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 3167
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 228.6926302909851,
+    "stale": [],
+    "questions": [
+     "Move the strings a bit is ambiguous. Do you mean shift the timing (anchors) for L4 (verse strings) or L5 (chorus strings)? If so, earlier or later and by how much (bars/beats)? Or do you mean adjust the volume (gain_db)?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [1, 69]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\"clock\", \"melody\"],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions\": \"claude\",\n          \"prompt\": \"creator\",\n          \"chosen\": \"claude\",\n          \"gain\": \"claude\"\n        },\n        \"status\": \"chosen\",\n        \"stale\": false,\n        \"stale_reason\": null,\n        \"notes\": \"\",\n        \"lyrics\": [\n          \"Red brick and elm, the morning bell\",\n          \"A hundred doors, a single hall\",\n          \"We learn the words we cannot tell\",\n          \"And find the quiet in it all\"\n        ]\n      },\n      {\n        \"id\": \"L2\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"open and full, harmony on the last line\",\n        \"from\": {\n          \"cell\": \"chorus\",\n          \"component\": 0,\n          \"raw\": \"<vocal: open and full, harmony on the last line !>\",\n          \"chars\": [44, 94]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 41,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 117.88,\n ",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4527,
+      "total_tokens": 10209,
+      "completion_tokens": 5682,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 200
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 147.4295756816864,
+    "stale": [],
+    "questions": [
+     "Which strings would you like to move - the verse strings (L4, bars 17-25) or the chorus strings (L5, bars 25-41)? And what kind of move - change the timing (enter/exit bars), adjust the volume (gain_db), or something else?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [\n            1,\n            69\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions\": \"claude\",\n          \"prompt\": \"creator\",\n          \"chosen\": \"claude\",\n          \"gain\": \"claude\"\n        },\n        \"status\": \"chosen\",\n        \"stale\": false,\n        \"stale_reason\": null,\n        \"notes\": \"\",\n        \"lyrics\": [\n          \"Red brick and elm, the morning bell\",\n          \"A hundred doors, a single hall\",\n          \"We learn the words we cannot tell\",\n          \"And find the quiet in it all\"\n        ]\n      },\n      {\n        \"id\": \"L2\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"open and full, harmony on the last line\",\n        \"from\": {\n          \"cell\": \"chorus\",\n          \"component\": 0,\n          \"raw\": \"<vocal: open and full, harmony on the last line !>\",\n          \"chars\": [\n            44,\n            94\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          },\n     ",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4527,
+      "total_tokens": 13798,
+      "completion_tokens": 9271,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 3644
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 241.3800914287567,
+    "stale": [],
+    "questions": [
+     "Which string layers should be moved (L4 verse, L5 chorus, or both)?",
+     "What attribute should be moved (timing/anchors, volume/gain, or pitch)?",
+     "In which direction should they move (earlier/later, louder/quieter) and by how much?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "\n\n{\n  \"edits\": [],\n  \"stale\": [],\n  \"questions\": [\"What would you like to move about the strings? The entry/exit bars (anchors), the volume (gain_db), or something else? There are two string layers: L4 (bars 17-24) and L5 (bars 25-40).\"],\n  \"tempo_map_corrections\": []\n}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4592,
+      "total_tokens": 4895,
+      "completion_tokens": 303,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 209
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 7.948336362838745,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "What would you like to move about the strings? The entry/exit bars (anchors), the volume (gain_db), or something else? There are two string layers: L4 (bars 17-24) and L5 (bars 25-40)."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"edits\": [],\n  \"stale\": [],\n  \"questions\": [\"Which strings should be moved (L4 in verse 1 bars 17-24, or L5 in chorus bars 25-40)? And how should they move (earlier, later, longer, shorter)?\"],\n  \"tempo_map_corrections\": []\n}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4592,
+      "total_tokens": 4748,
+      "completion_tokens": 156,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 71
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 4.172910213470459,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "Which strings should be moved (L4 in verse 1 bars 17-24, or L5 in chorus bars 25-40)? And how should they move (earlier, later, longer, shorter)?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"edits\": [],\n  \"stale\": [],\n  \"questions\": [\"\\\"Move the strings a bit\\\" is ambiguous - do you want to shift the timing (enter/exit bars), change the volume (gain_db), or adjust the texture/prompt? There are two string layers: L4 (bars 17-24) and L5 (bars 25-40).\"],\n  \"tempo_map_corrections\": []\n}",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4592,
+      "total_tokens": 4865,
+      "completion_tokens": 273,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 170
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 7.1783764362335205,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "\"Move the strings a bit\" is ambiguous - do you want to shift the timing (enter/exit bars), change the volume (gain_db), or adjust the texture/prompt? There are two string layers: L4 (bars 17-24) and L5 (bars 25-40)."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "\n\n{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/co",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4200,
+      "total_tokens": 8537,
+      "completion_tokens": 4337,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 336
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 112.27741575241089,
+    "stale": [],
+    "questions": [
+     "What does \"move the strings a bit\" mean? Do you want to shift their timing (start/end bars), adjust their volume, or change their musical content?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/co",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4200,
+      "total_tokens": 15317,
+      "completion_tokens": 11117,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 7118
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 289.6829912662506,
+    "stale": [],
+    "questions": [
+     "Could you clarify how you would like to move the strings? (e.g., adjust start/end timing, change volume/gain, or shift layer order?)"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "\n\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Evening hymn (solo piano cover)\",\n    \"revision\": 0,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"onsets+madmom-downbeat\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 199.602\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"intro\",\n        \"bar_start\": 1,\n        \"bar_end\": 8,\n        \"t0\": 0.42,\n        \"t1\": 39.363,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"verse 1\",\n        \"bar_start\": 9,\n        \"bar_end\": 24,\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"source\": \"auto\"\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"chorus\",\n        \"bar_start\": 25,\n        \"bar_end\": 40,\n        \"t0\": 117.88,\n        \"t1\": 199.602,\n        \"source\": \"auto\"\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"takes/piano_master.wav\",\n      \"sha256\": \"<sha256>\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"intimate, conversational, sits below the piano's top line\",\n        \"from\": {\n          \"cell\": \"verse 1\",\n          \"component\": 0,\n          \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\",\n          \"chars\": [\n            1,\n            69\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 9,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 39.363,\n        \"t1\": 117.88,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n          \"params\": {\n            \"variants\": 2,\n            \"transpose\": 0\n          }\n        },\n        \"conditions\": {\n          \"depends_on\": [\n            \"clock\",\n            \"melody\"\n          ],\n          \"audio_context\": [],\n          \"score_condition\": \"melody\",\n          \"voice_reference\": \"soulx:english\"\n        },\n        \"candidates\": [\n          {\n            \"id\": \"L1c1\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c1.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          },\n          {\n            \"id\": \"L1c2\",\n            \"status\": \"rendered\",\n            \"path\": \"build/L1/c2.mp3\",\n            \"parents\": {\n              \"piano\": \"fixture\",\n              \"clock\": 0\n            }\n          }\n        ],\n        \"chosen\": \"L1c1\",\n        \"gain_db\": 0.0,\n        \"owner\": {\n          \"exists\": \"creator\",\n          \"anchors\": \"creator\",\n          \"route\": \"claude\",\n          \"conditions\": \"claude\",\n          \"prompt\": \"creator\",\n          \"chosen\": \"claude\",\n          \"gain\": \"claude\"\n        },\n        \"status\": \"chosen\",\n        \"stale\": false,\n        \"stale_reason\": null,\n        \"notes\": \"\",\n        \"lyrics\": [\n          \"Red brick and elm, the morning bell\",\n          \"A hundred doors, a single hall\",\n          \"We learn the words we cannot tell\",\n          \"And find the quiet in it all\"\n        ]\n      },\n      {\n        \"id\": \"L2\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"open and full, harmony on the last line\",\n        \"from\": {\n          \"cell\": \"chorus\",\n          \"component\": 0,\n          \"raw\": \"<vocal: open and full, harmony on the last line !>\",\n          \"chars\": [\n            44,\n            94\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 25,\n            \"beat\": 1.0\n          },\n     ",
+    "usage": {
+     "total_cost_usd": 0.0,
+     "tokens": {
+      "prompt_tokens": 4200,
+      "total_tokens": 11308,
+      "completion_tokens": 7108,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1483
+      }
+     },
+     "model": [
+      "qwen3.5-27b-fp8"
+     ],
+     "finish": "stop"
+    },
+    "elapsed": 184.48301196098328,
+    "stale": [],
+    "questions": [
+     "Which string layer should be moved (L4 verse strings or L5 chorus strings)?",
+     "What parameter should be adjusted (timing/anchors, volume/gain, or musical content)?",
+     "By how much should they be moved (e.g., specific bars, seconds, or dB)?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ]
+ }
+}

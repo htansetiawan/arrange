@@ -1,0 +1,38 @@
+{
+ "at": "2026-11-03T23:15:49.703Z",
+ "ladder": "v8",
+ "rater": "composer",
+ "steps": [
+  {
+   "clip": "Ha3",
+   "register": "right",
+   "score": 50
+  },
+  {
+   "clip": "Xe1",
+   "register": "right",
+   "score": 53
+  },
+  {
+   "clip": "Ga3",
+   "register": "high",
+   "score": 60
+  },
+  {
+   "clip": "Za3",
+   "register": "high",
+   "score": 70
+  },
+  {
+   "clip": "Ta1",
+   "register": "high",
+   "score": 80
+  },
+  {
+   "clip": "Lu2",
+   "register": "high",
+   "score": 90
+  }
+ ],
+ "sweet": "Ha3"
+}

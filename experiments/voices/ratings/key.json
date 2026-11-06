@@ -1,0 +1,194 @@
+{
+ "K7": {
+  "song": "all-the-things",
+  "voice": "groban",
+  "mix": "all-the-things-cohen/build/pills/groban",
+  "source_start": 48.8,
+  "length": 15.0,
+  "repeat": false
+ },
+ "M6": {
+  "song": "color-purple",
+  "voice": "pavarotti",
+  "mix": "color-purple/build/polished/pavarotti",
+  "source_start": 27.0,
+  "length": 15.0,
+  "repeat": false
+ },
+ "F8": {
+  "song": "all-the-things",
+  "voice": "henry",
+  "mix": "all-the-things-cohen/build/pills/henry",
+  "source_start": 48.8,
+  "length": 15.0,
+  "repeat": false
+ },
+ "T7": {
+  "song": "all-the-things",
+  "voice": "clarkson",
+  "mix": "all-the-things-cohen/build/pills/clarkson",
+  "source_start": 48.8,
+  "length": 15.0,
+  "repeat": false
+ },
+ "W7": {
+  "song": "someday",
+  "voice": "bolton",
+  "mix": "someday-my-prince/build/polished/bolton",
+  "source_start": 11.3,
+  "length": 15.0,
+  "repeat": false
+ },
+ "V8": {
+  "song": "color-purple",
+  "voice": "bolton",
+  "mix": "color-purple/build/polished/bolton",
+  "source_start": 27.0,
+  "length": 15.0,
+  "repeat": false
+ },
+ "W8": {
+  "song": "color-purple",
+  "voice": "adams",
+  "mix": "color-purple/build/polished/adams",
+  "source_start": 27.0,
+  "length": 15.0,
+  "repeat": false
+ },
+ "J6": {
+  "song": "all-the-things",
+  "voice": "bolton",
+  "mix": "all-the-things-cohen/build/pills/bolton",
+  "source_start": 48.8,
+  "length": 15.0,
+  "repeat": false
+ },
+ "C6": {
+  "song": "someday",
+  "voice": "mine",
+  "mix": "someday-my-prince/build/polished/mine",
+  "source_start": 11.3,
+  "length": 15.0,
+  "repeat": false
+ },
+ "D6": {
+  "song": "color-purple",
+  "voice": "pavarotti",
+  "mix": "color-purple/build/polished/pavarotti",
+  "source_start": 27.0,
+  "length": 15.0,
+  "repeat": true
+ },
+ "M2": {
+  "song": "all-the-things",
+  "voice": "jackson",
+  "mix": "all-the-things-cohen/build/pills/jackson",
+  "source_start": 48.8,
+  "length": 15.0,
+  "repeat": false
+ },
+ "D5": {
+  "song": "someday",
+  "voice": "ariana",
+  "mix": "someday-my-prince/build/polished/ariana",
+  "source_start": 11.3,
+  "length": 15.0,
+  "repeat": false
+ },
+ "N4": {
+  "song": "color-purple",
+  "voice": "own-seedvc",
+  "mix": "color-purple/build/polished/own-seedvc",
+  "source_start": 27.0,
+  "length": 15.0,
+  "repeat": false
+ },
+ "V7": {
+  "song": "all-the-things",
+  "voice": "buble",
+  "mix": "all-the-things-cohen/build/pills/buble",
+  "source_start": 48.8,
+  "length": 15.0,
+  "repeat": false
+ },
+ "G7": {
+  "song": "someday",
+  "voice": "mine",
+  "mix": "someday-my-prince/build/polished/mine",
+  "source_start": 11.3,
+  "length": 15.0,
+  "repeat": true
+ },
+ "H7": {
+  "song": "someday",
+  "voice": "groban",
+  "mix": "someday-my-prince/build/studio/voice-mix-groban",
+  "source_start": 11.3,
+  "length": 15.0,
+  "repeat": false
+ },
+ "G8": {
+  "song": "all-the-things",
+  "voice": "groban",
+  "mix": "all-the-things-cohen/build/pills/groban",
+  "source_start": 48.8,
+  "length": 15.0,
+  "repeat": true
+ },
+ "R7": {
+  "song": "color-purple",
+  "voice": "own-score",
+  "mix": "color-purple/build/polished/own-score",
+  "source_start": 27.0,
+  "length": 15.0,
+  "repeat": false
+ },
+ "N3": {
+  "song": "all-the-things",
+  "voice": "ariana",
+  "mix": "all-the-things-cohen/build/pills/ariana",
+  "source_start": 48.8,
+  "length": 15.0,
+  "repeat": false
+ },
+ "X9": {
+  "song": "someday",
+  "voice": "clarkson",
+  "mix": "someday-my-prince/build/polished/clarkson",
+  "source_start": 11.3,
+  "length": 15.0,
+  "repeat": false
+ },
+ "V2": {
+  "song": "all-the-things",
+  "voice": "adams",
+  "mix": "all-the-things-cohen/build/pills/adams",
+  "source_start": 48.8,
+  "length": 15.0,
+  "repeat": false
+ },
+ "S7": {
+  "song": "someday",
+  "voice": "adams",
+  "mix": "someday-my-prince/build/polished/adams",
+  "source_start": 11.3,
+  "length": 15.0,
+  "repeat": false
+ },
+ "R8": {
+  "song": "color-purple",
+  "voice": "groban",
+  "mix": "color-purple/build/polished/groban",
+  "source_start": 27.0,
+  "length": 15.0,
+  "repeat": false
+ },
+ "N6": {
+  "song": "all-the-things",
+  "voice": "wonder",
+  "mix": "all-the-things-cohen/build/pills/wonder",
+  "source_start": 48.8,
+  "length": 15.0,
+  "repeat": false
+ }
+}

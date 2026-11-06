@@ -1,0 +1,38 @@
+{
+ "at": "2026-11-03T23:16:23.311Z",
+ "ladder": "v2",
+ "rater": "composer",
+ "steps": [
+  {
+   "clip": "Ri1",
+   "register": "right",
+   "score": 44
+  },
+  {
+   "clip": "Ra7",
+   "register": "right",
+   "score": 50
+  },
+  {
+   "clip": "Lo0",
+   "register": "high",
+   "score": 59
+  },
+  {
+   "clip": "Ta4",
+   "register": "high",
+   "score": 69
+  },
+  {
+   "clip": "Mu2",
+   "register": "high",
+   "score": 80
+  },
+  {
+   "clip": "Zo6",
+   "register": "high",
+   "score": 90
+  }
+ ],
+ "sweet": "Ra7"
+}

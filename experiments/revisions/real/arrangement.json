@@ -1,0 +1,641 @@
+{
+ "schema": "arrange/arrangement@2",
+ "piece": "Theme from The Color Purple (Henry's piano recording, 2026)",
+ "revision": 5,
+ "inputs": {
+  "analysis": "piano-analysis.json",
+  "notebook": "ARRANGEMENT.md"
+ },
+ "clock": {
+  "from": "piano-analysis.json#tempo_map",
+  "status": "creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)",
+  "revision": 0,
+  "time_signature": "4/4",
+  "intervals": "half-open: exit is the first position not sounding",
+  "domain_end_s": 211.625
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "label": "opening",
+   "bar_start": 1,
+   "bar_end": 9,
+   "source": "auto",
+   "t0": 0.627,
+   "t1": 48.388
+  },
+  {
+   "id": "s2",
+   "label": "theme 1",
+   "bar_start": 10,
+   "bar_end": 14,
+   "source": "auto",
+   "t0": 48.388,
+   "t1": 74.318
+  },
+  {
+   "id": "s3",
+   "label": "theme 2",
+   "bar_start": 15,
+   "bar_end": 22,
+   "source": "creator",
+   "t0": 74.318,
+   "t1": 115.245
+  },
+  {
+   "id": "s4",
+   "label": "after the theme",
+   "bar_start": 23,
+   "bar_end": 30,
+   "source": "auto",
+   "t0": 115.245,
+   "t1": 157.556
+  },
+  {
+   "id": "s5",
+   "label": "second half",
+   "bar_start": 31,
+   "bar_end": 38,
+   "source": "auto",
+   "t0": 157.556,
+   "t1": 198.832
+  },
+  {
+   "id": "s6",
+   "label": "ending",
+   "bar_start": 39,
+   "bar_end": 41,
+   "source": "auto",
+   "t0": 198.832,
+   "t1": 211.625,
+   "ends_past_map": true
+  }
+ ],
+ "spine": {
+  "id": "piano",
+  "kind": "take",
+  "path": "runs/color-purple/source/recording.wav",
+  "sha256": "3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15",
+  "class": "keyboard"
+ },
+ "layers": [
+  {
+   "id": "L1",
+   "name": "vocal",
+   "class": "vocals",
+   "kind": "generated",
+   "text": "the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano",
+   "from": {
+    "cell": "theme 2",
+    "component": 0,
+    "raw": "<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>",
+    "chars": [
+     823,
+     946
+    ]
+   },
+   "anchors": {
+    "enter": {
+     "bar": 15,
+     "beat": 1.0
+    },
+    "exit": {
+     "bar": 23,
+     "beat": 1.0
+    }
+   },
+   "t0": 74.318,
+   "t1": 115.245,
+   "route": "score",
+   "job": {
+    "backend": "soulx-singer",
+    "inputs": {
+     "score": "jobs/L1/vocal.abc",
+     "lyrics": "jobs/L1/lyrics.txt"
+    },
+    "params": {
+     "variants": 2,
+     "transpose": 0
+    }
+   },
+   "conditions": {
+    "depends_on": [
+     "clock",
+     "melody"
+    ],
+    "audio_context": [],
+    "score_condition": "melody",
+    "voice_reference": "soulx:english"
+   },
+   "candidates": [
+    {
+     "id": "L1c1",
+     "label": "english+0",
+     "status": "rendered",
+     "path": "runs/color-purple/build/L1/english+0.mp3",
+     "parents": {
+      "score": "3a68bb8c32c4695c",
+      "spine": "3496d64f8e76d8e8",
+      "prompt": "fa7eed4baa89ad7f",
+      "checkpoint": "models/SoulX-Singer/model.pt",
+      "clock": 0
+     },
+     "measurements": {
+      "elapsed_s": 23.6,
+      "generated_sr": 24000,
+      "generated_s": 44.197,
+      "placed_at_s": 71.371,
+      "frames_match_spine": true,
+      "peak": 1.0009,
+      "rms_db": -15.7
+     },
+     "backend": "soulx-singer score mode"
+    },
+    {
+     "id": "L1c2",
+     "label": "english-12",
+     "status": "rendered",
+     "path": "runs/color-purple/build/L1/english-12.mp3",
+     "parents": {
+      "score": "3a68bb8c32c4695c",
+      "spine": "3496d64f8e76d8e8",
+      "prompt": "fa7eed4baa89ad7f",
+      "checkpoint": "models/SoulX-Singer/model.pt",
+      "clock": 0
+     },
+     "measurements": {
+      "elapsed_s": 23.4,
+      "generated_sr": 24000,
+      "generated_s": 44.197,
+      "placed_at_s": 71.371,
+      "frames_match_spine": true,
+      "peak": 0.7278,
+      "rms_db": -17.0
+     },
+     "backend": "soulx-singer score mode"
+    },
+    {
+     "id": "L1c3",
+     "label": "groban-12",
+     "status": "rendered",
+     "path": "runs/color-purple/build/L1/groban-12.mp3",
+     "parents": {
+      "score": "3a68bb8c32c4695c",
+      "spine": "3496d64f8e76d8e8",
+      "prompt": "92e0ab438709cf2d",
+      "checkpoint": "models/SoulX-Singer/model.pt",
+      "clock": 0
+     },
+     "measurements": {
+      "elapsed_s": 24.3,
+      "generated_sr": 24000,
+      "generated_s": 44.197,
+      "placed_at_s": 71.371,
+      "frames_match_spine": true,
+      "peak": 1.0319,
+      "rms_db": -14.0
+     },
+     "backend": "soulx-singer score mode"
+    },
+    {
+     "id": "L1c4",
+     "label": "henry-12",
+     "status": "rendered",
+     "path": "runs/color-purple/build/L1/henry-12.mp3",
+     "parents": {
+      "score": "3a68bb8c32c4695c",
+      "spine": "3496d64f8e76d8e8",
+      "prompt": "36987a09e2bd9f11",
+      "checkpoint": "models/SoulX-Singer/model.pt",
+      "clock": 0
+     },
+     "measurements": {
+      "elapsed_s": 24.2,
+      "generated_sr": 24000,
+      "generated_s": 44.197,
+      "placed_at_s": 71.371,
+      "frames_match_spine": true,
+      "peak": 1.0062,
+      "rms_db": -15.5
+     },
+     "backend": "soulx-singer score mode"
+    }
+   ],
+   "chosen": "L1c4",
+   "gain_db": 0.0,
+   "owner": {
+    "exists": "creator",
+    "anchors": "creator",
+    "route": "claude",
+    "conditions": "claude",
+    "prompt": "creator",
+    "chosen": "creator",
+    "gain": "claude"
+   },
+   "status": "chosen",
+   "stale": false,
+   "stale_reason": null,
+   "notes": "Henry's words (31 October, lyrics rewritten the same night after hearing the first vocal: fewer syllables so the fast run in the second phrase can be held on one vowel; the last line was shortened to four syllables by the agent to fit the four-note closing phrase, from Henry's 'A hush that settles like a breeze', pending his word): a sung line on my lyrics over the second\nstatement of the theme; soft strings entering a few bars in; brass left as\nan empty placeholder track. The piano stays exactly as played.\n\nListening reference (31 October): my Suno version of this same recording, \"The Yard with Red Brick Buildings\". What I like most about it is the low male voice. (Measured: its singer sits around A2–A3; its band stays quiet for the first minute and grows after about 90 s. Facts only; nothing is copied from it.)",
+   "lyrics": [
+    "Morning comes soft across the earth",
+    "Footsteps on the paths beneath the tree",
+    "Windows waking in the red brick walls",
+    "A hush, a breeze"
+   ]
+  },
+  {
+   "id": "L2",
+   "name": "strings",
+   "class": "strings",
+   "kind": "generated",
+   "text": "soft sustained strings under the voice, no vibrato, one slow swell per phrase, entering a few bars in",
+   "from": {
+    "cell": "theme 2",
+    "component": 2,
+    "raw": "<strings: soft sustained strings under the voice, no vibrato, one slow swell per phrase, entering a few bars in @bar 19 !>",
+    "chars": [
+     1088,
+     1210
+    ]
+   },
+   "anchors": {
+    "enter": {
+     "bar": 19,
+     "beat": 1.0
+    },
+    "exit": {
+     "bar": 23,
+     "beat": 1.0
+    }
+   },
+   "t0": 94.671,
+   "t1": 115.245,
+   "route": "audio",
+   "job": {
+    "backend": "ace-step/lego",
+    "inputs": {
+     "context_mix": "jobs/L2/context.wav"
+    },
+    "params": {
+     "track_name": "strings",
+     "prompt": "soft sustained strings under the voice, no vibrato, one slow swell per phrase, entering a few bars in, strings, key F major, around 46 BPM, intimate, unhurried, a ballad that breathes, no added vocals",
+     "variants": 3,
+     "guidance": 7.0,
+     "steps": 50,
+     "seed": null
+    }
+   },
+   "conditions": {
+    "depends_on": [
+     "L1",
+     "clock",
+     "piano"
+    ],
+    "audio_context": [
+     "piano",
+     "L1"
+    ],
+    "score_condition": null,
+    "voice_reference": null
+   },
+   "candidates": [
+    {
+     "id": "L2c1",
+     "label": "seed20261031",
+     "status": "superseded",
+     "path": "runs/color-purple/build/L2/seed20261031.mp3",
+     "parents": {
+      "spine": "3496d64f8e76d8e8",
+      "L1": "L1c1",
+      "context": "846cb4d983acff60",
+      "clock": 0,
+      "prompt": "930fa4e694e75a63"
+     },
+     "measurements": {
+      "elapsed_s": 33.6,
+      "frames_match_spine": true,
+      "peak": 0.4844,
+      "rms_db": -19.9
+     },
+     "backend": "ace-step/lego acestep-v15-xl-base rev ca1e85fe"
+    },
+    {
+     "id": "L2c2",
+     "label": "seed20261032",
+     "status": "superseded",
+     "path": "runs/color-purple/build/L2/seed20261032.mp3",
+     "parents": {
+      "spine": "3496d64f8e76d8e8",
+      "L1": "L1c1",
+      "context": "846cb4d983acff60",
+      "clock": 0,
+      "prompt": "930fa4e694e75a63"
+     },
+     "measurements": {
+      "elapsed_s": 32.1,
+      "frames_match_spine": true,
+      "peak": 0.1953,
+      "rms_db": -28.1
+     },
+     "backend": "ace-step/lego acestep-v15-xl-base rev ca1e85fe"
+    },
+    {
+     "id": "L2c3",
+     "label": "seed20261033",
+     "status": "superseded",
+     "path": "runs/color-purple/build/L2/seed20261033.mp3",
+     "parents": {
+      "spine": "3496d64f8e76d8e8",
+      "L1": "L1c1",
+      "context": "846cb4d983acff60",
+      "clock": 0,
+      "prompt": "930fa4e694e75a63"
+     },
+     "measurements": {
+      "elapsed_s": 31.8,
+      "frames_match_spine": true,
+      "peak": 0.6758,
+      "rms_db": -18.2
+     },
+     "backend": "ace-step/lego acestep-v15-xl-base rev ca1e85fe"
+    },
+    {
+     "id": "L2c4",
+     "label": "seed20261101",
+     "status": "rendered",
+     "path": "runs/color-purple/build/L2/seed20261101.mp3",
+     "parents": {
+      "spine": "3496d64f8e76d8e8",
+      "L1": "L1c4",
+      "context": "4ff30c62b22e0d85",
+      "clock": 0,
+      "prompt": "930fa4e694e75a63"
+     },
+     "measurements": {
+      "elapsed_s": 32.5,
+      "frames_match_spine": true,
+      "peak": 0.6094,
+      "rms_db": -20.6
+     },
+     "backend": "ace-step/lego acestep-v15-xl-base rev ca1e85fe"
+    },
+    {
+     "id": "L2c5",
+     "label": "seed20261102",
+     "status": "rendered",
+     "path": "runs/color-purple/build/L2/seed20261102.mp3",
+     "parents": {
+      "spine": "3496d64f8e76d8e8",
+      "L1": "L1c4",
+      "context": "4ff30c62b22e0d85",
+      "clock": 0,
+      "prompt": "930fa4e694e75a63"
+     },
+     "measurements": {
+      "elapsed_s": 30.9,
+      "frames_match_spine": true,
+      "peak": 0.3477,
+      "rms_db": -24.9
+     },
+     "backend": "ace-step/lego acestep-v15-xl-base rev ca1e85fe"
+    },
+    {
+     "id": "L2c6",
+     "label": "seed20261103",
+     "status": "rendered",
+     "path": "runs/color-purple/build/L2/seed20261103.mp3",
+     "parents": {
+      "spine": "3496d64f8e76d8e8",
+      "L1": "L1c4",
+      "context": "4ff30c62b22e0d85",
+      "clock": 0,
+      "prompt": "930fa4e694e75a63"
+     },
+     "measurements": {
+      "elapsed_s": 31.3,
+      "frames_match_spine": true,
+      "peak": 0.2656,
+      "rms_db": -27.7
+     },
+     "backend": "ace-step/lego acestep-v15-xl-base rev ca1e85fe"
+    }
+   ],
+   "chosen": "L2c6",
+   "gain_db": 0.0,
+   "owner": {
+    "exists": "creator",
+    "anchors": "creator",
+    "route": "claude",
+    "conditions": "claude",
+    "prompt": "creator",
+    "chosen": "creator",
+    "gain": "claude"
+   },
+   "status": "chosen",
+   "stale": false,
+   "stale_reason": null,
+   "notes": "Henry's words (31 October, lyrics rewritten the same night after hearing the first vocal: fewer syllables so the fast run in the second phrase can be held on one vowel; the last line was shortened to four syllables by the agent to fit the four-note closing phrase, from Henry's 'A hush that settles like a breeze', pending his word): a sung line on my lyrics over the second\nstatement of the theme; soft strings entering a few bars in; brass left as\nan empty placeholder track. The piano stays exactly as played.\n\nListening reference (31 October): my Suno version of this same recording, \"The Yard with Red Brick Buildings\". What I like most about it is the low male voice. (Measured: its singer sits around A2–A3; its band stays quiet for the first minute and grows after about 90 s. Facts only; nothing is copied from it.)"
+  },
+  {
+   "id": "L3",
+   "name": "brass",
+   "class": "brass",
+   "kind": "stub",
+   "text": "empty placeholder track, nothing decided yet",
+   "from": {
+    "cell": "theme 2",
+    "component": 3,
+    "raw": "<brass: empty placeholder track, nothing decided yet ?>",
+    "chars": [
+     1211,
+     1266
+    ]
+   },
+   "anchors": {
+    "enter": {
+     "bar": 15,
+     "beat": 1.0
+    },
+    "exit": {
+     "bar": 23,
+     "beat": 1.0
+    }
+   },
+   "t0": 74.318,
+   "t1": 115.245,
+   "route": "stub",
+   "job": null,
+   "conditions": {
+    "depends_on": [
+     "clock"
+    ],
+    "audio_context": [],
+    "score_condition": null,
+    "voice_reference": null
+   },
+   "candidates": [],
+   "chosen": null,
+   "gain_db": 0.0,
+   "owner": {
+    "exists": "claude",
+    "anchors": "claude",
+    "route": "claude",
+    "conditions": "claude",
+    "prompt": "claude",
+    "chosen": "claude",
+    "gain": "claude"
+   },
+   "status": "planned",
+   "stale": false,
+   "stale_reason": null,
+   "notes": "Henry's words (31 October, lyrics rewritten the same night after hearing the first vocal: fewer syllables so the fast run in the second phrase can be held on one vowel; the last line was shortened to four syllables by the agent to fit the four-note closing phrase, from Henry's 'A hush that settles like a breeze', pending his word): a sung line on my lyrics over the second\nstatement of the theme; soft strings entering a few bars in; brass left as\nan empty placeholder track. The piano stays exactly as played.\n\nListening reference (31 October): my Suno version of this same recording, \"The Yard with Red Brick Buildings\". What I like most about it is the low male voice. (Measured: its singer sits around A2–A3; its band stays quiet for the first minute and grows after about 90 s. Facts only; nothing is copied from it.)",
+   "stub_reason": "the notebook asks for a placeholder: empty placeholder track, nothing decided yet",
+   "before_stub": {
+    "kind": "generated",
+    "route": "audio",
+    "job": {
+     "backend": "ace-step/lego",
+     "inputs": {
+      "context_mix": "jobs/L3/context.wav"
+     },
+     "params": {
+      "track_name": "brass",
+      "prompt": "empty placeholder track, nothing decided yet, brass, key F major, around 46 BPM, intimate, unhurried, a ballad that breathes, no added vocals",
+      "variants": 3,
+      "guidance": 7.0,
+      "steps": 50,
+      "seed": null
+     }
+    }
+   }
+  }
+ ],
+ "order": [
+  "L1",
+  "L2",
+  "L3"
+ ],
+ "open": {
+  "questions": [
+   "L1 (vocal): you decided chosen = L1c4 earlier; the notebook now implies None. Your decision is kept."
+  ],
+  "unresolved_specs": [
+   "time signature: 4/4 given by the creator",
+   "melody: skyline (highest note per onset); inner-voice melodies would be missed",
+   "bars 1–3: no played note within 120 ms of a tracked beat; the beat is the tracker's guess there",
+   "bar 32: no played note within 120 ms of a tracked beat; the beat is the tracker's guess there",
+   "bars 38–39: no played note within 120 ms of a tracked beat; the beat is the tracker's guess there",
+   "bar 41: no played note within 120 ms of a tracked beat; the beat is the tracker's guess there"
+  ]
+ },
+ "export": {
+  "target": "logic",
+  "sr": 48000,
+  "bit_depth": 24,
+  "preroll_bars": 1
+ },
+ "history": [
+  {
+   "revision": 1,
+   "actor": "creator",
+   "reason": "notebook edited and rebuilt",
+   "ops": [
+    {
+     "op": "rebuild",
+     "notebook": "ARRANGEMENT.md"
+    }
+   ],
+   "applied": [
+    "L1 (vocal): the words changed; its 2 rendered candidate(s) are stale and it will be re-rendered. Layers that heard it are stale too."
+   ],
+   "refused": [],
+   "unresolved": [],
+   "stale": [
+    "L1"
+   ],
+   "paths": []
+  },
+  {
+   "revision": 2,
+   "actor": "creator",
+   "reason": "notebook edited and rebuilt",
+   "ops": [
+    {
+     "op": "rebuild",
+     "notebook": "ARRANGEMENT.md"
+    }
+   ],
+   "applied": [
+    "L1 (vocal): the words changed; its 2 rendered candidate(s) are stale and it will be re-rendered. Layers that heard it are stale too."
+   ],
+   "refused": [],
+   "unresolved": [],
+   "stale": [
+    "L1"
+   ],
+   "paths": []
+  },
+  {
+   "revision": 3,
+   "actor": "creator",
+   "reason": "Henry, 31 Oct: use my own voice as the reference (L1c4), an octave below the written theme",
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L1",
+     "candidate": "L1c4"
+    }
+   ],
+   "applied": [
+    "L1 chosen L1c1 -> L1c4"
+   ],
+   "refused": [],
+   "unresolved": [],
+   "stale": [],
+   "paths": [
+    "layers.L1.chosen",
+    "layers.L1.owner.chosen"
+   ]
+  },
+  {
+   "revision": 4,
+   "actor": "creator",
+   "reason": "notebook edited and rebuilt",
+   "ops": [
+    {
+     "op": "rebuild",
+     "notebook": "ARRANGEMENT.md"
+    }
+   ],
+   "applied": [],
+   "refused": [],
+   "unresolved": [],
+   "stale": [
+    "L2"
+   ],
+   "paths": []
+  },
+  {
+   "revision": 5,
+   "actor": "creator",
+   "reason": "Henry, 31 Oct: the softest strings, best agreement (L2c6)",
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L2",
+     "candidate": "L2c6"
+    }
+   ],
+   "applied": [
+    "L2 chosen L2c4 -> L2c6"
+   ],
+   "refused": [],
+   "unresolved": [],
+   "stale": [],
+   "paths": [
+    "layers.L2.chosen",
+    "layers.L2.owner.chosen"
+   ]
+  }
+ ]
+}

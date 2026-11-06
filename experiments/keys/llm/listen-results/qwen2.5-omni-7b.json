@@ -1,0 +1,490 @@
+{
+ "model": "qwen2.5-omni-7b",
+ "rows": [
+  {
+   "q": "perceive",
+   "clip": "ariana",
+   "draw": 1,
+   "ans": {
+    "low": "G2",
+    "centre": "G3",
+    "high": "G4"
+   },
+   "raw": "{\"low\": \"G2\", \"centre\": \"G3\", \"high\": \"G4\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "bolton",
+   "draw": 1,
+   "ans": {
+    "low": "F2",
+    "centre": "G4",
+    "high": "G4"
+   },
+   "raw": "{\"low\": \"F2\", \"centre\": \"G4\", \"high\": \"G4\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "buble",
+   "draw": 1,
+   "ans": {
+    "low": "C2",
+    "centre": "G2",
+    "high": "G4"
+   },
+   "raw": "{\"low\": \"C2\", \"centre\": \"G2\", \"high\": \"G4\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "clarkson",
+   "draw": 1,
+   "ans": {
+    "low": "C3",
+    "centre": "G4",
+    "high": "G5"
+   },
+   "raw": "{\n  \"low\": \"C3\",\n  \"centre\": \"G4\",\n  \"high\": \"G5\"\n}"
+  },
+  {
+   "q": "perceive",
+   "clip": "groban",
+   "draw": 1,
+   "ans": {
+    "low": "C4",
+    "centre": "B4",
+    "high": "B5"
+   },
+   "raw": "{\"low\": \"C4\", \"centre\": \"B4\", \"high\": \"B5\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "jackson",
+   "draw": 1,
+   "ans": {
+    "low": "A2",
+    "centre": "C5",
+    "high": "G5"
+   },
+   "raw": "{\"low\": \"A2\", \"centre\": \"C5\", \"high\": \"G5\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "wonder",
+   "draw": 1,
+   "ans": {
+    "low": "E3",
+    "centre": "E4",
+    "high": "B5"
+   },
+   "raw": "{\"low\": \"E3\", \"centre\": \"E4\", \"high\": \"B5\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "control-A3",
+   "draw": 1,
+   "ans": {
+    "low": "G3",
+    "centre": "A4",
+    "high": "C5"
+   },
+   "raw": "{\n  \"low\": \"G3\",\n  \"centre\": \"A4\",\n  \"high\": \"C5\"\n}"
+  },
+  {
+   "q": "perceive",
+   "clip": "control-E4",
+   "draw": 1,
+   "ans": {
+    "low": "E3",
+    "centre": "E4",
+    "high": "E5"
+   },
+   "raw": "```json\n{\n  \"low\": \"E3\",\n  \"centre\": \"E4\",\n  \"high\": \"E5\"\n}\n```"
+  },
+  {
+   "q": "key",
+   "case": "attya/buble",
+   "draw": 1,
+   "shift": -1,
+   "gold": -8,
+   "raw": "```json\n{\"shift\": -1, \"why\": \"The singer's most comfortable and best-sounding singing range is achieved by shifting the written melody down by one semitone.\"}\n```"
+  },
+  {
+   "q": "key",
+   "case": "attya/jackson",
+   "draw": 1,
+   "shift": -2,
+   "gold": -4,
+   "raw": "{\"shift\": -2, \"why\": \"The singer's comfort range is best achieved by moving the written melody down by 2 semitones.\"}"
+  },
+  {
+   "q": "key",
+   "case": "attya/clarkson",
+   "draw": 1,
+   "shift": 12,
+   "gold": 2,
+   "raw": "{\"shift\": 12, \"why\": \"To match the singer's vocal range, transposing the melody up by an octave makes it comfortable and best-sounding within their range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "attya/bolton",
+   "draw": 1,
+   "shift": -1,
+   "gold": -4,
+   "raw": "{\"shift\": -1, \"why\": \"The singer's most comfortable range is likely between B3 and D5, and the highest note is D4, so a minor second shift (-1) will position the melody within their best-sounding range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "attya/ariana",
+   "draw": 1,
+   "shift": -2,
+   "gold": 2,
+   "raw": "{\n  \"shift\": -2,\n  \"why\": \"Transposing the melody down by 2 semitones allows the singer to perform within their most comfortable and best-sounding range.\"\n}"
+  },
+  {
+   "q": "key",
+   "case": "attya/wonder",
+   "draw": 1,
+   "shift": -2,
+   "gold": 2,
+   "raw": "{\"shift\": -2, \"why\": \"The singer's comfort range is from lowest B3 to highest D5, so the melody should be transposed down 2 semitones to accommodate the singer's range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "someday/clarkson",
+   "draw": 1,
+   "shift": 2,
+   "gold": 1,
+   "raw": "{\"shift\": 2, \"why\": \"Transposing the melody up by 2 semitones aligns it with the singer's most comfortable and best-sounding vocal range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "someday/ariana",
+   "draw": 1,
+   "shift": -2,
+   "gold": -2,
+   "raw": "{\"shift\": -2, \"why\": \"The singer's range is from C4 to G5, so transposing the written melody down by 2 semitones will center it within the singer's most comfortable range.\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "ariana",
+   "draw": 2,
+   "ans": {},
+   "raw": "{\\\"low\\\": \\\"G2\\\", \\\"centre\\\": \\\"E4\\\", \\\"high\\\": \\\"G4\\\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "bolton",
+   "draw": 2,
+   "ans": {
+    "low": "Bb2",
+    "centre": "C3",
+    "high": "F4"
+   },
+   "raw": "{\"low\": \"Bb2\", \"centre\": \"C3\", \"high\": \"F4\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "buble",
+   "draw": 2,
+   "ans": {
+    "low": "C4",
+    "centre": "G4",
+    "high": "Bb5"
+   },
+   "raw": "{\"low\": \"C4\", \"centre\": \"G4\", \"high\": \"Bb5\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "clarkson",
+   "draw": 2,
+   "ans": {
+    "low": "C4",
+    "centre": "C5",
+    "high": "G5"
+   },
+   "raw": "{\n  \"low\": \"C4\",\n  \"centre\": \"C5\",\n  \"high\": \"G5\"\n}"
+  },
+  {
+   "q": "perceive",
+   "clip": "groban",
+   "draw": 2,
+   "ans": {
+    "low": "E3",
+    "centre": "E4",
+    "high": "G4"
+   },
+   "raw": "{\"low\": \"E3\", \"centre\": \"E4\", \"high\": \"G4\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "jackson",
+   "draw": 2,
+   "ans": {
+    "low": "F3",
+    "centre": "C4",
+    "high": "G4"
+   },
+   "raw": "{\"low\": \"F3\", \"centre\": \"C4\", \"high\": \"G4\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "wonder",
+   "draw": 2,
+   "ans": {
+    "low": "F#4",
+    "centre": "C5",
+    "high": "B5"
+   },
+   "raw": "{\"low\": \"F#4\", \"centre\": \"C5\", \"high\": \"B5\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "control-A3",
+   "draw": 2,
+   "ans": {
+    "low": "A3",
+    "centre": "G4",
+    "high": "C6"
+   },
+   "raw": "{\"low\": \"A3\", \"centre\": \"G4\", \"high\": \"C6\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "control-E4",
+   "draw": 2,
+   "ans": {
+    "low": "E3",
+    "centre": "E4",
+    "high": "E5"
+   },
+   "raw": "```json\n{\"low\": \"E3\", \"centre\": \"E4\", \"high\": \"E5\"}\n```"
+  },
+  {
+   "q": "key",
+   "case": "attya/buble",
+   "draw": 2,
+   "shift": -1,
+   "gold": -8,
+   "raw": "{\"shift\": -1, \"why\": \"Moving the melody down by one semitone ensures the singer's voice remains in a comfortable, best-sounding range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "attya/jackson",
+   "draw": 2,
+   "shift": 0,
+   "gold": -4,
+   "raw": "{\n  \"shift\": 0,\n  \"why\": \"The written melody's lowest note is already at the singer's lowest B3, and no transposition is needed to keep the voice within its most comfortable range.\"\n}"
+  },
+  {
+   "q": "key",
+   "case": "attya/clarkson",
+   "draw": 2,
+   "shift": -2,
+   "gold": 2,
+   "raw": "{\"shift\": -2, \"why\": \"The lowest B3 is too low for the singer to comfortably reach, and transposing down by 2 semitones (to D#3) will make it more comfortable and within her range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "attya/bolton",
+   "draw": 2,
+   "shift": 12,
+   "gold": -4,
+   "raw": "{\"shift\": 12, \"why\": \"Transposing the melody up by 12 semitones will place the lowest note, B3, at D#4, which is the singer's lowest comfortable note, ensuring the voice clone sings the melody within their comfort range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "attya/ariana",
+   "draw": 2,
+   "shift": -1,
+   "gold": 2,
+   "raw": "{\"shift\": -1, \"why\": \"The singer's pitch range is from B3 to D5, so transposing the melody down by one semitone (to C3) will place it within her most comfortable singing range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "attya/wonder",
+   "draw": 2,
+   "shift": -5,
+   "gold": 2,
+   "raw": "{\"shift\": -5, \"why\": \"The singer's lowest note is B3, so shifting the melody down by 5 semitones places it near the singer's middle range, ensuring a comfortable and good-sounding performance.\"}"
+  },
+  {
+   "q": "key",
+   "case": "someday/clarkson",
+   "draw": 2,
+   "shift": -2,
+   "gold": 1,
+   "raw": "{\"shift\": -2, \"why\": \"Transposing the melody down by 2 semitones aligns it better with the singer's comfortable range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "someday/ariana",
+   "draw": 2,
+   "shift": -2,
+   "gold": -2,
+   "raw": "{\"shift\": -2, \"why\": \"The written melody starts at C4, which is a comfortable starting point for the singer. Adjusting it down by 2 semitones helps to center the melody within the singer's range, making it easier to transition to higher notes and also prevents straining during lower notes.\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "ariana",
+   "draw": 3,
+   "ans": {
+    "low": "G3",
+    "centre": "G3",
+    "high": "G4"
+   },
+   "raw": "```json\n{\n  \"low\": \"G3\",\n  \"centre\": \"G3\",\n  \"high\": \"G4\"\n}\n```"
+  },
+  {
+   "q": "perceive",
+   "clip": "bolton",
+   "draw": 3,
+   "ans": {
+    "low": "C3",
+    "centre": "F3",
+    "high": "G5"
+   },
+   "raw": "```json\n{\n  \"low\": \"C3\",\n  \"centre\": \"F3\",\n  \"high\": \"G5\"\n}\n```"
+  },
+  {
+   "q": "perceive",
+   "clip": "buble",
+   "draw": 3,
+   "ans": {
+    "low": "G3",
+    "centre": "A4",
+    "high": "G5"
+   },
+   "raw": "{\"low\": \"G3\", \"centre\": \"A4\", \"high\": \"G5\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "clarkson",
+   "draw": 3,
+   "ans": {
+    "low": "C4",
+    "centre": "E4",
+    "high": "G4"
+   },
+   "raw": "```json\n{\n  \"low\": \"C4\",\n  \"centre\": \"E4\",\n  \"high\": \"G4\"\n}\n```"
+  },
+  {
+   "q": "perceive",
+   "clip": "groban",
+   "draw": 3,
+   "ans": {
+    "low": "C3",
+    "centre": "C4",
+    "high": "C5"
+   },
+   "raw": "{\"low\": \"C3\", \"centre\": \"C4\", \"high\": \"C5\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "jackson",
+   "draw": 3,
+   "ans": {
+    "low": "C4",
+    "centre": "G4",
+    "high": "G5"
+   },
+   "raw": "{\"low\": \"C4\", \"centre\": \"G4\", \"high\": \"G5\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "wonder",
+   "draw": 3,
+   "ans": {
+    "low": "B3",
+    "centre": "F#4",
+    "high": "C5"
+   },
+   "raw": "{\"low\": \"B3\", \"centre\": \"F#4\", \"high\": \"C5\"}"
+  },
+  {
+   "q": "perceive",
+   "clip": "control-A3",
+   "draw": 3,
+   "ans": {
+    "low": "A3",
+    "centre": "A4",
+    "high": "D5"
+   },
+   "raw": "{\n  \"low\": \"A3\",\n  \"centre\": \"A4\",\n  \"high\": \"D5\"\n}"
+  },
+  {
+   "q": "perceive",
+   "clip": "control-E4",
+   "draw": 3,
+   "ans": {
+    "low": "E3",
+    "centre": "E4",
+    "high": "E5"
+   },
+   "raw": "{\"low\": \"E3\", \"centre\": \"E4\", \"high\": \"E5\"}"
+  },
+  {
+   "q": "key",
+   "case": "attya/buble",
+   "draw": 3,
+   "shift": 10,
+   "gold": -8,
+   "raw": "{\n  \"shift\": 10,\n  \"why\": \"Transposing the melody up 10 semitones would place the lowest B3 at D3, the middle D#4, the 90th percentile B4 at F#4, and the highest D5 at F#5, which are in the singer's most comfortable and best-sounding range.\"\n}"
+  },
+  {
+   "q": "key",
+   "case": "attya/jackson",
+   "draw": 3,
+   "shift": -2,
+   "gold": -4,
+   "raw": "{\"shift\": -2, \"why\": \"The singer's most comfortable range is from B3 (lowest note) to D5 (highest note), as the middle note is D#4. Transposing the melody down by 2 semitones positions the lowest note of the melody (B3) to A3, which is within the singer's most comfortable range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "attya/clarkson",
+   "draw": 3,
+   "shift": 1,
+   "gold": 2,
+   "raw": "{\"shift\": 1, \"why\": \"The lowest note in the melody is already at B3, which is comfortable for the singer.\"}"
+  },
+  {
+   "q": "key",
+   "case": "attya/bolton",
+   "draw": 3,
+   "shift": -1,
+   "gold": -4,
+   "raw": "```json\n{\"shift\": -1, \"why\": \"Transposing the melody down by one semitone will help the cloned voice stay within its most comfortable range, making the performance sound more natural and less strained.\"}\n```"
+  },
+  {
+   "q": "key",
+   "case": "attya/ariana",
+   "draw": 3,
+   "shift": -2,
+   "gold": 2,
+   "raw": "{\"shift\": -2, \"why\": \"The singer's most comfortable range is around D3, and the written melody needs to be transposed to match this range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "attya/wonder",
+   "draw": 3,
+   "shift": 4,
+   "gold": 2,
+   "raw": "{\"shift\": 4, \"why\": \"Moving the melody up by 4 semitones aligns it with the singer's lower range, ensuring the voice clone sings comfortably and stays within its best-sounding range.\"}"
+  },
+  {
+   "q": "key",
+   "case": "someday/clarkson",
+   "draw": 3,
+   "shift": 12,
+   "gold": 1,
+   "raw": "{\"shift\": 12, \"why\": \"The song's melody is in the range of C4 to G5, which is quite comfortable for the singer, requiring a significant shift upwards to find the most comfortable range of C6 to E6.\"}"
+  },
+  {
+   "q": "key",
+   "case": "someday/ariana",
+   "draw": 3,
+   "shift": -2,
+   "gold": -2,
+   "raw": "{\"shift\": -2, \"why\": \"Moving the melody down by 2 semitones will allow the singer to stay within their most comfortable and best-sounding range.\"}"
+  }
+ ]
+}

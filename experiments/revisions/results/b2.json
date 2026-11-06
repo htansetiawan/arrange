@@ -1,0 +1,328 @@
+{
+ "id": "b2",
+ "cat": "b",
+ "fixture": "synthetic",
+ "text": "I want the guitar to hear the piano and the vocal only, not the strings.",
+ "gold_ops": [
+  {
+   "op": "ask",
+   "question": "L6 guitar is your own take; a take does not listen to anything, so there is nothing to change. Did you mean a different layer?"
+  }
+ ],
+ "gold_paths": [
+  "open.questions"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"L6 (guitar) is your own recorded take (asset a1), and a take doesn't listen to any other layer, so its audio_context is already empty. It can't hear the piano, the vocal or the strings. Which of these do you mean? (a) Keep the recorded take as it is. Nothing changes, and the strings aren't an input to it anyway. (b) Replace the take with a generated guitar that hears the piano and the chorus vocal L2, the only vocal sounding in bars 33–40. That would set audio_context to [piano, L2]. It changes the route you chose for L6 and drops your recording. (c) Keep the take and make sure the strings (L4, L5) don't hear the guitar. They already don't, so this also changes nothing.\"}]",
+    "usage": {
+     "total_cost_usd": 0.0066043,
+     "duration_api_ms": 4934,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 5.9813008308410645,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "L6 (guitar) is your own recorded take (asset a1), and a take doesn't listen to any other layer, so its audio_context is already empty. It can't hear the piano, the vocal or the strings. Which of these do you mean? (a) Keep the recorded take as it is. Nothing changes, and the strings aren't an input to it anyway. (b) Replace the take with a generated guitar that hears the piano and the chorus vocal L2, the only vocal sounding in bars 33–40. That would set audio_context to [piano, L2]. It changes the route you chose for L6 and drops your recording. (c) Keep the take and make sure the strings (L4, L5) don't hear the guitar. They already don't, so this also changes nothing."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "L6 (guitar) is your own recorded take (asset a1), and a take doesn't listen to any other layer, so its audio_context is already empty. It can't hear the piano, the vocal or the strings. Which of these do you mean? (a) Keep the recorded take as it is. Nothing changes, and the strings aren't an input to it anyway. (b) Replace the take with a generated guitar that hears the piano and the chorus vocal L2, the only vocal sounding in bars 33–40. That would set audio_context to [piano, L2]. It changes the route you chose for L6 and drops your recording. (c) Keep the take and make sure the strings (L4, L5) don't hear the guitar. They already don't, so this also changes nothing."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"The guitar (L6) is your own recorded take (asset a1), and a take doesn't listen to any audio, so it has no context to change. It already hears neither the strings nor anything else. Which of these do you want? (a) Leave L6 as your take. Nothing changes, and the strings were never in its context. (b) Replace L6 with a generated guitar that hears the piano and the chorus vocal L2 (bars 33-40), not the strings L5. This drops your recorded take and needs a new render. (c) Keep your take and add a separate generated guitar layer that hears the piano and L2 only. If you choose (b) or (c), please confirm that 'the vocal' means L2, the chorus vocal, since L1 ends at bar 25.\"}]",
+    "usage": {
+     "total_cost_usd": 0.0064443,
+     "duration_api_ms": 4498,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 5.716383934020996,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "The guitar (L6) is your own recorded take (asset a1), and a take doesn't listen to any audio, so it has no context to change. It already hears neither the strings nor anything else. Which of these do you want? (a) Leave L6 as your take. Nothing changes, and the strings were never in its context. (b) Replace L6 with a generated guitar that hears the piano and the chorus vocal L2 (bars 33-40), not the strings L5. This drops your recorded take and needs a new render. (c) Keep your take and add a separate generated guitar layer that hears the piano and L2 only. If you choose (b) or (c), please confirm that 'the vocal' means L2, the chorus vocal, since L1 ends at bar 25."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "The guitar (L6) is your own recorded take (asset a1), and a take doesn't listen to any audio, so it has no context to change. It already hears neither the strings nor anything else. Which of these do you want? (a) Leave L6 as your take. Nothing changes, and the strings were never in its context. (b) Replace L6 with a generated guitar that hears the piano and the chorus vocal L2 (bars 33-40), not the strings L5. This drops your recorded take and needs a new render. (c) Keep your take and add a separate generated guitar layer that hears the piano and L2 only. If you choose (b) or (c), please confirm that 'the vocal' means L2, the chorus vocal, since L1 ends at bar 25."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"The guitar (L6) is your own recorded take, so it doesn't listen to anything. It is already the case that it hears no strings, and no context can be set on it. What did you want? (a) Leave it as is. (b) Replace the take with a generated guitar that hears the piano and the chorus vocal L2 (not the strings L5), which would be re-rendered. (c) Keep the take and change what the strings hear, for example making L5 hear only piano and L2, or leaving the guitar out of the strings' context.\"}]",
+    "usage": {
+     "total_cost_usd": 0.0053543,
+     "duration_api_ms": 3627,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 4.869762182235718,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "The guitar (L6) is your own recorded take, so it doesn't listen to anything. It is already the case that it hears no strings, and no context can be set on it. What did you want? (a) Leave it as is. (b) Replace the take with a generated guitar that hears the piano and the chorus vocal L2 (not the strings L5), which would be re-rendered. (c) Keep the take and change what the strings hear, for example making L5 hear only piano and L2, or leaving the guitar out of the strings' context."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "The guitar (L6) is your own recorded take, so it doesn't listen to anything. It is already the case that it hears no strings, and no context can be set on it. What did you want? (a) Leave it as is. (b) Replace the take with a generated guitar that hears the piano and the chorus vocal L2 (not the strings L5), which would be re-rendered. (c) Keep the take and change what the strings hear, for example making L5 hear only piano and L2, or leaving the guitar out of the strings' context."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.0527019,
+     "duration_api_ms": 23807,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 24.929906368255615,
+    "stale": [],
+    "questions": [
+     "The guitar (L6) is your own recorded take (asset a1), and a take doesn't listen to anything, so it has no audio_context to set. It already hears neither the strings nor anything else, so there is nothing to change and I left the plan as it was. Did you mean something else? (a) Re-record or re-play the guitar against the piano and vocal and drop in the new take. (b) Replace the take with a generated guitar layer, which would take piano + L2 as audio_context and exclude the strings. That would replace your take and change its route, which you decided, so I won't do it without your say-so. Note that the guitar sits in bars 33–40, where the chorus vocal is L2."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.0557019,
+     "duration_api_ms": 24785,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 25.77154302597046,
+    "stale": [],
+    "questions": [
+     "The guitar (L6) is your own recorded take, so it doesn't listen to anything. Its audio_context is already empty, and it hears neither the piano, the vocal nor the strings. I left the plan unchanged. Do you want a generated guitar layer instead, one that hears the piano and the vocal (L1/L2) but not the strings? That would replace your recorded take, and the guitar's route and kind are your decisions, so I won't change them without your say-so. Or should the take stay as it is?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.0533519,
+     "duration_api_ms": 24768,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 25.67133855819702,
+    "stale": [],
+    "questions": [
+     "The guitar (L6) is your own recorded take (route 'take'), so it doesn't listen to anything. It's your recording played back as-is, and it has no audio_context. Because of that, 'hearing the piano and the vocal only, not the strings' has nothing to change, and it is already true in the sense that the guitar hears no strings. I left the plan unchanged. Did you mean one of these? (a) Generate a guitar part that responds to the piano and vocal. That would change L6 from your take to a generated layer with audio_context [piano, L2], and the route is your decision, so I haven't done it. (b) Keep your take and just make sure the strings (L5) are not mixed over it. (c) Something else. Note that in bars 33–40 the vocal is L2, since L1 ends at bar 25."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"L6 (guitar) is your own recorded take, so it doesn't listen to anything. Its audio_context is already empty, and nothing in it can hear the piano, the vocal or the strings. The strings aren't in it either, so the plan already has nothing to change. Did you mean something else? For example, should the guitar be a generated layer that hears the piano and the vocal? That would replace your take, so I won't do it without your say-so. Or did you mean to limit what the strings (L4/L5) hear?\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.059059600000000004,
+     "duration_api_ms": 3948,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 5.046555757522583,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "L6 (guitar) is your own recorded take, so it doesn't listen to anything. Its audio_context is already empty, and nothing in it can hear the piano, the vocal or the strings. The strings aren't in it either, so the plan already has nothing to change. Did you mean something else? For example, should the guitar be a generated layer that hears the piano and the vocal? That would replace your take, so I won't do it without your say-so. Or did you mean to limit what the strings (L4/L5) hear?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"L6 (guitar) is your own recorded take, and a take doesn't listen to anything. Its audio_context is already empty, so it hears neither the strings nor the piano nor the vocal. I can't make it hear the piano and vocal without changing it from a take to a generated layer. That would replace your recording with a rendered part, and the route is your decision, so I haven't done it. Did you mean one of these? (a) Leave the take as is. (b) Replace the take with a generated guitar that has audio_context [piano, L2]. (c) Keep the take and change how the strings listen. L5 already hears piano and L2 only, and neither string layer hears the guitar.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0060706,
+     "duration_api_ms": 3921,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 5.130294322967529,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "L6 (guitar) is your own recorded take, and a take doesn't listen to anything. Its audio_context is already empty, so it hears neither the strings nor the piano nor the vocal. I can't make it hear the piano and vocal without changing it from a take to a generated layer. That would replace your recording with a rendered part, and the route is your decision, so I haven't done it. Did you mean one of these? (a) Leave the take as is. (b) Replace the take with a generated guitar that has audio_context [piano, L2]. (c) Keep the take and change how the strings listen. L5 already hears piano and L2 only, and neither string layer hears the guitar."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"L6 (guitar) is your own recorded take, and a take doesn't listen to anything. Its audio_context is already empty and it depends only on the clock, so it doesn't hear the piano, the vocal or the strings. There is nothing to change. Do you want something else instead? For example, you could make the guitar a generated layer that hears the piano and the vocal (L1 and L2) but not the strings. That would replace your recorded take, so I haven't done it.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.004910599999999999,
+     "duration_api_ms": 3053,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 4.216855525970459,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "L6 (guitar) is your own recorded take, and a take doesn't listen to anything. Its audio_context is already empty and it depends only on the clock, so it doesn't hear the piano, the vocal or the strings. There is nothing to change. Do you want something else instead? For example, you could make the guitar a generated layer that hears the piano and the vocal (L1 and L2) but not the strings. That would replace your recorded take, so I haven't done it."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ]
+ }
+}

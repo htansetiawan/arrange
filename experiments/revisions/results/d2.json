@@ -1,0 +1,704 @@
+{
+ "id": "d2",
+ "cat": "d",
+ "fixture": "synthetic",
+ "text": "Drop the room fx and use my recorded guitar there instead.",
+ "gold_ops": [
+  {
+   "op": "replace_with_take",
+   "layer": "L3",
+   "asset": "a1"
+  }
+ ],
+ "gold_paths": [
+  "layers.L3.asset",
+  "layers.L3.candidates",
+  "layers.L3.candidates[0].id",
+  "layers.L3.candidates[0].parents.clock",
+  "layers.L3.candidates[0].parents.piano",
+  "layers.L3.candidates[0].path",
+  "layers.L3.candidates[1].id",
+  "layers.L3.candidates[1].parents.clock",
+  "layers.L3.candidates[1].parents.piano",
+  "layers.L3.candidates[1].path",
+  "layers.L3.chosen",
+  "layers.L3.conditions.audio_context",
+  "layers.L3.conditions.depends_on",
+  "layers.L3.job.backend",
+  "layers.L3.job.inputs.asset",
+  "layers.L3.job.inputs.context_mix",
+  "layers.L3.job.params.guidance",
+  "layers.L3.job.params.prompt",
+  "layers.L3.job.params.seed",
+  "layers.L3.job.params.steps",
+  "layers.L3.job.params.track_name",
+  "layers.L3.job.params.variants",
+  "layers.L3.kind",
+  "layers.L3.owner.chosen",
+  "layers.L3.owner.conditions",
+  "layers.L3.owner.route",
+  "layers.L3.route"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"replace_with_take\",\"layer\":\"L3\",\"asset\":\"a1\"}]",
+    "usage": {
+     "total_cost_usd": 0.061071600000000004,
+     "duration_api_ms": 4953,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 6.052361011505127,
+    "ops": [
+     {
+      "op": "replace_with_take",
+      "layer": "L3",
+      "asset": "a1"
+     }
+    ],
+    "applied": [
+     "L3 now the creator's take a1; generation job removed"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "layers.L3.asset",
+     "layers.L3.candidates",
+     "layers.L3.candidates[0].id",
+     "layers.L3.candidates[0].parents.clock",
+     "layers.L3.candidates[0].parents.piano",
+     "layers.L3.candidates[0].path",
+     "layers.L3.candidates[1].id",
+     "layers.L3.candidates[1].parents.clock",
+     "layers.L3.candidates[1].parents.piano",
+     "layers.L3.candidates[1].path",
+     "layers.L3.chosen",
+     "layers.L3.conditions.audio_context",
+     "layers.L3.conditions.depends_on",
+     "layers.L3.job.backend",
+     "layers.L3.job.inputs.asset",
+     "layers.L3.job.inputs.context_mix",
+     "layers.L3.job.params.guidance",
+     "layers.L3.job.params.prompt",
+     "layers.L3.job.params.seed",
+     "layers.L3.job.params.steps",
+     "layers.L3.job.params.track_name",
+     "layers.L3.job.params.variants",
+     "layers.L3.kind",
+     "layers.L3.owner.chosen",
+     "layers.L3.owner.conditions",
+     "layers.L3.owner.route",
+     "layers.L3.route"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"replace_with_take\",\"layer\":\"L3\",\"asset\":\"a1\"}]",
+    "usage": {
+     "total_cost_usd": 0.0044939,
+     "duration_api_ms": 3306,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 4.525683879852295,
+    "ops": [
+     {
+      "op": "replace_with_take",
+      "layer": "L3",
+      "asset": "a1"
+     }
+    ],
+    "applied": [
+     "L3 now the creator's take a1; generation job removed"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "layers.L3.asset",
+     "layers.L3.candidates",
+     "layers.L3.candidates[0].id",
+     "layers.L3.candidates[0].parents.clock",
+     "layers.L3.candidates[0].parents.piano",
+     "layers.L3.candidates[0].path",
+     "layers.L3.candidates[1].id",
+     "layers.L3.candidates[1].parents.clock",
+     "layers.L3.candidates[1].parents.piano",
+     "layers.L3.candidates[1].path",
+     "layers.L3.chosen",
+     "layers.L3.conditions.audio_context",
+     "layers.L3.conditions.depends_on",
+     "layers.L3.job.backend",
+     "layers.L3.job.inputs.asset",
+     "layers.L3.job.inputs.context_mix",
+     "layers.L3.job.params.guidance",
+     "layers.L3.job.params.prompt",
+     "layers.L3.job.params.seed",
+     "layers.L3.job.params.steps",
+     "layers.L3.job.params.track_name",
+     "layers.L3.job.params.variants",
+     "layers.L3.kind",
+     "layers.L3.owner.chosen",
+     "layers.L3.owner.conditions",
+     "layers.L3.owner.route",
+     "layers.L3.route"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"replace_with_take\",\"layer\":\"L3\",\"asset\":\"a1\"},{\"op\":\"set_class\",\"layer\":\"L3\",\"class\":\"guitar\"}]",
+    "usage": {
+     "total_cost_usd": 0.0065039,
+     "duration_api_ms": 4843,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 6.066256046295166,
+    "ops": [
+     {
+      "op": "replace_with_take",
+      "layer": "L3",
+      "asset": "a1"
+     },
+     {
+      "op": "set_class",
+      "layer": "L3",
+      "class": "guitar"
+     }
+    ],
+    "applied": [
+     "L3 now the creator's take a1; generation job removed"
+    ],
+    "refused": [
+     {
+      "op": {
+       "op": "set_class",
+       "layer": "L3",
+       "class": "guitar"
+      },
+      "why": "L3 is a take; change a take or stub by replacing it, not by renaming its class"
+     }
+    ],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "layers.L3.asset",
+     "layers.L3.candidates",
+     "layers.L3.candidates[0].id",
+     "layers.L3.candidates[0].parents.clock",
+     "layers.L3.candidates[0].parents.piano",
+     "layers.L3.candidates[0].path",
+     "layers.L3.candidates[1].id",
+     "layers.L3.candidates[1].parents.clock",
+     "layers.L3.candidates[1].parents.piano",
+     "layers.L3.candidates[1].path",
+     "layers.L3.chosen",
+     "layers.L3.conditions.audio_context",
+     "layers.L3.conditions.depends_on",
+     "layers.L3.job.backend",
+     "layers.L3.job.inputs.asset",
+     "layers.L3.job.inputs.context_mix",
+     "layers.L3.job.params.guidance",
+     "layers.L3.job.params.prompt",
+     "layers.L3.job.params.seed",
+     "layers.L3.job.params.steps",
+     "layers.L3.job.params.track_name",
+     "layers.L3.job.params.variants",
+     "layers.L3.kind",
+     "layers.L3.owner.chosen",
+     "layers.L3.owner.conditions",
+     "layers.L3.owner.route",
+     "layers.L3.route"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L4\",\"name\":\"strings\",\"class\":\"strings\",\"kind\":\"generated\",\"text\":\"soft sustained violas and cellos, no vibrato, one chord per bar, under the left hand\",\"from\":{\"cell\":\"verse 1\",\"component\":2,\"raw\":\"<strings: soft sustained violas and cellos, no vibrato, one chord per bar, under the left hand @bar 17>\",\"chars\":[210,313]},\"anchors\":{\"enter\":{\"bar\":17,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":78.621,\"t1\":117.88,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L4/context.wav\"},\"params\":{\"track_name\":\"strings\",\"prompt\":\"soft sustained violas and cellos, no vibrato, one chord per bar, under the left hand, strings, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added",
+    "usage": {
+     "total_cost_usd": 0.10664560000000001,
+     "duration_api_ms": 26284,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 27.284327745437622,
+    "stale": [],
+    "questions": [
+     "I removed the room fx (L3) and moved your guitar take (L6) to the intro, bars 1–8. Should the guitar also stay in the chorus, bars 33–40? If so, I'd need a second guitar layer, and I need to know which take to use.",
+     "Is your guitar take long enough to cover bars 1–8, or should it enter or exit somewhere else in the intro? Nothing needs re-rendering, because the guitar is a take and nothing else depends on L3."
+    ],
+    "diff": [
+     "layers.L3.anchors.enter.bar",
+     "layers.L3.anchors.enter.beat",
+     "layers.L3.anchors.exit.bar",
+     "layers.L3.anchors.exit.beat",
+     "layers.L3.candidates[0].id",
+     "layers.L3.candidates[0].parents.clock",
+     "layers.L3.candidates[0].parents.piano",
+     "layers.L3.candidates[0].path",
+     "layers.L3.candidates[1].id",
+     "layers.L3.candidates[1].parents.clock",
+     "layers.L3.candidates[1].parents.piano",
+     "layers.L3.candidates[1].path",
+     "layers.L3.chosen",
+     "layers.L3.class",
+     "layers.L3.conditions.audio_context",
+     "layers.L3.conditions.depends_on",
+     "layers.L3.conditions.score_condition",
+     "layers.L3.conditions.voice_reference",
+     "layers.L3.from.cell",
+     "layers.L3.from.chars",
+     "layers.L3.from.component",
+     "layers.L3.from.raw",
+     "layers.L3.gain_db",
+     "layers.L3.id",
+     "layers.L3.job.backend",
+     "layers.L3.job.inputs.context_mix",
+     "layers.L3.job.params.guidance",
+     "layers.L3.job.params.prompt",
+     "layers.L3.job.params.seed",
+     "layers.L3.job.params.steps",
+     "layers.L3.job.params.track_name",
+     "layers.L3.job.params.variants",
+     "layers.L3.kind",
+     "layers.L3.name",
+     "layers.L3.notes",
+     "layers.L3.owner.anchors",
+     "layers.L3.owner.chosen",
+     "layers.L3.owner.conditions",
+     "layers.L3.owner.exists",
+     "layers.L3.owner.gain",
+     "layers.L3.owner.prompt",
+     "layers.L3.owner.route",
+     "layers.L3.route",
+     "layers.L3.text",
+     "layers.L6.anchors.enter.bar",
+     "layers.L6.anchors.exit.bar",
+     "open.questions",
+     "order"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.875,
+     "precision": 0.525,
+     "collateral": [
+      "layers.L3.anchors.enter.bar",
+      "layers.L3.anchors.enter.beat",
+      "layers.L3.anchors.exit.bar",
+      "layers.L3.anchors.exit.beat",
+      "layers.L3.class",
+      "layers.L3.conditions.score_condition",
+      "layers.L3.conditions.voice_reference",
+      "layers.L3.from.cell",
+      "layers.L3.from.chars",
+      "layers.L3.from.component",
+      "layers.L3.from.raw",
+      "layers.L3.gain_db",
+      "layers.L3.id",
+      "layers.L3.name",
+      "layers.L3.notes",
+      "layers.L3.text",
+      "layers.L6.anchors.enter.bar",
+      "layers.L6.anchors.exit.bar",
+      "order"
+     ],
+     "protected_violations": [
+      "layers.L6.anchors.enter.bar",
+      "layers.L6.anchors.exit.bar"
+     ],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L4\",\"name\":\"strings\",\"class\":\"strings\",\"kind\":\"generated\",\"text\":\"soft sustained violas and cellos, no vibrato, one chord per bar, under the left hand\",\"from\":{\"cell\":\"verse 1\",\"component\":2,\"raw\":\"<strings: soft sustained violas and cellos, no vibrato, one chord per bar, under the left hand @bar 17>\",\"chars\":[210,313]},\"anchors\":{\"enter\":{\"bar\":17,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":78.621,\"t1\":117.88,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L4/context.wav\"},\"params\":{\"track_name\":\"strings\",\"prompt\":\"soft sustained violas and cellos, no vibrato, one chord per bar, under the left hand, strings, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added",
+    "usage": {
+     "total_cost_usd": 0.054851500000000004,
+     "duration_api_ms": 28353,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 29.31572961807251,
+    "stale": [],
+    "questions": [
+     "I dropped the room fx (L3) and moved your guitar take (L6, asset a1) into the intro, bars 1–8 (enter bar 1 beat 1, exit bar 9 beat 1). That also takes it out of the chorus at bars 33–40. Did you want it in both places? If so, I'll add a second guitar layer for the intro. No other layer listened to the fx, so nothing needs re-rendering. The guitar take listens to nothing, so it needs no render either. Its t0/t1 will be recomputed from the new anchors."
+    ],
+    "diff": [
+     "layers.L3.anchors.enter.bar",
+     "layers.L3.anchors.enter.beat",
+     "layers.L3.anchors.exit.bar",
+     "layers.L3.anchors.exit.beat",
+     "layers.L3.candidates[0].id",
+     "layers.L3.candidates[0].parents.clock",
+     "layers.L3.candidates[0].parents.piano",
+     "layers.L3.candidates[0].path",
+     "layers.L3.candidates[1].id",
+     "layers.L3.candidates[1].parents.clock",
+     "layers.L3.candidates[1].parents.piano",
+     "layers.L3.candidates[1].path",
+     "layers.L3.chosen",
+     "layers.L3.class",
+     "layers.L3.conditions.audio_context",
+     "layers.L3.conditions.depends_on",
+     "layers.L3.conditions.score_condition",
+     "layers.L3.conditions.voice_reference",
+     "layers.L3.from.cell",
+     "layers.L3.from.chars",
+     "layers.L3.from.component",
+     "layers.L3.from.raw",
+     "layers.L3.gain_db",
+     "layers.L3.id",
+     "layers.L3.job.backend",
+     "layers.L3.job.inputs.context_mix",
+     "layers.L3.job.params.guidance",
+     "layers.L3.job.params.prompt",
+     "layers.L3.job.params.seed",
+     "layers.L3.job.params.steps",
+     "layers.L3.job.params.track_name",
+     "layers.L3.job.params.variants",
+     "layers.L3.kind",
+     "layers.L3.name",
+     "layers.L3.notes",
+     "layers.L3.owner.anchors",
+     "layers.L3.owner.chosen",
+     "layers.L3.owner.conditions",
+     "layers.L3.owner.exists",
+     "layers.L3.owner.gain",
+     "layers.L3.owner.prompt",
+     "layers.L3.owner.route",
+     "layers.L3.route",
+     "layers.L3.text",
+     "layers.L6.anchors.enter.bar",
+     "layers.L6.anchors.exit.bar",
+     "open.questions",
+     "order"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.875,
+     "precision": 0.525,
+     "collateral": [
+      "layers.L3.anchors.enter.bar",
+      "layers.L3.anchors.enter.beat",
+      "layers.L3.anchors.exit.bar",
+      "layers.L3.anchors.exit.beat",
+      "layers.L3.class",
+      "layers.L3.conditions.score_condition",
+      "layers.L3.conditions.voice_reference",
+      "layers.L3.from.cell",
+      "layers.L3.from.chars",
+      "layers.L3.from.component",
+      "layers.L3.from.raw",
+      "layers.L3.gain_db",
+      "layers.L3.id",
+      "layers.L3.name",
+      "layers.L3.notes",
+      "layers.L3.text",
+      "layers.L6.anchors.enter.bar",
+      "layers.L6.anchors.exit.bar",
+      "order"
+     ],
+     "protected_violations": [
+      "layers.L6.anchors.enter.bar",
+      "layers.L6.anchors.exit.bar"
+     ],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.061551499999999995,
+     "duration_api_ms": 29253,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 30.274324893951416,
+    "stale": [],
+    "questions": [
+     "I left the plan unchanged because one part of this is ambiguous. Your guitar take (L6, asset a1) is currently placed in the chorus at bars 33–40, and you decided that placement. Should I MOVE it to the intro (bars 1–8, replacing the room fx), or use it in BOTH places, with the same take also playing in the intro and the chorus bars 33–40 staying as they are?",
+     "If I move or reuse the take in the intro, is it the right length and feel for bars 1–8? The note on it says it doubles the left-hand rhythm, which suggests it was recorded for the chorus. Or do you want a different guitar take there?",
+     "Dropping the room fx (L3) is clear and doesn't affect any other layer. Nothing else listens to L3, so no layer needs re-rendering. Once you answer, I'll remove L3 and place the guitar in the intro. A take listens to nothing, so L6 won't need rendering either."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [{\"path\": \"layers.L6.anchors.enter.bar\", \"value\": 1}, {\"path\": \"layers.L6.anchors.exit.bar\", \"value\": 9}, {\"path\": \"layers.L3\", \"value\": null}, {\"path\": \"order\", \"value\": [\"L1\", \"L2\", \"L4\", \"L5\", \"L6\", \"L7\"]}], \"stale\": [], \"questions\": [\"I moved your guitar take (L6) from bars 33–40 to the intro, bars 1–8, and removed the room fx (L3). Nothing depends on either layer, so nothing needs re-rendering. Do you still want the guitar in the chorus too? If so, I'd need a second guitar layer there, and I'd need to know whether the take is long enough to cover both places.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0660336,
+     "duration_api_ms": 8783,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 9.948667049407959,
+    "edits": [
+     {
+      "path": "layers.L6.anchors.enter.bar",
+      "value": 1
+     },
+     {
+      "path": "layers.L6.anchors.exit.bar",
+      "value": 9
+     },
+     {
+      "path": "layers.L3",
+      "value": null
+     },
+     {
+      "path": "order",
+      "value": [
+       "L1",
+       "L2",
+       "L4",
+       "L5",
+       "L6",
+       "L7"
+      ]
+     }
+    ],
+    "failed_edits": [
+     {
+      "edit": {
+       "path": "layers.L3",
+       "value": null
+      },
+      "why": "'cannot replace a whole layer'"
+     }
+    ],
+    "stale": [],
+    "questions": [
+     "I moved your guitar take (L6) from bars 33–40 to the intro, bars 1–8, and removed the room fx (L3). Nothing depends on either layer, so nothing needs re-rendering. Do you still want the guitar in the chorus too? If so, I'd need a second guitar layer there, and I'd need to know whether the take is long enough to cover both places."
+    ],
+    "diff": [
+     "layers.L6.anchors.enter.bar",
+     "layers.L6.anchors.exit.bar",
+     "order"
+    ],
+    "validation": [
+     "order ['L1', 'L2', 'L4', 'L5', 'L6', 'L7'] does not list every layer exactly once (['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7'])"
+    ],
+    "outcome": "invalid",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [
+      "layers.L6.anchors.enter.bar",
+      "layers.L6.anchors.exit.bar",
+      "order"
+     ],
+     "protected_violations": [
+      "layers.L6.anchors.enter.bar",
+      "layers.L6.anchors.exit.bar"
+     ],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "invalid"
+    }
+   },
+   {
+    "raw": "{\"edits\": [{\"path\": \"layers.L3.kind\", \"value\": \"stub\"}, {\"path\": \"layers.L3.route\", \"value\": \"stub\"}, {\"path\": \"layers.L3.stub_reason\", \"value\": \"musician dropped the room fx; recorded guitar take used in the intro instead\"}, {\"path\": \"layers.L6.anchors.enter.bar\", \"value\": 1}, {\"path\": \"layers.L6.anchors.exit.bar\", \"value\": 9}], \"stale\": [], \"questions\": [\"I moved your guitar take (L6) from the chorus (bars 33–40) to the intro (bars 1–8), and turned the room fx (L3) into a silent stub so it can be restored. This means the guitar no longer plays in the chorus. Do you want it there as well? If so, I'd add a second guitar layer using the same take. Also, is the take long enough to cover the whole intro? It was planned as an 8-bar part that doubles the left hand, and it now sits under a different section. Nothing needs re-rendering: a take listens to nothing, and no other layer uses L3 as audio context.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0139202,
+     "duration_api_ms": 10444,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 11.498574018478394,
+    "edits": [
+     {
+      "path": "layers.L3.kind",
+      "value": "stub"
+     },
+     {
+      "path": "layers.L3.route",
+      "value": "stub"
+     },
+     {
+      "path": "layers.L3.stub_reason",
+      "value": "musician dropped the room fx; recorded guitar take used in the intro instead"
+     },
+     {
+      "path": "layers.L6.anchors.enter.bar",
+      "value": 1
+     },
+     {
+      "path": "layers.L6.anchors.exit.bar",
+      "value": 9
+     }
+    ],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "I moved your guitar take (L6) from the chorus (bars 33–40) to the intro (bars 1–8), and turned the room fx (L3) into a silent stub so it can be restored. This means the guitar no longer plays in the chorus. Do you want it there as well? If so, I'd add a second guitar layer using the same take. Also, is the take long enough to cover the whole intro? It was planned as an 8-bar part that doubles the left hand, and it now sits under a different section. Nothing needs re-rendering: a take listens to nothing, and no other layer uses L3 as audio context."
+    ],
+    "diff": [
+     "layers.L3.kind",
+     "layers.L3.route",
+     "layers.L3.stub_reason",
+     "layers.L6.anchors.enter.bar",
+     "layers.L6.anchors.exit.bar"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.083,
+     "precision": 0.4,
+     "collateral": [
+      "layers.L3.stub_reason",
+      "layers.L6.anchors.enter.bar",
+      "layers.L6.anchors.exit.bar"
+     ],
+     "protected_violations": [
+      "layers.L6.anchors.enter.bar",
+      "layers.L6.anchors.exit.bar"
+     ],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\":[{\"path\":\"layers.L3.kind\",\"value\":\"stub\"},{\"path\":\"layers.L3.route\",\"value\":\"stub\"},{\"path\":\"layers.L3.stub_reason\",\"value\":\"the musician dropped the room fx; their recorded guitar take (L6) covers the intro instead\"},{\"path\":\"layers.L6.anchors.enter.bar\",\"value\":1},{\"path\":\"layers.L6.anchors.exit.bar\",\"value\":9}],\"stale\":[],\"questions\":[\"I moved your guitar take (L6) from bars 33–40 to the intro, bars 1–8, and stubbed the room fx (L3) so it can be restored later. Should the guitar also stay in the chorus at bars 33–40? If so, I'll need a second guitar layer, because one layer can't sound in both places. The take was described as doubling the left-hand rhythm, so please check that it fits the intro.\"],\"tempo_map_corrections\":[]}",
+    "usage": {
+     "total_cost_usd": 0.012760200000000001,
+     "duration_api_ms": 9171,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 10.28172755241394,
+    "edits": [
+     {
+      "path": "layers.L3.kind",
+      "value": "stub"
+     },
+     {
+      "path": "layers.L3.route",
+      "value": "stub"
+     },
+     {
+      "path": "layers.L3.stub_reason",
+      "value": "the musician dropped the room fx; their recorded guitar take (L6) covers the intro instead"
+     },
+     {
+      "path": "layers.L6.anchors.enter.bar",
+      "value": 1
+     },
+     {
+      "path": "layers.L6.anchors.exit.bar",
+      "value": 9
+     }
+    ],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "I moved your guitar take (L6) from bars 33–40 to the intro, bars 1–8, and stubbed the room fx (L3) so it can be restored later. Should the guitar also stay in the chorus at bars 33–40? If so, I'll need a second guitar layer, because one layer can't sound in both places. The take was described as doubling the left-hand rhythm, so please check that it fits the intro."
+    ],
+    "diff": [
+     "layers.L3.kind",
+     "layers.L3.route",
+     "layers.L3.stub_reason",
+     "layers.L6.anchors.enter.bar",
+     "layers.L6.anchors.exit.bar"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 0.083,
+     "precision": 0.4,
+     "collateral": [
+      "layers.L3.stub_reason",
+      "layers.L6.anchors.enter.bar",
+      "layers.L6.anchors.exit.bar"
+     ],
+     "protected_violations": [
+      "layers.L6.anchors.enter.bar",
+      "layers.L6.anchors.exit.bar"
+     ],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ]
+ }
+}

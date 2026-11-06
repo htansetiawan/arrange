@@ -1,0 +1,229 @@
+{
+ "session": "S2",
+ "arm": "typed",
+ "model": "claude-opus-5-5",
+ "draw": 1,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Use the second vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L2"
+   ],
+   "arm_stale": [
+    "L2"
+   ],
+   "refused": [],
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L1",
+     "candidate": "L1c2"
+    }
+   ],
+   "elapsed": 7.1,
+   "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L1\",\"candidate\":\"L1c2\"}]"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "shift_entry",
+     "layer": "L2",
+     "by_bars": 2
+    }
+   ],
+   "elapsed": 4.1,
+   "raw": "[{\"op\":\"shift_entry\",\"layer\":\"L2\",\"by_bars\":2}]"
+  },
+  {
+   "turn": 3,
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.conditions.audio_context",
+    "layers.L2.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_context",
+     "layer": "L2",
+     "audio_context": [
+      "piano"
+     ]
+    }
+   ],
+   "elapsed": 3.6,
+   "raw": "[{\"op\":\"set_context\",\"layer\":\"L2\",\"audio_context\":[\"piano\"]}]"
+  },
+  {
+   "turn": 4,
+   "text": "Turn the vocal up 2 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_gain",
+     "layer": "L1",
+     "db": 2.0
+    }
+   ],
+   "elapsed": 3.1,
+   "raw": "[{\"op\":\"set_gain\",\"layer\":\"L1\",\"db\":2.0}]"
+  },
+  {
+   "turn": 5,
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "ask",
+     "question": "I want to move bar 33's downbeat to where the bass lands, but your two measurements don't agree. At this tempo (about 46 BPM) one beat is about 1.3 s, not half a second. Also, the plan doesn't store bar 33's exact time in the tempo map. Spreading bars 31–38 evenly puts it at about 167.9 s, but that's only an estimate. Which do you want? (a) Move bar 33's downbeat 0.5 s earlier, to wherever the bass actually lands (about 167.4 s if the 167.9 s estimate is right). This changes only the clock at bar 33: set_clock bar 33. (b) Move it one full beat earlier, about 1.3 s (to about 166.6 s), so the old beat 2 becomes the new downbeat. (c) Give me the exact time in seconds where the bass lands, and I'll put bar 33 there. One more thing: bar 32 has no played note near a tracked beat, so the grid there is a guess. Should bar 32 stay where it is, or move by the same amount? Any change to the clock marks every layer that depends on it as stale. That includes the vocal, the strings and the brass placeholder, so they'll be listed for re-rendering."
+    }
+   ],
+   "elapsed": 12.1,
+   "raw": "[{\"op\":\"ask\",\"question\":\"I want to move bar 33's downbeat to where the bass lands, but your two measurements don't agree. At this tempo (about 46 BPM) one beat is about 1.3 s, not half a second. Also, the plan doesn't store bar 33's exact time in the tempo map. Spreading bars 31–38 evenly puts it at about 167.9 s, but that's only an estimate. Which do you want? (a) Move bar 33's downbeat 0.5 s earlier, to wherever the bass actually lands (about 167.4 s if the 167.9 s estimate is right). This changes only the clock at bar 33: set_clock bar 33. (b) Move it one full beat earlier, about 1.3 s (to about 166.6 s), so the old beat 2 becomes the new downbeat. (c) Give me the exact time in seconds where the bass lands, and I'll put bar 33 there. One more thing: bar 32 has no played note near a tracked beat, so the grid there is a guess. Should bar 32 stay where it is, or move by the same amount? Any change to the clock marks every layer that depends on it as stale. That includes the vocal, the strings and the brass placeholder, so they'll be listed for re-rendering.\"}]"
+  },
+  {
+   "turn": 6,
+   "text": "Let the strings run two bars longer at the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "shift_exit",
+     "layer": "L2",
+     "by_bars": 2
+    }
+   ],
+   "elapsed": 3.3,
+   "raw": "[{\"op\":\"shift_exit\",\"layer\":\"L2\",\"by_bars\":2}]"
+  },
+  {
+   "turn": 7,
+   "text": "Make it more emotional.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "ask",
+     "question": "'More emotional' could mean several different changes, and I won't guess which. Which of these do you want? You can pick more than one. (a) Fuller strings: switch from L2c6, the softest take (-27.7 dB RMS), which you chose, to the fuller L2c4 (-20.6 dB). Or keep L2c6 and turn the strings up, for example +3 dB. The strings are already marked stale and will be re-rendered either way. (b) Strings in earlier: bring them back from bar 21 to bar 19. This undoes the two-bar delay you asked for in revision 7, so they'd sit under more of the theme. (c) A warmer vocal: switch to L1c4, your own voice an octave below. That's closest to the low male voice you liked in the Suno version. Or raise the vocal above its current +2 dB, but your notes say it should never be louder than the piano. (d) A build later on: add a new layer in the second half (bars 31–38), such as low strings or cello. This would follow your Suno reference, where the band grows after about 90 s. (e) Make the brass a real part: it's an empty placeholder now. If you want it, tell me what it should play first, because its current description is just 'empty placeholder track, nothing decided yet'. (f) Change how the strings or vocal are described, for example allowing vibrato or a bigger swell. I can't do that with these operations; it's a change to the notebook text. Also, the bar 33 downbeat question from revision 10 is still open."
+    }
+   ],
+   "elapsed": 15.8,
+   "raw": "[{\"op\":\"ask\",\"question\":\"'More emotional' could mean several different changes, and I won't guess which. Which of these do you want? You can pick more than one. (a) Fuller strings: switch from L2c6, the softest take (-27.7 dB RMS), which you chose, to the fuller L2c4 (-20.6 dB). Or keep L2c6 and turn the strings up, for example +3 dB. The strings are already marked stale and will be re-rendered either way. (b) Strings in earlier: bring them back from bar 21 to bar 19. This undoes the two-bar delay you asked for in revision 7, so they'd sit under more of the theme. (c) A warmer vocal: switch to L1c4, your own voice an octave below. That's closest to the low male voice you liked in the Suno version. Or raise the vocal above its current +2 dB, but your notes say it should never be louder than the piano. (d) A build later on: add a new layer in the second half (bars 31–38), such as low strings or cello. This would follow your Suno reference, where the band grows after about 90 s. (e) Make the brass a real part: it's an empty placeholder now. If you want it, tell me what it should play first, because its current description is just 'empty placeholder track, nothing decided yet'. (f) Change how the strings or vocal are described, for example allowing vibrato or a bigger swell. I can't do that with these operations; it's a change to the notebook text. Also, the bar 33 downbeat question from revision 10 is still open.\"}]"
+  },
+  {
+   "turn": 8,
+   "text": "Go back to the fourth vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L1",
+     "candidate": "L1c4"
+    }
+   ],
+   "elapsed": 3.1,
+   "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L1\",\"candidate\":\"L1c4\"}]"
+  }
+ ],
+ "final_drift": 1,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 7,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 1.1648
+}

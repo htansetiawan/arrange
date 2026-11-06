@@ -1,0 +1,38 @@
+{
+ "at": "2026-11-03T23:13:39.494Z",
+ "ladder": "v7",
+ "rater": "composer",
+ "steps": [
+  {
+   "clip": "Gi4",
+   "register": "right",
+   "score": 51
+  },
+  {
+   "clip": "Ci2",
+   "register": "right",
+   "score": 53
+  },
+  {
+   "clip": "Pi8",
+   "register": "high",
+   "score": 65
+  },
+  {
+   "clip": "Ri0",
+   "register": "high",
+   "score": 75
+  },
+  {
+   "clip": "Ha0",
+   "register": "high",
+   "score": 85
+  },
+  {
+   "clip": "Wi9",
+   "register": "high",
+   "score": 95
+  }
+ ],
+ "sweet": "Gi4"
+}

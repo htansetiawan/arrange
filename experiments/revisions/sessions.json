@@ -1,0 +1,180 @@
+{
+ "frozen": "2026-11-03, written before any session run; gold ops per turn are applied in order to the frozen fixture",
+ "why": "E2 scores one request at a time. A real session chains requests: the model's output plan is the next turn's input. Does free rewriting accumulate damage (lost composer decisions, drift, unflagged stale audio) where typed operations do not?",
+ "sessions": [
+  {
+   "id": "S1",
+   "fixture": "synthetic",
+   "turns": [
+    {
+     "text": "Keep my guitar exactly as I played it, whatever else changes.",
+     "gold": [
+      {
+       "op": "lock",
+       "layer": "L6"
+      }
+     ]
+    },
+    {
+     "text": "Bring the verse strings in two bars later.",
+     "gold": [
+      {
+       "op": "shift_entry",
+       "layer": "L4",
+       "by_bars": 2
+      }
+     ]
+    },
+    {
+     "text": "Go with the third strings option in the chorus.",
+     "gold": [
+      {
+       "op": "choose_candidate",
+       "layer": "L5",
+       "candidate": 3
+      }
+     ]
+    },
+    {
+     "text": "Put the brass back in, I want to hear it.",
+     "gold": [
+      {
+       "op": "unstub",
+       "layer": "L7"
+      }
+     ]
+    },
+    {
+     "text": "The verse strings should only hear the piano.",
+     "gold": [
+      {
+       "op": "set_context",
+       "layer": "L4",
+       "audio_context": [
+        "piano"
+       ]
+      }
+     ]
+    },
+    {
+     "text": "Turn the second vocal down 3 dB.",
+     "gold": [
+      {
+       "op": "set_gain",
+       "layer": "L2",
+       "db": -3
+      }
+     ]
+    },
+    {
+     "text": "The downbeat of bar 17 is at 78.9 seconds, not where you put it.",
+     "gold": [
+      {
+       "op": "set_clock",
+       "bar": 17,
+       "t": 78.9
+      }
+     ]
+    },
+    {
+     "text": "Let the chorus strings finish at the end of bar 38 instead of running to the end.",
+     "gold": [
+      {
+       "op": "set_exit",
+       "layer": "L5",
+       "bar": 39,
+       "beat": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "fixture": "real",
+   "turns": [
+    {
+     "text": "Use the second vocal take.",
+     "gold": [
+      {
+       "op": "choose_candidate",
+       "layer": "L1",
+       "candidate": 2
+      }
+     ]
+    },
+    {
+     "text": "Bring the strings in two bars later.",
+     "gold": [
+      {
+       "op": "shift_entry",
+       "layer": "L2",
+       "by_bars": 2
+      }
+     ]
+    },
+    {
+     "text": "The strings should ignore the vocal and just follow the piano.",
+     "gold": [
+      {
+       "op": "set_context",
+       "layer": "L2",
+       "audio_context": [
+        "piano"
+       ]
+      }
+     ]
+    },
+    {
+     "text": "Turn the vocal up 2 dB.",
+     "gold": [
+      {
+       "op": "set_gain",
+       "layer": "L1",
+       "db": 2
+      }
+     ]
+    },
+    {
+     "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+     "gold": [
+      {
+       "op": "set_clock",
+       "bar": 33,
+       "t": "<downbeat(33) - 0.5>"
+      }
+     ]
+    },
+    {
+     "text": "Let the strings run two bars longer at the end.",
+     "gold": [
+      {
+       "op": "shift_exit",
+       "layer": "L2",
+       "by_bars": 2
+      }
+     ]
+    },
+    {
+     "text": "Make it more emotional.",
+     "gold": [
+      {
+       "op": "ask",
+       "question": "<concrete choices>"
+      }
+     ]
+    },
+    {
+     "text": "Go back to the fourth vocal take.",
+     "gold": [
+      {
+       "op": "choose_candidate",
+       "layer": "L1",
+       "candidate": 4
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

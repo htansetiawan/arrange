@@ -1,0 +1,254 @@
+{
+ "Si1": {
+  "voice": "buble",
+  "shift": -16
+ },
+ "Pu4": {
+  "voice": "buble",
+  "shift": -14
+ },
+ "Wu0": {
+  "voice": "buble",
+  "shift": -12
+ },
+ "Ju7": {
+  "voice": "buble",
+  "shift": -10
+ },
+ "Me9": {
+  "voice": "buble",
+  "shift": -8
+ },
+ "Wa5": {
+  "voice": "buble",
+  "shift": -6
+ },
+ "Ci9": {
+  "voice": "buble",
+  "shift": -4
+ },
+ "Ke7": {
+  "voice": "buble",
+  "shift": -2
+ },
+ "Me1": {
+  "voice": "bolton",
+  "shift": -13
+ },
+ "Co5": {
+  "voice": "bolton",
+  "shift": -11
+ },
+ "Xa5": {
+  "voice": "bolton",
+  "shift": -9
+ },
+ "La0": {
+  "voice": "bolton",
+  "shift": -7
+ },
+ "La5": {
+  "voice": "bolton",
+  "shift": -5
+ },
+ "Lo6": {
+  "voice": "bolton",
+  "shift": -3
+ },
+ "Do8": {
+  "voice": "bolton",
+  "shift": -1
+ },
+ "Wi0": {
+  "voice": "bolton",
+  "shift": 1
+ },
+ "Ti1": {
+  "voice": "ariana",
+  "shift": -8
+ },
+ "Se2": {
+  "voice": "ariana",
+  "shift": -6
+ },
+ "Ju5": {
+  "voice": "ariana",
+  "shift": -4
+ },
+ "Ki7": {
+  "voice": "ariana",
+  "shift": -2
+ },
+ "Ru1": {
+  "voice": "ariana",
+  "shift": 0
+ },
+ "He2": {
+  "voice": "ariana",
+  "shift": 2
+ },
+ "Pu3": {
+  "voice": "ariana",
+  "shift": 4
+ },
+ "Xa8": {
+  "voice": "ariana",
+  "shift": 6
+ },
+ "Wo8": {
+  "voice": "wonder",
+  "shift": -12
+ },
+ "Pa0": {
+  "voice": "wonder",
+  "shift": -10
+ },
+ "Ri3": {
+  "voice": "wonder",
+  "shift": -8
+ },
+ "Li8": {
+  "voice": "wonder",
+  "shift": -6
+ },
+ "Va1": {
+  "voice": "wonder",
+  "shift": -4
+ },
+ "Ja9": {
+  "voice": "wonder",
+  "shift": -2
+ },
+ "Mu6": {
+  "voice": "wonder",
+  "shift": 0
+ },
+ "Va9": {
+  "voice": "wonder",
+  "shift": 2
+ },
+ "Vu4": {
+  "voice": "adams",
+  "shift": -12
+ },
+ "Na8": {
+  "voice": "adams",
+  "shift": -10
+ },
+ "Zu4": {
+  "voice": "adams",
+  "shift": -8
+ },
+ "Hi3": {
+  "voice": "adams",
+  "shift": -6
+ },
+ "Ci1": {
+  "voice": "adams",
+  "shift": -4
+ },
+ "To5": {
+  "voice": "adams",
+  "shift": -2
+ },
+ "Ri4": {
+  "voice": "adams",
+  "shift": 0
+ },
+ "Ze6": {
+  "voice": "adams",
+  "shift": 2
+ },
+ "Pu0": {
+  "voice": "jackson",
+  "shift": -11
+ },
+ "Do5": {
+  "voice": "jackson",
+  "shift": -9
+ },
+ "Re0": {
+  "voice": "jackson",
+  "shift": -7
+ },
+ "Sa4": {
+  "voice": "jackson",
+  "shift": -5
+ },
+ "Gu5": {
+  "voice": "jackson",
+  "shift": -3
+ },
+ "Hu4": {
+  "voice": "jackson",
+  "shift": -1
+ },
+ "Ne2": {
+  "voice": "jackson",
+  "shift": 1
+ },
+ "Ga1": {
+  "voice": "jackson",
+  "shift": 3
+ },
+ "Ja7": {
+  "voice": "clarkson",
+  "shift": -8
+ },
+ "Su5": {
+  "voice": "clarkson",
+  "shift": -6
+ },
+ "Co9": {
+  "voice": "clarkson",
+  "shift": -4
+ },
+ "Zu3": {
+  "voice": "clarkson",
+  "shift": -2
+ },
+ "Ho3": {
+  "voice": "clarkson",
+  "shift": 0
+ },
+ "So0": {
+  "voice": "clarkson",
+  "shift": 2
+ },
+ "Ju8": {
+  "voice": "clarkson",
+  "shift": 4
+ },
+ "Zo1": {
+  "voice": "clarkson",
+  "shift": 6
+ },
+ "Mo9": {
+  "voice": "groban",
+  "shift": -14
+ },
+ "Go0": {
+  "voice": "groban",
+  "shift": -12
+ },
+ "Ni3": {
+  "voice": "groban",
+  "shift": -10
+ },
+ "Sa6": {
+  "voice": "groban",
+  "shift": -8
+ },
+ "Mu7": {
+  "voice": "groban",
+  "shift": -6
+ },
+ "Zi5": {
+  "voice": "groban",
+  "shift": -4
+ },
+ "Xa2": {
+  "voice": "groban",
+  "shift": -2
+ }
+}

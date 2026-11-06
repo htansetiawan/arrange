@@ -1,0 +1,336 @@
+{
+ "id": "f1",
+ "cat": "f",
+ "fixture": "real",
+ "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+ "gold_ops": [
+  {
+   "op": "set_clock",
+   "bar": 33,
+   "t": 166.986
+  }
+ ],
+ "gold_paths": [
+  "piano-analysis.json#tempo_map"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"set_clock\",\"bar\":33,\"t\":167.4}]",
+    "usage": {
+     "total_cost_usd": 0.0678076,
+     "duration_api_ms": 4410,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 5.565376043319702,
+    "ops": [
+     {
+      "op": "set_clock",
+      "bar": 33,
+      "t": 167.4
+     }
+    ],
+    "applied": [
+     "bar 33 downbeat 167.486s -> 167.4s; beats between 162.598s and 172.714s re-spaced; map revision 1"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"Before I move bar 33 on the clock, I need one number from you. You said the grid is a beat late, but also that the bass lands about half a second earlier. At this tempo a beat is about 1.3 s, so those two don't match. I can't read the exact time of bar 33 from the plan, and my estimate from the section times is about 167.9 s. Which should I do? (a) Set bar 33 to about 167.4 s, which is half a second earlier. (b) Set bar 33 to about 166.6 s, which is one full beat earlier. (c) Use an exact time in seconds that you give me for where the bass lands. The clock change will make L1 and L2 stale only if bar 33 falls inside them. Both layers end at bar 23, so they should be unaffected.\"}]",
+    "usage": {
+     "total_cost_usd": 0.0092853,
+     "duration_api_ms": 6579,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 7.672088861465454,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "Before I move bar 33 on the clock, I need one number from you. You said the grid is a beat late, but also that the bass lands about half a second earlier. At this tempo a beat is about 1.3 s, so those two don't match. I can't read the exact time of bar 33 from the plan, and my estimate from the section times is about 167.9 s. Which should I do? (a) Set bar 33 to about 167.4 s, which is half a second earlier. (b) Set bar 33 to about 166.6 s, which is one full beat earlier. (c) Use an exact time in seconds that you give me for where the bass lands. The clock change will make L1 and L2 stale only if bar 33 falls inside them. Both layers end at bar 23, so they should be unaffected."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "Before I move bar 33 on the clock, I need one number from you. You said the grid is a beat late, but also that the bass lands about half a second earlier. At this tempo a beat is about 1.3 s, so those two don't match. I can't read the exact time of bar 33 from the plan, and my estimate from the section times is about 167.9 s. Which should I do? (a) Set bar 33 to about 167.4 s, which is half a second earlier. (b) Set bar 33 to about 166.6 s, which is one full beat earlier. (c) Use an exact time in seconds that you give me for where the bass lands. The clock change will make L1 and L2 stale only if bar 33 falls inside them. Both layers end at bar 23, so they should be unaffected."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"set_clock\",\"bar\":33,\"t\":167.375}]",
+    "usage": {
+     "total_cost_usd": 0.0061453,
+     "duration_api_ms": 4132,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 5.314856767654419,
+    "ops": [
+     {
+      "op": "set_clock",
+      "bar": 33,
+      "t": 167.375
+     }
+    ],
+    "applied": [
+     "bar 33 downbeat 167.486s -> 167.375s; beats between 162.598s and 172.714s re-spaced; map revision 1"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e8b15b0000000000000000000000000000000000000000000000\", \"class\": \"keyboard\"}, \"layers\": \"UNCHANGED\", \"order\": [\"L1\", \"L2\", \"L3\"]}, \"stale\": [\"L1\", \"L2\"], \"questions\": [\"This is a downbeat correction, so I changed the tempo map and left the layers alone. I put bar 33 at about 167.4 s. That is my estimate: the grid puts bar 33 near 167.9 s, and I moved it about 0.5 s earlier, to where you say the bass lands. Please give me the exact bass onset time, or confirm 167.4 s, before the map is rebuilt.\", \"'A beat late' would be about 1.3 s at this tempo, but you said about half a second. Is the bass really about 0.5 s before my bar 33, or is bar 33 a full beat off?\", \"L1 and L2 are marked stale because they depend on the clock and must be re-rendered. L3 (brass) also depends on the clock, but it is a silent stub with nothing rendered, so I left it off the stale list. Bars 15–22 come before bar 33, so their times may not move once the map is rebuilt. Your chosen takes L1c4 and L2c6 are kept until you re-render.\"], \"tempo_map_corrections\": [{\"bar\": 33, \"t\": 167.4}]}",
+    "usage": {
+     "total_cost_usd": 0.0835516,
+     "duration_api_ms": 15603,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 16.585378646850586,
+    "outcome": "invalid",
+    "error": "string indices must be integers, not 'str'",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "invalid"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e8b15\", \"class\": \"keyboard\"}, \"layers\": [], \"order\": [\"L1\", \"L2\", \"L3\"], \"open\": {\"questions\": []}, \"history\": []}, \"stale\": [], \"questions\": [\"I haven't changed anything yet, because I can't give you a reliable time for the corrected bar 33 downbeat. The plan only lists section boundaries (bar 31 at 157.556 s, bar 39 at 198.832 s). It doesn't list the tempo map's own time for bar 33, and I'd be guessing if I subtracted half a second from an estimate. Two things are also unclear. You say bar 33 starts a beat late, but at about 46 BPM a beat is about 1.3 s, not half a second. Can you give me the time in seconds where the bass lands on bar 33, or say whether you mean half a second or a full beat earlier? Once I have that, I'll return the correction as a tempo-map change on piano-analysis.json, with no edit to any layer. This change only affects bars 33 onward, so it moves no layer anchors. L1, L2 and L3 all depend on the clock, so they will be marked stale for re-rendering when the map is rebuilt. L3 is a stub, so it has nothing to re-render. Your choices (L1c4, L2c6) stay as they are.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0241729,
+     "duration_api_ms": 17026,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 17.89862871170044,
+    "outcome": "invalid",
+    "error": "no layer 'L1'; layers are []",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "invalid"
+    }
+   },
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Theme from The Color Purple (Henry's piano recording, 2026)\",\"revision\":5,\"note\":\"unchanged: the downbeat fix is a tempo-map correction, not a layer edit. The plan is not returned in full here. Keep the plan as it was and let the rebuild recompute t0/t1 from the corrected clock.\"},\"stale\":[\"L1\",\"L2\"],\"questions\":[\"I don't have the tempo map's exact time for bar 33, so I estimated it. Bars 31–38 span 157.556 s to 198.832 s, about 5.16 s per bar. At that spacing bar 33 falls near 167.9 s, and moving it about 0.5 s earlier gives t≈167.4. Please check this against the bass onset in piano-analysis.json.\",\"You said bar 33 starts 'a beat late' but also 'about half a second earlier'. At about 46 BPM one beat is about 1.3 s, so these don't agree. If the bass lands a full beat earlier, bar 33 would be near 166.6 s. Which did you mean?\",\"Moving bar 33 also shifts the bars after it, so I need to know whether bars 34–38 keep their current positions or move with it.\",\"L1 and L2 both end at bar 23, before bar 33, so their placement doesn't change. They are marked stale only because their conditions depend on the clock. L3 is a stub with nothing to render.\"],\"tempo_map_corrections\":[{\"bar\":33,\"t\":167.4}]}",
+    "usage": {
+     "total_cost_usd": 0.0151829,
+     "duration_api_ms": 10911,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 11.895025730133057,
+    "outcome": "invalid",
+    "error": "'layers'",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "invalid"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [], \"stale\": [\"L1\", \"L2\"], \"questions\": [\"I put bar 33's downbeat at about 167.4 s. That is my estimate: I took the bar-31 start (157.556 s) plus two bars of about 5.16 s, then moved it about 0.5 s earlier, the way you described. If you can give me the bass-onset time, I'll use that instead. L1 and L2 depend on the clock, so I've marked them stale for re-rendering. L3 is a stub with nothing rendered, so I left it out of the stale list. No layer anchors change, because the layers all sit in bars 15–22 and bar 33 is after them.\"], \"tempo_map_corrections\": [{\"bar\": 33, \"t\": 167.4}]}",
+    "usage": {
+     "total_cost_usd": 0.0696396,
+     "duration_api_ms": 6725,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 7.808897972106934,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [
+     "L1",
+     "L2"
+    ],
+    "questions": [
+     "I put bar 33's downbeat at about 167.4 s. That is my estimate: I took the bar-31 start (157.556 s) plus two bars of about 5.16 s, then moved it about 0.5 s earlier, the way you described. If you can give me the bass-onset time, I'll use that instead. L1 and L2 depend on the clock, so I've marked them stale for re-rendering. L3 is a stub with nothing rendered, so I left it out of the stale list. No layer anchors change, because the layers all sit in bars 15–22 and bar 33 is after them."
+    ],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L1",
+      "L2"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [\"L1\", \"L2\"], \"questions\": [\"I put the bar 33 downbeat at about 167.4 s. That is my estimate: the grid has bar 33 at about 167.9 s, and I moved it about half a second earlier to where you say the bass lands. Please check it against the bass onset, and give me the exact time if you have it. L3 (brass) is a silent stub, so it has nothing to re-render. No layer anchors sit at bar 33, so I edited no layers.\"], \"tempo_map_corrections\": [{\"bar\": 33, \"t\": 167.4}]}",
+    "usage": {
+     "total_cost_usd": 0.0089916,
+     "duration_api_ms": 6179,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 7.360845327377319,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [
+     "L1",
+     "L2"
+    ],
+    "questions": [
+     "I put the bar 33 downbeat at about 167.4 s. That is my estimate: the grid has bar 33 at about 167.9 s, and I moved it about half a second earlier to where you say the bass lands. Please check it against the bass onset, and give me the exact time if you have it. L3 (brass) is a silent stub, so it has nothing to re-render. No layer anchors sit at bar 33, so I edited no layers."
+    ],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L1",
+      "L2"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [\"L1\", \"L2\"], \"questions\": [\"I don't have the tempo map's own time for bar 33, so I estimated 167.4 s. That is the bar 31 to bar 39 span divided evenly (about 167.9 s), minus the roughly 0.5 s you described. Please check it against where the bass lands. L1 and L2 are marked stale because the clock changed. L3 is a stub with nothing rendered, so it has nothing to redo.\"], \"tempo_map_corrections\": [{\"bar\": 33, \"t\": 167.4}]}",
+    "usage": {
+     "total_cost_usd": 0.0090816,
+     "duration_api_ms": 6348,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 7.467240333557129,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [
+     "L1",
+     "L2"
+    ],
+    "questions": [
+     "I don't have the tempo map's own time for bar 33, so I estimated 167.4 s. That is the bar 31 to bar 39 span divided evenly (about 167.9 s), minus the roughly 0.5 s you described. Please check it against where the bass lands. L1 and L2 are marked stale because the clock changed. L3 is a stub with nothing rendered, so it has nothing to redo."
+    ],
+    "diff": [
+     "piano-analysis.json#tempo_map"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L1",
+      "L2"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,689 @@
+{
+ "id": "h1",
+ "cat": "h",
+ "fixture": "real",
+ "text": "Use the second vocal take and have the strings come in two bars later, hearing the piano only.",
+ "gold_ops": [
+  {
+   "op": "choose_candidate",
+   "layer": "vocal",
+   "candidate": 2
+  },
+  {
+   "op": "shift_entry",
+   "layer": "strings",
+   "by_bars": 2
+  },
+  {
+   "op": "set_context",
+   "layer": "strings",
+   "audio_context": [
+    "piano"
+   ]
+  }
+ ],
+ "gold_paths": [
+  "layers.L1.chosen",
+  "layers.L2.anchors.enter.bar",
+  "layers.L2.conditions.audio_context",
+  "layers.L2.conditions.depends_on",
+  "layers.L2.owner.conditions"
+ ],
+ "gold_stale": [
+  "L2"
+ ],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L1\",\"candidate\":\"L1c2\"},{\"op\":\"shift_entry\",\"layer\":\"L2\",\"by_bars\":2},{\"op\":\"set_context\",\"layer\":\"L2\",\"audio_context\":[\"piano\"]}]",
+    "usage": {
+     "total_cost_usd": 0.13918339999999998,
+     "duration_api_ms": 6717,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 7.675653457641602,
+    "ops": [
+     {
+      "op": "choose_candidate",
+      "layer": "L1",
+      "candidate": "L1c2"
+     },
+     {
+      "op": "shift_entry",
+      "layer": "L2",
+      "by_bars": 2
+     },
+     {
+      "op": "set_context",
+      "layer": "L2",
+      "audio_context": [
+       "piano"
+      ]
+     }
+    ],
+    "applied": [
+     "L1 chosen L1c4 -> L1c2",
+     "L2 enter 19:1 -> 21:1",
+     "L2 audio_context ['piano', 'L1'] -> ['piano']"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L2"
+    ],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on",
+     "layers.L2.owner.conditions"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L1\",\"candidate\":\"L1c2\"},{\"op\":\"shift_entry\",\"layer\":\"L2\",\"by_bars\":2},{\"op\":\"set_context\",\"layer\":\"L2\",\"audio_context\":[\"piano\"]}]",
+    "usage": {
+     "total_cost_usd": 0.0120014,
+     "duration_api_ms": 4424,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 5.50992488861084,
+    "ops": [
+     {
+      "op": "choose_candidate",
+      "layer": "L1",
+      "candidate": "L1c2"
+     },
+     {
+      "op": "shift_entry",
+      "layer": "L2",
+      "by_bars": 2
+     },
+     {
+      "op": "set_context",
+      "layer": "L2",
+      "audio_context": [
+       "piano"
+      ]
+     }
+    ],
+    "applied": [
+     "L1 chosen L1c4 -> L1c2",
+     "L2 enter 19:1 -> 21:1",
+     "L2 audio_context ['piano', 'L1'] -> ['piano']"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L2"
+    ],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on",
+     "layers.L2.owner.conditions"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L1\",\"candidate\":\"L1c2\"},{\"op\":\"shift_entry\",\"layer\":\"L2\",\"by_bars\":2},{\"op\":\"set_context\",\"layer\":\"L2\",\"audio_context\":[\"piano\"]}]",
+    "usage": {
+     "total_cost_usd": 0.0135814,
+     "duration_api_ms": 4430,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 5.578148126602173,
+    "ops": [
+     {
+      "op": "choose_candidate",
+      "layer": "L1",
+      "candidate": "L1c2"
+     },
+     {
+      "op": "shift_entry",
+      "layer": "L2",
+      "by_bars": 2
+     },
+     {
+      "op": "set_context",
+      "layer": "L2",
+      "audio_context": [
+       "piano"
+      ]
+     }
+    ],
+    "applied": [
+     "L1 chosen L1c4 -> L1c2",
+     "L2 enter 19:1 -> 21:1",
+     "L2 audio_context ['piano', 'L1'] -> ['piano']"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [
+     "L2"
+    ],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on",
+     "layers.L2.owner.conditions"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 6, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.2961914,
+     "duration_api_ms": 60397,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 61.40479278564453,
+    "stale": [
+     "L2"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on",
+     "layers.L2.owner.conditions"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 6, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.1839566,
+     "duration_api_ms": 64783,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 65.58758282661438,
+    "stale": [
+     "L2"
+    ],
+    "questions": [
+     "I took 'the second vocal take' to mean candidate L1c2 (english-12). It uses the stock English voice an octave down, not your own voice (L1c4, henry-12, which you picked on 31 Oct). If you meant something else, tell me which one. L1c2 is already rendered against the current clock, so the vocal doesn't need re-rendering.",
+     "The strings now come in at bar 21 beat 1 and still stop at the start of bar 23, so they play for two bars. Their prompt (your wording) still says 'under the voice' and 'entering a few bars in', even though they'll now hear only the piano. I haven't changed it. Do you want it reworded before the strings are re-rendered?"
+    ],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on",
+     "layers.L2.owner.conditions"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 6, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.1879966,
+     "duration_api_ms": 66731,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 67.55989933013916,
+    "stale": [
+     "L2"
+    ],
+    "questions": [
+     "I took 'the second vocal take' to mean candidate L1c2 (english-12, the stock English voice an octave down). It replaces L1c4, your own-voice render. If you meant a different one, tell me which.",
+     "The strings now enter at bar 21 and still stop before bar 23, so they last two bars. Is that what you want, or should the exit move too?",
+     "The notebook (ARRANGEMENT.md) still says '@bar 19' for the strings. Until you update it, a rebuild from the notebook may move them back to bar 19."
+    ],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on",
+     "layers.L2.owner.conditions"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [{\"path\": \"layers.L1.chosen\", \"value\": \"L1c2\"}, {\"path\": \"layers.L2.anchors.enter.bar\", \"value\": 21}, {\"path\": \"layers.L2.conditions.audio_context\", \"value\": [\"piano\"]}, {\"path\": \"layers.L2.conditions.depends_on\", \"value\": [\"clock\", \"piano\"]}], \"stale\": [\"L2\"], \"questions\": [\"Just checking: the second vocal take is L1c2 ('english-12'). It uses the stock English voice an octave down, not your own voice like L1c4 ('henry-12'), which you chose on 31 October. I've switched to L1c2. Tell me if you meant a different one. The strings will now play bars 21–22 and stop where they did before (bar 23 beat 1). They'll be re-rendered from the piano alone, so the vocal take no longer affects them.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.1462674,
+     "duration_api_ms": 10793,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 11.75202751159668,
+    "edits": [
+     {
+      "path": "layers.L1.chosen",
+      "value": "L1c2"
+     },
+     {
+      "path": "layers.L2.anchors.enter.bar",
+      "value": 21
+     },
+     {
+      "path": "layers.L2.conditions.audio_context",
+      "value": [
+       "piano"
+      ]
+     },
+     {
+      "path": "layers.L2.conditions.depends_on",
+      "value": [
+       "clock",
+       "piano"
+      ]
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L2"
+    ],
+    "questions": [
+     "Just checking: the second vocal take is L1c2 ('english-12'). It uses the stock English voice an octave down, not your own voice like L1c4 ('henry-12'), which you chose on 31 October. I've switched to L1c2. Tell me if you meant a different one. The strings will now play bars 21–22 and stop where they did before (bar 23 beat 1). They'll be re-rendered from the piano alone, so the vocal take no longer affects them."
+    ],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\": [{\"path\": \"layers.L1.chosen\", \"value\": \"L1c2\"}, {\"path\": \"layers.L2.anchors.enter.bar\", \"value\": 21}, {\"path\": \"layers.L2.conditions.audio_context\", \"value\": [\"piano\"]}, {\"path\": \"layers.L2.conditions.depends_on\", \"value\": [\"clock\", \"piano\"]}], \"stale\": [\"L2\"], \"questions\": [\"I read 'the second vocal take' as L1c2 (english-12), which is second in the candidate list. It uses the stock English voice, an octave below the written theme. This replaces your current pick, L1c4 (henry-12), which uses your own voice. If you meant a different candidate, tell me which one. L1c2 is already rendered on the current clock, so the vocal doesn't need re-rendering.\", \"The strings now come in at bar 21 beat 1 and still stop at the end of bar 22 (they exit at bar 23 beat 1). That leaves them two bars. They will hear only the piano, so they need a new render. The vocal change doesn't affect them because they no longer listen to the vocal.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.026734,
+     "duration_api_ms": 11915,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 12.923487424850464,
+    "edits": [
+     {
+      "path": "layers.L1.chosen",
+      "value": "L1c2"
+     },
+     {
+      "path": "layers.L2.anchors.enter.bar",
+      "value": 21
+     },
+     {
+      "path": "layers.L2.conditions.audio_context",
+      "value": [
+       "piano"
+      ]
+     },
+     {
+      "path": "layers.L2.conditions.depends_on",
+      "value": [
+       "clock",
+       "piano"
+      ]
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L2"
+    ],
+    "questions": [
+     "I read 'the second vocal take' as L1c2 (english-12), which is second in the candidate list. It uses the stock English voice, an octave below the written theme. This replaces your current pick, L1c4 (henry-12), which uses your own voice. If you meant a different candidate, tell me which one. L1c2 is already rendered on the current clock, so the vocal doesn't need re-rendering.",
+     "The strings now come in at bar 21 beat 1 and still stop at the end of bar 22 (they exit at bar 23 beat 1). That leaves them two bars. They will hear only the piano, so they need a new render. The vocal change doesn't affect them because they no longer listen to the vocal."
+    ],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\": [{\"path\": \"layers.L1.chosen\", \"value\": \"L1c2\"}, {\"path\": \"layers.L2.anchors.enter.bar\", \"value\": 21}, {\"path\": \"layers.L2.conditions.audio_context\", \"value\": [\"piano\"]}, {\"path\": \"layers.L2.conditions.depends_on\", \"value\": [\"clock\", \"piano\"]}], \"stale\": [\"L2\"], \"questions\": [], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.022474,
+     "duration_api_ms": 8743,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 9.682284593582153,
+    "edits": [
+     {
+      "path": "layers.L1.chosen",
+      "value": "L1c2"
+     },
+     {
+      "path": "layers.L2.anchors.enter.bar",
+      "value": 21
+     },
+     {
+      "path": "layers.L2.conditions.audio_context",
+      "value": [
+       "piano"
+      ]
+     },
+     {
+      "path": "layers.L2.conditions.depends_on",
+      "value": [
+       "clock",
+       "piano"
+      ]
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L2"
+    ],
+    "questions": [],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 6, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.32244,
+     "duration_api_ms": 74489,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 75.40157270431519,
+    "stale": [
+     "L2"
+    ],
+    "questions": [
+     "I took 'the second vocal take' to mean L1c2 ('english-12', the stock English voice an octave down). That replaces L1c4, the take made with your own voice. If you meant a different take, tell me which one.",
+     "I don't have the tempo map here, so the strings' new start time for bar 21 (104.958 s) is an estimate: it's halfway between bar 19 (94.671 s) and bar 23 (115.245 s). It should be replaced with the real bar-21 time from piano-analysis.json before the strings are re-rendered.",
+     "Your notebook (ARRANGEMENT.md) still says '@bar 19' for the strings. Please change it to bar 21, or a notebook rebuild may move them back to bar 19.",
+     "The strings prompt still says 'under the voice' and 'entering a few bars in'. I left it alone because those are your words. Since the strings will now hear only the piano, do you want that wording changed?",
+     "L2c6 is still marked as chosen, but it was made from bar 19 while hearing the piano and L1c4. It's flagged stale and should be re-rendered before you choose again."
+    ],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on",
+     "open.questions",
+     "open.unresolved_specs"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.8,
+     "collateral": [
+      "open.unresolved_specs"
+     ],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 6, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.1984412,
+     "duration_api_ms": 73356,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 74.29624032974243,
+    "stale": [
+     "L2"
+    ],
+    "questions": [
+     "Just checking: by 'the second vocal take' I took L1c2 ('english-12'), which uses the stock English voice an octave down. It replaces L1c4 ('henry-12'), the one made from your own voice. If you meant a different take, tell me which one.",
+     "The strings now start at bar 21. I didn't have the tempo map, so I set the start time (t0 = 104.958 s) by spacing bars 19 to 23 evenly. Please take the real time from piano-analysis.json#tempo_map before rendering.",
+     "The strings no longer hear the vocal, only the piano, so all of their current takes (including your pick, L2c6) need to be re-rendered.",
+     "Two things in ARRANGEMENT.md still say the old version: the strings line still ends in '@bar 19', and its prompt still says 'under the voice'. Do you want to change the notebook to match (bar 21, and maybe 'under the piano')? If you don't, the next rebuild may undo these edits."
+    ],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on",
+     "layers.L2.owner.conditions",
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 6, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"label\": \"english+0\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english+0.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.6, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0009, \"rms_db\": -15.7}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c2\", \"label\": \"english-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/english-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"fa7eed4baa89ad7f\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 23.4, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 0.7278, \"rms_db\": -17.0}, \"backend\": \"soulx-singer score mode\"}, {\"id\": \"L1c3\", \"label\": \"groban-12\", \"status\": \"rendered\", \"path\": \"runs/color-purple/build/L1/groban-12.mp3\", \"parents\": {\"score\": \"3a68bb8c32c4695c\", \"spine\": \"3496d64f8e76d8e8\", \"prompt\": \"92e0ab438709cf2d\", \"checkpoint\": \"models/SoulX-Singer/model.pt\", \"clock\": 0}, \"measurements\": {\"elapsed_s\": 24.3, \"generated_sr\": 24000, \"generated_s\": 44.197, \"placed_at_s\": 71.371, \"frames_match_spine\": true, \"peak\": 1.0319, \"rms_db\": -14.0}, \"backend\": \"soulx-singer score mode\"}, {\"id",
+    "usage": {
+     "total_cost_usd": 0.2051012,
+     "duration_api_ms": 74221,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 75.82985162734985,
+    "stale": [
+     "L2"
+    ],
+    "questions": [
+     "By 'second vocal take' I used L1c2 ('english-12', the stock English voice an octave down), not your own-voice take L1c4 ('henry-12') that you chose on 31 Oct. Is that the one you meant?",
+     "I estimated the strings' new start (bar 21 = 104.958 s) by spacing the beats evenly from bar 19 to bar 23. Please let the build recalculate the exact time from the tempo map before rendering.",
+     "ARRANGEMENT.md still says '@bar 19' for the strings. Should I update it to '@bar 21' so the next rebuild doesn't fight this change?"
+    ],
+    "diff": [
+     "layers.L1.chosen",
+     "layers.L2.anchors.enter.bar",
+     "layers.L2.conditions.audio_context",
+     "layers.L2.conditions.depends_on",
+     "layers.L2.owner.conditions"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [
+      "L2"
+     ],
+     "expected_stale": [
+      "L2"
+     ],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ]
+ }
+}

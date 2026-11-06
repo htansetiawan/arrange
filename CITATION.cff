@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or its evaluation suites, please cite the paper below."
+title: "ARRANGE: agent skills for adding a voice to a composer's own recording"
+type: software
+authors:
+  - family-names: Tan
+    given-names: Henry
+    affiliation: Harvard University
+repository-code: "https://github.com/htansetiawan/arrange"
+license: Apache-2.0
+version: "0.1.0"
+date-released: "2026-11-06"
+keywords:
+  - agent skills
+  - human-AI co-creation
+  - singing voice synthesis
+  - music notation
+  - large language models
+preferred-citation:
+  type: conference-paper
+  title: "ARRANGE: Agent Skills as Compilation Steps for Adding a Voice to a Composer's Own Recording"
+  authors:
+    - family-names: Tan
+      given-names: Henry
+      affiliation: Harvard University
+  collection-title: "HUMANE-LLM Workshop at ACM IUI 2027"
+  year: 2027
+  status: submitted

@@ -1,0 +1,181 @@
+{
+ "session": "S2",
+ "arm": "patch",
+ "model": "claude-sonnet-5-5",
+ "draw": 1,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Use the second vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L2"
+   ],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 5.2,
+   "raw": "{\"edits\":[{\"path\":\"layers.L1.chosen\",\"value\":\"L1c2\"}],\"stale\":[\"L2\"],\"questions\":[\"I took \\\"the second vocal take\\\" to mean L1c2 (english-12), the second candidate listed for the vocal. Tell me if you meant a different one. L2 (strings) listened to the vocal, so it needs a re-render against the new take. Its current candidates were rendered against L1c4.\"],\"tempo_map_corrections\":[]}"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 5.4,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.anchors.enter.bar\", \"value\": 21}], \"stale\": [\"L2\"], \"questions\": [\"The strings' entrance moves from bar 19 to bar 21, so they now sound for 2 bars (21–22) and still exit at bar 23. L2 has to be re-rendered, and the chosen candidate L2c6 will need re-choosing afterward. The notebook cell still says '@bar 19'. Do you want it changed to '@bar 21' so a rebuild doesn't undo this?\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 3,
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.conditions.audio_context",
+    "layers.L2.conditions.depends_on"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L2.conditions.depends_on"
+   ],
+   "new_errors": [
+    "layers.L2.conditions.depends_on"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 2.9,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.conditions.audio_context\", \"value\": [\"piano\"]}], \"stale\": [\"L2\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 4,
+   "text": "Turn the vocal up 2 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L2.conditions.depends_on"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 2.6,
+   "raw": "{\"edits\": [{\"path\": \"layers.L1.gain_db\", \"value\": 2.0}], \"stale\": [], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 5,
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L2.conditions.depends_on",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 8.8,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"I can't place the correction without the exact time of the downbeat. You said bar 33 starts a beat late, but also that the bass lands about half a second earlier. At about 46 BPM a beat is roughly 1.3 s, so those two don't agree. Is the bass landing about 0.5 s before my bar 33, or a full beat (about 1.3 s) before it? Better still, give me the time in seconds of the bass onset you mean. My grid has bar 33 at roughly 167.9 s, but that is only an estimate from the section boundaries. This is a change to the tempo map, not to any layer. Once I have the time, every layer whose conditions depend on the clock will need re-rendering: L1, L2 and L3. L3 is a stub, so it only needs its anchors recomputed.\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 6,
+   "text": "Let the strings run two bars longer at the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L2.conditions.depends_on",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 4.2,
+   "raw": "{\"edits\":[{\"path\":\"layers.L2.anchors.exit.bar\",\"value\":25}],\"stale\":[\"L2\"],\"questions\":[],\"tempo_map_corrections\":[]}"
+  },
+  {
+   "turn": 7,
+   "text": "Make it more emotional.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [
+    "layers.L2.conditions.depends_on",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 4.1,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different things here, and most of them touch decisions you own. Which do you want? (a) Strings: bring them in earlier or hold them longer, for example enter at bar 19 instead of 21, or stay under the vocal through the end of bar 22. (b) Brass: turn the placeholder into a real layer, which you haven't decided yet. (c) Vocal: a different take, or a louder or softer level. (d) Something in a particular section, such as the ending, or a swell into theme 2? The vocal and strings anchors and their chosen takes are your decisions, so I won't change them without your say-so.\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 8,
+   "text": "Go back to the fourth vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L2.conditions.depends_on",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 4.7,
+   "raw": "{\"edits\":[{\"path\":\"layers.L1.chosen\",\"value\":\"L1c4\"}],\"stale\":[],\"questions\":[\"L1's chosen take is back to L1c4 (henry-12). L2's candidates were rendered against L1c4, so I left L2 alone and nothing needs re-rendering. L1's gain_db is still 2.0, which was set for L1c2, so you may want to check the level.\"],\"tempo_map_corrections\":[]}"
+  }
+ ],
+ "final_drift": 2,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 6,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.5297
+}

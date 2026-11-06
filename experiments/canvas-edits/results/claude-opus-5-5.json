@@ -1,0 +1,5869 @@
+{
+ "model": "claude-opus-5-5",
+ "rows": {
+  "cp01": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":4,\"pitch\":\"G4\"}]",
+     "cost": 0.148588,
+     "elapsed": 2.335578203201294
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":4,\"pitch\":\"G4\"}]",
+     "cost": 0.004874,
+     "elapsed": 2.6852200031280518
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":4,\"pitch\":\"G4\"}]",
+     "cost": 0.004834,
+     "elapsed": 2.5535755157470703
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1406056,
+     "elapsed": 17.742120504379272,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.055450599999999996,
+     "elapsed": 17.994542121887207,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.055450599999999996,
+     "elapsed": 18.40883207321167,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp02": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":12,\"text\":\"path\",\"word\":\"path\"}]",
+     "cost": 0.09039660000000001,
+     "elapsed": 2.678654432296753
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":12,\"text\":\"path\",\"word\":\"path\"}]",
+     "cost": 0.0063728000000000005,
+     "elapsed": 3.336977005004883
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":12,\"text\":\"path\",\"word\":\"path\"}]",
+     "cost": 0.005832800000000001,
+     "elapsed": 2.7844789028167725
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1394324,
+     "elapsed": 17.657288074493408,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0545294,
+     "elapsed": 18.066471576690674,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0545294,
+     "elapsed": 18.26406741142273,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp03": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":32,\"pitch\":\"E5\"}]",
+     "cost": 0.0893846,
+     "elapsed": 2.296827554702759
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":32,\"pitch\":\"E5\"}]",
+     "cost": 0.0041930000000000005,
+     "elapsed": 2.34370493888855
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":32,\"pitch\":\"E5\"}]",
+     "cost": 0.004753,
+     "elapsed": 2.984086275100708
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1401804,
+     "elapsed": 17.670722007751465,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0551496,
+     "elapsed": 17.832437992095947,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0551296,
+     "elapsed": 17.64755606651306,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp04": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 20 has three A4s: \"la\" (beat 2), \"yer\" (beat 2.5) and \"red\" (beat 3.5). Which should go up to Bb4? Just one of them, or all three?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 20 has three A4s: \\\"la\\\" (beat 2), \\\"yer\\\" (beat 2.5) and \\\"red\\\" (beat 3.5). Which should go up to Bb4? Just one of them, or all three?\"}]",
+     "cost": 0.09164459999999999,
+     "elapsed": 3.3673579692840576
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 20 has three A4s: \"la\" (beat 2), \"yer\" (beat 2.5) and \"red\" (beat 3.5). Which should go up to Bb4? Just one of them, or all three?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 20 has three A4s: \\\"la\\\" (beat 2), \\\"yer\\\" (beat 2.5) and \\\"red\\\" (beat 3.5). Which should go up to Bb4? Just one of them, or all three?\"}]",
+     "cost": 0.006474000000000001,
+     "elapsed": 3.450449228286743
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 20 has three A4s: \"la\" (beat 2), \"yer\" (beat 2.5) and \"red\" (beat 3.5). Which of them should go up to Bb4? Or should all three?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 20 has three A4s: \\\"la\\\" (beat 2), \\\"yer\\\" (beat 2.5) and \\\"red\\\" (beat 3.5). Which of them should go up to Bb4? Or should all three?\"}]",
+     "cost": 0.006394,
+     "elapsed": 3.0850303173065186
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 20 has three A4s: \"la\" and \"yer\" (layer) and \"red\". Which ones should go up to Bb4? All three, or only some of them?"
+      ]
+     },
+     "answer": "{\"ask\": \"Bar 20 has three A4s: \\\"la\\\" and \\\"yer\\\" (layer) and \\\"red\\\". Which ones should go up to Bb4? All three, or only some of them?\"}",
+     "cost": 0.0912404,
+     "elapsed": 3.1310954093933105
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 20 has three A4s: on \"la\" (beat 2), \"yer\" (beat 2.5) and \"red\" (beat 3.5). Should all three go up to Bb4, or only one of them? If only one, which?"
+      ]
+     },
+     "answer": "{\"ask\": \"Bar 20 has three A4s: on \\\"la\\\" (beat 2), \\\"yer\\\" (beat 2.5) and \\\"red\\\" (beat 3.5). Should all three go up to Bb4, or only one of them? If only one, which?\"}",
+     "cost": 0.0065506,
+     "elapsed": 3.2447500228881836
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 20 has three A4s: on \"la\" (beat 2), \"yer\" (beat 2.5) and \"red\" (beat 3.5). Which of them should go up to Bb4? You can pick more than one."
+      ]
+     },
+     "answer": "{\"ask\": \"Bar 20 has three A4s: on \\\"la\\\" (beat 2), \\\"yer\\\" (beat 2.5) and \\\"red\\\" (beat 3.5). Which of them should go up to Bb4? You can pick more than one.\"}",
+     "cost": 0.0064306,
+     "elapsed": 3.017176866531372
+    }
+   ]
+  },
+  "cp05": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":27,\"pitch\":\"Bb4\"}]",
+     "cost": 0.0906686,
+     "elapsed": 4.147399187088013
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":27,\"pitch\":\"Bb4\"}]",
+     "cost": 0.0051966,
+     "elapsed": 2.593276262283325
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":27,\"pitch\":\"Bb4\"}]",
+     "cost": 0.0061966,
+     "elapsed": 3.0691981315612793
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1405444,
+     "elapsed": 17.717620372772217,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.055453199999999994,
+     "elapsed": 17.7043673992157,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.055573199999999996,
+     "elapsed": 17.68461537361145,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp06": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 15: should the A4 come in at beat 2.5, taking the second half of the F4's time, and should the voice carry \"be\" over it as a slur (be~ neath), or should the voice leave it unsung (piano only)?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 15: should the A4 come in at beat 2.5, taking the second half of the F4's time, and should the voice carry \\\"be\\\" over it as a slur (be~ neath), or should the voice leave it unsung (piano only)?\"}]",
+     "cost": 0.09870860000000001,
+     "elapsed": 6.790248155593872
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "How should the new A4 in bar 15 (between 'be' on F4 and 'neath' on Bb4) be sung? Should it be a slur that holds 'be' (sung over F4 then A4), or a piano note the voice doesn't sing? And should it take the second half of the F4, so the F4 runs 15.2 to 15.2.5 and the A4 runs 15.2.5 to 15.3?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"How should the new A4 in bar 15 (between 'be' on F4 and 'neath' on Bb4) be sung? Should it be a slur that holds 'be' (sung over F4 then A4), or a piano note the voice doesn't sing? And should it take the second half of the F4, so the F4 runs 15.2 to 15.2.5 and the A4 runs 15.2.5 to 15.3?\"}]",
+     "cost": 0.0102546,
+     "elapsed": 8.014717102050781
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "In bar 15, should the new A4 hold \"be\" as a slur (be on F4 then A4, then neath on Bb4)? And should it take the second half of the F4, so F4 is on beat 2 and A4 on beat 2.5, or come out of the Bb4's time?"
+      ]
+     },
+     "answer": "```json\n[{\"op\":\"ask\",\"question\":\"In bar 15, should the new A4 hold \\\"be\\\" as a slur (be on F4 then A4, then neath on Bb4)? And should it take the second half of the F4, so F4 is on beat 2 and A4 on beat 2.5, or come out of the Bb4's time?\"}]\n```",
+     "cost": 0.016394600000000002,
+     "elapsed": 8.719666242599487
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "guessed",
+      "wrong": [
+       "edited instead of asking"
+      ],
+      "collateral": [],
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1464244,
+     "elapsed": 20.55589199066162,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "guessed",
+      "wrong": [
+       "edited instead of asking"
+      ],
+      "collateral": [],
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.061751200000000006,
+     "elapsed": 20.93058133125305,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "guessed",
+      "wrong": [
+       "edited instead of asking"
+      ],
+      "collateral": [],
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0612512,
+     "elapsed": 20.594738006591797,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp07": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":13,\"end\":41.054},{\"op\":\"insert\",\"after\":13,\"pitch\":\"A4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"beneath\",\"t\":41.054,\"end\":41.354}]",
+     "cost": 0.0927446,
+     "elapsed": 3.5121376514434814
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":13,\"end\":41.054},{\"op\":\"insert\",\"after\":13,\"pitch\":\"A4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"beneath\",\"t\":41.054,\"end\":41.354}]",
+     "cost": 0.006999,
+     "elapsed": 3.7061829566955566
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":13,\"end\":41.054},{\"op\":\"insert\",\"after\":13,\"pitch\":\"A4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"beneath\",\"t\":41.054,\"end\":41.354}]",
+     "cost": 0.007139,
+     "elapsed": 3.633012533187866
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.14310040000000002,
+     "elapsed": 18.71426773071289,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0583556,
+     "elapsed": 19.11815619468689,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0579756,
+     "elapsed": 19.9186532497406,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp08": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":27,\"end\":56.325},{\"op\":\"delete\",\"row\":28}]",
+     "cost": 0.0912406,
+     "elapsed": 3.0543718338012695
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":27,\"end\":56.325},{\"op\":\"delete\",\"row\":28}]",
+     "cost": 0.0058564,
+     "elapsed": 2.8582546710968018
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":27,\"end\":56.325},{\"op\":\"delete\",\"row\":28}]",
+     "cost": 0.0057964,
+     "elapsed": 3.323373317718506
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1391364,
+     "elapsed": 18.127845525741577,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.053313,
+     "elapsed": 18.079412937164307,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.053833,
+     "elapsed": 17.198033571243286,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp09": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "C5 'wa' @49.81-50.72: got C5 'wa' note @49.90-50.72"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":19,\"t\":49.904},\n  {\"op\":\"set\",\"row\":18,\"end\":49.904}\n]\n```",
+     "cost": 0.1067566,
+     "elapsed": 10.029018878936768
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"move\",\"row\":19,\"bar\":18,\"beat\":3,\"end\":50.718},{\"op\":\"set\",\"row\":18,\"end\":49.902}]",
+     "cost": 0.0202568,
+     "elapsed": 10.883970975875854
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"move\",\"row\":19,\"bar\":18,\"beat\":3,\"end\":50.718},\n  {\"op\":\"set\",\"row\":18,\"end\":49.9}\n]\n```",
+     "cost": 0.0179368,
+     "elapsed": 8.43488335609436
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "Bb4 'dows' @49.63-49.81: got Bb4 'dows' note @49.63-49.94",
+       "C5 'wa' @49.81-50.72: got C5 'wa' note @49.94-50.72"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.15333239999999998,
+     "elapsed": 24.41620659828186,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "C5 'wa' @49.81-50.72: got C5 'wa' note @49.90-50.72"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.06137340000000001,
+     "elapsed": 20.492354154586792,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "C5 'wa' @49.81-50.72: got C5 'wa' note @49.90-50.72"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.06209340000000001,
+     "elapsed": 21.474260568618774,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp10": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":31,\"end\":59.271},\n  {\"op\":\"set\",\"row\":32,\"t\":59.271}\n]\n```",
+     "cost": 0.1004446,
+     "elapsed": 7.1332550048828125
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":31,\"end\":59.271},{\"op\":\"set\",\"row\":32,\"t\":59.271}]",
+     "cost": 0.018254,
+     "elapsed": 9.168742895126343
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":31,\"end\":59.271},\n  {\"op\":\"set\",\"row\":32,\"t\":59.271}\n]\n```",
+     "cost": 0.017674,
+     "elapsed": 10.95418095588684
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1494204,
+     "elapsed": 22.732588052749634,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0638306,
+     "elapsed": 22.297090768814087,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.061110599999999994,
+     "elapsed": 20.518450021743774,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp11": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":35,\"end\":61.98}]",
+     "cost": 0.09360460000000001,
+     "elapsed": 4.121327877044678
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":35,\"end\":61.984}]",
+     "cost": 0.007836,
+     "elapsed": 4.266875267028809
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[{\"op\":\"set\",\"row\":35,\"end\":61.985}]\n```",
+     "cost": 0.013196,
+     "elapsed": 7.714668035507202
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1455204,
+     "elapsed": 21.227516174316406,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0582726,
+     "elapsed": 19.31181764602661,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0580726,
+     "elapsed": 19.336575269699097,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp12": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"beneath\",\"sounds\":[\"B IY1\",\"N IY1 TH\"]}]",
+     "cost": 0.0917646,
+     "elapsed": 3.756589412689209
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"beneath\",\"sounds\":[\"B IY1\",\"N IY1 TH\"]}]",
+     "cost": 0.006318000000000001,
+     "elapsed": 3.715216875076294
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"beneath\",\"sounds\":[\"B IY1\",\"N IY1 TH\"]}]",
+     "cost": 0.008298,
+     "elapsed": 5.583500385284424
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "sounds en_B-IH0 want en_B-IY1"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1424204,
+     "elapsed": 19.374552011489868,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "sounds en_B-IH0 want en_B-IY1"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0570746,
+     "elapsed": 18.688854455947876,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "sounds en_B-IH0 want en_B-IY1"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0581146,
+     "elapsed": 19.052322387695312,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp13": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":15,\"word\":\"thee\"},{\"op\":\"pronounce\",\"word\":\"thee\",\"sounds\":[\"DH IY1\"]}]",
+     "cost": 0.0979486,
+     "elapsed": 5.767244338989258
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":15,\"word\":\"thee\"},\n  {\"op\":\"pronounce\",\"word\":\"thee\",\"sounds\":[\"DH IY1\"]}\n]\n```",
+     "cost": 0.018895600000000002,
+     "elapsed": 9.767867088317871
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":15,\"word\":\"thee\"},\n  {\"op\":\"pronounce\",\"word\":\"thee\",\"sounds\":[\"DH IY1\"]}\n]\n```",
+     "cost": 0.0140156,
+     "elapsed": 7.171176433563232
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1409644,
+     "elapsed": 18.937076330184937,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.055772199999999994,
+     "elapsed": 18.4864559173584,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "sounds en_DH-AH0 want en_DH-IY1"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.05895220000000001,
+     "elapsed": 20.44319438934326,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp16": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":37,\"kind\":\"note\",\"text\":\"a\",\"word\":\"a\"},\n  {\"op\":\"set\",\"row\":38,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"a\"}\n]\n```",
+     "cost": 0.09357259999999999,
+     "elapsed": 3.3878042697906494
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":37,\"kind\":\"note\",\"text\":\"a\",\"word\":\"a\"},{\"op\":\"set\",\"row\":38,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"a\"}]",
+     "cost": 0.0080182,
+     "elapsed": 3.6981406211853027
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":37,\"kind\":\"note\",\"text\":\"a\",\"word\":\"a\"},{\"op\":\"set\",\"row\":38,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"a\"}]",
+     "cost": 0.0070382,
+     "elapsed": 3.489885091781616
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1441484,
+     "elapsed": 19.858667135238647,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0601348,
+     "elapsed": 20.371422052383423,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.059214800000000005,
+     "elapsed": 20.13401770591736,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd01": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":4,\"pitch\":\"E4\"}]",
+     "cost": 0.0922766,
+     "elapsed": 3.3882734775543213
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":4,\"pitch\":\"E4\"}]",
+     "cost": 0.0050408,
+     "elapsed": 2.6632418632507324
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":4,\"pitch\":\"E4\"}]",
+     "cost": 0.0049608,
+     "elapsed": 2.459043264389038
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1488924,
+     "elapsed": 19.67611336708069,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0617114,
+     "elapsed": 19.6639461517334,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0615314,
+     "elapsed": 19.616214990615845,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd02": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"text\":\"stairs\",\"word\":\"stairs\"}]",
+     "cost": 0.0921406,
+     "elapsed": 2.463325262069702
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"text\":\"stairs\",\"word\":\"stairs\"}]",
+     "cost": 0.0057194,
+     "elapsed": 2.771815538406372
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"text\":\"stairs\",\"word\":\"stairs\"}]",
+     "cost": 0.005839400000000001,
+     "elapsed": 2.735203742980957
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.14809640000000002,
+     "elapsed": 20.171425342559814,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.06083,
+     "elapsed": 20.06532120704651,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.06083,
+     "elapsed": 19.358145713806152,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd03": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 22 has three C5 notes: \"soft\" (beat 1), \"step\" (beat 2) and \"that\" (beat 3). Should one of them be D5 (which one), or all three?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 22 has three C5 notes: \\\"soft\\\" (beat 1), \\\"step\\\" (beat 2) and \\\"that\\\" (beat 3). Should one of them be D5 (which one), or all three?\"}]",
+     "cost": 0.09349660000000001,
+     "elapsed": 3.225160598754883
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 22 has three C5s: 'soft' (beat 1), 'step' (beat 2) and 'that' (beat 3). Which should be D5? Just one of them, or all three?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 22 has three C5s: 'soft' (beat 1), 'step' (beat 2) and 'that' (beat 3). Which should be D5? Just one of them, or all three?\"}]",
+     "cost": 0.006120800000000001,
+     "elapsed": 4.038798093795776
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 22 has three C5s: \"soft\" (beat 1), \"step\" (beat 2) and \"that\" (beat 3). Which should be D5? Just one of them, or all three?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 22 has three C5s: \\\"soft\\\" (beat 1), \\\"step\\\" (beat 2) and \\\"that\\\" (beat 3). Which should be D5? Just one of them, or all three?\"}]",
+     "cost": 0.0067808,
+     "elapsed": 4.449612617492676
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 22 has three C5s (\"soft\", \"step\" and \"that\"). Should all three become D5, or just one of them?"
+      ]
+     },
+     "answer": "{\"ask\": \"Bar 22 has three C5s (\\\"soft\\\", \\\"step\\\" and \\\"that\\\"). Should all three become D5, or just one of them?\"}",
+     "cost": 0.0929124,
+     "elapsed": 3.3396832942962646
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 22 has three C5 notes (\"soft\", \"step\" and \"that\"). Should all three change to D5, or only one of them, and if so which?"
+      ]
+     },
+     "answer": "{\"ask\": \"Bar 22 has three C5 notes (\\\"soft\\\", \\\"step\\\" and \\\"that\\\"). Should all three change to D5, or only one of them, and if so which?\"}",
+     "cost": 0.005671400000000001,
+     "elapsed": 2.7281887531280518
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 22 has three C5s (\"soft\", \"step\" and \"that\"). Should all of them become D5, or only one? If only one, which?"
+      ]
+     },
+     "answer": "{\"ask\": \"Bar 22 has three C5s (\\\"soft\\\", \\\"step\\\" and \\\"that\\\"). Should all of them become D5, or only one? If only one, which?\"}",
+     "cost": 0.005671400000000001,
+     "elapsed": 2.9962987899780273
+    }
+   ]
+  },
+  "sd04": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":22,\"pitch\":\"D5\"}]",
+     "cost": 0.0926486,
+     "elapsed": 2.887965679168701
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":22,\"pitch\":\"D5\"}]",
+     "cost": 0.005619600000000001,
+     "elapsed": 2.7188618183135986
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":22,\"pitch\":\"D5\"}]",
+     "cost": 0.0054796,
+     "elapsed": 2.887139081954956
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.15486439999999999,
+     "elapsed": 22.200860738754272,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0681902,
+     "elapsed": 22.542319297790527,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "By note 23, do you mean 'step' (bar 22, beat 2) or 'that' (bar 22, beat 3)? Both are currently C5."
+      ]
+     },
+     "answer": "{\"ask\": \"By note 23, do you mean 'step' (bar 22, beat 2) or 'that' (bar 22, beat 3)? Both are currently C5.\"}",
+     "cost": 0.0172302,
+     "elapsed": 7.48021125793457
+    }
+   ]
+  },
+  "sd05": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":7,\"pitch\":\"A4\"}]",
+     "cost": 0.0923206,
+     "elapsed": 3.432180166244507
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":7,\"pitch\":\"A4\"}]",
+     "cost": 0.0050814,
+     "elapsed": 2.8906028270721436
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":7,\"pitch\":\"A4\"}]",
+     "cost": 0.0048814,
+     "elapsed": 3.1180026531219482
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1491964,
+     "elapsed": 20.25583529472351,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.061652000000000005,
+     "elapsed": 20.273446321487427,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.061532,
+     "elapsed": 19.649545669555664,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd06": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":2,\"end\":13.383},\n  {\"op\":\"insert\",\"after\":2,\"pitch\":\"D4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"the\",\"t\":13.383,\"end\":13.604}\n]\n```",
+     "cost": 0.0950086,
+     "elapsed": 3.395038604736328
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":2,\"end\":13.3825},{\"op\":\"insert\",\"after\":2,\"pitch\":\"D4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"the\",\"t\":13.3825,\"end\":13.604}]",
+     "cost": 0.007566600000000001,
+     "elapsed": 3.1667802333831787
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":2,\"end\":13.383},\n  {\"op\":\"insert\",\"after\":2,\"pitch\":\"D4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"the\",\"t\":13.383,\"end\":13.604}\n]\n```",
+     "cost": 0.008546600000000001,
+     "elapsed": 4.3997962474823
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "D4 '~' @13.38-13.60: got D4 '_' note @13.38-13.60"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1579244,
+     "elapsed": 24.272401809692383,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "D4 '~' @13.38-13.60: got D4 'the' note @13.38-13.60"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0669172,
+     "elapsed": 22.831888675689697,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "D4 '~' @13.38-13.60: got D4 '_' note @13.38-13.60"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.07091719999999999,
+     "elapsed": 24.7606258392334,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd07": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Which pitch should the new note between \"is\" (18.1) and \"drif\" (18.2) have, and should it hold \"is\" as a slur or carry a new syllable (which one)?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Which pitch should the new note between \\\"is\\\" (18.1) and \\\"drif\\\" (18.2) have, and should it hold \\\"is\\\" as a slur or carry a new syllable (which one)?\"}]",
+     "cost": 0.0950686,
+     "elapsed": 3.9566650390625
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 18 has \"is\" on beat 1 and \"drif\" on beat 2, so the new note would go at beat 1.5 and take the second half of \"is\". What pitch should it be (\"is\" is C5), and should it hold \"is\" as a slur or carry a new syllable (which one)?"
+      ]
+     },
+     "answer": "```json\n[{\"op\":\"ask\",\"question\":\"Bar 18 has \\\"is\\\" on beat 1 and \\\"drif\\\" on beat 2, so the new note would go at beat 1.5 and take the second half of \\\"is\\\". What pitch should it be (\\\"is\\\" is C5), and should it hold \\\"is\\\" as a slur or carry a new syllable (which one)?\"}]\n```",
+     "cost": 0.0094006,
+     "elapsed": 5.392944574356079
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "In bar 18, \"is\" (C5, beat 1) runs straight into \"drif\" (C5, beat 2), so there's no gap between them. What pitch should the new note be, and what should it sing: a slur holding \"is\", or a new syllable (which one)? Should I take its time from the end of \"is\"?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"In bar 18, \\\"is\\\" (C5, beat 1) runs straight into \\\"drif\\\" (C5, beat 2), so there's no gap between them. What pitch should the new note be, and what should it sing: a slur holding \\\"is\\\", or a new syllable (which one)? Should I take its time from the end of \\\"is\\\"?\"}]",
+     "cost": 0.0535732,
+     "elapsed": 6.180843830108643
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "What pitch should the new note have, and should it be a new syllable (which word?) or should 'is' hold over onto it?"
+      ]
+     },
+     "answer": "{\"ask\": \"What pitch should the new note have, and should it be a new syllable (which word?) or should 'is' hold over onto it?\"}",
+     "cost": 0.09420440000000001,
+     "elapsed": 4.301769018173218
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "What lyric should the new note between \"is\" and \"drif\" have (a new word, or a held-over \"is\"), and what pitch?"
+      ]
+     },
+     "answer": "{\"ask\": \"What lyric should the new note between \\\"is\\\" and \\\"drif\\\" have (a new word, or a held-over \\\"is\\\"), and what pitch?\"}",
+     "cost": 0.0082712,
+     "elapsed": 5.0728936195373535
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "What pitch should the new note be (for example C5, to match \"is\" and \"drif\"), and should it carry \"is\" over two notes or have its own syllable?"
+      ]
+     },
+     "answer": "{\"ask\": \"What pitch should the new note be (for example C5, to match \\\"is\\\" and \\\"drif\\\"), and should it carry \\\"is\\\" over two notes or have its own syllable?\"}",
+     "cost": 0.0077512,
+     "elapsed": 4.075416326522827
+    }
+   ]
+  },
+  "sd08": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "45 rows, gold has 44"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[{\"op\":\"set\",\"row\":29,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"Dancing\"}]\n```",
+     "cost": 0.1012846,
+     "elapsed": 7.163338661193848
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "45 rows, gold has 44"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":29,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"Dancing\"}\n]\n```",
+     "cost": 0.012943999999999999,
+     "elapsed": 6.968919277191162
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "45 rows, gold has 44"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":29,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"Dancing\"}\n]\n```",
+     "cost": 0.016424,
+     "elapsed": 7.6133129596710205
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1478404,
+     "elapsed": 19.100101947784424,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0605146,
+     "elapsed": 19.98677635192871,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0604146,
+     "elapsed": 19.441295862197876,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd09": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[{\"op\":\"move\",\"row\":10,\"bar\":16,\"beat\":2,\"end\":19.309},{\"op\":\"set\",\"row\":9,\"end\":18.064}]\n```",
+     "cost": 0.1020006,
+     "elapsed": 7.680161237716675
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":9,\"end\":18.064},{\"op\":\"move\",\"row\":10,\"bar\":16,\"beat\":2,\"end\":19.309}]",
+     "cost": 0.0201834,
+     "elapsed": 9.434941530227661
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":9,\"end\":18.064},\n  {\"op\":\"move\",\"row\":10,\"bar\":16,\"beat\":2,\"end\":19.309}\n]\n```",
+     "cost": 0.0195634,
+     "elapsed": 8.820945024490356
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "G4 'way' @18.13-19.31: got G4 'way' note @18.06-19.31"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.15455639999999998,
+     "elapsed": 22.828755378723145,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "G4 'way' @18.13-19.31: got G4 'way' note @18.06-19.31"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.068854,
+     "elapsed": 23.478044748306274,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "G4 'way' @18.13-19.31: got G4 'way' note @18.06-19.31"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.06765399999999999,
+     "elapsed": 22.445499658584595,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd10": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "How much earlier should \"lamps\" (row 6, now at bar 14 beat 2) start? Should it come in on bar 14 beat 1, right after \"warm\" ends, or halfway at beat 1.5? And should it then hold until \"in\" at bar 15, or keep its current length?"
+      ]
+     },
+     "answer": "```json\n[{\"op\":\"ask\",\"question\":\"How much earlier should \\\"lamps\\\" (row 6, now at bar 14 beat 2) start? Should it come in on bar 14 beat 1, right after \\\"warm\\\" ends, or halfway at beat 1.5? And should it then hold until \\\"in\\\" at bar 15, or keep its current length?\"}]\n```",
+     "cost": 0.1057526,
+     "elapsed": 8.856037855148315
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Where should \"lamps\" start instead? Right now it's on bar 14 beat 2. Should I move it to bar 14 beat 1, or just nudge it earlier by a set amount (for example 0.1 s)? Should it still end where \"in\" starts in bar 15?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Where should \\\"lamps\\\" start instead? Right now it's on bar 14 beat 2. Should I move it to bar 14 beat 1, or just nudge it earlier by a set amount (for example 0.1 s)? Should it still end where \\\"in\\\" starts in bar 15?\"}]",
+     "cost": 0.0243612,
+     "elapsed": 11.920149803161621
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "How much earlier should \"lamps\" start? It's now on bar 14 beat 2. Should it move to the downbeat (bar 14 beat 1, right where \"warm\" ends) or only half a beat earlier (bar 14 beat 1.5)?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"How much earlier should \\\"lamps\\\" start? It's now on bar 14 beat 2. Should it move to the downbeat (bar 14 beat 1, right where \\\"warm\\\" ends) or only half a beat earlier (bar 14 beat 1.5)?\"}]",
+     "cost": 0.0195412,
+     "elapsed": 10.384113311767578
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.16892839999999998,
+     "elapsed": 29.809441804885864,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.08603179999999999,
+     "elapsed": 35.21015381813049,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0744918,
+     "elapsed": 25.739829301834106,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd11": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":26,\"end\":26.404}]",
+     "cost": 0.1262384,
+     "elapsed": 8.543710947036743
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[{\"op\":\"set\",\"row\":26,\"end\":26.403}]\n```",
+     "cost": 0.0098618,
+     "elapsed": 4.415831089019775
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[{\"op\":\"set\",\"row\":26,\"end\":26.403}]\n```",
+     "cost": 0.0120618,
+     "elapsed": 5.443493366241455
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.15671239999999997,
+     "elapsed": 23.50810217857361,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0666324,
+     "elapsed": 21.932223558425903,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0688724,
+     "elapsed": 23.864139795303345,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd12": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"waltz\",\"sounds\":[\"W AO1 L S\"]}]",
+     "cost": 0.0922766,
+     "elapsed": 2.6716084480285645
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"waltz\",\"sounds\":[\"W AO1 L S\"]}]",
+     "cost": 0.005943800000000001,
+     "elapsed": 2.8877241611480713
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"waltz\",\"sounds\":[\"W AO1 L S\"]}]",
+     "cost": 0.0055038000000000005,
+     "elapsed": 2.624051094055176
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "sounds en_W-AO1-L-T-S want en_W-AO1-L-S"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.15897239999999999,
+     "elapsed": 25.0206515789032,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "sounds en_W-AO1-L-T-S want en_W-AO1-L-S"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0704344,
+     "elapsed": 24.527934312820435,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "sounds en_W-AO1-L-T-S want en_W-AO1-L-S"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.07367439999999999,
+     "elapsed": 26.203665494918823,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at01": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":10,\"pitch\":\"D4\"}]",
+     "cost": 0.08832459999999999,
+     "elapsed": 2.9191079139709473
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":10,\"pitch\":\"D4\"}]",
+     "cost": 0.004771,
+     "elapsed": 2.774812698364258
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":10,\"pitch\":\"D4\"}]",
+     "cost": 0.004811,
+     "elapsed": 2.8066911697387695
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1342164,
+     "elapsed": 17.2220299243927,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.050827,
+     "elapsed": 16.65604591369629,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.051047,
+     "elapsed": 16.269933223724365,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at02": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":10,\"text\":\"sea\",\"word\":\"sea\"}]",
+     "cost": 0.11402879999999999,
+     "elapsed": 3.72418475151062
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":10,\"text\":\"sea\",\"word\":\"sea\"}]",
+     "cost": 0.0046882,
+     "elapsed": 2.179231643676758
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":10,\"text\":\"sea\",\"word\":\"sea\"}]",
+     "cost": 0.0048281999999999995,
+     "elapsed": 2.3670599460601807
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1332644,
+     "elapsed": 16.699371099472046,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0501242,
+     "elapsed": 16.09146738052368,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0501242,
+     "elapsed": 16.76719570159912,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at03": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 13 has four D4s: 'each' (beat 3.75), 'light' (beat 4), 'went' (beat 4.25) and 'dark' (beat 4.75). Should one of them be Eb4, or all four?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 13 has four D4s: 'each' (beat 3.75), 'light' (beat 4), 'went' (beat 4.25) and 'dark' (beat 4.75). Should one of them be Eb4, or all four?\"}]",
+     "cost": 0.0899326,
+     "elapsed": 3.159762382507324
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 13 has four D4s: 'each' (beat 3.75), 'light' (beat 4), 'went' (beat 4.25) and 'dark' (beat 4.75). Should one of them be Eb4, or all four?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 13 has four D4s: 'each' (beat 3.75), 'light' (beat 4), 'went' (beat 4.25) and 'dark' (beat 4.75). Should one of them be Eb4, or all four?\"}]",
+     "cost": 0.0064102000000000004,
+     "elapsed": 2.7028098106384277
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 13 has four D4s: 'each' (beat 3.75), 'light' (beat 4), 'went' (beat 4.25) and 'dark' (beat 4.75). Should all four become Eb4, or only one of them? If only one, which?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 13 has four D4s: 'each' (beat 3.75), 'light' (beat 4), 'went' (beat 4.25) and 'dark' (beat 4.75). Should all four become Eb4, or only one of them? If only one, which?\"}]",
+     "cost": 0.006630200000000001,
+     "elapsed": 2.9121928215026855
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 13 has four D4s (on \"each\", \"light\", \"went\" and \"dark\"). Should all four become Eb4, or only one of them? If only one, which?"
+      ]
+     },
+     "answer": "{\"ask\": \"Bar 13 has four D4s (on \\\"each\\\", \\\"light\\\", \\\"went\\\" and \\\"dark\\\"). Should all four become Eb4, or only one of them? If only one, which?\"}",
+     "cost": 0.0895044,
+     "elapsed": 3.1641881465911865
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 13 has four D4 notes, on \"each\", \"light\", \"went\" and \"dark\". Should all four become Eb4, or only one of them? If only one, which?"
+      ]
+     },
+     "answer": "{\"ask\": \"Bar 13 has four D4 notes, on \\\"each\\\", \\\"light\\\", \\\"went\\\" and \\\"dark\\\". Should all four become Eb4, or only one of them? If only one, which?\"}",
+     "cost": 0.0065462,
+     "elapsed": 3.571171760559082
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 13 has four D4s, on \"each\", \"light\", \"went\" and \"dark\". Should all four become Eb4, or only one of them? If only one, which?"
+      ]
+     },
+     "answer": "{\"ask\": \"Bar 13 has four D4s, on \\\"each\\\", \\\"light\\\", \\\"went\\\" and \\\"dark\\\". Should all four become Eb4, or only one of them? If only one, which?\"}",
+     "cost": 0.0061062,
+     "elapsed": 3.3275723457336426
+    }
+   ]
+  },
+  "at04": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":5,\"pitch\":\"Eb4\"}]",
+     "cost": 0.0877206,
+     "elapsed": 2.8622732162475586
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":5,\"pitch\":\"Eb4\"}]",
+     "cost": 0.0049904,
+     "elapsed": 3.0081491470336914
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":5,\"pitch\":\"Eb4\"}]",
+     "cost": 0.0050104,
+     "elapsed": 2.969974994659424
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.13383240000000002,
+     "elapsed": 16.147424697875977,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.051146399999999995,
+     "elapsed": 16.84869146347046,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0506064,
+     "elapsed": 16.45162320137024,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at05": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"pitch\":\"Eb4\"}]",
+     "cost": 0.0885566,
+     "elapsed": 3.215259075164795
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"pitch\":\"Eb4\"}]",
+     "cost": 0.0049698,
+     "elapsed": 3.050355911254883
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"pitch\":\"Eb4\"}]",
+     "cost": 0.0049698,
+     "elapsed": 2.995295286178589
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1342484,
+     "elapsed": 18.115650177001953,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0509658,
+     "elapsed": 16.434303045272827,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0510458,
+     "elapsed": 16.287341356277466,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at06": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":26,\"pitch\":\"B4\"}]",
+     "cost": 0.0887766,
+     "elapsed": 2.6917457580566406
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":26,\"pitch\":\"B4\"}]",
+     "cost": 0.005008800000000001,
+     "elapsed": 3.2759084701538086
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":26,\"pitch\":\"B4\"}]",
+     "cost": 0.0050688,
+     "elapsed": 2.6798207759857178
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1342084,
+     "elapsed": 16.402216911315918,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0510448,
+     "elapsed": 16.285013675689697,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.050924800000000006,
+     "elapsed": 16.381324768066406,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at07": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":31,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"of\"},\n  {\"op\":\"set\",\"row\":32,\"kind\":\"note\",\"text\":\"mine\",\"word\":\"mine\"}\n]\n```",
+     "cost": 0.0928566,
+     "elapsed": 4.168617486953735
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":31,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"of\"},\n  {\"op\":\"set\",\"row\":32,\"kind\":\"note\",\"text\":\"mine\",\"word\":\"mine\"}\n]\n```",
+     "cost": 0.008294800000000001,
+     "elapsed": 4.870107412338257
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":31,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"of\"},\n  {\"op\":\"set\",\"row\":32,\"kind\":\"note\",\"text\":\"mine\",\"word\":\"mine\"}\n]\n```",
+     "cost": 0.0093348,
+     "elapsed": 4.7826573848724365
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1394684,
+     "elapsed": 18.637593507766724,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.057270800000000004,
+     "elapsed": 20.12069034576416,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0562908,
+     "elapsed": 18.8880295753479,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at08": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":13,\"end\":56.516},{\"op\":\"insert\",\"after\":13,\"pitch\":\"C4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"waited\",\"t\":56.516,\"end\":56.616}]",
+     "cost": 0.0907246,
+     "elapsed": 3.15165376663208
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":13,\"end\":56.516},{\"op\":\"insert\",\"after\":13,\"pitch\":\"C4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"waited\",\"t\":56.516,\"end\":56.616}]",
+     "cost": 0.007272000000000001,
+     "elapsed": 3.1039011478424072
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":13,\"end\":56.516},{\"op\":\"insert\",\"after\":13,\"pitch\":\"C4\",\"kind\":\"slur\",\"text\":\"~\",\"word\":\"waited\",\"t\":56.516,\"end\":56.616}]",
+     "cost": 0.007232000000000001,
+     "elapsed": 3.189434766769409
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1378364,
+     "elapsed": 18.717529773712158,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.054048000000000006,
+     "elapsed": 17.661193132400513,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.05412800000000001,
+     "elapsed": 17.55294966697693,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at09": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "In bar 14, should the new C4 between \"wai\" (D4) and \"ted\" (Eb4) hold \"wai\" as a slur, or be a piano note the voice doesn't sing? Also, should it take the second half of \"wai\" (56.516–56.616 s), or some other timing?"
+      ]
+     },
+     "answer": "```json\n[{\"op\":\"ask\",\"question\":\"In bar 14, should the new C4 between \\\"wai\\\" (D4) and \\\"ted\\\" (Eb4) hold \\\"wai\\\" as a slur, or be a piano note the voice doesn't sing? Also, should it take the second half of \\\"wai\\\" (56.516–56.616 s), or some other timing?\"}]\n```",
+     "cost": 0.0978246,
+     "elapsed": 6.940082311630249
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Should the new C4 between \"wai\" (D4) and \"ted\" (Eb4) carry \"wai\" as a slur (wai: D4 C4) or be an unsung piano note? Should it take the second half of the D4 (56.516–56.616) to fit?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Should the new C4 between \\\"wai\\\" (D4) and \\\"ted\\\" (Eb4) carry \\\"wai\\\" as a slur (wai: D4 C4) or be an unsung piano note? Should it take the second half of the D4 (56.516–56.616) to fit?\"}]",
+     "cost": 0.016871,
+     "elapsed": 8.576392889022827
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 14 has D4 'wai' then Eb4 'ted' (16th notes at beats 4.5 and 4.75). Should the new C4 hold 'wai' (slur) or carry 'ted', and should it take its time from the D4 (wai becomes D4 C4, then ted on Eb4 at 4.75)?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 14 has D4 'wai' then Eb4 'ted' (16th notes at beats 4.5 and 4.75). Should the new C4 hold 'wai' (slur) or carry 'ted', and should it take its time from the D4 (wai becomes D4 C4, then ted on Eb4 at 4.75)?\"}]",
+     "cost": 0.017290999999999997,
+     "elapsed": 8.33504867553711
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.14221640000000002,
+     "elapsed": 20.28510880470276,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.061066999999999996,
+     "elapsed": 20.90493869781494,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.059107,
+     "elapsed": 21.112700939178467,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at10": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":20,\"end\":60.789},{\"op\":\"delete\",\"row\":21}]",
+     "cost": 0.0894726,
+     "elapsed": 2.7227559089660645
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":20,\"end\":60.789},{\"op\":\"delete\",\"row\":21}]",
+     "cost": 0.0060732,
+     "elapsed": 2.769436836242676
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":20,\"end\":60.789},{\"op\":\"delete\",\"row\":21}]",
+     "cost": 0.0057132,
+     "elapsed": 2.7741565704345703
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.13394440000000002,
+     "elapsed": 16.66586422920227,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.05058920000000001,
+     "elapsed": 16.29990315437317,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.050989200000000005,
+     "elapsed": 16.80516505241394,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at11": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":0,\"end\":50.103},{\"op\":\"move\",\"row\":1,\"bar\":13,\"beat\":2,\"end\":51.398}]",
+     "cost": 0.0961846,
+     "elapsed": 6.109825849533081
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"move\",\"row\":1,\"bar\":13,\"beat\":2,\"end\":51.398},{\"op\":\"set\",\"row\":0,\"end\":50.103}]",
+     "cost": 0.012231,
+     "elapsed": 5.69741153717041
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[{\"op\":\"set\",\"row\":0,\"end\":50.103},{\"op\":\"move\",\"row\":1,\"bar\":13,\"beat\":2,\"end\":51.398}]\n```",
+     "cost": 0.016451,
+     "elapsed": 7.639905214309692
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1379564,
+     "elapsed": 18.37012767791748,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.055827,
+     "elapsed": 18.80802273750305,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.055907,
+     "elapsed": 19.932612657546997,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at12": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Right now \"light\" (row 28, D4) starts at bar 17 beat 1.25, just after the downbeat. Do you mean it comes in too late and should start on beat 1 (sky would get a little shorter)? Or do you want it to come in later in bar 17, say around beat 4? If it's later, the notes after it (\"of\", \"mine\" and \"for\" at 17.4.5) would have to move as well. Which do you mean, and on what beat?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Right now \\\"light\\\" (row 28, D4) starts at bar 17 beat 1.25, just after the downbeat. Do you mean it comes in too late and should start on beat 1 (sky would get a little shorter)? Or do you want it to come in later in bar 17, say around beat 4? If it's later, the notes after it (\\\"of\\\", \\\"mine\\\" and \\\"for\\\" at 17.4.5) would have to move as well. Which do you mean, and on what beat?\"}]",
+     "cost": 0.1337144,
+     "elapsed": 11.348624467849731
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "\"light\" (row 28, D4) now starts at bar 17 beat 1.25. Do you want it earlier, on beat 1, because it comes in too late? Or do you want it to start later in bar 17? If later, on which beat? \"of\" starts at beat 2 and \"mine\" at beat 2.75."
+      ]
+     },
+     "answer": "```json\n[{\"op\":\"ask\",\"question\":\"\\\"light\\\" (row 28, D4) now starts at bar 17 beat 1.25. Do you want it earlier, on beat 1, because it comes in too late? Or do you want it to start later in bar 17? If later, on which beat? \\\"of\\\" starts at beat 2 and \\\"mine\\\" at beat 2.75.\"}]\n```",
+     "cost": 0.0135898,
+     "elapsed": 7.122718811035156
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "\"light\" (row 28, D4) now starts at bar 17 beat 1.25, just after \"sky\" ends. Do you mean it starts too late and should be earlier, say right on bar 17 beat 1? Or should it come in later in bar 17? If later, which beat, and should \"of\" and \"mine\" move later too?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"\\\"light\\\" (row 28, D4) now starts at bar 17 beat 1.25, just after \\\"sky\\\" ends. Do you mean it starts too late and should be earlier, say right on bar 17 beat 1? Or should it come in later in bar 17? If later, which beat, and should \\\"of\\\" and \\\"mine\\\" move later too?\"}]",
+     "cost": 0.0160698,
+     "elapsed": 7.53380274772644
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1448684,
+     "elapsed": 21.568801641464233,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0625058,
+     "elapsed": 21.558640003204346,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.061365800000000005,
+     "elapsed": 20.849297761917114,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at13": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":16,\"text\":\"thee\",\"word\":\"thee\"}]",
+     "cost": 0.0905686,
+     "elapsed": 3.2216436862945557
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":16,\"text\":\"thee\",\"word\":\"thee\"}]",
+     "cost": 0.006331600000000001,
+     "elapsed": 2.611599922180176
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":16,\"text\":\"thee\",\"word\":\"thee\"},{\"op\":\"pronounce\",\"word\":\"thee\",\"sounds\":[\"DH IY1\"]}]",
+     "cost": 0.0094316,
+     "elapsed": 4.30449366569519
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1385004,
+     "elapsed": 19.41663384437561,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0513676,
+     "elapsed": 16.85109806060791,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.05394759999999999,
+     "elapsed": 18.43756937980652,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp17": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":12,\"text\":\"path\",\"word\":\"path\"},{\"op\":\"set\",\"row\":32,\"pitch\":\"E5\"}]",
+     "cost": 0.0922926,
+     "elapsed": 3.588124990463257
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":12,\"text\":\"path\",\"word\":\"path\"},{\"op\":\"set\",\"row\":32,\"pitch\":\"E5\"}]",
+     "cost": 0.0052562,
+     "elapsed": 3.26347279548645
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":12,\"text\":\"path\",\"word\":\"path\"},{\"op\":\"set\",\"row\":32,\"pitch\":\"E5\"}]",
+     "cost": 0.0063362,
+     "elapsed": 7.096852779388428
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.14032840000000002,
+     "elapsed": 19.661821126937866,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.055272800000000004,
+     "elapsed": 18.293376207351685,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0552928,
+     "elapsed": 18.149399042129517,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd16": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"text\":\"stairs\",\"word\":\"stairs\"},{\"op\":\"set\",\"row\":7,\"pitch\":\"A4\"},{\"op\":\"set\",\"row\":26,\"end\":26.40}]",
+     "cost": 0.1008086,
+     "elapsed": 5.914544582366943
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":18,\"text\":\"stairs\",\"word\":\"stairs\"},\n  {\"op\":\"set\",\"row\":7,\"pitch\":\"A4\"},\n  {\"op\":\"set\",\"row\":26,\"end\":26.40}\n]\n```",
+     "cost": 0.016186600000000002,
+     "elapsed": 7.787753582000732
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":18,\"text\":\"stairs\",\"word\":\"stairs\"},\n  {\"op\":\"set\",\"row\":7,\"pitch\":\"A4\"},\n  {\"op\":\"set\",\"row\":26,\"end\":26.40}\n]\n```",
+     "cost": 0.014706599999999998,
+     "elapsed": 6.369514465332031
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.15710439999999998,
+     "elapsed": 23.422033071517944,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0674172,
+     "elapsed": 22.65630555152893,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.06983719999999999,
+     "elapsed": 23.996017456054688,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at17": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[\n{\"op\":\"move\",\"row\":1,\"bar\":13,\"beat\":2,\"end\":51.398},\n{\"op\":\"set\",\"row\":0,\"end\":50.103},\n{\"op\":\"set\",\"row\":18,\"pitch\":\"Eb4\"},\n{\"op\":\"set\",\"row\":10,\"text\":\"sea\",\"word\":\"sea\"}\n]",
+     "cost": 0.0981726,
+     "elapsed": 6.305343389511108
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"move\",\"row\":1,\"bar\":13,\"beat\":2,\"end\":51.398},\n  {\"op\":\"set\",\"row\":0,\"end\":50.103},\n  {\"op\":\"set\",\"row\":18,\"pitch\":\"Eb4\"},\n  {\"op\":\"set\",\"row\":10,\"text\":\"sea\",\"word\":\"sea\"}\n]\n```",
+     "cost": 0.0212962,
+     "elapsed": 9.531816482543945
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"move\",\"row\":1,\"bar\":13,\"beat\":2,\"end\":51.398},\n  {\"op\":\"set\",\"row\":0,\"end\":50.104},\n  {\"op\":\"set\",\"row\":18,\"pitch\":\"Eb4\"},\n  {\"op\":\"set\",\"row\":10,\"text\":\"sea\",\"word\":\"sea\"}\n]\n```",
+     "cost": 0.019736200000000002,
+     "elapsed": 9.48676609992981
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.13960440000000002,
+     "elapsed": 18.81808614730835,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0587322,
+     "elapsed": 20.437678337097168,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0544722,
+     "elapsed": 18.414440631866455,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd17": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"the\",\"sounds\":[\"DH IY1\"]}]",
+     "cost": 0.0925606,
+     "elapsed": 3.3342812061309814
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"the\",\"sounds\":[\"DH IY1\"]}]",
+     "cost": 0.005100400000000001,
+     "elapsed": 2.4843103885650635
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"the\",\"sounds\":[\"DH IY1\"]}]",
+     "cost": 0.0066804,
+     "elapsed": 4.085763931274414
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1515164,
+     "elapsed": 21.395509958267212,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.06823099999999999,
+     "elapsed": 23.528717279434204,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.064551,
+     "elapsed": 22.047494888305664,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at18": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"pitch\":\"Eb4\"}]",
+     "cost": 0.0895566,
+     "elapsed": 3.9206151962280273
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"pitch\":\"Eb4\"}]",
+     "cost": 0.007088800000000001,
+     "elapsed": 3.188336133956909
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"pitch\":\"Eb4\"}]",
+     "cost": 0.0061688,
+     "elapsed": 3.001039743423462
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1349484,
+     "elapsed": 16.616973161697388,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0519248,
+     "elapsed": 17.173402309417725,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.051824800000000004,
+     "elapsed": 17.41562843322754,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp18": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":27,\"end\":56.325},{\"op\":\"delete\",\"row\":28},{\"op\":\"set\",\"row\":36,\"end\":64.064},{\"op\":\"delete\",\"row\":37}]",
+     "cost": 0.0952926,
+     "elapsed": 4.478921890258789
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":36,\"end\":64.064},{\"op\":\"delete\",\"row\":37},{\"op\":\"set\",\"row\":27,\"end\":56.325},{\"op\":\"delete\",\"row\":28}]",
+     "cost": 0.0102342,
+     "elapsed": 5.206722736358643
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[\n{\"op\":\"set\",\"row\":36,\"end\":64.064},\n{\"op\":\"delete\",\"row\":37},\n{\"op\":\"set\",\"row\":27,\"end\":56.325},\n{\"op\":\"delete\",\"row\":28}\n]",
+     "cost": 0.0122742,
+     "elapsed": 5.803934335708618
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1390284,
+     "elapsed": 17.39411997795105,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.054370800000000004,
+     "elapsed": 17.654309511184692,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0552908,
+     "elapsed": 17.98584794998169,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd18": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":21,\"pitch\":\"D5\"},{\"op\":\"set\",\"row\":22,\"pitch\":\"C5\"},{\"op\":\"set\",\"row\":23,\"pitch\":\"Bb4\"},{\"op\":\"set\",\"row\":24,\"pitch\":\"G5\"}]",
+     "cost": 0.09382460000000001,
+     "elapsed": 3.816197633743286
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":21,\"pitch\":\"D5\"},{\"op\":\"set\",\"row\":22,\"pitch\":\"C5\"},{\"op\":\"set\",\"row\":23,\"pitch\":\"Bb4\"},{\"op\":\"set\",\"row\":24,\"pitch\":\"G5\"}]",
+     "cost": 0.0067670000000000004,
+     "elapsed": 3.08223295211792
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":21,\"pitch\":\"D5\"},{\"op\":\"set\",\"row\":23,\"pitch\":\"Bb4\"}]",
+     "cost": 0.005867000000000001,
+     "elapsed": 2.7894365787506104
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1502804,
+     "elapsed": 20.1014084815979,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0618176,
+     "elapsed": 20.944291830062866,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.062057600000000004,
+     "elapsed": 19.805800914764404,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at19": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":11,\"text\":\"all\",\"word\":\"all\"},{\"op\":\"set\",\"row\":12,\"text\":\"night\",\"word\":\"night\"},{\"op\":\"set\",\"row\":13,\"text\":\"I\",\"word\":\"I\"},{\"op\":\"set\",\"row\":14,\"text\":\"wai\",\"word\":\"waited\"},{\"op\":\"set\",\"row\":15,\"text\":\"ted\",\"word\":\"waited\"},{\"op\":\"set\",\"row\":16,\"text\":\"for\",\"word\":\"for\"},{\"op\":\"set\",\"row\":17,\"text\":\"dawn\",\"word\":\"dawn\"}]",
+     "cost": 0.09908460000000001,
+     "elapsed": 6.42464017868042
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[\n{\"op\":\"set\",\"row\":11,\"text\":\"all\",\"word\":\"all\"},\n{\"op\":\"set\",\"row\":12,\"text\":\"night\",\"word\":\"night\"},\n{\"op\":\"set\",\"row\":13,\"text\":\"I\",\"word\":\"I\"},\n{\"op\":\"set\",\"row\":14,\"text\":\"wai\",\"word\":\"waited\"},\n{\"op\":\"set\",\"row\":15,\"text\":\"ted\",\"word\":\"waited\"},\n{\"op\":\"set\",\"row\":16,\"text\":\"for\",\"word\":\"for\"}\n]",
+     "cost": 0.012053000000000001,
+     "elapsed": 5.383686780929565
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":11,\"text\":\"all\",\"word\":\"all\"},{\"op\":\"set\",\"row\":12,\"text\":\"night\",\"word\":\"night\"},{\"op\":\"set\",\"row\":13,\"text\":\"I\",\"word\":\"I\"},{\"op\":\"set\",\"row\":14,\"text\":\"wai\",\"word\":\"waited\"},{\"op\":\"set\",\"row\":15,\"text\":\"ted\",\"word\":\"waited\"},{\"op\":\"set\",\"row\":16,\"text\":\"for\",\"word\":\"for\"},{\"op\":\"set\",\"row\":17,\"text\":\"dawn\",\"word\":\"dawn\"}]",
+     "cost": 0.011833,
+     "elapsed": 5.268693685531616
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1372164,
+     "elapsed": 17.58694076538086,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.055449,
+     "elapsed": 18.64313554763794,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.05642900000000001,
+     "elapsed": 19.374671459197998,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp19": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Bar 14–15 has 9 notes but the new line has 11 syllables, so 'gar-den' needs 2 more notes. Which notes and beats should they get? For example, I could split 'the' (A4, bar 14 beat 4) into 'the' and 'gar' at beats 4 and 4.5. Then split 'paths' (G4, bar 15 beat 1) into 'den' and 'paths' at beats 1 and 1.5, both on the same pitch. Or do you want new notes at other pitches?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Bar 14–15 has 9 notes but the new line has 11 syllables, so 'gar-den' needs 2 more notes. Which notes and beats should they get? For example, I could split 'the' (A4, bar 14 beat 4) into 'the' and 'gar' at beats 4 and 4.5. Then split 'paths' (G4, bar 15 beat 1) into 'den' and 'paths' at beats 1 and 1.5, both on the same pitch. Or do you want new notes at other pitches?\"}]",
+     "cost": 0.0998326,
+     "elapsed": 6.12443995475769
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "\"gar-den\" adds two syllables, but bars 14–15 have no spare notes for them. Where should they go? One option is to split \"the\" (bar 14 beat 4, A4) into \"the gar-den\" on A4. Or do you want two new notes, and if so, on which pitches and beats?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"\\\"gar-den\\\" adds two syllables, but bars 14–15 have no spare notes for them. Where should they go? One option is to split \\\"the\\\" (bar 14 beat 4, A4) into \\\"the gar-den\\\" on A4. Or do you want two new notes, and if so, on which pitches and beats?\"}]",
+     "cost": 0.013198199999999998,
+     "elapsed": 6.688066482543945
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Where should \"gar-den\" go? It adds two syllables but no notes. Should I split existing notes (for example, halve \"the\" at bar 14 beat 4 and \"paths\" at bar 15 beat 1 into eighths), or insert two new notes? If new notes, tell me their pitches and beats."
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"Where should \\\"gar-den\\\" go? It adds two syllables but no notes. Should I split existing notes (for example, halve \\\"the\\\" at bar 14 beat 4 and \\\"paths\\\" at bar 15 beat 1 into eighths), or insert two new notes? If new notes, tell me their pitches and beats.\"}]",
+     "cost": 0.0101982,
+     "elapsed": 5.083162784576416
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "guessed",
+      "wrong": [
+       "edited instead of asking"
+      ],
+      "collateral": [],
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.15954839999999998,
+     "elapsed": 27.425483465194702,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "guessed",
+      "wrong": [
+       "edited instead of asking"
+      ],
+      "collateral": [],
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.07675479999999998,
+     "elapsed": 27.561336994171143,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "\"gar-den\" adds two syllables, so I need two more notes. Should I split \"on\" (bar 14, beat 3) into two eighths for \"on the\" and split the old \"the\" (beat 4) into two eighths for \"gar-den\", keeping the same pitches? Or would you rather place them another way?"
+      ]
+     },
+     "answer": "{\"ask\": \"\\\"gar-den\\\" adds two syllables, so I need two more notes. Should I split \\\"on\\\" (bar 14, beat 3) into two eighths for \\\"on the\\\" and split the old \\\"the\\\" (beat 4) into two eighths for \\\"gar-den\\\", keeping the same pitches? Or would you rather place them another way?\"}",
+     "cost": 0.017834799999999998,
+     "elapsed": 8.79771614074707
+    }
+   ]
+  },
+  "cp20": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":24,\"pitch\":\"A4\"},{\"op\":\"set\",\"row\":27,\"pitch\":\"Bb4\"}]",
+     "cost": 0.151116,
+     "elapsed": 3.339174270629883
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":24,\"pitch\":\"A4\"},{\"op\":\"set\",\"row\":27,\"pitch\":\"Bb4\"}]",
+     "cost": 0.0066502,
+     "elapsed": 3.2333414554595947
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":24,\"pitch\":\"A4\"},{\"op\":\"set\",\"row\":27,\"pitch\":\"Bb4\"}]",
+     "cost": 0.006550200000000001,
+     "elapsed": 3.5497310161590576
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1436724,
+     "elapsed": 19.50879716873169,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0627264,
+     "elapsed": 21.006130695343018,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0591664,
+     "elapsed": 19.807373523712158,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd19": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"text\":\"stair\",\"word\":\"stair\"}]",
+     "cost": 0.09264860000000001,
+     "elapsed": 2.7157468795776367
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"text\":\"stair\",\"word\":\"stair\"}]",
+     "cost": 0.0050536,
+     "elapsed": 3.136842966079712
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":18,\"text\":\"stair\",\"word\":\"stair\"}]",
+     "cost": 0.0050736,
+     "elapsed": 2.9788215160369873
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1513724,
+     "elapsed": 20.36446785926819,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0634234,
+     "elapsed": 20.681949138641357,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.062083400000000004,
+     "elapsed": 20.081913471221924,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp21": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "answered",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Right now the singer sings 'wa-king' (bar 18) as 'way-kin'', with no final 'g'. Note 19 'wa' (C5, beat 3.5) gets W EY1 ('way'), and note 20 'king' (D5, beat 4.5) gets K IH0 N ('kin'). These sounds come from your PRONOUNCE file entry \"waking\": [\"W EY1\", \"K IH0 N\"]. The dictionary pronunciation would end the second note with NG ('king'). If you want the full 'waking', I can change the entry to [\"W EY1\", \"K IH0 NG\"] or remove it."
+      ]
+     },
+     "answer": "[{\"op\":\"say\",\"text\":\"Right now the singer sings 'wa-king' (bar 18) as 'way-kin'', with no final 'g'. Note 19 'wa' (C5, beat 3.5) gets W EY1 ('way'), and note 20 'king' (D5, beat 4.5) gets K IH0 N ('kin'). These sounds come from your PRONOUNCE file entry \\\"waking\\\": [\\\"W EY1\\\", \\\"K IH0 N\\\"]. The dictionary pronunciation would end the second note with NG ('king'). If you want the full 'waking', I can change the entry to [\\\"W EY1\\\", \\\"K IH0 NG\\\"] or remove it.\"}]",
+     "cost": 0.09655659999999999,
+     "elapsed": 5.978666067123413
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "answered",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "\"waking\" is sung over two notes. On C4... no, on C5 at bar 18 beat 3.5 (50.174 s) the singer sings \"wa\" as W-EY1. On D5 at bar 18 beat 4.5 (50.718 s) the singer sings \"king\" as K-IH0-N. Those sounds come from your PRONOUNCE file entry \"waking\": [\"W EY1\", \"K IH0 N\"], and that entry ends on N, not NG. So right now it sounds like \"wakin'\", not \"waking\". The dictionary spelling ends on NG (K IH0 NG). If you want the full \"-ing\", I can change that entry to [\"W EY1\", \"K IH0 NG\"] or remove it."
+      ]
+     },
+     "answer": "[{\"op\":\"say\",\"text\":\"\\\"waking\\\" is sung over two notes. On C4... no, on C5 at bar 18 beat 3.5 (50.174 s) the singer sings \\\"wa\\\" as W-EY1. On D5 at bar 18 beat 4.5 (50.718 s) the singer sings \\\"king\\\" as K-IH0-N. Those sounds come from your PRONOUNCE file entry \\\"waking\\\": [\\\"W EY1\\\", \\\"K IH0 N\\\"], and that entry ends on N, not NG. So right now it sounds like \\\"wakin'\\\", not \\\"waking\\\". The dictionary spelling ends on NG (K IH0 NG). If you want the full \\\"-ing\\\", I can change that entry to [\\\"W EY1\\\", \\\"K IH0 NG\\\"] or remove it.\"}]",
+     "cost": 0.012333799999999999,
+     "elapsed": 6.41059684753418
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "answered",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Right now 'waking' is sung in two notes: 'wa' (row 19, bar 18 beat 3.5, C5, from 50.174 s) gets W-EY1, which sounds like \"way\". 'king' (row 20, bar 18 beat 4.5, D5, from 50.718 s) gets K-IH0-N, which sounds like \"kin\". The sounds come from your PRONOUNCE file entry \"waking\": [\"W EY1\", \"K IH0 N\"]. That entry ends on N, not NG, so the singer sings \"way-kin\" rather than \"way-king\". To get the NG back, change the second entry to \"K IH0 NG\"."
+      ]
+     },
+     "answer": "```json\n[{\"op\":\"say\",\"text\":\"Right now 'waking' is sung in two notes: 'wa' (row 19, bar 18 beat 3.5, C5, from 50.174 s) gets W-EY1, which sounds like \\\"way\\\". 'king' (row 20, bar 18 beat 4.5, D5, from 50.718 s) gets K-IH0-N, which sounds like \\\"kin\\\". The sounds come from your PRONOUNCE file entry \\\"waking\\\": [\\\"W EY1\\\", \\\"K IH0 N\\\"]. That entry ends on N, not NG, so the singer sings \\\"way-kin\\\" rather than \\\"way-king\\\". To get the NG back, change the second entry to \\\"K IH0 NG\\\".\"}]\n```",
+     "cost": 0.0119738,
+     "elapsed": 5.131540060043335
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong answer",
+      "wrong": [
+       "answer lacks ['W EY1', 'K IH0 N']"
+      ],
+      "collateral": [],
+      "questions": [
+       "Right now \"waking\" is sung as two plain notes with no slurs. \"wa\" is a C5 (MIDI 72) that starts on the 'and' of beat 3 in bar 18 (50.17–50.72 s). \"king\" is a D5 (MIDI 74) that starts on the 'and' of beat 4 (50.72–51.27 s). Each lasts about one beat. Because both start off the beat, the word is syncopated and steps up a whole tone. Before it, \"Windows\" is sung on two B♭4s. After it, the line drops to a G4 on \"in\" on the downbeat of bar 19."
+      ]
+     },
+     "answer": "{\"say\": \"Right now \\\"waking\\\" is sung as two plain notes with no slurs. \\\"wa\\\" is a C5 (MIDI 72) that starts on the 'and' of beat 3 in bar 18 (50.17–50.72 s). \\\"king\\\" is a D5 (MIDI 74) that starts on the 'and' of beat 4 (50.72–51.27 s). Each lasts about one beat. Because both start off the beat, the word is syncopated and steps up a whole tone. Before it, \\\"Windows\\\" is sung on two B♭4s. After it, the line drops to a G4 on \\\"in\\\" on the downbeat of bar 19.\"}",
+     "cost": 0.0994524,
+     "elapsed": 6.700397968292236
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong answer",
+      "wrong": [
+       "answer lacks ['W EY1', 'K IH0 N']"
+      ],
+      "collateral": [],
+      "questions": [
+       "Right now 'wa-king' is two notes, one syllable on each, and both start off the beat. 'wa' is a C5 (MIDI 72) at bar 18, beat 3.5 (about 50.17–50.72 s). 'king' is a D5 (MIDI 74) at bar 18, beat 4.5 (about 50.72–51.27 s). So the word rises a whole step, C to D. It comes right after 'Win-dows' on two B-flats (MIDI 70) and goes into 'in', a long G4 (MIDI 67) that starts on beat 1 of bar 19 and is held for about 1.6 s."
+      ]
+     },
+     "answer": "{\"say\": \"Right now 'wa-king' is two notes, one syllable on each, and both start off the beat. 'wa' is a C5 (MIDI 72) at bar 18, beat 3.5 (about 50.17–50.72 s). 'king' is a D5 (MIDI 74) at bar 18, beat 4.5 (about 50.72–51.27 s). So the word rises a whole step, C to D. It comes right after 'Win-dows' on two B-flats (MIDI 70) and goes into 'in', a long G4 (MIDI 67) that starts on beat 1 of bar 19 and is held for about 1.6 s.\"}",
+     "cost": 0.0134504,
+     "elapsed": 6.5926353931427
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong answer",
+      "wrong": [
+       "answer lacks ['W EY1', 'K IH0 N']"
+      ],
+      "collateral": [],
+      "questions": [
+       "Right now \"waking\" is two plain syllables, each on its own note with no slur. \"wa\" is on C5 (pitch 72), from bar 18 beat 3.5 (50.174–50.718 s). \"king\" is on D5 (pitch 74), from beat 4.5 (50.718–51.269 s). Each note is about one beat (about half a second) and starts on an off-beat, so the word is syncopated. The singer rises by step from \"Windows\" on B♭4 through C5 to D5, then drops to G4 on \"in\" on the downbeat of bar 19."
+      ]
+     },
+     "answer": "{\"say\": \"Right now \\\"waking\\\" is two plain syllables, each on its own note with no slur. \\\"wa\\\" is on C5 (pitch 72), from bar 18 beat 3.5 (50.174–50.718 s). \\\"king\\\" is on D5 (pitch 74), from beat 4.5 (50.718–51.269 s). Each note is about one beat (about half a second) and starts on an off-beat, so the word is syncopated. The singer rises by step from \\\"Windows\\\" on B♭4 through C5 to D5, then drops to G4 on \\\"in\\\" on the downbeat of bar 19.\"}",
+     "cost": 0.0141904,
+     "elapsed": 6.977014780044556
+    }
+   ]
+  },
+  "at20": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "answered",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "\"dawn\" (note 18, B3) starts at bar 15, beat 1.5, halfway through beat 1. It is held until bar 15, beat 3.5, where \"and\" comes in."
+      ]
+     },
+     "answer": "[{\"op\":\"say\",\"text\":\"\\\"dawn\\\" (note 18, B3) starts at bar 15, beat 1.5, halfway through beat 1. It is held until bar 15, beat 3.5, where \\\"and\\\" comes in.\"}]",
+     "cost": 0.0894286,
+     "elapsed": 4.743999481201172
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "answered",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "\"dawn\" (grey number 18, on B3) starts at bar 15, halfway through beat 1 (beat 1.5). It's held until bar 15, beat 3.5, where \"and\" comes in."
+      ]
+     },
+     "answer": "[{\"op\":\"say\",\"text\":\"\\\"dawn\\\" (grey number 18, on B3) starts at bar 15, halfway through beat 1 (beat 1.5). It's held until bar 15, beat 3.5, where \\\"and\\\" comes in.\"}]",
+     "cost": 0.0068296,
+     "elapsed": 3.5162482261657715
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "answered",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "\"dawn\" (note 18, B3) starts at bar 15, beat 1.5, which is halfway through beat 1 (the \"and\" of 1). It's held until bar 15, beat 3.5, where \"and\" comes in."
+      ]
+     },
+     "answer": "[{\"op\":\"say\",\"text\":\"\\\"dawn\\\" (note 18, B3) starts at bar 15, beat 1.5, which is halfway through beat 1 (the \\\"and\\\" of 1). It's held until bar 15, beat 3.5, where \\\"and\\\" comes in.\"}]",
+     "cost": 0.0065296,
+     "elapsed": 3.80816388130188
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "answered",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "\"dawn\" starts in bar 15 on beat 1.5 (57.345s), on pitch 59 (B3). It's held until beat 3.5, where \"and\" comes in."
+      ]
+     },
+     "answer": "{\"say\": \"\\\"dawn\\\" starts in bar 15 on beat 1.5 (57.345s), on pitch 59 (B3). It's held until beat 3.5, where \\\"and\\\" comes in.\"}",
+     "cost": 0.0881004,
+     "elapsed": 3.230620861053467
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "answered",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "\"Dawn\" starts in bar 15 on beat 1.5, which is the second sixteenth of beat 1, right after \"for the.\" It's held until beat 3.5, where \"and\" comes in."
+      ]
+     },
+     "answer": "{\"say\": \"\\\"Dawn\\\" starts in bar 15 on beat 1.5, which is the second sixteenth of beat 1, right after \\\"for the.\\\" It's held until beat 3.5, where \\\"and\\\" comes in.\"}",
+     "cost": 0.0050656,
+     "elapsed": 3.116771936416626
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "answered",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "\"dawn\" starts in bar 15 on beat 1.5, which is the second eighth of beat 1. It's held for two beats, until \"and\" comes in on beat 3.5."
+      ]
+     },
+     "answer": "{\"say\": \"\\\"dawn\\\" starts in bar 15 on beat 1.5, which is the second eighth of beat 1. It's held for two beats, until \\\"and\\\" comes in on beat 3.5.\"}",
+     "cost": 0.005725600000000001,
+     "elapsed": 3.330613851547241
+    }
+   ]
+  },
+  "at21": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":9,\"end\":54.720},{\"op\":\"delete\",\"row\":10}]",
+     "cost": 0.09971659999999999,
+     "elapsed": 8.409619092941284
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":9,\"end\":54.72},{\"op\":\"delete\",\"row\":10}]",
+     "cost": 0.04427759999999999,
+     "elapsed": 8.937976598739624
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[\n  {\"op\":\"set\",\"row\":9,\"end\":54.720},\n  {\"op\":\"delete\",\"row\":10}\n]\n```",
+     "cost": 0.0110228,
+     "elapsed": 5.179746866226196
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1390804,
+     "elapsed": 18.79642677307129,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.05572060000000001,
+     "elapsed": 18.726755619049072,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0568606,
+     "elapsed": 19.28905940055847,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp22": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"breeze\",\"sounds\":[\"B R IY1 Z\"]}]",
+     "cost": 0.0908126,
+     "elapsed": 3.3307573795318604
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"breeze\",\"sounds\":[\"B R IY1 Z\"]}]",
+     "cost": 0.0053172,
+     "elapsed": 2.6302826404571533
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"pronounce\",\"word\":\"breeze\",\"sounds\":[\"B R IY1 Z\"]}]",
+     "cost": 0.0054772,
+     "elapsed": 3.1922826766967773
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "sounds en_B-R-IY1-S want en_B-R-IY1-Z"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.14354840000000002,
+     "elapsed": 19.928174257278442,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "sounds en_B-R-IY1-S want en_B-R-IY1-Z"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.0614108,
+     "elapsed": 21.508601427078247,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "wrong",
+      "wrong": [
+       "sounds en_B-R-IY1-S want en_B-R-IY1-Z"
+      ],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.05961079999999999,
+     "elapsed": 21.389329433441162,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp14": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":22,\"pitch\":\"E4\"}]",
+     "cost": 0.17266120000000001,
+     "elapsed": 4.7
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":22,\"pitch\":\"E4\"}]",
+     "cost": 0.13581400000000002,
+     "elapsed": 3.6
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":22,\"pitch\":\"E4\"}]",
+     "cost": 0.13595,
+     "elapsed": 5.2
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.2097752,
+     "elapsed": 18.9,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1858624,
+     "elapsed": 18.8,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1858184,
+     "elapsed": 19.0,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "cp15": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":24,\"text\":\"lair\",\"word\":\"lair\"},{\"op\":\"set\",\"row\":25,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"lair\"}]",
+     "cost": 0.16188239999999998,
+     "elapsed": 4.3
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":24,\"text\":\"lair\",\"word\":\"lair\"},{\"op\":\"set\",\"row\":25,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"lair\"}]",
+     "cost": 0.138876,
+     "elapsed": 5.0
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":24,\"text\":\"lair\",\"word\":\"lair\"},{\"op\":\"set\",\"row\":25,\"kind\":\"slur\",\"text\":\"~\",\"word\":\"lair\"}]",
+     "cost": 0.13847199999999998,
+     "elapsed": 4.5
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.211194,
+     "elapsed": 19.9,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1875404,
+     "elapsed": 19.9,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1865564,
+     "elapsed": 19.6,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd13": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[{\"op\":\"set\",\"row\":31,\"pitch\":\"E4\"}]\n```",
+     "cost": 0.13959080000000001,
+     "elapsed": 4.8
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":31,\"pitch\":\"E4\"}]",
+     "cost": 0.11247359999999999,
+     "elapsed": 4.8
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":31,\"pitch\":\"E4\"}]",
+     "cost": 0.1138174,
+     "elapsed": 5.8
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1951734,
+     "elapsed": 22.5,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.16896719999999998,
+     "elapsed": 20.9,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.169091,
+     "elapsed": 22.3,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "sd14": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "guessed",
+      "wrong": [
+       "edited instead of asking"
+      ],
+      "collateral": [],
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":21,\"pitch\":\"D5\"},{\"op\":\"set\",\"row\":22,\"pitch\":\"D5\"}]",
+     "cost": 0.14594659999999998,
+     "elapsed": 7.1
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "guessed",
+      "wrong": [
+       "edited instead of asking"
+      ],
+      "collateral": [],
+      "questions": []
+     },
+     "answer": "```json\n[{\"op\":\"set\",\"row\":21,\"pitch\":\"D5\"},{\"op\":\"set\",\"row\":22,\"pitch\":\"D5\"}]\n```",
+     "cost": 0.1225856,
+     "elapsed": 8.8
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "guessed",
+      "wrong": [
+       "edited instead of asking"
+      ],
+      "collateral": [],
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":21,\"pitch\":\"D5\"},{\"op\":\"set\",\"row\":22,\"pitch\":\"D5\"}]",
+     "cost": 0.1202256,
+     "elapsed": 7.1
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "You circled two notes, \"soft\" and \"step\" in bar 22. Should both become D5, or just one of them? If just one, which?"
+      ]
+     },
+     "answer": "{\"ask\": \"You circled two notes, \\\"soft\\\" and \\\"step\\\" in bar 22. Should both become D5, or just one of them? If just one, which?\"}",
+     "cost": 0.1422254,
+     "elapsed": 5.9
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "You circled two notes in bar 22, \"soft\" and \"step\", both currently C5. Should both become D5, or just one of them (which one)?"
+      ]
+     },
+     "answer": "{\"ask\": \"You circled two notes in bar 22, \\\"soft\\\" and \\\"step\\\", both currently C5. Should both become D5, or just one of them (which one)?\"}",
+     "cost": 0.1166706,
+     "elapsed": 5.0
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "You circled two notes in bar 22, \"soft\" and \"step\" (both C5 now). Should both be D5, or just one of them, and if so which?"
+      ]
+     },
+     "answer": "{\"ask\": \"You circled two notes in bar 22, \\\"soft\\\" and \\\"step\\\" (both C5 now). Should both be D5, or just one of them, and if so which?\"}",
+     "cost": 0.116483,
+     "elapsed": 6.3
+    }
+   ]
+  },
+  "sd15": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": false,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "For the circled note 3 in bar 11 (\"the\", sung on C#4/Db4): do you want to change the word to \"a\" (\"Waiting a night grows warm\"), or change the pitch to A, and if so, A4 or A3?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"For the circled note 3 in bar 11 (\\\"the\\\", sung on C#4/Db4): do you want to change the word to \\\"a\\\" (\\\"Waiting a night grows warm\\\"), or change the pitch to A, and if so, A4 or A3?\"}]",
+     "cost": 0.1613026,
+     "elapsed": 10.4
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":2,\"text\":\"a\",\"word\":\"a\"}]",
+     "cost": 0.11802180000000001,
+     "elapsed": 6.1
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":2,\"text\":\"a\",\"word\":\"a\"}]",
+     "cost": 0.11909800000000001,
+     "elapsed": 6.6
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Do you want the circled note (\"the\", bar 11) to sing the word \"a\" instead, or do you want its pitch changed from D♭ to A?"
+      ]
+     },
+     "answer": "{\"ask\": \"Do you want the circled note (\\\"the\\\", bar 11) to sing the word \\\"a\\\" instead, or do you want its pitch changed from D♭ to A?\"}",
+     "cost": 0.1430892,
+     "elapsed": 5.8
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "For the circled note (\"the\" in bar 11, currently a D♭), do you want to change the lyric to the word \"a\" or the pitch to the note A?"
+      ]
+     },
+     "answer": "{\"ask\": \"For the circled note (\\\"the\\\" in bar 11, currently a D♭), do you want to change the lyric to the word \\\"a\\\" or the pitch to the note A?\"}",
+     "cost": 0.11791919999999999,
+     "elapsed": 5.8
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": false,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Do you want the lyric \"the\" in bar 11 changed to the word \"a\", or the note (the D♭) changed to the pitch A?"
+      ]
+     },
+     "answer": "{\"ask\": \"Do you want the lyric \\\"the\\\" in bar 11 changed to the word \\\"a\\\", or the note (the D♭) changed to the pitch A?\"}",
+     "cost": 0.12117059999999999,
+     "elapsed": 7.9
+    }
+   ]
+  },
+  "at14": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":25,\"pitch\":\"G4\"}]",
+     "cost": 0.1369676,
+     "elapsed": 5.7
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":25,\"pitch\":\"G4\"}]",
+     "cost": 0.1160518,
+     "elapsed": 5.1
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":25,\"pitch\":\"G4\"}]",
+     "cost": 0.11579940000000001,
+     "elapsed": 4.7
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1840754,
+     "elapsed": 19.5,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1592438,
+     "elapsed": 17.9,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1603,
+     "elapsed": 19.9,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at15": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":17,\"end\":58.883}]",
+     "cost": 0.1597266,
+     "elapsed": 13.3
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "[{\"op\":\"set\",\"row\":17,\"end\":58.88}]",
+     "cost": 0.1200186,
+     "elapsed": 6.4
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": "```json\n[{\"op\":\"set\",\"row\":17,\"end\":58.879}]\n```",
+     "cost": 0.12157480000000001,
+     "elapsed": 7.0
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.18684240000000002,
+     "elapsed": 20.4,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.1661468,
+     "elapsed": 21.4,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "correct",
+      "wrong": [],
+      "collateral": [],
+      "asked_too": false,
+      "questions": []
+     },
+     "answer": null,
+     "cost": 0.16439820000000002,
+     "elapsed": 22.1,
+     "answer_withheld": "raw-rows answer: the whole edited fit, not distributed"
+    }
+   ]
+  },
+  "at16": {
+   "typed": [
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "Do you mean the pitch of \"long\" (no. 9, bar 14, now G4)? Which note should it be, e.g. F4, Eb4 or D4?"
+      ]
+     },
+     "answer": "```json\n[{\"op\":\"ask\",\"question\":\"Do you mean the pitch of \\\"long\\\" (no. 9, bar 14, now G4)? Which note should it be, e.g. F4, Eb4 or D4?\"}]\n```",
+     "cost": 0.1378718,
+     "elapsed": 4.9
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "You circled \"long\" (no. 9, bar 14 beat 1.25), which is sung on G4 now. What note should it be: F4, Eb4, D4, or something else?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"You circled \\\"long\\\" (no. 9, bar 14 beat 1.25), which is sung on G4 now. What note should it be: F4, Eb4, D4, or something else?\"}]",
+     "cost": 0.11707139999999999,
+     "elapsed": 6.5
+    },
+    {
+     "arm": "typed",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "The circled note is 'long' (note 9, bar 14 beat 1.25), which is G4 now. What pitch should it be: for example F4, Eb4 or D4?"
+      ]
+     },
+     "answer": "[{\"op\":\"ask\",\"question\":\"The circled note is 'long' (note 9, bar 14 beat 1.25), which is G4 now. What pitch should it be: for example F4, Eb4 or D4?\"}]",
+     "cost": 0.11475139999999999,
+     "elapsed": 4.4
+    }
+   ],
+   "bare": [
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "How much lower should the circled note on \"long\" (bar 14, now G4) go: down a step to F4, or to another pitch?"
+      ]
+     },
+     "answer": "{\"ask\": \"How much lower should the circled note on \\\"long\\\" (bar 14, now G4) go: down a step to F4, or to another pitch?\"}",
+     "cost": 0.1396396,
+     "elapsed": 7.7
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "How much lower should 'long' (note 9, the G in bar 14) go: a half step, a whole step, or to a specific note?"
+      ]
+     },
+     "answer": "{\"ask\": \"How much lower should 'long' (note 9, the G in bar 14) go: a half step, a whole step, or to a specific note?\"}",
+     "cost": 0.1185234,
+     "elapsed": 8.2
+    },
+    {
+     "arm": "bare",
+     "score": {
+      "correct": true,
+      "outcome": "asked",
+      "wrong": [],
+      "collateral": [],
+      "questions": [
+       "How much lower should the circled note on \"long\" (bar 14, now G4) go: down a half step to F#4/Gb4, a scale step to F4, or another note?"
+      ]
+     },
+     "answer": "{\"ask\": \"How much lower should the circled note on \\\"long\\\" (bar 14, now G4) go: down a half step to F#4/Gb4, a scale step to F4, or another note?\"}",
+     "cost": 0.1180196,
+     "elapsed": 7.5
+    }
+   ]
+  }
+ }
+}

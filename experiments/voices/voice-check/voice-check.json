@@ -1,0 +1,93 @@
+{
+ "singers": {
+  "henry": {
+   "ref_vs_heldout": 0.801
+  },
+  "ingram": {
+   "ref_vs_heldout": 0.928
+  }
+ },
+ "renders": [
+  {
+   "name": "source: Groban-sampled SoulX render (before conversion)",
+   "singer": "henry",
+   "like_heldout": 0.781,
+   "like_ref": 0.82,
+   "notes": 29,
+   "in_tune_50c": 0.97,
+   "median_cents_off": 9.2
+  },
+  {
+   "name": "source: Groban-sampled SoulX render (before conversion)",
+   "singer": "ingram",
+   "like_heldout": 0.828,
+   "like_ref": 0.839,
+   "notes": 29,
+   "in_tune_50c": 0.97,
+   "median_cents_off": 9.2
+  },
+  {
+   "name": "SoulX score mode",
+   "singer": "henry",
+   "like_heldout": 0.842,
+   "like_ref": 0.873,
+   "notes": 29,
+   "in_tune_50c": 1.0,
+   "median_cents_off": 9.2
+  },
+  {
+   "name": "SoulX conversion",
+   "singer": "henry",
+   "like_heldout": 0.814,
+   "like_ref": 0.848,
+   "notes": 29,
+   "in_tune_50c": 1.0,
+   "median_cents_off": 9.2
+  },
+  {
+   "name": "Seed-VC zero-shot",
+   "singer": "henry",
+   "like_heldout": 0.791,
+   "like_ref": 0.876,
+   "notes": 29,
+   "in_tune_50c": 1.0,
+   "median_cents_off": 10.8
+  },
+  {
+   "name": "Seed-VC fine-tuned on the author",
+   "singer": "henry",
+   "like_heldout": 0.809,
+   "like_ref": 0.92,
+   "notes": 29,
+   "in_tune_50c": 1.0,
+   "median_cents_off": 9.2
+  },
+  {
+   "name": "SoulX score mode",
+   "singer": "ingram",
+   "like_heldout": 0.923,
+   "like_ref": 0.933,
+   "notes": 29,
+   "in_tune_50c": 1.0,
+   "median_cents_off": 10.8
+  },
+  {
+   "name": "SoulX conversion",
+   "singer": "ingram",
+   "like_heldout": 0.898,
+   "like_ref": 0.919,
+   "notes": 29,
+   "in_tune_50c": 1.0,
+   "median_cents_off": 9.2
+  },
+  {
+   "name": "Seed-VC zero-shot",
+   "singer": "ingram",
+   "like_heldout": 0.914,
+   "like_ref": 0.924,
+   "notes": 29,
+   "in_tune_50c": 1.0,
+   "median_cents_off": 10.8
+  }
+ ]
+}

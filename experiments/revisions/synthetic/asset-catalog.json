@@ -1,0 +1,19 @@
+{
+ "schema": "arrange/asset-catalog@1",
+ "assets": [
+  {
+   "id": "a1",
+   "path": "takes/guitar_nylon_take2.wav",
+   "class": "guitar",
+   "sr": 48000,
+   "channels": 1,
+   "dur_s": 202.77,
+   "sha256": "<fixture>",
+   "aligned_to": {
+    "t": 0.0,
+    "method": "recorded against the piano"
+   },
+   "notes": "the creator's own take"
+  }
+ ]
+}

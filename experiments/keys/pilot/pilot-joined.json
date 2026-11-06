@@ -1,0 +1,362 @@
+[
+ {
+  "voice": "groban",
+  "rule_median": -6,
+  "rule_top": -11,
+  "rule_clip": -6,
+  "ear_1nov": null,
+  "sweet": -10,
+  "right_band": [
+   -10,
+   -10
+  ],
+  "strain50": -10.0,
+  "sweet_is_bottom": false,
+  "floor_closed": true,
+  "top_note_at_sweet": "E4",
+  "top_pct_in_voice": 100.0,
+  "voice_p90": "C4",
+  "voice_median": "A3",
+  "whole_recording": false,
+  "strain_steps": [
+   42,
+   50,
+   54,
+   61,
+   66,
+   75
+  ],
+  "registers": [
+   "l",
+   "r",
+   "h",
+   "h",
+   "h",
+   "h"
+  ],
+  "shifts": [
+   -12,
+   -10,
+   -8,
+   -6,
+   -4,
+   -2
+  ],
+  "saved_at": "2026-11-03T23:16:18.527Z"
+ },
+ {
+  "voice": "adams",
+  "rule_median": 0,
+  "rule_top": -4,
+  "rule_clip": 0,
+  "ear_1nov": null,
+  "sweet": -4,
+  "right_band": [
+   -6,
+   -4
+  ],
+  "strain50": -4.0,
+  "sweet_is_bottom": false,
+  "floor_closed": false,
+  "top_note_at_sweet": "A#4",
+  "top_pct_in_voice": 99.84461996633432,
+  "voice_p90": "G#4",
+  "voice_median": "D#4",
+  "whole_recording": true,
+  "strain_steps": [
+   44,
+   50,
+   59,
+   69,
+   80,
+   90
+  ],
+  "registers": [
+   "r",
+   "r",
+   "h",
+   "h",
+   "h",
+   "h"
+  ],
+  "shifts": [
+   -6,
+   -4,
+   -2,
+   0,
+   2,
+   4
+  ],
+  "saved_at": "2026-11-03T23:16:23.311Z"
+ },
+ {
+  "voice": "clarkson",
+  "rule_median": 4,
+  "rule_top": 1,
+  "rule_clip": 6,
+  "ear_1nov": 2,
+  "sweet": -2,
+  "right_band": [
+   -2,
+   0
+  ],
+  "strain50": -1.0,
+  "sweet_is_bottom": true,
+  "floor_closed": false,
+  "top_note_at_sweet": "C5",
+  "top_pct_in_voice": 87.06959706959707,
+  "voice_p90": "C5",
+  "voice_median": "G4",
+  "whole_recording": true,
+  "strain_steps": [
+   45,
+   55,
+   65,
+   75,
+   85,
+   95
+  ],
+  "registers": [
+   "r",
+   "r",
+   "h",
+   "h",
+   "h",
+   "h"
+  ],
+  "shifts": [
+   -2,
+   0,
+   2,
+   4,
+   6,
+   8
+  ],
+  "saved_at": "2026-11-03T23:07:30.820Z"
+ },
+ {
+  "voice": "ariana",
+  "rule_median": 4,
+  "rule_top": 0,
+  "rule_clip": 5,
+  "ear_1nov": 2,
+  "sweet": -2,
+  "right_band": [
+   -2,
+   0
+  ],
+  "strain50": -1.2,
+  "sweet_is_bottom": true,
+  "floor_closed": false,
+  "top_note_at_sweet": "C5",
+  "top_pct_in_voice": 90.57660961695191,
+  "voice_p90": "C5",
+  "voice_median": "G4",
+  "whole_recording": true,
+  "strain_steps": [
+   48,
+   53,
+   65,
+   75,
+   85,
+   95
+  ],
+  "registers": [
+   "r",
+   "r",
+   "h",
+   "h",
+   "h",
+   "h"
+  ],
+  "shifts": [
+   -2,
+   0,
+   2,
+   4,
+   6,
+   8
+  ],
+  "saved_at": "2026-11-03T23:09:31.032Z"
+ },
+ {
+  "voice": "jackson",
+  "rule_median": -1,
+  "rule_top": -1,
+  "rule_clip": -5,
+  "ear_1nov": -4,
+  "sweet": -7,
+  "right_band": [
+   -7,
+   -5
+  ],
+  "strain50": -5.0,
+  "sweet_is_bottom": true,
+  "floor_closed": false,
+  "top_note_at_sweet": "G4",
+  "top_pct_in_voice": 67.08481988721373,
+  "voice_p90": "A#4",
+  "voice_median": "D4",
+  "whole_recording": true,
+  "strain_steps": [
+   48,
+   50,
+   65,
+   75,
+   85,
+   95
+  ],
+  "registers": [
+   "r",
+   "r",
+   "h",
+   "h",
+   "h",
+   "h"
+  ],
+  "shifts": [
+   -7,
+   -5,
+   -3,
+   -1,
+   1,
+   3
+  ],
+  "saved_at": "2026-11-03T23:16:34.486Z"
+ },
+ {
+  "voice": "bolton",
+  "rule_median": 1,
+  "rule_top": -1,
+  "rule_clip": 0,
+  "ear_1nov": -4,
+  "sweet": -5,
+  "right_band": [
+   -5,
+   -5
+  ],
+  "strain50": null,
+  "sweet_is_bottom": true,
+  "floor_closed": false,
+  "top_note_at_sweet": "A4",
+  "top_pct_in_voice": 77.82009961910343,
+  "voice_p90": "A#4",
+  "voice_median": "E4",
+  "whole_recording": true,
+  "strain_steps": [
+   51,
+   57,
+   65,
+   75,
+   85,
+   95
+  ],
+  "registers": [
+   "r",
+   "h",
+   "h",
+   "h",
+   "h",
+   "h"
+  ],
+  "shifts": [
+   -5,
+   -3,
+   -1,
+   1,
+   3,
+   5
+  ],
+  "saved_at": "2026-11-03T23:11:07.205Z"
+ },
+ {
+  "voice": "wonder",
+  "rule_median": 2,
+  "rule_top": -3,
+  "rule_clip": 2,
+  "ear_1nov": 2,
+  "sweet": -4,
+  "right_band": [
+   -4,
+   -2
+  ],
+  "strain50": null,
+  "sweet_is_bottom": true,
+  "floor_closed": false,
+  "top_note_at_sweet": "A#4",
+  "top_pct_in_voice": 98.55282199710564,
+  "voice_p90": "G#4",
+  "voice_median": "F4",
+  "whole_recording": true,
+  "strain_steps": [
+   51,
+   53,
+   65,
+   75,
+   85,
+   95
+  ],
+  "registers": [
+   "r",
+   "r",
+   "h",
+   "h",
+   "h",
+   "h"
+  ],
+  "shifts": [
+   -4,
+   -2,
+   0,
+   2,
+   4,
+   6
+  ],
+  "saved_at": "2026-11-03T23:13:39.494Z"
+ },
+ {
+  "voice": "buble",
+  "rule_median": -6,
+  "rule_top": -9,
+  "rule_clip": -4,
+  "ear_1nov": -8,
+  "sweet": -12,
+  "right_band": [
+   -12,
+   -10
+  ],
+  "strain50": -12.0,
+  "sweet_is_bottom": true,
+  "floor_closed": false,
+  "top_note_at_sweet": "D4",
+  "top_pct_in_voice": 89.1566265060241,
+  "voice_p90": "D4",
+  "voice_median": "A3",
+  "whole_recording": true,
+  "strain_steps": [
+   50,
+   53,
+   60,
+   70,
+   80,
+   90
+  ],
+  "registers": [
+   "r",
+   "r",
+   "h",
+   "h",
+   "h",
+   "h"
+  ],
+  "shifts": [
+   -12,
+   -10,
+   -8,
+   -6,
+   -4,
+   -2
+  ],
+  "saved_at": "2026-11-03T23:15:49.703Z"
+ }
+]

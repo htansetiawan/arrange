@@ -1,0 +1,209 @@
+{
+ "session": "S2",
+ "arm": "bare",
+ "model": "gemma-4-31b-fp8",
+ "draw": 2,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Use the second vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L2"
+   ],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 267.3,
+   "raw": "{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 6,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [\n            823,\n            946\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n  "
+  },
+  {
+   "turn": 2,
+   "text": "Bring the strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 284.3,
+   "raw": "{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 7,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [\n            823,\n            946\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n  "
+  },
+  {
+   "turn": 3,
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.conditions.audio_context",
+    "layers.L2.conditions.depends_on"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L2.job.params.prompt",
+    "layers.L2.text"
+   ],
+   "new_errors": [
+    "layers.L2.job.params.prompt",
+    "layers.L2.text"
+   ],
+   "composer_lost": [
+    "layers.L2.job.params.prompt"
+   ],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 286.7,
+   "raw": "```json\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 8,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [\n            823,\n            946\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n       "
+  },
+  {
+   "turn": 4,
+   "text": "Turn the vocal up 2 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L2.job.params.prompt",
+    "layers.L2.text"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L2.job.params.prompt"
+   ],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 291.0,
+   "raw": "{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 9,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [\n            823,\n            946\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n  "
+  },
+  {
+   "turn": 5,
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L2.job.params.prompt",
+    "layers.L2.text",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "composer_lost": [
+    "layers.L2.job.params.prompt"
+   ],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 284.4,
+   "raw": "{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 9,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [\n            823,\n            946\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n          },\n  "
+  },
+  {
+   "turn": 6,
+   "text": "Let the strings run two bars longer at the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L2.job.params.prompt",
+    "layers.L2.text",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L2.job.params.prompt"
+   ],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 267.6,
+   "raw": "```json\n{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 10,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [\n            823,\n            946\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\": \"jobs/L1/lyrics.txt\"\n      "
+  },
+  {
+   "turn": 7,
+   "text": "Make it more emotional.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": false,
+   "drift": [
+    "layers.L1.text",
+    "layers.L2.job.params.prompt",
+    "layers.L2.text",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "layers.L1.text"
+   ],
+   "composer_lost": [
+    "layers.L2.job.params.prompt"
+   ],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [
+    "L1",
+    "L2"
+   ],
+   "elapsed": 270.3,
+   "raw": "{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 11,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung with deep emotion and breathy vulnerability on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [\n            823,\n            946\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\""
+  },
+  {
+   "turn": 8,
+   "text": "Go back to the fourth vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L1.text",
+    "layers.L2.job.params.prompt",
+    "layers.L2.text",
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [
+    "layers.L2.job.params.prompt"
+   ],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 266.3,
+   "raw": "{\n  \"plan\": {\n    \"schema\": \"arrange/arrangement@2\",\n    \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\",\n    \"revision\": 12,\n    \"inputs\": {\n      \"analysis\": \"piano-analysis.json\",\n      \"notebook\": \"ARRANGEMENT.md\"\n    },\n    \"clock\": {\n      \"from\": \"piano-analysis.json#tempo_map\",\n      \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\",\n      \"revision\": 0,\n      \"time_signature\": \"4/4\",\n      \"intervals\": \"half-open: exit is the first position not sounding\",\n      \"domain_end_s\": 211.625\n    },\n    \"sections\": [\n      {\n        \"id\": \"s1\",\n        \"label\": \"opening\",\n        \"bar_start\": 1,\n        \"bar_end\": 9,\n        \"source\": \"auto\",\n        \"t0\": 0.627,\n        \"t1\": 48.388\n      },\n      {\n        \"id\": \"s2\",\n        \"label\": \"theme 1\",\n        \"bar_start\": 10,\n        \"bar_end\": 14,\n        \"source\": \"auto\",\n        \"t0\": 48.388,\n        \"t1\": 74.318\n      },\n      {\n        \"id\": \"s3\",\n        \"label\": \"theme 2\",\n        \"bar_start\": 15,\n        \"bar_end\": 22,\n        \"source\": \"creator\",\n        \"t0\": 74.318,\n        \"t1\": 115.245\n      },\n      {\n        \"id\": \"s4\",\n        \"label\": \"after the theme\",\n        \"bar_start\": 23,\n        \"bar_end\": 30,\n        \"source\": \"auto\",\n        \"t0\": 115.245,\n        \"t1\": 157.556\n      },\n      {\n        \"id\": \"s5\",\n        \"label\": \"second half\",\n        \"bar_start\": 31,\n        \"bar_end\": 38,\n        \"source\": \"auto\",\n        \"t0\": 157.556,\n        \"t1\": 198.832\n      },\n      {\n        \"id\": \"s6\",\n        \"label\": \"ending\",\n        \"bar_start\": 39,\n        \"bar_end\": 41,\n        \"source\": \"auto\",\n        \"t0\": 198.832,\n        \"t1\": 211.625,\n        \"ends_past_map\": true\n      }\n    ],\n    \"spine\": {\n      \"id\": \"piano\",\n      \"kind\": \"take\",\n      \"path\": \"runs/color-purple/source/recording.wav\",\n      \"sha256\": \"3496d64f8e76d8e844f54aeb1f0b3ec90eed5625844801cb16976f33a2116b15\",\n      \"class\": \"keyboard\"\n    },\n    \"layers\": [\n      {\n        \"id\": \"L1\",\n        \"name\": \"vocal\",\n        \"class\": \"vocals\",\n        \"kind\": \"generated\",\n        \"text\": \"the theme itself, sung with deep emotion and breathy vulnerability on the first verse, sitting with the piano's top line, never louder than the piano\",\n        \"from\": {\n          \"cell\": \"theme 2\",\n          \"component\": 0,\n          \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\",\n          \"chars\": [\n            823,\n            946\n          ]\n        },\n        \"anchors\": {\n          \"enter\": {\n            \"bar\": 15,\n            \"beat\": 1.0\n          },\n          \"exit\": {\n            \"bar\": 23,\n            \"beat\": 1.0\n          }\n        },\n        \"t0\": 74.318,\n        \"t1\": 115.245,\n        \"route\": \"score\",\n        \"job\": {\n          \"backend\": \"soulx-singer\",\n          \"inputs\": {\n            \"score\": \"jobs/L1/vocal.abc\",\n            \"lyrics\""
+  }
+ ],
+ "final_drift": 4,
+ "final_exact": false,
+ "final_drift_lenient": 4,
+ "turns_ok": 5,
+ "rejected": 0,
+ "composer_lost_final": [
+  "layers.L2.job.params.prompt"
+ ],
+ "stale_missed": [],
+ "cost": 0.0
+}

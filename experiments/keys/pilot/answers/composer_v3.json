@@ -1,0 +1,38 @@
+{
+ "at": "2026-11-03T23:07:30.820Z",
+ "ladder": "v3",
+ "rater": "composer",
+ "steps": [
+  {
+   "clip": "Fu0",
+   "register": "right",
+   "score": 45
+  },
+  {
+   "clip": "Du6",
+   "register": "right",
+   "score": 55
+  },
+  {
+   "clip": "Re6",
+   "register": "high",
+   "score": 65
+  },
+  {
+   "clip": "Fa4",
+   "register": "high",
+   "score": 75
+  },
+  {
+   "clip": "Ve3",
+   "register": "high",
+   "score": 85
+  },
+  {
+   "clip": "Ta2",
+   "register": "high",
+   "score": 95
+  }
+ ],
+ "sweet": "Fu0"
+}

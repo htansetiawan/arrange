@@ -1,0 +1,38 @@
+{
+ "at": "2026-11-03T23:11:07.205Z",
+ "ladder": "v6",
+ "rater": "composer",
+ "steps": [
+  {
+   "clip": "Zu2",
+   "register": "right",
+   "score": 51
+  },
+  {
+   "clip": "We0",
+   "register": "high",
+   "score": 57
+  },
+  {
+   "clip": "Si6",
+   "register": "high",
+   "score": 65
+  },
+  {
+   "clip": "Ja0",
+   "register": "high",
+   "score": 75
+  },
+  {
+   "clip": "Me6",
+   "register": "high",
+   "score": 85
+  },
+  {
+   "clip": "Na4",
+   "register": "high",
+   "score": 95
+  }
+ ],
+ "sweet": "Zu2"
+}

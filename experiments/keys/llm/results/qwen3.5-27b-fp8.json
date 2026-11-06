@@ -1,0 +1,965 @@
+{
+ "model": "qwen3.5-27b-fp8",
+ "rows": [
+  {
+   "case": "attya/buble",
+   "cond": "name",
+   "draw": 1,
+   "shift": -3,
+   "gold": -8,
+   "answer": "\n\n{\"shift\": -3, \"why\": \"Lowering the key by three semitones brings the highest note down to B4 and centers the median on Middle C, ensuring the clone operates within the singer's most frequent and comfortable tessitura.\"}",
+   "cost": 0.0,
+   "elapsed": 197.1
+  },
+  {
+   "case": "attya/buble",
+   "cond": "name",
+   "draw": 2,
+   "shift": -3,
+   "gold": -8,
+   "answer": "\n\n{\"shift\": -3, \"why\": \"A -3 semitone shift lowers the median to C4 and the peak to B4, centering the melody in Bublé's warm baritone-tenor sweet spot and preventing the clone from straining at the original D5 high.\"}",
+   "cost": 0.0,
+   "elapsed": 152.1
+  },
+  {
+   "case": "attya/buble",
+   "cond": "name",
+   "draw": 3,
+   "shift": -4,
+   "gold": -8,
+   "answer": "\n\n{\"shift\": -4, \"why\": \"Transposing down 4 semitones places the median at B3 and the 90th percentile at G4, aligning with Michael Bublé's comfortable baritone tessitura while avoiding the strain of the original D5 high note.\"}",
+   "cost": 0.0,
+   "elapsed": 229.1
+  },
+  {
+   "case": "attya/buble",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": -6,
+   "gold": -8,
+   "answer": "\n\n{\n\"shift\": -6,\n\"why\": \"Transposing down 6 semitones aligns the song's median (D#4) with the singer's median (A3) while keeping the lowest notes (F3) safely above the singer's 10th percentile floor (E3).\"\n}",
+   "cost": 0.0,
+   "elapsed": 228.1
+  },
+  {
+   "case": "attya/buble",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": -9,
+   "gold": -8,
+   "answer": "\n\n{\"shift\": -9, \"why\": \"Shifting down 9 semitones aligns the song's 90th percentile with the singer's 90th percentile, minimizing strain on the clone's high notes while keeping the lowest notes within a safe margin.\"}",
+   "cost": 0.0,
+   "elapsed": 186.1
+  },
+  {
+   "case": "attya/buble",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": -7,
+   "gold": -8,
+   "answer": "\n\n{\n\"shift\": -7,\n\"why\": \"A shift of -7 semitones aligns the song's lowest note with the singer's 10th percentile floor (E3) and keeps the high notes closer to his 90th percentile limit (D4) than a median-aligned transposition.\"\n}",
+   "cost": 0.0,
+   "elapsed": 236.2
+  },
+  {
+   "case": "attya/buble",
+   "cond": "anon",
+   "draw": 1,
+   "shift": -7,
+   "gold": -8,
+   "answer": "\n\n{\n\"shift\": -7,\n\"why\": \"A shift of -7 semitones aligns the song's 10th percentile and median closely with the singer's natural range while keeping the highest notes near the singer's observed upper limit to avoid strain.\"\n}",
+   "cost": 0.0,
+   "elapsed": 299.3
+  },
+  {
+   "case": "attya/buble",
+   "cond": "anon",
+   "draw": 2,
+   "shift": -7,
+   "gold": -8,
+   "answer": "\n\n{\"shift\": -7, \"why\": \"Transposing down seven semitones aligns the song's lowest note with the singer's 10th percentile (E3) and keeps the median within their interquartile range while minimizing strain on the high notes.\"}",
+   "cost": 0.0,
+   "elapsed": 249.9
+  },
+  {
+   "case": "attya/buble",
+   "cond": "anon",
+   "draw": 3,
+   "shift": -9,
+   "gold": -8,
+   "answer": "\n\n{\"shift\": -9, \"why\": \"Shifting down 9 semitones aligns the song's 90th percentile (B4) with the singer's 90th percentile (D4), ensuring the majority of the melody stays within the voice clone's proven comfortable range.\"}",
+   "cost": 0.0,
+   "elapsed": 272.8
+  },
+  {
+   "case": "attya/buble",
+   "cond": "image",
+   "draw": 1,
+   "shift": -8,
+   "gold": -8,
+   "answer": "\n\n{\"shift\": -8, \"why\": \"Shifting down by 8 semitones aligns the song's median (D#4) with the singer's most frequent note (G3) and keeps the 90th percentile (B4 -> D4) and highest note (D5 -> F4) within the singer's comfortable upper range shown in the blue histogram.\"}",
+   "cost": 0.0,
+   "elapsed": 156.9
+  },
+  {
+   "case": "attya/buble",
+   "cond": "image",
+   "draw": 2,
+   "shift": -12,
+   "gold": -8,
+   "answer": "\n\n```json\n{\n  \"shift\": -12,\n  \"why\": \"The singer's most frequent notes (blue bars) are concentrated in the G3-C4 range, while the song's melody (orange bars) sits an octave higher around G4-C5, so transposing down an octave aligns the song's high notes with the singer's comfortable range.\"\n}\n```",
+   "cost": 0.0,
+   "elapsed": 194.9
+  },
+  {
+   "case": "attya/buble",
+   "cond": "image",
+   "draw": 3,
+   "shift": -8,
+   "gold": -8,
+   "answer": "\n\n{\"shift\": -8, \"why\": \"A shift of -8 semitones aligns the song's median pitch (D#4) with the singer's most frequently sung note (G3), ensuring the melody sits within their most comfortable range.\"}",
+   "cost": 0.0,
+   "elapsed": 323.7
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "name",
+   "draw": 1,
+   "shift": 1,
+   "gold": -4,
+   "answer": "\n\n{\n  \"shift\": 1,\n  \"why\": \"Transposing up one semitone raises the lowest note to C4 and the median to E4, aligning the melody with Michael Jackson's characteristic high tenor tessitura while keeping the peak E5 within his recorded range.\"\n}",
+   "cost": 0.0,
+   "elapsed": 213.7
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "name",
+   "draw": 2,
+   "shift": -2,
+   "gold": -4,
+   "answer": "\n\n{\n  \"shift\": -2,\n  \"why\": \"Transposing down two semitones aligns the melody's range (B3-D5) exactly with Michael Jackson's most comfortable vocal tessitura (A3-C5), preventing high-register strain.\"\n}",
+   "cost": 0.0,
+   "elapsed": 274.5
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "name",
+   "draw": 3,
+   "shift": 4,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": 4, \"why\": \"Transposing up 4 semitones aligns the song's median pitch with Jackson's characteristic G4 tenor sweet spot, ensuring the cloned voice operates within its most authentic and strain-free range.\"}",
+   "cost": 0.0,
+   "elapsed": 156.3
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": -3,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": -3, \"why\": \"Shifting down 3 semitones aligns the song's highest note with the singer's 90th percentile (B4) and keeps the median close to their natural average for optimal tone.\"}",
+   "cost": 0.0,
+   "elapsed": 189.1
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": -3,
+   "gold": -4,
+   "answer": "\n\n{\n\"shift\": -3,\n\"why\": \"A shift of -3 semitones ensures the song's highest note (D5) does not exceed the singer's 90th percentile (B4), preventing the clone from straining on notes outside its training distribution while keeping the median within a comfortable range.\"\n}",
+   "cost": 0.0,
+   "elapsed": 257.0
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": -1,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": -1, \"why\": \"Transposing down one semitone aligns the song's median pitch with the singer's median, ensuring the melody sits within his most comfortable and authentic vocal range.\"}",
+   "cost": 0.0,
+   "elapsed": 144.6
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "anon",
+   "draw": 1,
+   "shift": -3,
+   "gold": -4,
+   "answer": "\n\n{\n\"shift\": -3,\n\"why\": \"Transposing down 3 semitones aligns the song's highest note with the singer's 90th percentile limit to avoid strain while keeping the median within their most frequently recorded range.\"\n}",
+   "cost": 0.0,
+   "elapsed": 130.6
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "anon",
+   "draw": 2,
+   "shift": -2,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": -2, \"why\": \"This transposition aligns the song's median (C#4) closely with the singer's median (D4) for optimal timbre, while keeping the highest note (C5) just above the 90th percentile (B4) and the lowest note (A3) safely above the 10th percentile (G3).\"}",
+   "cost": 0.0,
+   "elapsed": 341.5
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "anon",
+   "draw": 3,
+   "shift": -3,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": -3, \"why\": \"Transposing down 3 semitones aligns the song's highest note with the singer's 90th percentile limit, ensuring the entire melody stays within their recorded comfort range.\"}",
+   "cost": 0.0,
+   "elapsed": 179.4
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "image",
+   "draw": 1,
+   "shift": -4,
+   "gold": -4,
+   "answer": "\n\n{\n\"shift\": -4,\n\"why\": \"Shifting the melody down by 4 semitones aligns the song's range (B3 to D5) perfectly with the singer's most frequent notes (G3 to A4), mapping the median and highest notes to the singer's strongest density peaks.\"\n}",
+   "cost": 0.0,
+   "elapsed": 288.7
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "image",
+   "draw": 2,
+   "shift": -5,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": -5, \"why\": \"Shifting the melody down by 5 semitones aligns the song's median (D#4) with the singer's most frequent lower note (A3) and the song's highest notes (C5/D5) with the singer's upper peak (G4), keeping the performance within the singer's strongest range.\"}",
+   "cost": 0.0,
+   "elapsed": 447.7
+  },
+  {
+   "case": "attya/jackson",
+   "cond": "image",
+   "draw": 3,
+   "shift": -3,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": -3, \"why\": \"Shifting the melody down by 3 semitones moves the song's range (B3–D5) into the singer's comfortable range (G3–B4), aligning the written peaks with the singer's recorded peaks at G3, B3, and A4/B4 while avoiding the singer's upper limit.\"}",
+   "cost": 0.0,
+   "elapsed": 296.1
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "name",
+   "draw": 1,
+   "shift": 3,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 3, \"why\": \"Transposing up three semitones centers the melody's tessitura in Kelly Clarkson's resonant belt range (D4–F5) while keeping the highest notes within her comfortable upper limit.\"}",
+   "cost": 0.0,
+   "elapsed": 168.5
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "name",
+   "draw": 2,
+   "shift": 1,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 1, \"why\": \"Transposing up one semitone positions the median at E4 and the climax at Eb5, optimizing the tessitura for Kelly Clarkson's powerful belt without pushing the clone into the upper strain zone.\"}",
+   "cost": 0.0,
+   "elapsed": 191.4
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "name",
+   "draw": 3,
+   "shift": -2,
+   "gold": 2,
+   "answer": "\n\n{\n  \"shift\": -2,\n  \"why\": \"Lowering the melody by two semitones caps the highest note at C5, aligning the song's climax with Kelly Clarkson's most stable and frequently recorded belt tessitura to prevent the voice clone from straining at the upper limit.\"\n}",
+   "cost": 0.0,
+   "elapsed": 195.2
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": -2,
+   "gold": 2,
+   "answer": "\n\n{\n\"shift\": -2,\n\"why\": \"Transposing down two semitones lowers the song's highest note from D5 to C5, keeping it within the singer's 90th percentile limit to prevent vocal strain.\"\n}",
+   "cost": 0.0,
+   "elapsed": 227.9
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": 0,
+   "gold": 2,
+   "answer": "\n\n{\n  \"shift\": 0,\n  \"why\": \"This transposition keeps the song's lowest note at the singer's 10th percentile boundary while minimizing the number of high notes exceeding the 90th percentile limit compared to other shifts.\"\n}",
+   "cost": 0.0,
+   "elapsed": 258.8
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": 0,
+   "gold": 2,
+   "answer": "\n\n{\n  \"shift\": 0,\n  \"why\": \"Keeping the key at 0 semitones aligns the song's 90th percentile (B4) with the singer's 75th percentile (B4) and keeps the lowest note (B3) within the singer's recorded 10th percentile, placing the median closer to her comfortable range than a downward shift.\"\n}",
+   "cost": 0.0,
+   "elapsed": 254.0
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "anon",
+   "draw": 1,
+   "shift": 0,
+   "gold": 2,
+   "answer": "\n\n{\n\"shift\": 0,\n\"why\": \"A zero shift keeps the song's lowest note at the singer's 10th percentile floor and places the highest note within the top 10% of their recorded range, avoiding the strain of dropping below the established low limit.\"\n}",
+   "cost": 0.0,
+   "elapsed": 204.3
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "anon",
+   "draw": 2,
+   "shift": 0,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 0, \"why\": \"A zero shift aligns the song's lowest note and 10th percentile with the singer's 10th percentile, ensuring the bulk of the melody remains within the clone's most authentic recorded range.\"}",
+   "cost": 0.0,
+   "elapsed": 252.4
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "anon",
+   "draw": 3,
+   "shift": 0,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 0, \"why\": \"A zero shift aligns the song's 90th percentile (B4) with the singer's 75th percentile (B4) and keeps the lowest note (B3) at the singer's 10th percentile, ensuring the melody stays within the recorded range for the most authentic sound.\"}",
+   "cost": 0.0,
+   "elapsed": 236.8
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "image",
+   "draw": 1,
+   "shift": null,
+   "gold": 2,
+   "answer": "",
+   "cost": 0.0,
+   "elapsed": 629.1
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "image",
+   "draw": 2,
+   "shift": 4,
+   "gold": 2,
+   "answer": "\n\n{\n\"shift\": 4,\n\"why\": \"Shifting the melody up by 4 semitones aligns the song's median (D#4) and main peaks with the singer's most frequently used and comfortable range (centered around G4 and C5).\"\n}",
+   "cost": 0.0,
+   "elapsed": 505.7
+  },
+  {
+   "case": "attya/clarkson",
+   "cond": "image",
+   "draw": 3,
+   "shift": 1,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 1, \"why\": \"Shifting the melody up by 1 semitone moves the song's median (D#4) to E4 and its 90th percentile (B4) to C5, aligning the core of the melody with the singer's most frequently sung notes (E4, G4, A4, C5) while keeping the highest notes within their recorded range.\"}",
+   "cost": 0.0,
+   "elapsed": 474.1
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "name",
+   "draw": 1,
+   "shift": -3,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": -3, \"why\": \"This transposition lowers the peak D5 to B4 and centers the melody at C4, placing the song squarely within Michael Bolton's resonant baritone sweet spot where the clone avoids upper-register strain.\"}",
+   "cost": 0.0,
+   "elapsed": 138.9
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "name",
+   "draw": 2,
+   "shift": -5,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": -5, \"why\": \"Transposing down five semitones lowers the melody's peak to A4, which aligns with Michael Bolton's signature comfortable belt range, while keeping the median tessitura within his resonant baritone register to prevent vocal strain.\"}",
+   "cost": 0.0,
+   "elapsed": 169.0
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "name",
+   "draw": 3,
+   "shift": -3,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": -3, \"why\": \"Transposing down three semitones lowers the peak to B4 and centers the median at C4, placing the melody firmly within Michael Bolton's resonant chest-to-mix tessitura while avoiding the strain of the original D5 high.\"}",
+   "cost": 0.0,
+   "elapsed": 199.7
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": -1,
+   "gold": -4,
+   "answer": "\n\n{\n\"shift\": -1,\n\"why\": \"Lowering the melody by one semitone aligns the song's 90th percentile (B4) with the singer's 90th percentile (A#4), ensuring the high notes fall within the clone's comfortable range to prevent strain.\"\n}",
+   "cost": 0.0,
+   "elapsed": 332.1
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": -1,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": -1, \"why\": \"Lowering by one semitone keeps the song's 90th percentile note within the singer's recorded upper limit, avoiding high-end strain while maintaining the median within the comfortable core range.\"}",
+   "cost": 0.0,
+   "elapsed": 120.3
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": 0,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": 0, \"why\": \"Keeping the original key preserves the median tessitura (D#4 vs E4) and lowest notes closest to the singer's recorded range, while the song's 90th percentile (B4) remains within the singer's upper 10% distribution (above A#4).\"}",
+   "cost": 0.0,
+   "elapsed": 311.4
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "anon",
+   "draw": 1,
+   "shift": 0,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": 0, \"why\": \"Transposing zero semitones keeps the song's median and percentiles closest to the singer's recorded distribution, minimizing strain artifacts on both high and low extremes.\"}",
+   "cost": 0.0,
+   "elapsed": 241.5
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "anon",
+   "draw": 2,
+   "shift": -1,
+   "gold": -4,
+   "answer": "\n\n{\n  \"shift\": -1,\n  \"why\": \"Shifting down one semitone aligns the song's 90th percentile (B4) with the singer's 90th percentile (A#4) and keeps the median (D4) closest to the singer's median (E4), minimizing strain on the clone's upper range.\"\n}",
+   "cost": 0.0,
+   "elapsed": 242.2
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "anon",
+   "draw": 3,
+   "shift": -1,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": -1, \"why\": \"Shifting down one semitone aligns the song's 90th percentile high notes with the singer's upper range limit while keeping the median within their most frequent singing zone.\"}",
+   "cost": 0.0,
+   "elapsed": 161.0
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "image",
+   "draw": 1,
+   "shift": 3,
+   "gold": -4,
+   "answer": "\n\n{\n\"shift\": 3,\n\"why\": \"Shifting the song up by 3 semitones aligns the song's median (D#4 -> G4) and lower range (B3 -> D4) with the singer's most frequent and comfortable notes (E4-C5), whereas the original key leaves the low notes (B3-C4) below the singer's comfortable range.\"\n}",
+   "cost": 0.0,
+   "elapsed": 504.3
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "image",
+   "draw": 2,
+   "shift": 2,
+   "gold": -4,
+   "answer": "\n\n{\n  \"shift\": 2,\n  \"why\": \"Shifting the melody up by 2 semitones aligns the song's most frequent notes (peaks at D4 and A4) with the singer's most comfortable and frequently sung notes (peaks at E4 and B4), while moving the song's lowest notes into the singer's usable range.\"\n}",
+   "cost": 0.0,
+   "elapsed": 441.9
+  },
+  {
+   "case": "attya/bolton",
+   "cond": "image",
+   "draw": 3,
+   "shift": 1,
+   "gold": -4,
+   "answer": "\n\n{\"shift\": 1, \"why\": \"The singer's recording (blue bars) shows a pitch distribution shifted one semitone higher than the written melody (orange bars), particularly peaking at F4 and B4 compared to the written E4 and A4, indicating this is their most comfortable range.\"}",
+   "cost": 0.0,
+   "elapsed": 559.2
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "name",
+   "draw": 1,
+   "shift": 2,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 2, \"why\": \"Shifting up two semitones aligns the melody's range (C#4–E5) with Ariana Grande's signature mix and belt tessitura, avoiding the low register where her clone lacks timbral definition and the extreme highs where strain occurs.\"}",
+   "cost": 0.0,
+   "elapsed": 151.8
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "name",
+   "draw": 2,
+   "shift": 4,
+   "gold": 2,
+   "answer": "\n\n{\n  \"shift\": 4,\n  \"why\": \"Transposing up four semitones aligns the melody with Ariana Grande's signature G4-G5 tessitura, ensuring the clone operates within her most stable and distinctive vocal range.\"\n}",
+   "cost": 0.0,
+   "elapsed": 220.7
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "name",
+   "draw": 3,
+   "shift": 2,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 2, \"why\": \"Transposing up two semitones moves the melody into Ariana Grande's optimal tessitura of D4 to F5, ensuring the clone sounds authentic without straining in the lower or extreme upper registers.\"}",
+   "cost": 0.0,
+   "elapsed": 104.1
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": 4,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 4, \"why\": \"Transposing up 4 semitones aligns the song's median (D#4) with the singer's median (G4), ensuring the majority of the melody sits in her most comfortable tessitura while keeping the lowest notes safely within her recorded range.\"}",
+   "cost": 0.0,
+   "elapsed": 298.0
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": 2,
+   "gold": 2,
+   "answer": "\n\n{\n\"shift\": 2,\n\"why\": \"A +2 semitone shift aligns the song's lower limit with the singer's 10th percentile and keeps the median within her recorded range, minimizing the portion of the melody that exceeds her 90th percentile upper limit.\"\n}",
+   "cost": 0.0,
+   "elapsed": 199.6
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": 2,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 2, \"why\": \"Transposing up two semitones aligns the song's 10th and 90th percentiles with the singer's recorded vocal boundaries, ensuring the melody remains within her most authentic distribution.\"}",
+   "cost": 0.0,
+   "elapsed": 146.0
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "anon",
+   "draw": 1,
+   "shift": 2,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 2, \"why\": \"Shifting up 2 semitones aligns the song's lowest notes with the singer's lower range limit while keeping the median within the singer's most comfortable mid-range.\"}",
+   "cost": 0.0,
+   "elapsed": 334.4
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "anon",
+   "draw": 2,
+   "shift": 2,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 2, \"why\": \"Shifting up two semitones aligns the song's 10th percentile with the singer's 10th percentile and places the median within one semitone of their natural center, minimizing strain outside the recorded range.\"}",
+   "cost": 0.0,
+   "elapsed": 291.4
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "anon",
+   "draw": 3,
+   "shift": 2,
+   "gold": 2,
+   "answer": "\n\n{\n\"shift\": 2,\n\"why\": \"A +2 semitone shift aligns the song's 10th percentile with the singer's lower range boundary while positioning the median closer to the singer's optimal G4 than a lower transposition.\"\n}",
+   "cost": 0.0,
+   "elapsed": 251.4
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "image",
+   "draw": 1,
+   "shift": 5,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 5, \"why\": \"The written melody peaks at D4 while the singer's most comfortable range (blue bars) is centered around G4, indicating a transposition of +5 semitones aligns the song's main body with the singer's vocal strengths.\"}",
+   "cost": 0.0,
+   "elapsed": 426.9
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "image",
+   "draw": 2,
+   "shift": 5,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 5, \"why\": \"Shifting the melody up by 5 semitones aligns the song's most frequent notes (D4/E4) with the singer's strongest and most comfortable range (G4/A4), as indicated by the peaks in the blue histogram.\"}",
+   "cost": 0.0,
+   "elapsed": 361.4
+  },
+  {
+   "case": "attya/ariana",
+   "cond": "image",
+   "draw": 3,
+   "shift": 3,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 3, \"why\": \"Shifting the written melody up by 3 semitones aligns its primary peaks (around E4 and G4) with the singer's most frequent notes (around G4 and B4) and ensures the highest note (D5 becoming E5) falls within the singer's recorded upper range.\"}",
+   "cost": 0.0,
+   "elapsed": 369.9
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "name",
+   "draw": 1,
+   "shift": 1,
+   "gold": 2,
+   "answer": "\n\n{\n  \"shift\": 1,\n  \"why\": \"Transposing up one semitone aligns the melody's tessitura (C4-C5) with Stevie Wonder's most resonant and data-rich vocal range, avoiding the thinner lower register while keeping the peak (Eb5) within his comfortable belt.\"\n}",
+   "cost": 0.0,
+   "elapsed": 242.1
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "name",
+   "draw": 2,
+   "shift": -3,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": -3, \"why\": \"Shifting down three semitones lowers the highest note to B4 and centers the median at C#4, placing the entire melody within Stevie Wonder's most resonant chest and mix registers to avoid the strain of the original D5 upper limit.\"}",
+   "cost": 0.0,
+   "elapsed": 105.1
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "name",
+   "draw": 3,
+   "shift": -1,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": -1, \"why\": \"Shifting down one semitone lowers the high note to C5 and centers the 90th percentile at A4, aligning the melody with Stevie Wonder's most resonant and strain-free tessitura for a cloned voice.\"}",
+   "cost": 0.0,
+   "elapsed": 278.8
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": 2,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 2, \"why\": \"Transposing up two semitones aligns the song's median (D#4) with the singer's median (F4) and keeps the lowest notes above the singer's 10th percentile floor, maximizing the proportion of notes within the clone's most authentic range.\"}",
+   "cost": 0.0,
+   "elapsed": 272.2
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": 2,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 2, \"why\": \"A +2 semitone shift aligns the song's median (D#4) with the singer's median (F4) while ensuring the lowest notes (C#4) remain above the singer's lower limit (C4).\"}",
+   "cost": 0.0,
+   "elapsed": 179.0
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": -2,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": -2, \"why\": \"Transposing down two semitones aligns the song's 90th percentile with the singer's upper range limit, ensuring the majority of the melody stays within the clone's comfortable vocal span.\"}",
+   "cost": 0.0,
+   "elapsed": 182.1
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "anon",
+   "draw": 1,
+   "shift": -2,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": -2, \"why\": \"Shifting down 2 semitones aligns the song's 90th percentile with the singer's 90th percentile, keeping the majority of the melody within the singer's recorded range while avoiding strain on the highest notes.\"}",
+   "cost": 0.0,
+   "elapsed": 215.9
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "anon",
+   "draw": 2,
+   "shift": -2,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": -2, \"why\": \"A shift of -2 semitones aligns the song's 90th percentile (B4) with the singer's upper comfort limit (A4) while keeping the median note (C#4) safely above the singer's lower 10th percentile (C4).\"}",
+   "cost": 0.0,
+   "elapsed": 186.4
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "anon",
+   "draw": 3,
+   "shift": 1,
+   "gold": 2,
+   "answer": "\n\n{\n\"shift\": 1,\n\"why\": \"Shifting up 1 semitone aligns the song's lowest note with the singer's 10th percentile (C4) and keeps the median within the singer's interquartile range while minimizing high-end strain.\"\n}",
+   "cost": 0.0,
+   "elapsed": 248.9
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "image",
+   "draw": 1,
+   "shift": 3,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 3, \"why\": \"The singer's most comfortable range (indicated by the blue bars' peak) is centered around F#4/G4, which is 3 semitones higher than the song's written median (D#4), and the singer's recording (blue) appears to be a transposed version of the written melody (orange) shifted up by this amount.\"}",
+   "cost": 0.0,
+   "elapsed": 445.3
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "image",
+   "draw": 2,
+   "shift": -7,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": -7, \"why\": \"The singer's comfortable range (blue) peaks around F#4/G4 and extends down to E3, while the song (orange) ranges from B3 to D5; shifting down by 7 semitones aligns the song's range (B3-D5) with the singer's comfortable range (E3-G4), placing the song's high notes in the singer's strongest register.\"}",
+   "cost": 0.0,
+   "elapsed": 489.0
+  },
+  {
+   "case": "attya/wonder",
+   "cond": "image",
+   "draw": 3,
+   "shift": 1,
+   "gold": 2,
+   "answer": "\n\n{\"shift\": 1, \"why\": \"Shifting the song up by 1 semitone aligns the song's median (D#4) with the singer's peak usage (E4) and keeps 90% of the melody (up to C5) within the singer's recorded range.\"}",
+   "cost": 0.0,
+   "elapsed": 610.3
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "name",
+   "draw": 1,
+   "shift": -3,
+   "gold": 1,
+   "answer": "\n\n{\"shift\": -3, \"why\": \"Transposing down three semitones aligns the melody's peak and median with Kelly Clarkson's most frequent vocal tessitura, ensuring the clone avoids strain on the original high G5 while maintaining her signature belt power.\"}",
+   "cost": 0.0,
+   "elapsed": 172.3
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "name",
+   "draw": 2,
+   "shift": -3,
+   "gold": 1,
+   "answer": "\n\n{\n  \"shift\": -3,\n  \"why\": \"Transposing down three semitones aligns the melody's peak with Kelly Clarkson's comfortable E5 belt limit, ensuring the clone avoids strain on the original G5 high notes.\"\n}",
+   "cost": 0.0,
+   "elapsed": 175.7
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "name",
+   "draw": 3,
+   "shift": -2,
+   "gold": 1,
+   "answer": "\n\n{\"shift\": -2, \"why\": \"Lowering the melody by two semitones moves the highest note from a potentially straining G5 to Kelly's reliable belt ceiling of F5, while keeping the median at G4 within her most resonant and comfortable register.\"}",
+   "cost": 0.0,
+   "elapsed": 216.7
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": -2,
+   "gold": 1,
+   "answer": "\n\n{\"shift\": -2, \"why\": \"Shifting down two semitones aligns the song's time-weighted median and 10th percentile with the singer's corresponding statistics, ensuring the majority of the melody falls within the clone's authentic vocal range.\"}",
+   "cost": 0.0,
+   "elapsed": 229.8
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": -4,
+   "gold": 1,
+   "answer": "\n\n{\"shift\": -4, \"why\": \"This shift aligns the song's 90th percentile (E5) with the singer's 90th percentile limit (C5), ensuring the majority of the melody stays within the clone's authentic range while keeping the median close to the singer's natural center.\"}",
+   "cost": 0.0,
+   "elapsed": 258.7
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": -4,
+   "gold": 1,
+   "answer": "\n\n{\"shift\": -4, \"why\": \"Shifting down 4 semitones aligns the song's 90th percentile with the singer's 90th percentile, ensuring the majority of the melody stays within the clone's authentic range while minimizing high-note strain.\"}",
+   "cost": 0.0,
+   "elapsed": 329.5
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "anon",
+   "draw": 1,
+   "shift": -2,
+   "gold": 1,
+   "answer": "\n\n{\"shift\": -2, \"why\": \"Transposing down two semitones aligns the song's median with the singer's median, placing the melody's core tessitura in the clone's most authentic and comfortable range.\"}",
+   "cost": 0.0,
+   "elapsed": 185.4
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "anon",
+   "draw": 2,
+   "shift": -4,
+   "gold": 1,
+   "answer": "\n\n{\n  \"shift\": -4,\n  \"why\": \"Shifting down 4 semitones aligns the song's 90th percentile (E5) with the singer's 90th percentile (C5) to prevent high-note strain, which is more critical for voice clone quality than the low notes falling slightly below the recorded range.\"\n}",
+   "cost": 0.0,
+   "elapsed": 242.6
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "anon",
+   "draw": 3,
+   "shift": -4,
+   "gold": 1,
+   "answer": "\n\n{\n  \"shift\": -4,\n  \"why\": \"A shift of -4 semitones aligns the song's 90th percentile (E5) with the singer's 90th percentile (C5) to prevent high-end strain, while keeping the median close to the singer's comfortable range.\"\n}",
+   "cost": 0.0,
+   "elapsed": 136.2
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "image",
+   "draw": 1,
+   "shift": -7,
+   "gold": 1,
+   "answer": "\n\n```json\n{\n  \"shift\": -7,\n  \"why\": \"Shifting down by 7 semitones aligns the song's 90th percentile note (E5) and highest note (G5) with the singer's most frequent and comfortable notes (G4 and C5).\"\n}\n```",
+   "cost": 0.0,
+   "elapsed": 212.7
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "image",
+   "draw": 2,
+   "shift": -3,
+   "gold": 1,
+   "answer": "\n\n{\"shift\": -3, \"why\": \"Shifting the melody down by 3 semitones aligns the song's range (C4 to G5) with the singer's comfortable range (G3 to E5), preventing strain on the highest notes while keeping the lowest notes within the voice's capabilities.\"}",
+   "cost": 0.0,
+   "elapsed": 433.0
+  },
+  {
+   "case": "someday/clarkson",
+   "cond": "image",
+   "draw": 3,
+   "shift": -5,
+   "gold": 1,
+   "answer": "\n\n```json\n{\n  \"shift\": -5,\n  \"why\": \"The singer's recorded performance (blue bars) is consistently 5 semitones lower than the written melody (orange bars), with the written peak at C5 aligning with the singer's peak at G4.\"\n}\n```",
+   "cost": 0.0,
+   "elapsed": 230.0
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "name",
+   "draw": 1,
+   "shift": 2,
+   "gold": -2,
+   "answer": "\n\n{\"shift\": 2, \"why\": \"Transposing up two semitones moves the lowest note to D4 to avoid low-end strain while keeping the 90th percentile at G5 within Ariana's frequent upper-mix range.\"}",
+   "cost": 0.0,
+   "elapsed": 289.3
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "name",
+   "draw": 2,
+   "shift": 3,
+   "gold": -2,
+   "answer": "\n\n{\"shift\": 3, \"why\": \"Transposing up three semitones centers the melody's median at C5, aligning the song's tessitura with Ariana Grande's most resonant and frequently recorded vocal range.\"}",
+   "cost": 0.0,
+   "elapsed": 146.2
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "name",
+   "draw": 3,
+   "shift": -1,
+   "gold": -2,
+   "answer": "\n\n{\"shift\": -1, \"why\": \"Lowering the key by one semitone moves the melody's peak from G5 to F#5, keeping the high notes within Ariana's safe mix range while maintaining her signature G4-C5 tessitura.\"}",
+   "cost": 0.0,
+   "elapsed": 249.5
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "numbers",
+   "draw": 1,
+   "shift": -4,
+   "gold": -2,
+   "answer": "\n\n{\"shift\": -4, \"why\": \"A downward shift of four semitones aligns the song's 90th percentile with the singer's upper range limit, preventing the strain that occurs when the clone exceeds its recorded high notes.\"}",
+   "cost": 0.0,
+   "elapsed": 259.7
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "numbers",
+   "draw": 2,
+   "shift": -4,
+   "gold": -2,
+   "answer": "\n\n{\"shift\": -4, \"why\": \"Shifting down 4 semitones aligns the song's 90th percentile (E5) with the singer's 90th percentile (C5), ensuring the high notes remain within the clone's comfortable upper range to avoid strain.\"}",
+   "cost": 0.0,
+   "elapsed": 240.9
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "numbers",
+   "draw": 3,
+   "shift": -2,
+   "gold": -2,
+   "answer": "\n\n{\"shift\": -2, \"why\": \"Transposing down two semitones aligns the song's time-weighted median (A4) with the singer's median (G4), ensuring the majority of the melody sits within her most comfortable and frequently used vocal range.\"}",
+   "cost": 0.0,
+   "elapsed": 171.1
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "anon",
+   "draw": 1,
+   "shift": -2,
+   "gold": -2,
+   "answer": "\n\n{\"shift\": -2, \"why\": \"Transposing down two semitones aligns the song's time-weighted median with the singer's median, ensuring the melody's core tessitura falls within the voice clone's most natural and frequently used pitch range.\"}",
+   "cost": 0.0,
+   "elapsed": 194.2
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "anon",
+   "draw": 2,
+   "shift": -7,
+   "gold": -2,
+   "answer": "\n\n{\"shift\": -7, \"why\": \"This transposition aligns the song's highest note with the singer's 90th percentile limit to prevent strain, prioritizing the upper range safety over the lower range.\"}",
+   "cost": 0.0,
+   "elapsed": 236.2
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "anon",
+   "draw": 3,
+   "shift": -4,
+   "gold": -2,
+   "answer": "\n\n{\"shift\": -4, \"why\": \"Transposing down 4 semitones aligns the song's 90th percentile with the singer's 90th percentile (C5) to ensure the majority of the melody falls within the singer's comfortable recorded range.\"}",
+   "cost": 0.0,
+   "elapsed": 299.1
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "image",
+   "draw": 1,
+   "shift": -5,
+   "gold": -2,
+   "answer": "\n\n```json\n{\n  \"shift\": -5,\n  \"why\": \"Shifting the song down by 5 semitones aligns the song's range (C4-G5) with the singer's comfortable range (G3-D5), mapping the song's frequent high notes (C5, E5) to the singer's most used notes (G4, B4).\"\n}\n```",
+   "cost": 0.0,
+   "elapsed": 236.0
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "image",
+   "draw": 2,
+   "shift": -5,
+   "gold": -2,
+   "answer": "\n\n```json\n{\n  \"shift\": -5,\n  \"why\": \"The singer's recorded range (blue) spans roughly G3 to C5, while the song (orange) spans C4 to G5, so shifting down by 5 semitones aligns the song's range perfectly with the singer's comfort zone, mapping the song's peak notes (C5, E5) to the singer's most frequent notes (G4, A4).\"\n}\n```",
+   "cost": 0.0,
+   "elapsed": 162.9
+  },
+  {
+   "case": "someday/ariana",
+   "cond": "image",
+   "draw": 3,
+   "shift": -5,
+   "gold": -2,
+   "answer": "\n\n```json\n{\n  \"shift\": -5,\n  \"why\": \"Shifting the melody down by 5 semitones aligns the written song's dominant note (C5) with the singer's most frequent pitch (G4) and keeps the song's 10th-90th percentile range within the singer's recorded comfort zone.\"\n}\n```",
+   "cost": 0.0,
+   "elapsed": 175.7
+  }
+ ]
+}

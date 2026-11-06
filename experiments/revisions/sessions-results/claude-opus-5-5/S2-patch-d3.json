@@ -1,0 +1,171 @@
+{
+ "session": "S2",
+ "arm": "patch",
+ "model": "claude-opus-5-5",
+ "draw": 3,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Use the second vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L2"
+   ],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 9.9,
+   "raw": "{\"edits\": [{\"path\": \"layers.L1.chosen\", \"value\": \"L1c2\"}], \"stale\": [\"L2\"], \"questions\": [\"I've switched the vocal to the second take, L1c2 ('english-12'). That replaces your earlier pick, L1c4 ('henry-12', with your own voice as the reference). The chosen strings, L2c6, were recorded listening to L1c4, so the strings need to be re-recorded against the new vocal.\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 6.1,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.anchors.enter.bar\", \"value\": 21}], \"stale\": [\"L2\"], \"questions\": [], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 3,
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.conditions.audio_context",
+    "layers.L2.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 6.6,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.conditions.audio_context\", \"value\": [\"piano\"]}, {\"path\": \"layers.L2.conditions.depends_on\", \"value\": [\"clock\", \"piano\"]}], \"stale\": [\"L2\"], \"questions\": [\"The strings now listen only to the piano, so all the current string takes, including L2c6 that you chose, need to be rendered again. Your strings prompt still says 'soft sustained strings under the voice'. I've left those words as you wrote them. Do you want them changed too?\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 4,
+   "text": "Turn the vocal up 2 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 9.5,
+   "raw": "{\"edits\": [{\"path\": \"layers.L1.gain_db\", \"value\": 2.0}, {\"path\": \"layers.L1.owner.gain\", \"value\": \"creator\"}], \"stale\": [], \"questions\": [\"Done: the vocal (L1) is now at +2.0 dB. This is a mix-level change only, so nothing needs re-rendering. The strings (L2) only listen to the piano, and the vocal's audio is the same. One thing to check: the plan's chosen vocal is L1c2 (english-12), but in revision 3 you chose L1c4 (henry-12, your own voice as the reference). Should L1 be set back to L1c4? If so, note that L1c4 already peaks at about 1.006, so +2 dB would take it to about 1.27 and it would clip unless it's limited or normalised. L1c2 peaks at 0.728 and stays under full scale (about 0.92) at +2 dB.\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 5,
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 15.4,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"I've made no change yet, because two parts of your correction don't agree. Around bar 33 the map runs at about 46 BPM, so one beat is about 1.29 s. 'A beat late' would put bar 33's downbeat about 1.3 s earlier, but 'about half a second earlier' is less than half a beat. Which do you mean: (a) the grid is one whole beat late, so bar 33 moves back one beat, about 1.29 s; or (b) the grid is in the right beat but about 0.5 s late, so bar 33 moves back about 0.5 s to where the bass lands?\", \"Should the fix apply only to bar 33, with bar 32 stretched or squeezed to meet it and bar 34 onward left as measured? Or is every downbeat from bar 33 on late by the same amount, so the whole rest of the map moves? The tracker already flags bar 32 as a guess (no played note near a tracked beat), so the error may have started there.\", \"I don't have bar 33's measured time from piano-analysis.json, only an estimate between section starts (about 167.9 s). If you can give the time in seconds where you hear the bass land, I'll use that exact value as the correction.\", \"No layers go stale either way. The vocal, strings and brass all sit in bars 15–22, and a correction at bar 33 doesn't move any downbeat before it, so they stay as they are.\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 6,
+   "text": "Let the strings run two bars longer at the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [
+    "L2"
+   ],
+   "elapsed": 4.1,
+   "raw": "{\"edits\": [{\"path\": \"layers.L2.anchors.exit.bar\", \"value\": 25}], \"stale\": [\"L2\"], \"questions\": []}"
+  },
+  {
+   "turn": 7,
+   "text": "Make it more emotional.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 9.5,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"'More emotional' could mean several different changes, and the parts it would touch are ones you decided yourself (the vocal and strings prompts, the vocal take, the gains, and when each part comes in and out). So I haven't changed anything yet. Which of these do you mean? (a) Strings: a fuller, warmer prompt, which means allowing vibrato and a bigger swell. Your current prompt says 'soft, no vibrato'. L2 would need re-rendering. (b) Strings: come in earlier or stay longer. Your notebook tag says @bar 19, but the plan has them entering at bar 21 and exiting at bar 25 (exclusive). L2 would need re-rendering. (c) Vocal: more expressive singing. Your text says 'sung softly … never louder than the piano'. Should I keep that limit? L1 would need re-rendering, and then L2, because the strings hear the vocal. (d) Mix only: raise the strings' gain and/or the vocal's (now +2 dB). No re-rendering needed. (e) Brass: turn the empty placeholder into a real part for the climax. (f) Something across the whole piece, such as adding parts to sections that only have piano now (bars 1–14 and 25–41).\", \"Before any re-render, please check the vocal take. On 31 October (revision 3) you chose L1c4 (your own voice, an octave down), but the plan's chosen take is L1c2 ('english-12'). The strings you picked (L2c6) were rendered against L1c4. Which vocal take do you want?\", \"The last lyric line, 'A hush, a breeze', is still a shortened version of your 'A hush that settles like a breeze', waiting for your OK. If this is about the words, do you want to keep it, or change it to something more emotional?\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 8,
+   "text": "Go back to the fourth vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 7.4,
+   "raw": "{\"edits\": [{\"path\": \"layers.L1.chosen\", \"value\": \"L1c4\"}], \"stale\": [], \"questions\": [], \"tempo_map_corrections\": []}"
+  }
+ ],
+ "final_drift": 1,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 7,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.1419
+}

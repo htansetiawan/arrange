@@ -1,0 +1,26 @@
+{
+  "_what": "Where ARRANGE finds its tools on this machine. Copy to ~/.config/arrange/config.json (or point ARRANGE_CONFIG at it) and edit. Every key is optional; docs/setup.md lists each one with its environment variable.",
+  "python": {
+    "_what": "analysis: librosa, pretty_midi, soundfile, music21, verovio, pedalboard, pyloudnorm. soulx: the SoulX-Singer requirements plus g2p_en. plain: any Python 3.10+. Each defaults to the Python running the script.",
+    "analysis": "/path/to/analysis-env/bin/python",
+    "soulx": "/path/to/soulx-env/bin/python",
+    "plain": "python3"
+  },
+  "soulx": {
+    "repo": "/path/to/SoulX-Singer",
+    "checkpoint": "/path/to/SoulX-Singer/pretrained_models/SoulX-Singer/model.pt"
+  },
+  "voices_dir": "/path/to/voices",
+  "device": "cuda",
+  "whisper": {
+    "model": "large-v3-turbo",
+    "cache": "/path/to/whisper-models"
+  },
+  "ace_step": {
+    "repo": "/path/to/ACE-Step-1.5",
+    "checkpoints": "/path/to/ACE-Step-1.5/checkpoints",
+    "hf_home": "/path/to/huggingface-cache"
+  },
+  "ytdlp": "yt-dlp",
+  "chrome": "google-chrome"
+}

@@ -1,0 +1,206 @@
+{
+ "session": "S1",
+ "arm": "patch",
+ "model": "claude-sonnet-5-5",
+ "draw": 3,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Keep my guitar exactly as I played it, whatever else changes.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 3.1,
+   "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"Your instruction is a constraint on the guitar (L6), not a change request. There's nothing to edit yet. L6 is your own take (asset a1), it listens to nothing and has no audio_context, and its anchors and route are yours. Do you want a specific change to the arrangement? If so, tell me which one, and I'll leave L6 untouched (same take, bars 33–40, no gain or processing change).\"], \"tempo_map_corrections\": []}"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the verse strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L4.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L4"
+   ],
+   "arm_stale": [
+    "L4"
+   ],
+   "elapsed": 4.2,
+   "raw": "{\"edits\":[{\"path\":\"layers.L4.anchors.enter.bar\",\"value\":19}],\"stale\":[\"L4\"],\"questions\":[\"Heads up: bars 17–20 are already flagged as having an ambiguous downbeat. The strings now enter at bar 19, inside that stretch, so the entry could shift if the downbeat reading changes.\"],\"tempo_map_corrections\":[]}"
+  },
+  {
+   "turn": 3,
+   "text": "Go with the third strings option in the chorus.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L5.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 2.3,
+   "raw": "{\"edits\":[{\"path\":\"layers.L5.chosen\",\"value\":\"L5c3\"}],\"stale\":[],\"questions\":[]}"
+  },
+  {
+   "turn": 4,
+   "text": "Put the brass back in, I want to hear it.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L7.job",
+    "layers.L7.job.backend",
+    "layers.L7.job.inputs.context_mix",
+    "layers.L7.job.params.guidance",
+    "layers.L7.job.params.prompt",
+    "layers.L7.job.params.seed",
+    "layers.L7.job.params.steps",
+    "layers.L7.job.params.track_name",
+    "layers.L7.job.params.variants",
+    "layers.L7.kind",
+    "layers.L7.route",
+    "layers.L7.stub_reason"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L7"
+   ],
+   "elapsed": 7.7,
+   "raw": "{\"edits\":[{\"path\":\"layers.L7.kind\",\"value\":\"generated\"},{\"path\":\"layers.L7.route\",\"value\":\"audio\"},{\"path\":\"layers.L7.job\",\"value\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L7/context.wav\"},\"params\":{\"track_name\":\"brass\",\"prompt\":\"empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}}},{\"path\":\"layers.L7.conditions.audio_context\",\"value\":[\"piano\"]},{\"path\":\"layers.L7.conditions.depends_on\",\"value\":[\"clock\",\"piano\"]},{\"path\":\"layers.L7.stub_reason\",\"value\":null}],\"stale\":[\"L7\"],\"questions\":[\"I restored the brass (L7) from its stub. It's a generated layer again, over bars 25–40 with the piano as audio context. It needs a render before you can hear it. The saved prompt is still the placeholder text 'empty placeholder track for horns, nothing decided yet', so the horns will have no real direction. Do you want to describe them, for example 'warm French horns, soft pads under the chorus'? You could also name a different bar range.\"],\"tempo_map_corrections\":[]}"
+  },
+  {
+   "turn": 5,
+   "text": "The verse strings should only hear the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L4.conditions.audio_context",
+    "layers.L4.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [
+    "L4"
+   ],
+   "elapsed": 3.1,
+   "raw": "{\"edits\":[{\"path\":\"layers.L4.conditions.audio_context\",\"value\":[\"piano\"]},{\"path\":\"layers.L4.conditions.depends_on\",\"value\":[\"clock\",\"piano\"]}],\"stale\":[\"L4\"],\"questions\":[],\"tempo_map_corrections\":[]}"
+  },
+  {
+   "turn": 6,
+   "text": "Turn the second vocal down 3 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "elapsed": 4.6,
+   "raw": "{\"edits\":[{\"path\":\"layers.L2.gain_db\",\"value\":-3.0}],\"stale\":[],\"questions\":[],\"tempo_map_corrections\":[]}"
+  },
+  {
+   "turn": 7,
+   "text": "The downbeat of bar 17 is at 78.9 seconds, not where you put it.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L1"
+   ],
+   "arm_stale": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+   ],
+   "elapsed": 8.1,
+   "raw": "{\"edits\": [], \"stale\": [\"L1\", \"L2\", \"L3\", \"L4\", \"L5\"], \"questions\": [\"I've treated this as a tempo-map correction (bar 17 downbeat at 78.9 s) and left every layer's bar anchors unchanged. Their t0/t1 will be recomputed from the new map. Every rendered layer depends on the clock, so L1–L5 need re-rendering. L6 is a take, so it only gets new times. L7 has no renders yet. Does 78.9 s also settle the open question about the bars 17–20 downbeat, so I can drop it?\"], \"tempo_map_corrections\": [{\"bar\": 17, \"t\": 78.9}]}"
+  },
+  {
+   "turn": 8,
+   "text": "Let the chorus strings finish at the end of bar 38 instead of running to the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L5.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "layers.L7.conditions.audio_context",
+    "layers.L7.conditions.depends_on",
+    "layers.L7.stub_reason"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L5"
+   ],
+   "arm_stale": [
+    "L5"
+   ],
+   "elapsed": 3.7,
+   "raw": "{\"edits\":[{\"path\":\"layers.L5.anchors.exit.bar\",\"value\":39}],\"stale\":[\"L5\"],\"questions\":[],\"tempo_map_corrections\":[]}"
+  }
+ ],
+ "final_drift": 3,
+ "final_exact": false,
+ "final_drift_lenient": 2,
+ "turns_ok": 7,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.0456
+}

@@ -1,0 +1,567 @@
+[
+ {
+  "clip": "henry-yard_pre_vocal_0",
+  "seconds": 5.92,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_1",
+  "seconds": 6.22,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_10",
+  "seconds": 5.1,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_11",
+  "seconds": 6.48,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_12",
+  "seconds": 2.84,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_13",
+  "seconds": 4.84,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_14",
+  "seconds": 3.2,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_15",
+  "seconds": 3.48,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_16",
+  "seconds": 4.36,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_17",
+  "seconds": 2.02,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_18",
+  "seconds": 1.7,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_19",
+  "seconds": 6.8,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_2",
+  "seconds": 9.82,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_20",
+  "seconds": 4.98,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_21",
+  "seconds": 2.78,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_22",
+  "seconds": 8.08,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_23",
+  "seconds": 3.5,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_24",
+  "seconds": 3.64,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_25",
+  "seconds": 2.32,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_26",
+  "seconds": 6.52,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_27",
+  "seconds": 4.06,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_28",
+  "seconds": 3.84,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_29",
+  "seconds": 4.36,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_3",
+  "seconds": 4.66,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_30",
+  "seconds": 2.2,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_31",
+  "seconds": 3.16,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_32",
+  "seconds": 6.62,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_4",
+  "seconds": 3.08,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_5",
+  "seconds": 4.2,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_6",
+  "seconds": 3.24,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_7",
+  "seconds": 4.68,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_8",
+  "seconds": 5.2,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-yard_pre_vocal_9",
+  "seconds": 4.26,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_0",
+  "seconds": 1.66,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_1",
+  "seconds": 5.96,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_10",
+  "seconds": 6.18,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_11",
+  "seconds": 2.64,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_12",
+  "seconds": 4.88,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_13",
+  "seconds": 1.68,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_14",
+  "seconds": 5.42,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_15",
+  "seconds": 4.58,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_16",
+  "seconds": 3.88,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_17",
+  "seconds": 2.82,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_18",
+  "seconds": 4.4,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_19",
+  "seconds": 5.42,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_2",
+  "seconds": 2.22,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_20",
+  "seconds": 4.28,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_21",
+  "seconds": 5.58,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_22",
+  "seconds": 6.92,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_23",
+  "seconds": 5.58,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_24",
+  "seconds": 3.3,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_25",
+  "seconds": 8.0,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_26",
+  "seconds": 4.34,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_27",
+  "seconds": 2.32,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_28",
+  "seconds": 5.2,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_29",
+  "seconds": 1.44,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_3",
+  "seconds": 3.16,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_30",
+  "seconds": 3.92,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_31",
+  "seconds": 2.22,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_32",
+  "seconds": 1.44,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_33",
+  "seconds": 7.08,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_34",
+  "seconds": 1.6,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_35",
+  "seconds": 2.98,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_36",
+  "seconds": 6.84,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_37",
+  "seconds": 5.16,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_38",
+  "seconds": 7.76,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_4",
+  "seconds": 4.58,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_5",
+  "seconds": 3.44,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_6",
+  "seconds": 2.08,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_7",
+  "seconds": 6.68,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_8",
+  "seconds": 5.44,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre1_vocal_9",
+  "seconds": 2.66,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_0",
+  "seconds": 2.64,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_1",
+  "seconds": 2.58,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_10",
+  "seconds": 3.68,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_11",
+  "seconds": 4.06,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_12",
+  "seconds": 5.08,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_13",
+  "seconds": 5.0,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_14",
+  "seconds": 4.36,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_15",
+  "seconds": 3.92,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_16",
+  "seconds": 4.18,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_17",
+  "seconds": 5.7,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_18",
+  "seconds": 1.72,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_19",
+  "seconds": 8.64,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_2",
+  "seconds": 5.04,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_20",
+  "seconds": 6.02,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_21",
+  "seconds": 6.44,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_22",
+  "seconds": 6.54,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_23",
+  "seconds": 5.28,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_24",
+  "seconds": 2.04,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_25",
+  "seconds": 2.12,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_26",
+  "seconds": 3.96,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_27",
+  "seconds": 6.9,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_28",
+  "seconds": 3.3,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_29",
+  "seconds": 4.12,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_3",
+  "seconds": 1.78,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_30",
+  "seconds": 2.98,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_31",
+  "seconds": 5.02,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_32",
+  "seconds": 2.56,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_33",
+  "seconds": 4.26,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_34",
+  "seconds": 14.94,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_35",
+  "seconds": 4.44,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_36",
+  "seconds": 3.86,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_37",
+  "seconds": 15.3,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_38",
+  "seconds": 4.22,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_39",
+  "seconds": 6.32,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_4",
+  "seconds": 3.4,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_40",
+  "seconds": 4.64,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_5",
+  "seconds": 2.72,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_6",
+  "seconds": 10.18,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_7",
+  "seconds": 7.44,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_8",
+  "seconds": 2.94,
+  "sr": 44100
+ },
+ {
+  "clip": "henry-sung_pre2_vocal_9",
+  "seconds": 4.56,
+  "sr": 44100
+ }
+]

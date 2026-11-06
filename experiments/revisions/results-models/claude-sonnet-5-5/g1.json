@@ -1,0 +1,387 @@
+{
+ "id": "g1",
+ "cat": "g",
+ "fixture": "real",
+ "text": "Make it more emotional.",
+ "gold_ops": [
+  {
+   "op": "ask",
+   "question": "<a question that offers concrete choices, e.g. strings later or softer, a different vocal take, a swell>"
+  }
+ ],
+ "gold_paths": [
+  "open.questions"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"\\\"More emotional\\\" could mean several things here. Which do you want?\\n(a) Unstub the brass (L3) so it enters under the theme 2 vocal, bars 15–23, to add warmth and weight.\\n(b) Add a new layer, such as a cello or a second low voice, to double the theme in bars 15–23.\\n(c) Extend the strings (L2) so they enter earlier, at bar 17, and swell under more of the vocal.\\n(d) Raise the vocal (L1) gain by a few dB so the voice sits closer to the front. Your note says it should never be louder than the piano.\\n(e) Something else, such as a specific section like the ending, bars 39–41.\\nPlease pick one or more, or tell me where you want it to feel more emotional.\"}]",
+    "usage": {
+     "total_cost_usd": 0.0664877,
+     "duration_api_ms": 2795,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 3.948395252227783,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "\"More emotional\" could mean several things here. Which do you want?\n(a) Unstub the brass (L3) so it enters under the theme 2 vocal, bars 15–23, to add warmth and weight.\n(b) Add a new layer, such as a cello or a second low voice, to double the theme in bars 15–23.\n(c) Extend the strings (L2) so they enter earlier, at bar 17, and swell under more of the vocal.\n(d) Raise the vocal (L1) gain by a few dB so the voice sits closer to the front. Your note says it should never be louder than the piano.\n(e) Something else, such as a specific section like the ending, bars 39–41.\nPlease pick one or more, or tell me where you want it to feel more emotional."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "\"More emotional\" could mean several things here. Which do you want?\n(a) Unstub the brass (L3) so it enters under the theme 2 vocal, bars 15–23, to add warmth and weight.\n(b) Add a new layer, such as a cello or a second low voice, to double the theme in bars 15–23.\n(c) Extend the strings (L2) so they enter earlier, at bar 17, and swell under more of the vocal.\n(d) Raise the vocal (L1) gain by a few dB so the voice sits closer to the front. Your note says it should never be louder than the piano.\n(e) Something else, such as a specific section like the ending, bars 39–41.\nPlease pick one or more, or tell me where you want it to feel more emotional."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"'More emotional' could go several ways. Which do you want? (a) Bring the strings in earlier, e.g. from bar 15 with the voice instead of bar 19, so the swell supports the whole theme. (b) Raise the strings' level, since L2c6 is the softest candidate at about -27.7 dB RMS, by a few dB. (c) Let the strings last longer, e.g. exit at bar 27 so they carry on past the theme. (d) Fill the empty brass placeholder with a soft, warm brass pad under the theme at bars 19–23. (e) Something else, e.g. a different vocal take or lyric. I won't change your chosen vocal or strings candidates unless you say so.\"}]",
+    "usage": {
+     "total_cost_usd": 0.0047491,
+     "duration_api_ms": 2939,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 4.055887222290039,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "'More emotional' could go several ways. Which do you want? (a) Bring the strings in earlier, e.g. from bar 15 with the voice instead of bar 19, so the swell supports the whole theme. (b) Raise the strings' level, since L2c6 is the softest candidate at about -27.7 dB RMS, by a few dB. (c) Let the strings last longer, e.g. exit at bar 27 so they carry on past the theme. (d) Fill the empty brass placeholder with a soft, warm brass pad under the theme at bars 19–23. (e) Something else, e.g. a different vocal take or lyric. I won't change your chosen vocal or strings candidates unless you say so."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "'More emotional' could go several ways. Which do you want? (a) Bring the strings in earlier, e.g. from bar 15 with the voice instead of bar 19, so the swell supports the whole theme. (b) Raise the strings' level, since L2c6 is the softest candidate at about -27.7 dB RMS, by a few dB. (c) Let the strings last longer, e.g. exit at bar 27 so they carry on past the theme. (d) Fill the empty brass placeholder with a soft, warm brass pad under the theme at bars 19–23. (e) Something else, e.g. a different vocal take or lyric. I won't change your chosen vocal or strings candidates unless you say so."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"\\\"More emotional\\\" could mean several things — which do you want? (a) Bring the strings in earlier and let them run longer, e.g. enter at bar 17 and exit at bar 25 so they swell under the vocal and carry past the theme; (b) raise the strings' level a few dB (currently 0 dB) so the swell is more present, while keeping the vocal never louder than the piano; (c) add a new layer such as a solo cello or low male choir pad under theme 2; or (d) unstub the brass for a warm, soft swell at theme 2? Your vocal (L1c4) and strings (L2c6) choices stay as they are unless you say otherwise.\"}]",
+    "usage": {
+     "total_cost_usd": 0.0046091,
+     "duration_api_ms": 2634,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 3.838731050491333,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "\"More emotional\" could mean several things — which do you want? (a) Bring the strings in earlier and let them run longer, e.g. enter at bar 17 and exit at bar 25 so they swell under the vocal and carry past the theme; (b) raise the strings' level a few dB (currently 0 dB) so the swell is more present, while keeping the vocal never louder than the piano; (c) add a new layer such as a solo cello or low male choir pad under theme 2; or (d) unstub the brass for a warm, soft swell at theme 2? Your vocal (L1c4) and strings (L2c6) choices stay as they are unless you say otherwise."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "\"More emotional\" could mean several things — which do you want? (a) Bring the strings in earlier and let them run longer, e.g. enter at bar 17 and exit at bar 25 so they swell under the vocal and carry past the theme; (b) raise the strings' level a few dB (currently 0 dB) so the swell is more present, while keeping the vocal never louder than the piano; (c) add a new layer such as a solo cello or low male choir pad under theme 2; or (d) unstub the brass for a warm, soft swell at theme 2? Your vocal (L1c4) and strings (L2c6) choices stay as they are unless you say otherwise."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e8b15ab6d9d3e7ed0a0000000000000000000000000000000\", \"class\": \"keyboard\"}, \"layers\": \"UNCHANGED\"}, \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different things, and each one touches a different decision of yours, so I haven't changed anything. Which of these do you mean? (a) Strings: bring them in earlier than bar 19, or give them a bigger swell. Their entry and exit are your decisions. (b) Vocal: make it louder or more present. You asked for it to be never louder than the piano. Or change the voice, for example by choosing a different L1 candidate. (c) Brass: fill the empty L3 placeholder with a real part, for example a soft swell in the second half. (d) Extend the vocal, strings or brass into the 'after the theme' or 'second half' sections, which currently have no added layers. (e) Something about your own piano take. I can't change that, but I can change what sits around it. Also, if you want me to pick the specifics, tell me which sections you want it to build in.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0747817,
+     "duration_api_ms": 8500,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 9.450423955917358,
+    "outcome": "invalid",
+    "error": "string indices must be integers, not 'str'",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "invalid"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"note\": \"unchanged: instruction is ambiguous, see questions\"}, \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different edits, and I don't want to guess because most of the current choices are yours: the vocal L1c4 (your voice, an octave below the written theme), the strings L2c6 (the softest take), and the anchors for both. Which of these do you mean? (1) Strings: enter earlier than bar 19, say at bar 17, or choose a louder, more swelling take such as L2c4 instead of the softest one. (2) Brass: turn the L3 placeholder back into a real generated layer, maybe a quiet horn pad in the second half. (3) Vocal: re-render it with a different delivery or voice reference, or extend it past bar 22 into 'after the theme'. (4) Dynamics: raise or lower layer gains, or add a swell into the ending at bars 39-41. (5) Something else, or a particular moment you want to hit harder? Tell me the bars or the layer and I'll make that edit and list which layers need re-rendering. The piano stays exactly as played in every case.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.007056699999999999,
+     "duration_api_ms": 5006,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 6.040486812591553,
+    "outcome": "invalid",
+    "error": "'layers'",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "invalid"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e8b15\", \"class\": \"keyboard\"}, \"layers\": \"UNCHANGED\", \"order\": [\"L1\", \"L2\", \"L3\"]}, \"stale\": [], \"questions\": [\"\\\"More emotional\\\" doesn't map to one specific edit, and I haven't changed the plan. Your vocal (L1c4) and strings (L2c6) choices, anchors and prompts are all decisions you made, and the piano must stay as played. Which of these do you want?\", \"1) Strings: enter earlier than bar 19 (for example bar 17), or have them swell more at the phrase peaks. This would re-render L2.\", \"2) Strings: extend them past bar 23 into 'after the theme' (bars 23–30) so the emotion carries on. This would add or extend a layer.\", \"3) Brass (L3, currently an empty placeholder): restore its job and have it enter quietly for the second half of theme 2.\", \"4) Vocal: re-render L1 with a softer, more intimate delivery, or a different candidate. This would make L2 stale too.\", \"5) Something else, such as a new layer (for example a cello) or a quieter bar 1–9 opening.\", \"Tell me which one (or more) and I'll make that edit and list the layers to re-render.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.013566700000000003,
+     "duration_api_ms": 8487,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 9.684175491333008,
+    "outcome": "invalid",
+    "error": "string indices must be integers, not 'str'",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "invalid"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different things here, and most of them touch decisions you've already made (the L1 vocal and its lyrics, the L1 and L2 chosen candidates, and the L2 strings prompt and anchors). Which do you mean? (a) Bring the strings in earlier or make them swell more, for example enter before bar 19 or extend the exit past bar 23. (b) Add the brass (L3) as a real layer instead of a stub. (c) Extend the vocal or strings into other sections, such as after the theme. (d) Re-render L2 with a more expressive prompt (it's currently 'no vibrato, one slow swell per phrase', and your chosen L2c6 is the softest take). (e) Raise the gain on the vocal or strings. Tell me which one, and where in the piece (bar numbers or section), and I'll change only that.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0660197,
+     "duration_api_ms": 3166,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 4.564413785934448,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "\"More emotional\" could mean several different things here, and most of them touch decisions you've already made (the L1 vocal and its lyrics, the L1 and L2 chosen candidates, and the L2 strings prompt and anchors). Which do you mean? (a) Bring the strings in earlier or make them swell more, for example enter before bar 19 or extend the exit past bar 23. (b) Add the brass (L3) as a real layer instead of a stub. (c) Extend the vocal or strings into other sections, such as after the theme. (d) Re-render L2 with a more expressive prompt (it's currently 'no vibrato, one slow swell per phrase', and your chosen L2c6 is the softest take). (e) Raise the gain on the vocal or strings. Tell me which one, and where in the piece (bar numbers or section), and I'll change only that."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different things here, and most of them touch decisions you've already made. Which do you mean? (a) Strings: enter earlier (e.g. bar 17 instead of 19) or run longer, so the swell builds under more of the vocal. Your L2 anchors and the L2c6 choice are yours, so I won't change them without your word. (b) Brass: turn the empty L3 placeholder into a real, soft brass part under theme 2. (c) Vocal: re-render L1 with a different voice or delivery. You chose L1c4, so I'd keep it unless you say otherwise. (d) A new layer, such as a second string or choir layer, in the after-the-theme or second-half sections, where the Suno reference grows after about 90 s. Also, should the piano stay exactly as played? The notebook says it should. Tell me which of these you want, or point me to a section, and I'll make the smallest change.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.005625400000000001,
+     "duration_api_ms": 3523,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 4.711597681045532,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "\"More emotional\" could mean several different things here, and most of them touch decisions you've already made. Which do you mean? (a) Strings: enter earlier (e.g. bar 17 instead of 19) or run longer, so the swell builds under more of the vocal. Your L2 anchors and the L2c6 choice are yours, so I won't change them without your word. (b) Brass: turn the empty L3 placeholder into a real, soft brass part under theme 2. (c) Vocal: re-render L1 with a different voice or delivery. You chose L1c4, so I'd keep it unless you say otherwise. (d) A new layer, such as a second string or choir layer, in the after-the-theme or second-half sections, where the Suno reference grows after about 90 s. Also, should the piano stay exactly as played? The notebook says it should. Tell me which of these you want, or point me to a section, and I'll make the smallest change."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could be done several ways, and I don't want to override your choices. Which of these do you mean? (a) Bring the strings in earlier, for example at bar 15 with the voice instead of bar 19. (b) Fill the empty brass track with a warm, soft swell, which means replacing the placeholder at L3. (c) Re-render the strings with a more expressive prompt, such as more swell and a touch of vibrato. (d) Something else, such as a different section or a different vocal take. Your L1 vocal, your chosen takes (L1c4, L2c6), the anchors and the lyrics stay as they are until you say.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.004695400000000001,
+     "duration_api_ms": 5094,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 6.035884618759155,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "\"More emotional\" could be done several ways, and I don't want to override your choices. Which of these do you mean? (a) Bring the strings in earlier, for example at bar 15 with the voice instead of bar 19. (b) Fill the empty brass track with a warm, soft swell, which means replacing the placeholder at L3. (c) Re-render the strings with a more expressive prompt, such as more swell and a touch of vibrato. (d) Something else, such as a different section or a different vocal take. Your L1 vocal, your chosen takes (L1c4, L2c6), the anchors and the lyrics stay as they are until you say."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": true,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e8b15b...\", \"class\": \"keyboard\"}, \"note\": \"PLACEHOLDER: see original plan, returned unchanged\"}, \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different things in this plan, so I haven't changed anything. Which do you mean? (a) The strings (L2): a bigger swell per phrase, or an earlier entrance than bar 19. (b) The vocal (L1): a closer, more intimate delivery, or a different candidate. (c) The brass (L3): turn the empty placeholder into a warm entrance, perhaps at the climax. (d) A new layer or an extended range, for example strings in the 'after the theme' or 'second half' sections, which currently have no layers. Also tell me where you want it: theme 2 (bars 15–22), the ending, or the whole piece. The piano stays exactly as played either way.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.07267599999999999,
+     "duration_api_ms": 6819,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 7.902792692184448,
+    "outcome": "invalid",
+    "error": "'layers'",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "invalid"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e8b7e6b6b0c1d0a0a0000000000000000000000000000000000\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano\", \"from\": {\"cell\": \"theme 2\", \"component\": 0, \"raw\": \"<vocal: the theme itself, sung softly on the first verse, sitting with the piano's top line, never louder than the piano !>\", \"chars\": [823, 946]}, \"anchors\": {\"enter\": {\"bar\": 15, \"beat\": 1.0}, \"exit\": {\"bar\": 23, \"beat\": 1.0}}, \"t0\": 74.318, \"t1\": 115.245, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [], \"chosen\": \"L1c4\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"creator\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Morning comes soft across the earth\", \"Footsteps on the paths beneath the tree\", \"Windows waking in the red brick walls\", \"A hush, a breeze\"]}], \"order\": [\"L1\", \"L2\", \"L3\"]}, \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different things here, so I haven't changed anything. Which of these do you mean, and where in the piece? (a) Strings: a bigger swell, or a fuller sound with a touch of vibrato. Your current notes say no vibrato and the softest candidate, L2c6. (b) Vocal: a more intimate or more expressive delivery, or a different voice candidate. (c) Dynamics: a build toward the second half, like your Suno reference that grows after about 90 s. (d) Brass: give the empty placeholder a real part. Note that the piano stays exactly as played. Also, the output plan above is abbreviated, so please treat the stored plan as unchanged.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.019029,
+     "duration_api_ms": 10444,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 11.514318704605103,
+    "outcome": "invalid",
+    "error": "no layer 'L2'; layers are ['L1 (vocal)']",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "invalid"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Theme from The Color Purple (Henry's piano recording, 2026)\", \"revision\": 5, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"creator-confirmed feel (onsets(Kong)+librosa-beat, bass-weighted downbeat phase)\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 211.625}, \"sections\": [{\"id\": \"s1\", \"label\": \"opening\", \"bar_start\": 1, \"bar_end\": 9, \"source\": \"auto\", \"t0\": 0.627, \"t1\": 48.388}, {\"id\": \"s2\", \"label\": \"theme 1\", \"bar_start\": 10, \"bar_end\": 14, \"source\": \"auto\", \"t0\": 48.388, \"t1\": 74.318}, {\"id\": \"s3\", \"label\": \"theme 2\", \"bar_start\": 15, \"bar_end\": 22, \"source\": \"creator\", \"t0\": 74.318, \"t1\": 115.245}, {\"id\": \"s4\", \"label\": \"after the theme\", \"bar_start\": 23, \"bar_end\": 30, \"source\": \"auto\", \"t0\": 115.245, \"t1\": 157.556}, {\"id\": \"s5\", \"label\": \"second half\", \"bar_start\": 31, \"bar_end\": 38, \"source\": \"auto\", \"t0\": 157.556, \"t1\": 198.832}, {\"id\": \"s6\", \"label\": \"ending\", \"bar_start\": 39, \"bar_end\": 41, \"source\": \"auto\", \"t0\": 198.832, \"t1\": 211.625, \"ends_past_map\": true}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"runs/color-purple/source/recording.wav\", \"sha256\": \"3496d64f8e76d8e8b15b5e2c4a0e1b8e0d0f0e2b6d1c8a1f7a5a1f3496d64f8e\", \"class\": \"keyboard\"}}, \"stale\": [], \"questions\": [\"\\\"More emotional\\\" could mean several different things here, and I don't want to guess and trigger re-renders. Which do you mean?\", \"1) Vocal (L1, bars 15–23): a more intimate or more yearning delivery? That would mean a new prompt or voice reference and re-rendering the vocal, and the strings would go stale with it. Or do you want it louder in the mix? You currently have it sitting softly under the piano.\", \"2) Strings (L2, bars 19–23): bigger swells, or a fuller entrance? Your current prompt says 'soft, no vibrato, one slow swell per phrase'. Allowing some vibrato or a stronger swell would change that. You also chose the softest candidate, L2c6, on purpose.\", \"3) Brass (L3): fill the empty placeholder with something, for example a soft horn on the second half of the theme?\", \"4) Other sections: add a layer in the 'after the theme' or 'second half' sections (bars 23–38), which currently have no layers? The piano stays as played either way.\", \"Tell me which layer or section, and whether you want it warmer, more yearning, bigger or more tender. I'll make just that change.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.014099,
+     "duration_api_ms": 8603,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 9.577518224716187,
+    "outcome": "invalid",
+    "error": "'layers'",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": false,
+     "outcome": "invalid"
+    }
+   }
+  ]
+ }
+}

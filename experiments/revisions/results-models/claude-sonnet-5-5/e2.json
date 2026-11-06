@@ -1,0 +1,786 @@
+{
+ "id": "e2",
+ "cat": "e",
+ "fixture": "synthetic",
+ "text": "Put the brass back in, I want to hear it.",
+ "gold_ops": [
+  {
+   "op": "unstub",
+   "layer": "L7"
+  }
+ ],
+ "gold_paths": [
+  "layers.L7.job",
+  "layers.L7.job.backend",
+  "layers.L7.job.inputs.context_mix",
+  "layers.L7.job.params.guidance",
+  "layers.L7.job.params.prompt",
+  "layers.L7.job.params.seed",
+  "layers.L7.job.params.steps",
+  "layers.L7.job.params.track_name",
+  "layers.L7.job.params.variants",
+  "layers.L7.kind",
+  "layers.L7.owner.route",
+  "layers.L7.route",
+  "layers.L7.stub_reason"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"unstub\",\"layer\":\"brass\"}]",
+    "usage": {
+     "total_cost_usd": 0.056891699999999996,
+     "duration_api_ms": 1046,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 2.153693675994873,
+    "ops": [
+     {
+      "op": "unstub",
+      "layer": "brass"
+     }
+    ],
+    "applied": [
+     "L7 restored to audio (ace-step/lego)"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.owner.route",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"unstub\",\"layer\":\"L7\"}]",
+    "usage": {
+     "total_cost_usd": 0.0023501999999999998,
+     "duration_api_ms": 1423,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 2.608920097351074,
+    "ops": [
+     {
+      "op": "unstub",
+      "layer": "L7"
+     }
+    ],
+    "applied": [
+     "L7 restored to audio (ace-step/lego)"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.owner.route",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"unstub\",\"layer\":\"brass\"}]",
+    "usage": {
+     "total_cost_usd": 0.0023501999999999998,
+     "duration_api_ms": 949,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 2.0877535343170166,
+    "ops": [
+     {
+      "op": "unstub",
+      "layer": "brass"
+     }
+    ],
+    "applied": [
+     "L7 restored to audio (ace-step/lego)"
+    ],
+    "refused": [],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.owner.route",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.1073957,
+     "duration_api_ms": 24787,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 25.698195219039917,
+    "stale": [
+     "L7"
+    ],
+    "questions": [
+     "The brass (L7) is restored as a generated layer over the chorus (bars 25–40), listening to the piano, and is ready to render. Its prompt is still the placeholder text 'empty placeholder track for horns, nothing decided yet', so the horns have no character yet. What do you want them to play, for example soft sustained horns under the chorus or a swell with the strings? Should they also hear the chorus vocal (L2)?"
+    ],
+    "diff": [
+     "layers.L7.conditions.audio_context",
+     "layers.L7.conditions.depends_on",
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.857,
+     "collateral": [
+      "layers.L7.conditions.audio_context",
+      "layers.L7.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.053817800000000006,
+     "duration_api_ms": 26172,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 27.154643535614014,
+    "stale": [
+     "L7"
+    ],
+    "questions": [
+     "I restored the brass (L7) from its stub to a generated layer over bars 25–40, listening to the piano. It has no rendered candidates yet, so it needs rendering before you can hear it. The brief still says 'empty placeholder track for horns, nothing decided yet', so the brass has no musical direction. Do you want to describe what the horns should play, for example a soft sustained horn pad under the chorus?"
+    ],
+    "diff": [
+     "layers.L7.conditions.audio_context",
+     "layers.L7.conditions.depends_on",
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.857,
+     "collateral": [
+      "layers.L7.conditions.audio_context",
+      "layers.L7.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.0542678,
+     "duration_api_ms": 25937,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 26.97164511680603,
+    "stale": [
+     "L7"
+    ],
+    "questions": [
+     "Brass (L7) is restored as a generated layer in the chorus (bars 25–40) and listens to the piano. It has no renders yet, so it needs rendering before you can hear it. Its prompt is still the placeholder text 'empty placeholder track for horns, nothing decided yet'. What should the horns play? For example: soft sustained horns, a swell into bar 25, or a few punctuating notes."
+    ],
+    "diff": [
+     "layers.L7.conditions.audio_context",
+     "layers.L7.conditions.depends_on",
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.857,
+     "collateral": [
+      "layers.L7.conditions.audio_context",
+      "layers.L7.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\":[{\"path\":\"layers.L7.kind\",\"value\":\"generated\"},{\"path\":\"layers.L7.route\",\"value\":\"audio\"},{\"path\":\"layers.L7.job\",\"value\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L7/context.wav\"},\"params\":{\"track_name\":\"brass\",\"prompt\":\"empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}}},{\"path\":\"layers.L7.conditions.depends_on\",\"value\":[\"clock\",\"piano\"]},{\"path\":\"layers.L7.conditions.audio_context\",\"value\":[\"piano\"]},{\"path\":\"layers.L7.stub_reason\",\"value\":null}],\"stale\":[\"L7\"],\"questions\":[\"L7 brass is restored as a generated layer (bars 25–40) and needs a render before you can hear it. Its saved prompt still reads 'empty placeholder track for horns, nothing decided yet'. Do you want to describe the horn part, for example soft French horns holding chords under the chorus, so the render has something to work from? I set it to listen to the piano only. Should it also hear the chorus vocal (L2)?\"],\"tempo_map_corrections\":[]}",
+    "usage": {
+     "total_cost_usd": 0.0629737,
+     "duration_api_ms": 5336,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 6.318454027175903,
+    "edits": [
+     {
+      "path": "layers.L7.kind",
+      "value": "generated"
+     },
+     {
+      "path": "layers.L7.route",
+      "value": "audio"
+     },
+     {
+      "path": "layers.L7.job",
+      "value": {
+       "backend": "ace-step/lego",
+       "inputs": {
+        "context_mix": "jobs/L7/context.wav"
+       },
+       "params": {
+        "track_name": "brass",
+        "prompt": "empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals",
+        "variants": 3,
+        "guidance": 7.0,
+        "steps": 50,
+        "seed": null
+       }
+      }
+     },
+     {
+      "path": "layers.L7.conditions.depends_on",
+      "value": [
+       "clock",
+       "piano"
+      ]
+     },
+     {
+      "path": "layers.L7.conditions.audio_context",
+      "value": [
+       "piano"
+      ]
+     },
+     {
+      "path": "layers.L7.stub_reason",
+      "value": null
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L7"
+    ],
+    "questions": [
+     "L7 brass is restored as a generated layer (bars 25–40) and needs a render before you can hear it. Its saved prompt still reads 'empty placeholder track for horns, nothing decided yet'. Do you want to describe the horn part, for example soft French horns holding chords under the chorus, so the render has something to work from? I set it to listen to the piano only. Should it also hear the chorus vocal (L2)?"
+    ],
+    "diff": [
+     "layers.L7.conditions.audio_context",
+     "layers.L7.conditions.depends_on",
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.857,
+     "collateral": [
+      "layers.L7.conditions.audio_context",
+      "layers.L7.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\":[{\"path\":\"layers.L7.kind\",\"value\":\"generated\"},{\"path\":\"layers.L7.route\",\"value\":\"audio\"},{\"path\":\"layers.L7.job\",\"value\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L7/context.wav\"},\"params\":{\"track_name\":\"brass\",\"prompt\":\"empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}}},{\"path\":\"layers.L7.conditions.depends_on\",\"value\":[\"clock\",\"piano\"]},{\"path\":\"layers.L7.conditions.audio_context\",\"value\":[\"piano\"]},{\"path\":\"layers.L7.stub_reason\",\"value\":null}],\"stale\":[\"L7\"],\"questions\":[\"I restored the brass (L7) as a generated layer over bars 25–40, listening to the piano. It has no candidates yet, so it needs rendering before you can hear it. The prompt still reads 'empty placeholder track for horns, nothing decided yet', which gives the model little direction. Do you want to describe the horn part, for example soft sustained horns under the chorus? Should the brass also listen to the chorus vocal (L2)?\"],\"tempo_map_corrections\":[]}",
+    "usage": {
+     "total_cost_usd": 0.0094965,
+     "duration_api_ms": 5494,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 6.558547019958496,
+    "edits": [
+     {
+      "path": "layers.L7.kind",
+      "value": "generated"
+     },
+     {
+      "path": "layers.L7.route",
+      "value": "audio"
+     },
+     {
+      "path": "layers.L7.job",
+      "value": {
+       "backend": "ace-step/lego",
+       "inputs": {
+        "context_mix": "jobs/L7/context.wav"
+       },
+       "params": {
+        "track_name": "brass",
+        "prompt": "empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals",
+        "variants": 3,
+        "guidance": 7.0,
+        "steps": 50,
+        "seed": null
+       }
+      }
+     },
+     {
+      "path": "layers.L7.conditions.depends_on",
+      "value": [
+       "clock",
+       "piano"
+      ]
+     },
+     {
+      "path": "layers.L7.conditions.audio_context",
+      "value": [
+       "piano"
+      ]
+     },
+     {
+      "path": "layers.L7.stub_reason",
+      "value": null
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L7"
+    ],
+    "questions": [
+     "I restored the brass (L7) as a generated layer over bars 25–40, listening to the piano. It has no candidates yet, so it needs rendering before you can hear it. The prompt still reads 'empty placeholder track for horns, nothing decided yet', which gives the model little direction. Do you want to describe the horn part, for example soft sustained horns under the chorus? Should the brass also listen to the chorus vocal (L2)?"
+    ],
+    "diff": [
+     "layers.L7.conditions.audio_context",
+     "layers.L7.conditions.depends_on",
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.857,
+     "collateral": [
+      "layers.L7.conditions.audio_context",
+      "layers.L7.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"edits\":[{\"path\":\"layers.L7.kind\",\"value\":\"generated\"},{\"path\":\"layers.L7.route\",\"value\":\"audio\"},{\"path\":\"layers.L7.job\",\"value\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L7/context.wav\"},\"params\":{\"track_name\":\"brass\",\"prompt\":\"empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}}},{\"path\":\"layers.L7.conditions.depends_on\",\"value\":[\"clock\",\"piano\"]},{\"path\":\"layers.L7.conditions.audio_context\",\"value\":[\"piano\"]},{\"path\":\"layers.L7.stub_reason\",\"value\":null}],\"stale\":[\"L7\"],\"questions\":[\"I restored the brass layer (L7, bars 25–40) to its saved generated job, so it is ready to render. It listens to the piano only. Its prompt is still the placeholder text 'empty placeholder track for horns, nothing decided yet'. Do you want to describe the horn part first (for example soft, sustained, doubling the strings), or should I render it as it is? Should it also listen to the chorus vocal (L2)?\"],\"tempo_map_corrections\":[]}",
+    "usage": {
+     "total_cost_usd": 0.0100265,
+     "duration_api_ms": 5641,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 6.637527942657471,
+    "edits": [
+     {
+      "path": "layers.L7.kind",
+      "value": "generated"
+     },
+     {
+      "path": "layers.L7.route",
+      "value": "audio"
+     },
+     {
+      "path": "layers.L7.job",
+      "value": {
+       "backend": "ace-step/lego",
+       "inputs": {
+        "context_mix": "jobs/L7/context.wav"
+       },
+       "params": {
+        "track_name": "brass",
+        "prompt": "empty placeholder track for horns, nothing decided yet, brass, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals",
+        "variants": 3,
+        "guidance": 7.0,
+        "steps": 50,
+        "seed": null
+       }
+      }
+     },
+     {
+      "path": "layers.L7.conditions.depends_on",
+      "value": [
+       "clock",
+       "piano"
+      ]
+     },
+     {
+      "path": "layers.L7.conditions.audio_context",
+      "value": [
+       "piano"
+      ]
+     },
+     {
+      "path": "layers.L7.stub_reason",
+      "value": null
+     }
+    ],
+    "failed_edits": [],
+    "stale": [
+     "L7"
+    ],
+    "questions": [
+     "I restored the brass layer (L7, bars 25–40) to its saved generated job, so it is ready to render. It listens to the piano only. Its prompt is still the placeholder text 'empty placeholder track for horns, nothing decided yet'. Do you want to describe the horn part first (for example soft, sustained, doubling the strings), or should I render it as it is? Should it also listen to the chorus vocal (L2)?"
+    ],
+    "diff": [
+     "layers.L7.conditions.audio_context",
+     "layers.L7.conditions.depends_on",
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.857,
+     "collateral": [
+      "layers.L7.conditions.audio_context",
+      "layers.L7.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.1094,
+     "duration_api_ms": 26946,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 28.00228762626648,
+    "stale": [
+     "L7"
+    ],
+    "questions": [
+     "I've taken the brass out of placeholder mode. It's now a generated audio layer over bars 25–40, with piano as audio context, and it's ready to render. Its description is still the placeholder text, 'empty placeholder track for horns, nothing decided yet'. That gives the generator nothing useful to work from. What should the horns play? For example, a soft sustained French horn pad under the chorus, or a swell with the strings. Also, the notebook cell still reads as a placeholder, so update that text if you want the brass to stay."
+    ],
+    "diff": [
+     "layers.L7.conditions.audio_context",
+     "layers.L7.conditions.depends_on",
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.857,
+     "collateral": [
+      "layers.L7.conditions.audio_context",
+      "layers.L7.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.05444009999999999,
+     "duration_api_ms": 26100,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 27.14629101753235,
+    "stale": [
+     "L7"
+    ],
+    "questions": [
+     "I restored the brass (L7) as a generated audio track over the chorus, bars 25–40, and it is ready to render. Its prompt is still the placeholder text 'empty placeholder track for horns, nothing decided yet', so it would render with no real direction. What should the horns play? For example, soft held French horns under the chorus, or a swell with the strings. Do you also want them to enter somewhere other than bar 25?"
+    ],
+    "diff": [
+     "layers.L7.conditions.audio_context",
+     "layers.L7.conditions.depends_on",
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.857,
+     "collateral": [
+      "layers.L7.conditions.audio_context",
+      "layers.L7.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "{\"plan\":{\"schema\":\"arrange/arrangement@2\",\"piece\":\"Evening hymn (solo piano cover)\",\"revision\":0,\"inputs\":{\"analysis\":\"piano-analysis.json\",\"notebook\":\"ARRANGEMENT.md\"},\"clock\":{\"from\":\"piano-analysis.json#tempo_map\",\"status\":\"onsets+madmom-downbeat\",\"revision\":0,\"time_signature\":\"4/4\",\"intervals\":\"half-open: exit is the first position not sounding\",\"domain_end_s\":199.602},\"sections\":[{\"id\":\"s1\",\"label\":\"intro\",\"bar_start\":1,\"bar_end\":8,\"t0\":0.42,\"t1\":39.363,\"source\":\"auto\"},{\"id\":\"s2\",\"label\":\"verse 1\",\"bar_start\":9,\"bar_end\":24,\"t0\":39.363,\"t1\":117.88,\"source\":\"auto\"},{\"id\":\"s3\",\"label\":\"chorus\",\"bar_start\":25,\"bar_end\":40,\"t0\":117.88,\"t1\":199.602,\"source\":\"auto\"}],\"spine\":{\"id\":\"piano\",\"kind\":\"take\",\"path\":\"takes/piano_master.wav\",\"sha256\":\"<sha256>\",\"class\":\"keyboard\"},\"layers\":[{\"id\":\"L1\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"intimate, conversational, sits below the piano's top line\",\"from\":{\"cell\":\"verse 1\",\"component\":0,\"raw\":\"<vocal: intimate, conversational, sits below the piano's top line !>\",\"chars\":[1,69]},\"anchors\":{\"enter\":{\"bar\":9,\"beat\":1.0},\"exit\":{\"bar\":25,\"beat\":1.0}},\"t0\":39.363,\"t1\":117.88,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L1/vocal.abc\",\"lyrics\":\"jobs/L1/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L1c1\",\"status\":\"rendered\",\"path\":\"build/L1/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L1c2\",\"status\":\"rendered\",\"path\":\"build/L1/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L1c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"\",\"lyrics\":[\"Red brick and elm, the morning bell\",\"A hundred doors, a single hall\",\"We learn the words we cannot tell\",\"And find the quiet in it all\"]},{\"id\":\"L2\",\"name\":\"vocal\",\"class\":\"vocals\",\"kind\":\"generated\",\"text\":\"open and full, harmony on the last line\",\"from\":{\"cell\":\"chorus\",\"component\":0,\"raw\":\"<vocal: open and full, harmony on the last line !>\",\"chars\":[44,94]},\"anchors\":{\"enter\":{\"bar\":25,\"beat\":1.0},\"exit\":{\"bar\":41,\"beat\":1.0}},\"t0\":117.88,\"t1\":199.602,\"route\":\"score\",\"job\":{\"backend\":\"soulx-singer\",\"inputs\":{\"score\":\"jobs/L2/vocal.abc\",\"lyrics\":\"jobs/L2/lyrics.txt\"},\"params\":{\"variants\":2,\"transpose\":0}},\"conditions\":{\"depends_on\":[\"clock\",\"melody\"],\"audio_context\":[],\"score_condition\":\"melody\",\"voice_reference\":\"soulx:english\"},\"candidates\":[{\"id\":\"L2c1\",\"status\":\"rendered\",\"path\":\"build/L2/c1.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}},{\"id\":\"L2c2\",\"status\":\"rendered\",\"path\":\"build/L2/c2.mp3\",\"parents\":{\"piano\":\"fixture\",\"clock\":0}}],\"chosen\":\"L2c1\",\"gain_db\":0.0,\"owner\":{\"exists\":\"creator\",\"anchors\":\"creator\",\"route\":\"claude\",\"conditions\":\"claude\",\"prompt\":\"creator\",\"chosen\":\"claude\",\"gain\":\"claude\"},\"status\":\"chosen\",\"stale\":false,\"stale_reason\":null,\"notes\":\"Strings arrive with the voice opening up.\",\"lyrics\":[\"Carry the light across the yard\",\"Let every window hold a star\",\"Nothing we learn is ever hard\",\"When we remember whose we are\"]},{\"id\":\"L3\",\"name\":\"fx\",\"class\":\"fx\",\"kind\":\"generated\",\"text\":\"very quiet room tone / air, no pitch\",\"from\":{\"cell\":\"intro\",\"component\":0,\"raw\":\"<fx: very quiet room tone / air, no pitch ?>\",\"chars\":[95,139]},\"anchors\":{\"enter\":{\"bar\":1,\"beat\":1.0},\"exit\":{\"bar\":9,\"beat\":1.0}},\"t0\":0.42,\"t1\":39.363,\"route\":\"audio\",\"job\":{\"backend\":\"ace-step/lego\",\"inputs\":{\"context_mix\":\"jobs/L3/context.wav\"},\"params\":{\"track_name\":\"fx\",\"prompt\":\"very quiet room tone / air, no pitch, fx, key F major, around 49 BPM, intimate, cinematic by the end, never busy, no added vocals\",\"variants\":3,\"guidance\":7.0,\"steps\":50,\"seed\":null}},\"conditions\":{\"depends_on\":[\"clock\",\"piano\"],\"audio_context\":[\"piano\"],\"score_condition\":null,\"voice_reference\":null},\"c",
+    "usage": {
+     "total_cost_usd": 0.056580099999999994,
+     "duration_api_ms": 27501,
+     "model": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "elapsed": 28.450649976730347,
+    "stale": [
+     "L7"
+    ],
+    "questions": [
+     "Brass (L7) is back as a generated audio layer over the chorus (bars 25–40) and is ready to render, but its description still reads 'empty placeholder track for horns, nothing decided yet', so the render has nothing specific to go on. Do you want to describe the horns? For example: soft French horns, long chords, swelling with the strings. Also, your notebook still says 'placeholder', so edit that line or it may stub the layer again."
+    ],
+    "diff": [
+     "layers.L7.conditions.audio_context",
+     "layers.L7.conditions.depends_on",
+     "layers.L7.job",
+     "layers.L7.job.backend",
+     "layers.L7.job.inputs.context_mix",
+     "layers.L7.job.params.guidance",
+     "layers.L7.job.params.prompt",
+     "layers.L7.job.params.seed",
+     "layers.L7.job.params.steps",
+     "layers.L7.job.params.track_name",
+     "layers.L7.job.params.variants",
+     "layers.L7.kind",
+     "layers.L7.route",
+     "layers.L7.stub_reason"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 0.857,
+     "collateral": [
+      "layers.L7.conditions.audio_context",
+      "layers.L7.conditions.depends_on"
+     ],
+     "protected_violations": [],
+     "stale_match": false,
+     "stale": [
+      "L7"
+     ],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   }
+  ]
+ }
+}

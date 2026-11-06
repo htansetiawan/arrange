@@ -1,0 +1,38 @@
+{
+ "at": "2026-11-03T23:16:34.486Z",
+ "ladder": "v5",
+ "rater": "composer",
+ "steps": [
+  {
+   "clip": "Fo7",
+   "register": "right",
+   "score": 48
+  },
+  {
+   "clip": "Pa1",
+   "register": "right",
+   "score": 50
+  },
+  {
+   "clip": "Lu1",
+   "register": "high",
+   "score": 65
+  },
+  {
+   "clip": "Ca5",
+   "register": "high",
+   "score": 75
+  },
+  {
+   "clip": "Gu6",
+   "register": "high",
+   "score": 85
+  },
+  {
+   "clip": "Ka2",
+   "register": "high",
+   "score": 95
+  }
+ ],
+ "sweet": "Fo7"
+}

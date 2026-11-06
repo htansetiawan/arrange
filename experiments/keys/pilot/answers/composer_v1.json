@@ -1,0 +1,38 @@
+{
+ "at": "2026-11-03T23:16:18.527Z",
+ "ladder": "v1",
+ "rater": "composer",
+ "steps": [
+  {
+   "clip": "Fi0",
+   "register": "low",
+   "score": 42
+  },
+  {
+   "clip": "Ne4",
+   "register": "right",
+   "score": 50
+  },
+  {
+   "clip": "Ku7",
+   "register": "high",
+   "score": 54
+  },
+  {
+   "clip": "Gi2",
+   "register": "high",
+   "score": 61
+  },
+  {
+   "clip": "Ve6",
+   "register": "high",
+   "score": 66
+  },
+  {
+   "clip": "Ge6",
+   "register": "high",
+   "score": 75
+  }
+ ],
+ "sweet": "Ne4"
+}

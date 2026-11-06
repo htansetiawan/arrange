@@ -1,0 +1,229 @@
+{
+ "session": "S2",
+ "arm": "typed",
+ "model": "claude-sonnet-5-5",
+ "draw": 3,
+ "turns": [
+  {
+   "turn": 1,
+   "text": "Use the second vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [
+    "L2"
+   ],
+   "arm_stale": [
+    "L2"
+   ],
+   "refused": [],
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L1",
+     "candidate": "L1c2"
+    }
+   ],
+   "elapsed": 3.3,
+   "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L1\",\"candidate\":\"L1c2\"}]"
+  },
+  {
+   "turn": 2,
+   "text": "Bring the strings in two bars later.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.enter.bar"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "shift_entry",
+     "layer": "strings",
+     "by_bars": 2
+    }
+   ],
+   "elapsed": 3.1,
+   "raw": "[{\"op\":\"shift_entry\",\"layer\":\"strings\",\"by_bars\":2}]"
+  },
+  {
+   "turn": 3,
+   "text": "The strings should ignore the vocal and just follow the piano.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.conditions.audio_context",
+    "layers.L2.conditions.depends_on"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_context",
+     "layer": "strings",
+     "audio_context": [
+      "piano"
+     ]
+    }
+   ],
+   "elapsed": 2.4,
+   "raw": "[{\"op\":\"set_context\",\"layer\":\"strings\",\"audio_context\":[\"piano\"]}]"
+  },
+  {
+   "turn": 4,
+   "text": "Turn the vocal up 2 dB.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.gain_db"
+   ],
+   "turn_ok": true,
+   "drift": [],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.0,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "set_gain",
+     "layer": "vocal",
+     "db": 2.0
+    }
+   ],
+   "elapsed": 2.2,
+   "raw": "[{\"op\":\"set_gain\",\"layer\":\"vocal\",\"db\":2.0}]"
+  },
+  {
+   "turn": 5,
+   "text": "Bar 33 starts a beat late in your grid; the downbeat is where the bass lands, about half a second earlier.",
+   "ok_parse": true,
+   "intended": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "turn_ok": false,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "ask",
+     "question": "Bar 33 sits at about 167.9 s in the current grid, assuming the bars in that section are evenly spaced. That estimate is mine, and the plan doesn't store the exact time. Your note also doesn't settle how far to move it, because a beat here is about 1.3 s and you said about half a second. Which should I do? (a) Set bar 33 to 167.4 s, which is 0.5 s earlier. (b) Set bar 33 to 166.6 s, which is one full beat earlier. (c) Use the exact time of the bass note you mean, in seconds from the start. I'd rather have (c) if you can read it off the waveform. Whichever you choose, the vocal, strings and every layer that depends on the clock will need re-rendering."
+    }
+   ],
+   "elapsed": 6.8,
+   "raw": "[{\"op\":\"ask\",\"question\":\"Bar 33 sits at about 167.9 s in the current grid, assuming the bars in that section are evenly spaced. That estimate is mine, and the plan doesn't store the exact time. Your note also doesn't settle how far to move it, because a beat here is about 1.3 s and you said about half a second. Which should I do? (a) Set bar 33 to 167.4 s, which is 0.5 s earlier. (b) Set bar 33 to 166.6 s, which is one full beat earlier. (c) Use the exact time of the bass note you mean, in seconds from the start. I'd rather have (c) if you can read it off the waveform. Whichever you choose, the vocal, strings and every layer that depends on the clock will need re-rendering.\"}]"
+  },
+  {
+   "turn": 6,
+   "text": "Let the strings run two bars longer at the end.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L2.anchors.exit.bar"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "shift_exit",
+     "layer": "strings",
+     "by_bars": 2
+    }
+   ],
+   "elapsed": 2.3,
+   "raw": "[{\"op\":\"shift_exit\",\"layer\":\"strings\",\"by_bars\":2}]"
+  },
+  {
+   "turn": 7,
+   "text": "Make it more emotional.",
+   "ok_parse": true,
+   "intended": [],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "ask",
+     "question": "\"More emotional\" could mean several things here. Which should I do? (a) Bring the strings in earlier and let them run longer, for example entering at bar 19 instead of bar 21, so the swell builds under the voice. (b) Turn the vocal up a little, for example another 1–2 dB. You said it should never be louder than the piano, so I'd keep this small. (c) Add a new layer, such as a solo cello or a low string line, in the after-the-theme section (bars 23–30). (d) Something else, such as a different vocal take. L1c3 (groban-12) is the loudest and L1c1 is the brightest. Note that moving strings or changing the vocal take will make the strings stale, and they will need re-rendering."
+    }
+   ],
+   "elapsed": 4.4,
+   "raw": "[{\"op\":\"ask\",\"question\":\"\\\"More emotional\\\" could mean several things here. Which should I do? (a) Bring the strings in earlier and let them run longer, for example entering at bar 19 instead of bar 21, so the swell builds under the voice. (b) Turn the vocal up a little, for example another 1–2 dB. You said it should never be louder than the piano, so I'd keep this small. (c) Add a new layer, such as a solo cello or a low string line, in the after-the-theme section (bars 23–30). (d) Something else, such as a different vocal take. L1c3 (groban-12) is the loudest and L1c1 is the brightest. Note that moving strings or changing the vocal take will make the strings stale, and they will need re-rendering.\"}]"
+  },
+  {
+   "turn": 8,
+   "text": "Go back to the fourth vocal take.",
+   "ok_parse": true,
+   "intended": [
+    "layers.L1.chosen"
+   ],
+   "turn_ok": true,
+   "drift": [
+    "piano-analysis.json#tempo_map"
+   ],
+   "new_errors": [],
+   "composer_lost": [],
+   "tempo_err_s": 0.5,
+   "gold_stale": [],
+   "arm_stale": [],
+   "refused": [],
+   "ops": [
+    {
+     "op": "choose_candidate",
+     "layer": "L1",
+     "candidate": "L1c4"
+    }
+   ],
+   "elapsed": 2.9,
+   "raw": "[{\"op\":\"choose_candidate\",\"layer\":\"L1\",\"candidate\":\"L1c4\"}]"
+  }
+ ],
+ "final_drift": 1,
+ "final_exact": false,
+ "final_drift_lenient": 1,
+ "turns_ok": 7,
+ "rejected": 0,
+ "composer_lost_final": [],
+ "stale_missed": [],
+ "cost": 0.4267
+}

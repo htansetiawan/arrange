@@ -1,0 +1,84 @@
+{
+ "frozen_at": "2026-11-03T23:23:28.208482Z",
+ "rule": "top-anchor: shift = round(singer's own 90th-percentile sung note (whole separated recording, 1-99% trimmed; Groban: 10 s clip) - the song's highest written note (D5=74)). q=90 chosen on ladder 1 by leave-one-out (6 of 8 folds picked 90).",
+ "hypotheses": [
+  "H1: on ladder 2 (blind, shuffled), the top-anchor rule's mean abs error to each voice's strain-50 key is smaller than the median rule's (5.5 on ladder 1).",
+  "H2: the ladder-2 strain-50 keys agree with ladder 1 within 2 semitones for most voices (if not, ladder 1 was shaped by its order).",
+  "H3: the 6 hidden repeats agree within 10 strain points and the same register tag."
+ ],
+ "primary_measure": "per voice, the shift where the mean strain slider crosses 50 (linear between keys; 'below range' if every key is above 50). Secondary: the 'about right' band; the highest 'about right' key not tagged broken.",
+ "voices": {
+  "groban": {
+   "top_anchor_q90": -14,
+   "voice_p90_midi": 60.0,
+   "rule_median": -6,
+   "rule_top": -11,
+   "ladder1_sweet": -10,
+   "ladder1_strain50": -10.0,
+   "ear_1nov": null
+  },
+  "adams": {
+   "top_anchor_q90": -6,
+   "voice_p90_midi": 67.95,
+   "rule_median": 0,
+   "rule_top": -4,
+   "ladder1_sweet": -4,
+   "ladder1_strain50": -4.0,
+   "ear_1nov": null
+  },
+  "clarkson": {
+   "top_anchor_q90": -2,
+   "voice_p90_midi": 72.2,
+   "rule_median": 4,
+   "rule_top": 1,
+   "ladder1_sweet": -2,
+   "ladder1_strain50": -1.0,
+   "ear_1nov": 2
+  },
+  "ariana": {
+   "top_anchor_q90": -2,
+   "voice_p90_midi": 71.89,
+   "rule_median": 4,
+   "rule_top": 0,
+   "ladder1_sweet": -2,
+   "ladder1_strain50": -1.2,
+   "ear_1nov": 2
+  },
+  "jackson": {
+   "top_anchor_q90": -4,
+   "voice_p90_midi": 70.42,
+   "rule_median": -1,
+   "rule_top": -1,
+   "ladder1_sweet": -7,
+   "ladder1_strain50": -5.0,
+   "ear_1nov": -4
+  },
+  "bolton": {
+   "top_anchor_q90": -4,
+   "voice_p90_midi": 70.3,
+   "rule_median": 1,
+   "rule_top": -1,
+   "ladder1_sweet": -5,
+   "ladder1_strain50": null,
+   "ear_1nov": -4
+  },
+  "wonder": {
+   "top_anchor_q90": -6,
+   "voice_p90_midi": 68.48,
+   "rule_median": 2,
+   "rule_top": -3,
+   "ladder1_sweet": -4,
+   "ladder1_strain50": null,
+   "ear_1nov": 2
+  },
+  "buble": {
+   "top_anchor_q90": -12,
+   "voice_p90_midi": 62.04,
+   "rule_median": -6,
+   "rule_top": -9,
+   "ladder1_sweet": -12,
+   "ladder1_strain50": -12.0,
+   "ear_1nov": -8
+  }
+ }
+}

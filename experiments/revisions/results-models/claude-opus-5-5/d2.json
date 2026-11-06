@@ -1,0 +1,491 @@
+{
+ "id": "d2",
+ "cat": "d",
+ "fixture": "synthetic",
+ "text": "Drop the room fx and use my recorded guitar there instead.",
+ "gold_ops": [
+  {
+   "op": "replace_with_take",
+   "layer": "L3",
+   "asset": "a1"
+  }
+ ],
+ "gold_paths": [
+  "layers.L3.asset",
+  "layers.L3.candidates",
+  "layers.L3.candidates[0].id",
+  "layers.L3.candidates[0].parents.clock",
+  "layers.L3.candidates[0].parents.piano",
+  "layers.L3.candidates[0].path",
+  "layers.L3.candidates[1].id",
+  "layers.L3.candidates[1].parents.clock",
+  "layers.L3.candidates[1].parents.piano",
+  "layers.L3.candidates[1].path",
+  "layers.L3.chosen",
+  "layers.L3.conditions.audio_context",
+  "layers.L3.conditions.depends_on",
+  "layers.L3.job.backend",
+  "layers.L3.job.inputs.asset",
+  "layers.L3.job.inputs.context_mix",
+  "layers.L3.job.params.guidance",
+  "layers.L3.job.params.prompt",
+  "layers.L3.job.params.seed",
+  "layers.L3.job.params.steps",
+  "layers.L3.job.params.track_name",
+  "layers.L3.job.params.variants",
+  "layers.L3.kind",
+  "layers.L3.owner.chosen",
+  "layers.L3.owner.conditions",
+  "layers.L3.owner.route",
+  "layers.L3.route"
+ ],
+ "gold_stale": [],
+ "gold_refused": [],
+ "draws": {
+  "typed": [
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"Dropping the room fx (L3, bars 1–8) is clear. Where the guitar goes isn't, because you have one guitar recording (a1) and it's already placed in the chorus at bars 33–40 (L6), where it doubles the left-hand rhythm. Which do you want? (A) Put a1 in the intro in place of the fx, bars 1–8 (enter bar 1 beat 1, exit bar 9 beat 1), and also keep it in the chorus at bars 33–40. That would play the same recording twice, and it was played to fit the chorus. (B) Move the guitar to the intro: a1 plays only in bars 1–8, and the chorus guitar at bars 33–40 is removed. (C) Record a separate intro guitar take. I'd leave the intro as a silent guitar placeholder until you send it, and the chorus guitar stays as it is. Nothing else in the plan depends on the fx, so removing it won't force any other layer to be re-rendered.\"}]",
+    "usage": {
+     "total_cost_usd": 0.1314914,
+     "duration_api_ms": 10343,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 11.902792692184448,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "Dropping the room fx (L3, bars 1–8) is clear. Where the guitar goes isn't, because you have one guitar recording (a1) and it's already placed in the chorus at bars 33–40 (L6), where it doubles the left-hand rhythm. Which do you want? (A) Put a1 in the intro in place of the fx, bars 1–8 (enter bar 1 beat 1, exit bar 9 beat 1), and also keep it in the chorus at bars 33–40. That would play the same recording twice, and it was played to fit the chorus. (B) Move the guitar to the intro: a1 plays only in bars 1–8, and the chorus guitar at bars 33–40 is removed. (C) Record a separate intro guitar take. I'd leave the intro as a silent guitar placeholder until you send it, and the chorus guitar stays as it is. Nothing else in the plan depends on the fx, so removing it won't force any other layer to be re-rendered."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "Dropping the room fx (L3, bars 1–8) is clear. Where the guitar goes isn't, because you have one guitar recording (a1) and it's already placed in the chorus at bars 33–40 (L6), where it doubles the left-hand rhythm. Which do you want? (A) Put a1 in the intro in place of the fx, bars 1–8 (enter bar 1 beat 1, exit bar 9 beat 1), and also keep it in the chorus at bars 33–40. That would play the same recording twice, and it was played to fit the chorus. (B) Move the guitar to the intro: a1 plays only in bars 1–8, and the chorus guitar at bars 33–40 is removed. (C) Record a separate intro guitar take. I'd leave the intro as a silent guitar placeholder until you send it, and the chorus guitar stays as it is. Nothing else in the plan depends on the fx, so removing it won't force any other layer to be re-rendered."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"replace_with_take\",\"layer\":\"L3\",\"asset\":\"a1\"},{\"op\":\"set_class\",\"layer\":\"L3\",\"class\":\"guitar\"}]",
+    "usage": {
+     "total_cost_usd": 0.026140600000000003,
+     "duration_api_ms": 11324,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 13.160118341445923,
+    "ops": [
+     {
+      "op": "replace_with_take",
+      "layer": "L3",
+      "asset": "a1"
+     },
+     {
+      "op": "set_class",
+      "layer": "L3",
+      "class": "guitar"
+     }
+    ],
+    "applied": [
+     "L3 now the creator's take a1; generation job removed"
+    ],
+    "refused": [
+     {
+      "op": {
+       "op": "set_class",
+       "layer": "L3",
+       "class": "guitar"
+      },
+      "why": "L3 is a take; change a take or stub by replacing it, not by renaming its class"
+     }
+    ],
+    "unresolved": [],
+    "stale": [],
+    "diff": [
+     "layers.L3.asset",
+     "layers.L3.candidates",
+     "layers.L3.candidates[0].id",
+     "layers.L3.candidates[0].parents.clock",
+     "layers.L3.candidates[0].parents.piano",
+     "layers.L3.candidates[0].path",
+     "layers.L3.candidates[1].id",
+     "layers.L3.candidates[1].parents.clock",
+     "layers.L3.candidates[1].parents.piano",
+     "layers.L3.candidates[1].path",
+     "layers.L3.chosen",
+     "layers.L3.conditions.audio_context",
+     "layers.L3.conditions.depends_on",
+     "layers.L3.job.backend",
+     "layers.L3.job.inputs.asset",
+     "layers.L3.job.inputs.context_mix",
+     "layers.L3.job.params.guidance",
+     "layers.L3.job.params.prompt",
+     "layers.L3.job.params.seed",
+     "layers.L3.job.params.steps",
+     "layers.L3.job.params.track_name",
+     "layers.L3.job.params.variants",
+     "layers.L3.kind",
+     "layers.L3.owner.chosen",
+     "layers.L3.owner.conditions",
+     "layers.L3.owner.route",
+     "layers.L3.route"
+    ],
+    "validation": [],
+    "outcome": "applied",
+    "score": {
+     "recall": 1.0,
+     "precision": 1.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "applied"
+    }
+   },
+   {
+    "raw": "[{\"op\":\"ask\",\"question\":\"I can drop the room fx (L3, intro bars 1–8). Your only recorded guitar take (a1) is already placed in the chorus at bars 33–40 (L6). Which do you want? (a) Replace the room fx with take a1 in bars 1–8 (bar 1 beat 1 up to bar 9 beat 1) and also keep the guitar in bars 33–40, so the same recording plays twice. (b) Move the guitar to bars 1–8, so it no longer plays in the chorus. (c) Use a different guitar recording for the intro, which you'd add as a new asset. Your guitar's timing is your call, so I won't move it from bars 33–40 unless you say so.\"}]",
+    "usage": {
+     "total_cost_usd": 0.023360600000000002,
+     "duration_api_ms": 10321,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 12.277063369750977,
+    "ops": [
+     {
+      "op": "ask",
+      "question": "I can drop the room fx (L3, intro bars 1–8). Your only recorded guitar take (a1) is already placed in the chorus at bars 33–40 (L6). Which do you want? (a) Replace the room fx with take a1 in bars 1–8 (bar 1 beat 1 up to bar 9 beat 1) and also keep the guitar in bars 33–40, so the same recording plays twice. (b) Move the guitar to bars 1–8, so it no longer plays in the chorus. (c) Use a different guitar recording for the intro, which you'd add as a new asset. Your guitar's timing is your call, so I won't move it from bars 33–40 unless you say so."
+     }
+    ],
+    "applied": [
+     "recorded as an open question; nothing changed"
+    ],
+    "refused": [],
+    "unresolved": [
+     "I can drop the room fx (L3, intro bars 1–8). Your only recorded guitar take (a1) is already placed in the chorus at bars 33–40 (L6). Which do you want? (a) Replace the room fx with take a1 in bars 1–8 (bar 1 beat 1 up to bar 9 beat 1) and also keep the guitar in bars 33–40, so the same recording plays twice. (b) Move the guitar to bars 1–8, so it no longer plays in the chorus. (c) Use a different guitar recording for the intro, which you'd add as a new asset. Your guitar's timing is your call, so I won't move it from bars 33–40 unless you say so."
+    ],
+    "stale": [],
+    "diff": [
+     "open.questions"
+    ],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "free": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.2483794,
+     "duration_api_ms": 50920,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 52.68739318847656,
+    "stale": [],
+    "questions": [
+     "I haven't changed the plan yet because I need one thing first. Dropping the room fx (L3, bars 1–8) is easy, but the plan has only one guitar recording, asset a1 (L6). It's placed in the chorus at bars 33–40, and you recorded it to double the chorus left-hand rhythm. Which do you want? (a) Move L6 to the intro, entering at bar 1 beat 1 and exiting at bar 9 beat 1, so the chorus at bars 33–40 has no guitar. (b) Keep the guitar in the chorus and also play it in the intro. (c) Use a different guitar recording for the intro. If so, tell me its asset name.",
+     "If the intro uses a1: a1 was recorded against bars 33–40, which run about 42.6 s on the measured map. The intro (bars 1–8) is only about 38.9 s, so the take won't line up bar for bar, and its chords follow the chorus rather than the intro. Does a1 actually cover the intro, or is there a part of it that fits under bars 1–8?",
+     "Once you confirm, I'll remove L3 and place the guitar. No other layer uses L3 as input, so nothing else will need re-rendering."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.13061580000000003,
+     "duration_api_ms": 44252,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 45.869773387908936,
+    "stale": [],
+    "questions": [
+     "I'll drop the intro room fx (L3, bars 1–8). Before I do, I need to know what you want the guitar to do, because your only guitar take (L6, asset a1) is placed at bars 33–40 in the chorus. Which do you mean: (a) move the guitar from bars 33–40 to the intro (bars 1–8), so the chorus has no guitar, or (b) keep it in the chorus and add a second copy of the same take in the intro?",
+     "Also, take a1 was recorded to double the chorus left hand at bars 33–40, and those 8 bars last 42.6 s. The intro's 8 bars last 38.9 s at a different tempo, so the take won't line up with the intro bars unless it's time-stretched or re-recorded. Do you have a separate guitar take for the intro, or should I place a1 there anyway?",
+     "Nothing has changed yet. Once you answer, I'll drop L3 and place the guitar in the same edit. Nothing will need re-rendering, since no layer takes L3 as input and a take doesn't listen to anything."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.12941580000000003,
+     "duration_api_ms": 44103,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 45.79762029647827,
+    "stale": [],
+    "questions": [
+     "Dropping the intro room fx (L3, bars 1–8) is clear, but I need one detail about the guitar before I change anything. Your only recorded guitar take (L6, asset a1) is already in the chorus at bars 33–40, where it doubles the left-hand rhythm. You placed it there yourself. Which do you want? (a) MOVE the guitar take to the intro, bars 1–8 (enter bar 1 beat 1, exit bar 9 beat 1), and take it out of the chorus. (b) KEEP the guitar at bars 33–40 and ALSO use the same take a1 in the intro, as a new take layer for bars 1–8. (c) Use a different guitar recording for the intro. If so, which file? Note that a1 was played over the chorus, so its chords and left-hand pattern may not match the intro. Whichever you pick, L3 will be dropped and nothing needs re-rendering: no other layer listens to L3 or to the guitar take."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "patch": [
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"I can drop the room fx (L3, bars 1–8). Your guitar is a different matter. The only recorded guitar in the plan is take a1 (L6), and it's placed where you put it, bars 33–40 of the chorus, doubling the left hand there. Which do you mean? (a) Move the guitar from the chorus to the intro, bars 1–8, so it no longer plays in the chorus. (b) Keep it in the chorus and play the same take in the intro too. (c) Use a different guitar take, recorded for the intro, that I don't have yet. If it's (a) or (b), please check that the take works over the intro. It was recorded against the chorus's left hand, so its chords may not match bars 1–8. It also runs about 42.6 s, while the intro is about 38.9 s. Once you tell me which, I'll make the change. Nothing needs re-rendering either way, because no other layer listens to the fx or the guitar.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.1349354,
+     "duration_api_ms": 12706,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 14.726456880569458,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "I can drop the room fx (L3, bars 1–8). Your guitar is a different matter. The only recorded guitar in the plan is take a1 (L6), and it's placed where you put it, bars 33–40 of the chorus, doubling the left hand there. Which do you mean? (a) Move the guitar from the chorus to the intro, bars 1–8, so it no longer plays in the chorus. (b) Keep it in the chorus and play the same take in the intro too. (c) Use a different guitar take, recorded for the intro, that I don't have yet. If it's (a) or (b), please check that the take works over the intro. It was recorded against the chorus's left hand, so its chords may not match bars 1–8. It also runs about 42.6 s, while the intro is about 38.9 s. Once you tell me which, I'll make the change. Nothing needs re-rendering either way, because no other layer listens to the fx or the guitar."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"Dropping the room fx (L3, intro bars 1–8) is clear, but I need one thing settled before I place the guitar. Your nylon guitar take (L6, asset a1) is currently set by you to play in the chorus, bars 33–40, doubling the left-hand rhythm there. For the intro, should I (a) move the take out of the chorus so it plays only in bars 1–8, or (b) keep it in bars 33–40 and also play the same recording in the intro, so it is heard twice? Both are 8 bars, so it fits either way. Since it was recorded against the chorus left hand, also tell me if you'd rather record a separate intro take instead. Once you choose, I'll remove L3 and set up the guitar for bars 1–8 (enter bar 1 beat 1, exit bar 9 beat 1) as a take that listens to nothing. No other layer uses L3, so nothing will need re-rendering.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.029313199999999998,
+     "duration_api_ms": 13482,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 15.751989364624023,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "Dropping the room fx (L3, intro bars 1–8) is clear, but I need one thing settled before I place the guitar. Your nylon guitar take (L6, asset a1) is currently set by you to play in the chorus, bars 33–40, doubling the left-hand rhythm there. For the intro, should I (a) move the take out of the chorus so it plays only in bars 1–8, or (b) keep it in bars 33–40 and also play the same recording in the intro, so it is heard twice? Both are 8 bars, so it fits either way. Since it was recorded against the chorus left hand, also tell me if you'd rather record a separate intro take instead. Once you choose, I'll remove L3 and set up the guitar for bars 1–8 (enter bar 1 beat 1, exit bar 9 beat 1) as a take that listens to nothing. No other layer uses L3, so nothing will need re-rendering."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"edits\": [], \"stale\": [], \"questions\": [\"I haven't changed anything yet, because I can read this two ways. Your only recorded guitar is L6 (asset a1). It is the nylon fingerpicked take that doubles the left hand in bars 33–40 of the chorus, and you placed it there yourself. Option 1: MOVE it to the intro (bars 1–8, exit bar 9 beat 1), so it no longer plays at bars 33–40. Option 2: KEEP it at bars 33–40 and ALSO put the same take in the intro, which means adding a second take layer. Before you choose, two things to know. First, the take may not fit the intro. Bars 33–40 last about 42.6 s on the measured clock and bars 1–8 last about 38.9 s, so a take recorded for the chorus would run about 3.6 s past bar 9 unless I trim it. It also follows the chorus left-hand part, which may not match the intro harmony. Second, if you have a separate guitar take recorded for the intro, give me that asset and I'll use it instead. Either way I'll remove the room fx (L3). Nothing else listens to L3, so no other layer needs re-rendering.\"], \"tempo_map_corrections\": []}",
+    "usage": {
+     "total_cost_usd": 0.0331132,
+     "duration_api_ms": 16141,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 17.780500888824463,
+    "edits": [],
+    "failed_edits": [],
+    "stale": [],
+    "questions": [
+     "I haven't changed anything yet, because I can read this two ways. Your only recorded guitar is L6 (asset a1). It is the nylon fingerpicked take that doubles the left hand in bars 33–40 of the chorus, and you placed it there yourself. Option 1: MOVE it to the intro (bars 1–8, exit bar 9 beat 1), so it no longer plays at bars 33–40. Option 2: KEEP it at bars 33–40 and ALSO put the same take in the intro, which means adding a second take layer. Before you choose, two things to know. First, the take may not fit the intro. Bars 33–40 last about 42.6 s on the measured clock and bars 1–8 last about 38.9 s, so a take recorded for the chorus would run about 3.6 s past bar 9 unless I trim it. It also follows the chorus left-hand part, which may not match the intro harmony. Second, if you have a separate guitar take recorded for the intro, give me that asset and I'll use it instead. Either way I'll remove the room fx (L3). Nothing else listens to L3, so no other layer needs re-rendering."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   }
+  ],
+  "bare": [
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.235908,
+     "duration_api_ms": 44517,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 45.50078797340393,
+    "stale": [],
+    "questions": [
+     "I haven't changed the plan yet. Removing the room fx (L3, intro bars 1–8) is clear, but I need to check one thing about the guitar first: do you want to MOVE your guitar take (L6) from the chorus (bars 33–40) to the intro, so the chorus has no guitar? Or do you want to KEEP it in the chorus and ALSO play it in the intro?",
+     "The only guitar recording on file (asset a1) was played for bars 33–40, doubling the left hand there. It's about 42.6 s long and the intro is about 38.9 s. Do you have a separate guitar recording for the intro, or should I use a1 over bars 1–8? If a1, should I start it at bar 1 beat 1 and cut it at bar 9, and does the intro's left hand use the same chords as bars 33–40?",
+     "Your notes on the intro say 'Piano alone, let it breathe… nothing that reads as an instrument.' Adding guitar there goes against that. Should I replace that note?"
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.1287004,
+     "duration_api_ms": 96386,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 97.3849401473999,
+    "stale": [],
+    "questions": [
+     "Removing the room fx (L3) in the intro is clear, but I need one detail about the guitar before I change anything. Your only recorded guitar take (asset a1, layer L6) is currently set for chorus bars 33–40. Do you want to (a) move it to the intro, bars 1–8, so the chorus has no guitar, or (b) keep it in the chorus and also use it in the intro?",
+     "The take was recorded against chorus bars 33–40, which last about 42.6 s on this tempo map, while intro bars 1–8 last about 38.9 s. So the same audio won't line up bar for bar in the intro. Should I use a different section of a1, do you have a separate guitar take for the intro, or should I time-stretch it to fit?",
+     "The intro's notes say 'Piano alone, let it breathe… nothing that reads as an instrument.' Putting guitar there goes against that, so I'll replace that note too unless you'd like to keep some of it. Once you answer, I'll remove L3 and place the guitar. Only the guitar layer itself will change; nothing else needs re-rendering, since no other layer uses L3 as audio context."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   },
+   {
+    "raw": "{\"plan\": {\"schema\": \"arrange/arrangement@2\", \"piece\": \"Evening hymn (solo piano cover)\", \"revision\": 0, \"inputs\": {\"analysis\": \"piano-analysis.json\", \"notebook\": \"ARRANGEMENT.md\"}, \"clock\": {\"from\": \"piano-analysis.json#tempo_map\", \"status\": \"onsets+madmom-downbeat\", \"revision\": 0, \"time_signature\": \"4/4\", \"intervals\": \"half-open: exit is the first position not sounding\", \"domain_end_s\": 199.602}, \"sections\": [{\"id\": \"s1\", \"label\": \"intro\", \"bar_start\": 1, \"bar_end\": 8, \"t0\": 0.42, \"t1\": 39.363, \"source\": \"auto\"}, {\"id\": \"s2\", \"label\": \"verse 1\", \"bar_start\": 9, \"bar_end\": 24, \"t0\": 39.363, \"t1\": 117.88, \"source\": \"auto\"}, {\"id\": \"s3\", \"label\": \"chorus\", \"bar_start\": 25, \"bar_end\": 40, \"t0\": 117.88, \"t1\": 199.602, \"source\": \"auto\"}], \"spine\": {\"id\": \"piano\", \"kind\": \"take\", \"path\": \"takes/piano_master.wav\", \"sha256\": \"<sha256>\", \"class\": \"keyboard\"}, \"layers\": [{\"id\": \"L1\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"intimate, conversational, sits below the piano's top line\", \"from\": {\"cell\": \"verse 1\", \"component\": 0, \"raw\": \"<vocal: intimate, conversational, sits below the piano's top line !>\", \"chars\": [1, 69]}, \"anchors\": {\"enter\": {\"bar\": 9, \"beat\": 1.0}, \"exit\": {\"bar\": 25, \"beat\": 1.0}}, \"t0\": 39.363, \"t1\": 117.88, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L1/vocal.abc\", \"lyrics\": \"jobs/L1/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L1c1\", \"status\": \"rendered\", \"path\": \"build/L1/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L1c2\", \"status\": \"rendered\", \"path\": \"build/L1/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L1c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"\", \"lyrics\": [\"Red brick and elm, the morning bell\", \"A hundred doors, a single hall\", \"We learn the words we cannot tell\", \"And find the quiet in it all\"]}, {\"id\": \"L2\", \"name\": \"vocal\", \"class\": \"vocals\", \"kind\": \"generated\", \"text\": \"open and full, harmony on the last line\", \"from\": {\"cell\": \"chorus\", \"component\": 0, \"raw\": \"<vocal: open and full, harmony on the last line !>\", \"chars\": [44, 94]}, \"anchors\": {\"enter\": {\"bar\": 25, \"beat\": 1.0}, \"exit\": {\"bar\": 41, \"beat\": 1.0}}, \"t0\": 117.88, \"t1\": 199.602, \"route\": \"score\", \"job\": {\"backend\": \"soulx-singer\", \"inputs\": {\"score\": \"jobs/L2/vocal.abc\", \"lyrics\": \"jobs/L2/lyrics.txt\"}, \"params\": {\"variants\": 2, \"transpose\": 0}}, \"conditions\": {\"depends_on\": [\"clock\", \"melody\"], \"audio_context\": [], \"score_condition\": \"melody\", \"voice_reference\": \"soulx:english\"}, \"candidates\": [{\"id\": \"L2c1\", \"status\": \"rendered\", \"path\": \"build/L2/c1.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}, {\"id\": \"L2c2\", \"status\": \"rendered\", \"path\": \"build/L2/c2.mp3\", \"parents\": {\"piano\": \"fixture\", \"clock\": 0}}], \"chosen\": \"L2c1\", \"gain_db\": 0.0, \"owner\": {\"exists\": \"creator\", \"anchors\": \"creator\", \"route\": \"claude\", \"conditions\": \"claude\", \"prompt\": \"creator\", \"chosen\": \"claude\", \"gain\": \"claude\"}, \"status\": \"chosen\", \"stale\": false, \"stale_reason\": null, \"notes\": \"Strings arrive with the voice opening up.\", \"lyrics\": [\"Carry the light across the yard\", \"Let every window hold a star\", \"Nothing we learn is ever hard\", \"When we remember whose we are\"]}, {\"id\": \"L3\", \"name\": \"fx\", \"class\": \"fx\", \"kind\": \"generated\", \"text\": \"very quiet room tone / air, no pitch\", \"from\": {\"cell\": \"intro\", \"component\": 0, \"raw\": \"<fx: very quiet room tone / air, no pitch ?>\", \"chars\": [95, 139]}, \"anchors\": {\"enter\": {\"bar\": 1, \"beat\": 1.0}, \"exit\": {\"bar\": 9, \"beat\": 1.0}}, \"t0\": 0.42, \"t1\": 39.363, \"route\": \"audio\", \"job\": {\"backend\": \"ace-step/lego\", \"inputs\": {\"context_mix\": \"jobs/L3/cont",
+    "usage": {
+     "total_cost_usd": 0.12838039999999998,
+     "duration_api_ms": 43788,
+     "model": [
+      "claude-opus-5-5"
+     ]
+    },
+    "elapsed": 44.71556305885315,
+    "stale": [],
+    "questions": [
+     "I've left the plan unchanged for now. Removing the room fx (L3, intro bars 1–8) is clear. Putting your guitar there needs one more answer from you. Your only guitar recording (asset a1, layer L6) is pinned firmly to chorus bars 33–40 and plays along with the chorus left-hand rhythm. Which of these do you want? (a) Move it: take the guitar out of bars 33–40 and put it in the intro at bars 1–8. (b) Add it: keep the guitar in bars 33–40 and also use the same recording in the intro. (c) Use a different guitar recording made for the intro. If you pick (a) or (b), note that the take follows the chorus chords and timing. Bars 33–40 run about 42.6 s and the intro runs about 38.9 s, so the take won't line up with the intro's chords or bar lines unless it's re-cut or time-stretched. Would you like that, or do you have a separate intro take? Once you choose, I'll remove L3 and set up the guitar in the intro. Nothing else needs re-rendering, because no other layer uses L3 as an input."
+    ],
+    "diff": [],
+    "validation": [],
+    "outcome": "unresolved",
+    "score": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "collateral": [],
+     "protected_violations": [],
+     "stale_match": true,
+     "stale": [],
+     "expected_stale": [],
+     "unsupported_ok": null,
+     "outcome": "unresolved"
+    }
+   }
+  ]
+ }
+}

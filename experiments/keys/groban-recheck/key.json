@@ -1,0 +1,30 @@
+{
+ "Mo9": {
+  "voice": "groban",
+  "shift": -14
+ },
+ "Go0": {
+  "voice": "groban",
+  "shift": -12
+ },
+ "Ni3": {
+  "voice": "groban",
+  "shift": -10
+ },
+ "Sa6": {
+  "voice": "groban",
+  "shift": -8
+ },
+ "Mu7": {
+  "voice": "groban",
+  "shift": -6
+ },
+ "Zi5": {
+  "voice": "groban",
+  "shift": -4
+ },
+ "Xa2": {
+  "voice": "groban",
+  "shift": -2
+ }
+}

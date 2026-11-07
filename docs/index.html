@@ -7,14 +7,14 @@
 <meta name="description" content="Agent skills that add a singing voice to a composer's own piano recording, one readable step at a time. Code, data and results for the paper.">
 <meta name="author" content="Henry Tan">
 <meta name="color-scheme" content="light">
-<link rel="canonical" href="https://htansetiawan.github.io/arrange/">
+<link rel="canonical" href="https://henryatharvard.github.io/ARRANGE/">
 <meta property="og:site_name" content="ARRANGE">
 <meta property="og:type" content="website">
 <meta property="og:title" content="ARRANGE — Play, Fit, Sing">
 <meta property="og:description" content="Keep your piano, add a voice. An LLM agent compiles the composer's words, played notes and voice into a sung line, and stops at every step for the composer to read and approve.">
-<meta property="og:url" content="https://htansetiawan.github.io/arrange/">
-<meta property="og:image" content="https://htansetiawan.github.io/arrange/og.png">
-<meta property="og:image:secure_url" content="https://htansetiawan.github.io/arrange/og.png">
+<meta property="og:url" content="https://henryatharvard.github.io/ARRANGE/">
+<meta property="og:image" content="https://henryatharvard.github.io/ARRANGE/og.png">
+<meta property="og:image:secure_url" content="https://henryatharvard.github.io/ARRANGE/og.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -22,7 +22,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ARRANGE — Play, Fit, Sing">
 <meta name="twitter:description" content="Keep your piano, add a voice. An LLM agent compiles the composer's words, played notes and voice into a sung line, one readable step at a time.">
-<meta name="twitter:image" content="https://htansetiawan.github.io/arrange/og.png">
+<meta name="twitter:image" content="https://henryatharvard.github.io/ARRANGE/og.png">
 <meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23B23A2B'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%23FFFFFF' font-family='serif'%3E%E7%B7%A8%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -219,7 +219,7 @@ footer .end{font-size:26px;color:var(--shu);margin:0 0 12px}
 
 <div class="wrap">
   <div class="top">
-    <a href="https://github.com/htansetiawan/arrange">ARRANGE</a>
+    <a href="https://github.com/henryatharvard/ARRANGE">ARRANGE</a>
     <nav aria-label="Sections">
       <a href="#listen">Listen</a>
       <a href="#chain">Chain</a>
@@ -243,7 +243,7 @@ footer .end{font-size:26px;color:var(--shu);margin:0 0 12px}
     <p class="tagline">Keep your piano recording and add a singing voice to it. An LLM agent compiles the composer's words, the notes they play and their own voice into a sung line, one readable step at a time, and stops at every step until the composer approves.</p>
     <p class="byline">Henry Tan · November 2026</p>
     <div class="actions">
-      <a class="btn solid" href="https://github.com/htansetiawan/arrange">Code and data on GitHub</a>
+      <a class="btn solid" href="https://github.com/henryatharvard/ARRANGE">Code and data on GitHub</a>
       <a class="btn" href="#use">Use the skills</a>
     </div>
   </div>
@@ -502,10 +502,10 @@ footer .end{font-size:26px;color:var(--shu);margin:0 0 12px}
   <div class="two" style="margin-top:0">
     <div>
       <p class="label">Install the skills in Claude Code</p>
-      <pre>git clone https://github.com/htansetiawan/arrange
+      <pre>git clone https://github.com/henryatharvard/ARRANGE
 mkdir -p .claude/skills
-cp -r arrange/skills/arrange-* .claude/skills/</pre>
-      <p class="body">Then ask in plain words: "add a voice to my recording piano.wav with these words". The model backends are listed in <a href="https://github.com/htansetiawan/arrange/blob/main/docs/setup.md">docs/setup.md</a>.</p>
+cp -r ARRANGE/skills/arrange-* .claude/skills/</pre>
+      <p class="body">Then ask in plain words: "add a voice to my recording piano.wav with these words". The model backends are listed in <a href="https://github.com/henryatharvard/ARRANGE/blob/main/docs/setup.md">docs/setup.md</a>.</p>
       <p class="label" style="margin-top:30px">Recompute the paper's numbers</p>
       <pre>pip install -r requirements-test.txt
 python -m pytest -q tests</pre>
@@ -514,19 +514,19 @@ python -m pytest -q tests</pre>
     <div>
       <p class="label">In the repository</p>
       <ul class="map">
-        <li><a href="https://github.com/htansetiawan/arrange/tree/main/skills"><code>skills/</code></a><span>Five skills in the Agent Skills format</span></li>
-        <li><a href="https://github.com/htansetiawan/arrange/tree/main/experiments/revisions"><code>experiments/revisions</code></a><span>Typed edits against rewrites, five LLMs</span></li>
-        <li><a href="https://github.com/htansetiawan/arrange/tree/main/experiments/canvas-edits"><code>experiments/canvas-edits</code></a><span>62 requests on the score canvas</span></li>
-        <li><a href="https://github.com/htansetiawan/arrange/tree/main/experiments/corrections"><code>experiments/corrections</code></a><span>The composer's own corrections</span></li>
-        <li><a href="https://github.com/htansetiawan/arrange/tree/main/experiments/voices"><code>experiments/voices</code></a><span>Voice transfer, ratings, measures</span></li>
-        <li><a href="https://github.com/htansetiawan/arrange/tree/main/experiments/keys"><code>experiments/keys</code></a><span>Key rules and the listening study</span></li>
+        <li><a href="https://github.com/henryatharvard/ARRANGE/tree/main/skills"><code>skills/</code></a><span>Five skills in the Agent Skills format</span></li>
+        <li><a href="https://github.com/henryatharvard/ARRANGE/tree/main/experiments/revisions"><code>experiments/revisions</code></a><span>Typed edits against rewrites, five LLMs</span></li>
+        <li><a href="https://github.com/henryatharvard/ARRANGE/tree/main/experiments/canvas-edits"><code>experiments/canvas-edits</code></a><span>62 requests on the score canvas</span></li>
+        <li><a href="https://github.com/henryatharvard/ARRANGE/tree/main/experiments/corrections"><code>experiments/corrections</code></a><span>The composer's own corrections</span></li>
+        <li><a href="https://github.com/henryatharvard/ARRANGE/tree/main/experiments/voices"><code>experiments/voices</code></a><span>Voice transfer, ratings, measures</span></li>
+        <li><a href="https://github.com/henryatharvard/ARRANGE/tree/main/experiments/keys"><code>experiments/keys</code></a><span>Key rules and the listening study</span></li>
       </ul>
       <p class="label" style="margin-top:30px">Cite</p>
       <pre>@misc{tan2026arrange,
   title        = {{ARRANGE}: Agentic Skills for Layering Vocals},
   author       = {Tan, Henry},
   year         = {2026},
-  howpublished = {\url{https://github.com/htansetiawan/arrange}}
+  howpublished = {\url{https://github.com/henryatharvard/ARRANGE}}
 }</pre>
     </div>
   </div>

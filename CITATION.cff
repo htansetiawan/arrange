@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: Tan
     given-names: Henry
-repository-code: "https://github.com/htansetiawan/arrange"
+repository-code: "https://github.com/henryatharvard/ARRANGE"
 license: Apache-2.0
 version: "0.1.0"
 date-released: "2026-11-06"

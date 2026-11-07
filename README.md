@@ -6,7 +6,7 @@ This repository accompanies the paper *ARRANGE: Agentic Skills for Layering Voca
 skills and, for each experiment in the paper's evaluation, the code, the stored model outputs and a command that
 recomputes its numbers.
 
-[Project page](https://henryatharvard.github.io/ARRANGE/) · [Listen to the worked example](audio/)
+[Project page](https://htansetiawan.github.io/arrange/) · [Listen to the worked example](audio/)
 
 ## The idea
 
@@ -71,8 +71,8 @@ The skills run inside an agent that supports Agent Skills, such as Claude Code. 
 project's `.claude/skills/` (or `~/.claude/skills/` for every project):
 
 ```
-git clone https://github.com/henryatharvard/ARRANGE
-mkdir -p .claude/skills && cp -r ARRANGE/skills/arrange-* .claude/skills/
+git clone https://github.com/htansetiawan/arrange
+mkdir -p .claude/skills && cp -r arrange/skills/arrange-* .claude/skills/
 ```
 
 Then ask the agent in plain language, for example "add a voice to my recording piano.wav with these words". The
@@ -128,7 +128,7 @@ and the third-party works they contain are not covered by either licence.
   title        = {{ARRANGE}: Agentic Skills for Layering Vocals},
   author       = {Tan, Henry},
   year         = {2026},
-  howpublished = {\url{https://github.com/henryatharvard/ARRANGE}}
+  howpublished = {\url{https://github.com/htansetiawan/arrange}}
 }
 ```
 

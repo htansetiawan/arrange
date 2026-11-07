@@ -78,7 +78,7 @@ code,pre,.op{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 .roller::before{left:3px}.roller::after{right:3px}
 .mount{background:var(--panel);padding:22px 22px 18px;border-left:1px solid var(--rule);border-right:1px solid var(--rule)}
 .mount h2{margin:0 0 14px;font-weight:600;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--grey);display:flex;justify-content:space-between;align-items:baseline;gap:12px}
-.mount h2 .jp{letter-spacing:.1em;color:var(--shu);font-size:16px;text-transform:none}
+.mount h2 .jp{white-space:nowrap;flex-shrink:0;letter-spacing:.1em;color:var(--shu);font-size:16px;text-transform:none}
 .scroll .mount{padding:26px 24px 22px}
 .pair{display:grid;gap:12px}
 .scroll figcaption{font-size:13.5px;line-height:1.55;color:var(--grey);margin-top:16px}
@@ -252,15 +252,15 @@ footer .end{font-size:26px;color:var(--shu);margin:0 0 12px}
     <div class="cord" aria-hidden="true"></div>
     <div class="roller" aria-hidden="true"></div>
     <div class="mount">
-      <h2><span>Listen · bars 10 to 24</span><span class="jp" lang="ja">聴く</span></h2>
+      <h2><span>Listen · <i>All the Things You Are</i></span><span class="jp" lang="ja">聴く</span></h2>
       <div class="pair">
-        <button class="play" type="button" data-src="audio/verse-piano.mp3"><span class="ic" aria-hidden="true">▶</span><span>The composer's piano<small>As recorded, unchanged</small></span></button>
+        <button class="play" type="button" data-src="audio/attya-piano.mp3"><span class="ic" aria-hidden="true">▶</span><span>The piano<small>As recorded, unchanged</small></span></button>
         <div class="from"><span class="jp" lang="ja">重ねる</span></div>
-        <button class="play" type="button" data-src="audio/verse-sung.mp3"><span class="ic" aria-hidden="true">▶</span><span>The same piano, with his words sung over it<small>In his own voice, copied from a short reference</small></span></button>
+        <button class="play" type="button" data-src="audio/attya-sung.mp3"><span class="ic" aria-hidden="true">▶</span><span>The same piano, with a sung line over it<small>In the author's voice, copied from a short reference</small></span></button>
       </div>
     </div>
     <div class="roller" aria-hidden="true"></div>
-    <figcaption>The worked example from the paper: 46 seconds of the author's own recording of <i>Theme from The Color Purple</i> (Quincy Jones, Rod Temperton, Jeremy Lubbock), a short excerpt for research commentary. <b>The piano is never replaced.</b> The voice is SoulX-Singer, an open singing model, copying the author's baritone.</figcaption>
+    <figcaption>26 seconds of <i>All the Things You Are</i> (Jerome Kern, Oscar Hammerstein II) played live by Yuval Cohen, a short excerpt for research commentary. The words were written for this line; they are not the song's lyrics. <b>The piano is never replaced.</b> The voice is SoulX-Singer, an open singing model, copying the author's baritone.</figcaption>
   </figure>
 </header>
 
@@ -536,7 +536,7 @@ python -m pytest -q tests</pre>
 
 <footer class="wrap">
   <p class="end jp" lang="ja">終</p>
-  <p>ARRANGE by Henry Tan. Code under the Apache License 2.0; documentation and results under CC BY 4.0. The audio is an excerpt of the author's own recording of a copyrighted composition, included for research commentary and not covered by either licence.</p>
+  <p>ARRANGE by Henry Tan. Code under the Apache License 2.0; documentation and results under CC BY 4.0. The audio is a short excerpt of Yuval Cohen's live performance of a copyrighted composition, with the author's copied voice over it, included for research commentary and not covered by either licence.</p>
   <p>Open models used: SoulX-Singer for singing, Kong et al.'s piano transcription, Seed-VC in the voice study, and g2p_en with the CMU Pronouncing Dictionary. Other singers' voices were used for research only and are not distributed. To request removal of any material, open an issue on GitHub.</p>
 </footer>
 

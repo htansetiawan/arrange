@@ -109,8 +109,9 @@ vLLM) for the open models.
 
 - The evaluation songs are copyrighted melodies. Their note-level fits are not distributed, so the suites cannot be
   rerun from this repository alone. Model answers that reproduce a whole fit are withheld; their scores are kept.
-- The only audio is two short excerpts of the author's own recording and voice (`audio/`), included for research
-  commentary.
+- The audio is short excerpts included for research commentary: in `audio/`, the author's own piano recording and
+  voice (the worked example of Section 5.2); on the project page (`docs/audio/`), 26 seconds of Yuval Cohen's live
+  piano performance of *All the Things You Are* with the author's copied voice over it.
 - Other singers' voices were used for research only, at 16 bars or less, with each voice's consent status recorded, as
   the paper describes. None of that audio is in this repository.
 - If you hold rights in any material here and want it removed, open an issue.
